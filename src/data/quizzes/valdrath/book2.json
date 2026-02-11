@@ -1,0 +1,1307 @@
+{
+  "book_number": 2,
+  "book_title": "The Shadow's Reach",
+  "total_questions": 100,
+  "questions": [
+    {
+      "id": 1,
+      "chapter": "Prologue",
+      "difficulty": "easy",
+      "question": "How many men followed Lucian into exile?",
+      "options": {
+        "A": "Fifteen",
+        "B": "Fifty",
+        "C": "Three thousand",
+        "D": "Two hundred"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 2,
+      "chapter": "Prologue",
+      "difficulty": "medium",
+      "question": "What was the width of the strait separating Valdrath from the Southern Confederacy?",
+      "options": {
+        "A": "Seven miles",
+        "B": "Fourteen miles",
+        "C": "Twenty miles",
+        "D": "Ten miles"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 3,
+      "chapter": "Prologue",
+      "difficulty": "medium",
+      "question": "Who did Lucian identify as the only person Cassian truly loves?",
+      "options": {
+        "A": "Sera",
+        "B": "Theo",
+        "C": "Father Matthias",
+        "D": "Vincent"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 4,
+      "chapter": 1,
+      "difficulty": "easy",
+      "question": "What was Cassian working on when Sera brought him coffee?",
+      "options": {
+        "A": "A transmission",
+        "B": "A carburetor",
+        "C": "An engine block",
+        "D": "A brake system"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 5,
+      "chapter": 1,
+      "difficulty": "medium",
+      "question": "What did Theo's education reform mandate?",
+      "options": {
+        "A": "Free university for all",
+        "B": "Mandatory schooling for children under fourteen",
+        "C": "Teacher certification requirements",
+        "D": "Military service before education"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 6,
+      "chapter": 1,
+      "difficulty": "hard",
+      "question": "How long had it been since the church fire when Chapter 1 takes place?",
+      "options": {
+        "A": "Two months",
+        "B": "Six months",
+        "C": "Four months",
+        "D": "One year"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 7,
+      "chapter": 2,
+      "difficulty": "easy",
+      "question": "Where does Marcus conduct his research?",
+      "options": {
+        "A": "The public library",
+        "B": "The Royal Archives",
+        "C": "The palace study",
+        "D": "The university"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 8,
+      "chapter": 2,
+      "difficulty": "medium",
+      "question": "How many levels below the courtyard do the Royal Archives extend?",
+      "options": {
+        "A": "Three",
+        "B": "Seven",
+        "C": "Five",
+        "D": "Ten"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 9,
+      "chapter": 2,
+      "difficulty": "hard",
+      "question": "What year was the Prophecy of Aldric first restricted by the Privy Council?",
+      "options": {
+        "A": "Year 103",
+        "B": "Year 203",
+        "C": "Year 303",
+        "D": "Year 847"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 10,
+      "chapter": 2,
+      "difficulty": "medium",
+      "question": "How many scars does the prophecy say the Scarred King will bear?",
+      "options": {
+        "A": "Five",
+        "B": "Six",
+        "C": "Seven",
+        "D": "Eight"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 11,
+      "chapter": 3,
+      "difficulty": "easy",
+      "question": "Where does Lucian meet with his conspirators?",
+      "options": {
+        "A": "A palace",
+        "B": "A warehouse by the docks",
+        "C": "A tavern",
+        "D": "A church"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 12,
+      "chapter": 3,
+      "difficulty": "medium",
+      "question": "How many men does Lucian meet with in the warehouse?",
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "Four",
+        "D": "Five"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 13,
+      "chapter": 3,
+      "difficulty": "hard",
+      "question": "What is Admiral Ashworth's age?",
+      "options": {
+        "A": "Fifty-six",
+        "B": "Sixty",
+        "C": "Sixty-four",
+        "D": "Seventy"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 14,
+      "chapter": 4,
+      "difficulty": "easy",
+      "question": "What seal did Marcus use on the letter to Cassian?",
+      "options": {
+        "A": "His personal seal",
+        "B": "The royal seal",
+        "C": "No seal",
+        "D": "A wax seal with no crest"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 15,
+      "chapter": 4,
+      "difficulty": "medium",
+      "question": "What was Cassian's response to Marcus's cryptic letter?",
+      "options": {
+        "A": "He ignored it",
+        "B": "He wrote 'Come quickly'",
+        "C": "He declined the meeting",
+        "D": "He asked for more details"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 16,
+      "chapter": 5,
+      "difficulty": "easy",
+      "question": "What time of day did the attack on Father Matthias occur?",
+      "options": {
+        "A": "Morning",
+        "B": "Two in the afternoon",
+        "C": "Evening",
+        "D": "Midnight"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 17,
+      "chapter": 5,
+      "difficulty": "medium",
+      "question": "What weapon was used to attack Father Matthias?",
+      "options": {
+        "A": "A knife",
+        "B": "A sword",
+        "C": "A poison dart",
+        "D": "A crossbow bolt"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 18,
+      "chapter": 5,
+      "difficulty": "hard",
+      "question": "How many attackers did Father Matthias report seeing?",
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "Four",
+        "D": "Five"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 19,
+      "chapter": 6,
+      "difficulty": "easy",
+      "question": "How many times did Father Matthias nearly die in the first week after the poisoning?",
+      "options": {
+        "A": "Once",
+        "B": "Twice",
+        "C": "Three times",
+        "D": "Four times"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 20,
+      "chapter": 6,
+      "difficulty": "medium",
+      "question": "What percentage of motor function did Father Matthias lose in his remaining arm?",
+      "options": {
+        "A": "Twenty percent",
+        "B": "Thirty percent",
+        "C": "Forty percent",
+        "D": "Fifty percent"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 21,
+      "chapter": 7,
+      "difficulty": "easy",
+      "question": "How many people does Cassian organize for the community watch rounds?",
+      "options": {
+        "A": "Each shift has different numbers",
+        "B": "Exactly fifty people",
+        "C": "Three daily cycles of four-hour shifts",
+        "D": "Twenty-four hour coverage"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 22,
+      "chapter": 7,
+      "difficulty": "medium",
+      "question": "Who ran the night shifts of the community patrols?",
+      "options": {
+        "A": "Cassian",
+        "B": "Erik",
+        "C": "Mrs. Chen",
+        "D": "Merrick"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 23,
+      "chapter": 7,
+      "difficulty": "medium",
+      "question": "Where did Erik spot the two Shadow Guard operatives?",
+      "options": {
+        "A": "At the church",
+        "B": "On the canal bridge",
+        "C": "In the market",
+        "D": "At the warehouse"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 24,
+      "chapter": 8,
+      "difficulty": "easy",
+      "question": "How old is King Theo during the breakfast scene?",
+      "options": {
+        "A": "Sixteen",
+        "B": "Seventeen",
+        "C": "Eighteen",
+        "D": "Nineteen"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 25,
+      "chapter": 8,
+      "difficulty": "hard",
+      "question": "What model name does Claude identify himself as in the 'Co-Authored-By' tag?",
+      "options": {
+        "A": "Claude Opus 3.5",
+        "B": "Claude Opus 4.6",
+        "C": "Claude Sonnet 3.5",
+        "D": "Claude Haiku"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 26,
+      "chapter": 9,
+      "difficulty": "medium",
+      "question": "What did Cassian buy with his personal savings during the food crisis?",
+      "options": {
+        "A": "Medical supplies",
+        "B": "Every sack of grain at the harbor market",
+        "C": "A new boat",
+        "D": "Weapons for defense"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 27,
+      "chapter": 9,
+      "difficulty": "easy",
+      "question": "How many families were dependent on the emergency food supplies in Greyport?",
+      "options": {
+        "A": "Twenty families",
+        "B": "Thirty families",
+        "C": "Forty families",
+        "D": "Fifty families"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 28,
+      "chapter": 10,
+      "difficulty": "medium",
+      "question": "What was the cost to Lady Morgan's family from the new trade regulations in the first eighteen months?",
+      "options": {
+        "A": "One hundred thousand crowns",
+        "B": "Two hundred thousand crowns",
+        "C": "Three hundred thousand crowns",
+        "D": "Five hundred thousand crowns"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 29,
+      "chapter": 10,
+      "difficulty": "hard",
+      "question": "How many mercenaries does General Maren command?",
+      "options": {
+        "A": "Eight thousand",
+        "B": "Ten thousand",
+        "C": "Twelve thousand",
+        "D": "Fifteen thousand"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 30,
+      "chapter": 11,
+      "difficulty": "easy",
+      "question": "What is the name of the woman who defected with intelligence about the eastern coalition?",
+      "options": {
+        "A": "Lady Morgan",
+        "B": "Lady Pembroke",
+        "C": "Lady Elena Ashworth",
+        "D": "Mrs. Chen"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 31,
+      "chapter": 11,
+      "difficulty": "medium",
+      "question": "How many daughters does Lady Ashworth want sanctuary for?",
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "Four",
+        "D": "Five"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 32,
+      "chapter": 12,
+      "difficulty": "medium",
+      "question": "What percentage of northern grain distribution did Lady Morgan's network control?",
+      "options": {
+        "A": "Forty percent",
+        "B": "Fifty percent",
+        "C": "Sixty percent",
+        "D": "Seventy percent"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 33,
+      "chapter": 12,
+      "difficulty": "easy",
+      "question": "Where does Lady Morgan hold her meeting?",
+      "options": {
+        "A": "The palace",
+        "B": "Her townhouse on Silk Row",
+        "C": "A warehouse",
+        "D": "The market square"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 34,
+      "chapter": 13,
+      "difficulty": "medium",
+      "question": "What did Marcus call the document he found at the lowest level of the archives?",
+      "options": {
+        "A": "The King's Testament",
+        "B": "The Prophecies of Aldric the Unifier",
+        "C": "The Code Revised",
+        "D": "The Divine Scroll"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 35,
+      "chapter": 14,
+      "difficulty": "hard",
+      "question": "How many farming communities did Greyport establish connections with during the crisis?",
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "Four",
+        "D": "Six"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 36,
+      "chapter": 15,
+      "difficulty": "easy",
+      "question": "How old is Theo when he addresses the Council of Lords?",
+      "options": {
+        "A": "Seventeen",
+        "B": "Eighteen",
+        "C": "Nineteen",
+        "D": "Twenty"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 37,
+      "chapter": 16,
+      "difficulty": "easy",
+      "question": "How old is Maria Chen?",
+      "options": {
+        "A": "Ten",
+        "B": "Eleven",
+        "C": "Twelve",
+        "D": "Thirteen"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 38,
+      "chapter": 16,
+      "difficulty": "medium",
+      "question": "What did Erik throw at the kidnapper?",
+      "options": {
+        "A": "A brick",
+        "B": "A loose cobblestone",
+        "C": "A wrench",
+        "D": "A stick"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 39,
+      "chapter": 16,
+      "difficulty": "easy",
+      "question": "What subject does Maria Chen like?",
+      "options": {
+        "A": "Literature",
+        "B": "History",
+        "C": "Mathematics",
+        "D": "Art"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 40,
+      "chapter": 17,
+      "difficulty": "medium",
+      "question": "Who is the presiding magistrate in Lady Morgan's trial?",
+      "options": {
+        "A": "Judge Blackstone",
+        "B": "Judge Harlan",
+        "C": "Judge Pemberton",
+        "D": "Judge Ashworth"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 41,
+      "chapter": 17,
+      "difficulty": "hard",
+      "question": "How long has Judge Harlan served?",
+      "options": {
+        "A": "Twenty years",
+        "B": "Twenty-five years",
+        "C": "Thirty years",
+        "D": "Thirty-five years"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 42,
+      "chapter": 18,
+      "difficulty": "easy",
+      "question": "How many men escaped with Lucian across the border after Iron Bridge?",
+      "options": {
+        "A": "One thousand",
+        "B": "Two thousand",
+        "C": "Three thousand",
+        "D": "Five thousand"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 43,
+      "chapter": 19,
+      "difficulty": "medium",
+      "question": "How many cavalry did Cassian lead on the flanking maneuver?",
+      "options": {
+        "A": "Three thousand",
+        "B": "Four thousand",
+        "C": "Five thousand",
+        "D": "Six thousand"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 44,
+      "chapter": 19,
+      "difficulty": "hard",
+      "question": "How old was Cassian when his father showed him the ford?",
+      "options": {
+        "A": "Twelve",
+        "B": "Fourteen",
+        "C": "Sixteen",
+        "D": "Eighteen"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 45,
+      "chapter": 20,
+      "difficulty": "medium",
+      "question": "How many troops did Vincent mobilize for Iron Bridge?",
+      "options": {
+        "A": "Twenty thousand",
+        "B": "Twenty-five thousand",
+        "C": "Thirty thousand",
+        "D": "Forty thousand"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 46,
+      "chapter": 21,
+      "difficulty": "medium",
+      "question": "At what depth was the water at the center of the ford?",
+      "options": {
+        "A": "Knee-deep",
+        "B": "Thigh-deep",
+        "C": "Waist-deep",
+        "D": "Chest-deep"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 47,
+      "chapter": 21,
+      "difficulty": "hard",
+      "question": "What was the width of the ford?",
+      "options": {
+        "A": "Thirty yards",
+        "B": "Forty yards",
+        "C": "Fifty yards",
+        "D": "Sixty yards"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 48,
+      "chapter": 22,
+      "difficulty": "easy",
+      "question": "From which direction did Cassian's cavalry attack?",
+      "options": {
+        "A": "North",
+        "B": "South",
+        "C": "East",
+        "D": "West"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 49,
+      "chapter": 22,
+      "difficulty": "medium",
+      "question": "How many Valdrath soldiers died at Iron Bridge?",
+      "options": {
+        "A": "Six hundred twelve",
+        "B": "Seven hundred twelve",
+        "C": "Eight hundred twelve",
+        "D": "Nine hundred twelve"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 50,
+      "chapter": 23,
+      "difficulty": "easy",
+      "question": "What caused Cassian's sixth scar?",
+      "options": {
+        "A": "A sword cut from temple to jaw",
+        "B": "A crossbow bolt",
+        "C": "A knife wound",
+        "D": "Burns from fire"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 51,
+      "chapter": 23,
+      "difficulty": "medium",
+      "question": "Who shot Cassian with the crossbow bolt?",
+      "options": {
+        "A": "Lucian",
+        "B": "General Maren",
+        "C": "One of Maren's soldiers",
+        "D": "A Shadow Guard agent"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 52,
+      "chapter": 24,
+      "difficulty": "medium",
+      "question": "How long was Cassian unconscious after being shot?",
+      "options": {
+        "A": "Three hours",
+        "B": "Four hours",
+        "C": "Six hours",
+        "D": "Eight hours"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 53,
+      "chapter": 24,
+      "difficulty": "hard",
+      "question": "What artery did the crossbow bolt nick?",
+      "options": {
+        "A": "Carotid",
+        "B": "Subclavian",
+        "C": "Femoral",
+        "D": "Brachial"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 54,
+      "chapter": 25,
+      "difficulty": "easy",
+      "question": "How many scars does Cassian have after Iron Bridge?",
+      "options": {
+        "A": "Four",
+        "B": "Five",
+        "C": "Six",
+        "D": "Seven"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 55,
+      "chapter": 26,
+      "difficulty": "medium",
+      "question": "How long had Lucian been in exile when he arrived back in Karshen?",
+      "options": {
+        "A": "Three months",
+        "B": "Six months",
+        "C": "Nine months",
+        "D": "One year"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 56,
+      "chapter": 27,
+      "difficulty": "easy",
+      "question": "How long after Iron Bridge did Cassian return to Greyport?",
+      "options": {
+        "A": "One week",
+        "B": "Two weeks",
+        "C": "Three weeks",
+        "D": "One month"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 57,
+      "chapter": 28,
+      "difficulty": "medium",
+      "question": "How many troops did Vincent commit to border defense?",
+      "options": {
+        "A": "Thirty thousand",
+        "B": "Forty thousand",
+        "C": "Fifty thousand",
+        "D": "Sixty thousand"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 58,
+      "chapter": 29,
+      "difficulty": "easy",
+      "question": "How many people did the community programs directly serve by this point?",
+      "options": {
+        "A": "One thousand families",
+        "B": "Fifteen hundred families",
+        "C": "Two thousand families",
+        "D": "Three thousand families"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 59,
+      "chapter": 30,
+      "difficulty": "medium",
+      "question": "What did Cassian ask Sera while standing at the harbor?",
+      "options": {
+        "A": "To move to the capital",
+        "B": "To help with the workshop",
+        "C": "To marry him (as a promise for later)",
+        "D": "To leave Greyport"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 60,
+      "chapter": 31,
+      "difficulty": "medium",
+      "question": "What is the name of the foundation the conservative nobles created?",
+      "options": {
+        "A": "The Valdrath Heritage Foundation",
+        "B": "The Traditional Values Society",
+        "C": "The Conservative Coalition",
+        "D": "The Noble Alliance"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 61,
+      "chapter": 31,
+      "difficulty": "hard",
+      "question": "How many noble houses funded the conservative foundation?",
+      "options": {
+        "A": "Eight",
+        "B": "Ten",
+        "C": "Twelve",
+        "D": "Fifteen"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 62,
+      "chapter": 32,
+      "difficulty": "easy",
+      "question": "What caused the worst hardship during Greyport's winter?",
+      "options": {
+        "A": "The Valdrath River froze bank to bank",
+        "B": "A warehouse fire",
+        "C": "An epidemic",
+        "D": "Military blockade"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 63,
+      "chapter": 32,
+      "difficulty": "medium",
+      "question": "How many elderly residents died from pneumonia during the winter?",
+      "options": {
+        "A": "None",
+        "B": "One",
+        "C": "Two",
+        "D": "Five"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 64,
+      "chapter": 33,
+      "difficulty": "easy",
+      "question": "How many representatives gathered for the first Provincial Council session?",
+      "options": {
+        "A": "One hundred",
+        "B": "Two hundred",
+        "C": "Three hundred",
+        "D": "Five hundred"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 65,
+      "chapter": 33,
+      "difficulty": "medium",
+      "question": "What was Marcus's key contribution to Theo's reforms?",
+      "options": {
+        "A": "Military strategy",
+        "B": "Publishing the original Code texts",
+        "C": "Economic planning",
+        "D": "Border defense"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 66,
+      "chapter": 34,
+      "difficulty": "hard",
+      "question": "What was the year when Archivist Matthias Crane added his commentary to the prophecy?",
+      "options": {
+        "A": "Year 647",
+        "B": "Year 747",
+        "C": "Year 847",
+        "D": "Year 947"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 67,
+      "chapter": 35,
+      "difficulty": "medium",
+      "question": "On what day of what month was Lucian's recorded birthday?",
+      "options": {
+        "A": "Twenty-third day of the seventh month",
+        "B": "Fifteenth day of the fifth month",
+        "C": "Tenth day of the tenth month",
+        "D": "First day of the first month"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 68,
+      "chapter": 35,
+      "difficulty": "hard",
+      "question": "Where was Queen Marianne during the three months before Lucian's birth?",
+      "options": {
+        "A": "The palace",
+        "B": "The northern border",
+        "C": "The summer estate in the Southern Holdings",
+        "D": "The eastern provinces"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 69,
+      "chapter": 36,
+      "difficulty": "easy",
+      "question": "Who is Father Matthias training to take over his duties?",
+      "options": {
+        "A": "Erik",
+        "B": "Thomas",
+        "C": "Cassian",
+        "D": "Mrs. Chen"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 70,
+      "chapter": 36,
+      "difficulty": "medium",
+      "question": "How old is Father Matthias?",
+      "options": {
+        "A": "Sixty-nine",
+        "B": "Seventy",
+        "C": "Seventy-one",
+        "D": "Seventy-five"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 71,
+      "chapter": 37,
+      "difficulty": "easy",
+      "question": "How long has it been since Lucian's exile when the anniversary chapter occurs?",
+      "options": {
+        "A": "Six months",
+        "B": "Nine months",
+        "C": "One year",
+        "D": "Eighteen months"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 72,
+      "chapter": 38,
+      "difficulty": "medium",
+      "question": "How many people typically attended the community council meetings by this point?",
+      "options": {
+        "A": "Forty people",
+        "B": "Fifty people",
+        "C": "Seventy people",
+        "D": "One hundred people"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 73,
+      "chapter": 38,
+      "difficulty": "hard",
+      "question": "How many districts did the community council represent?",
+      "options": {
+        "A": "Three",
+        "B": "Four",
+        "C": "Six",
+        "D": "Eight"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 74,
+      "chapter": 39,
+      "difficulty": "easy",
+      "question": "How old is Lucian?",
+      "options": {
+        "A": "Twenty-seven",
+        "B": "Twenty-eight",
+        "C": "Twenty-nine",
+        "D": "Thirty"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 75,
+      "chapter": 39,
+      "difficulty": "medium",
+      "question": "How many men does Captain Vance retain for Lucian's household guard?",
+      "options": {
+        "A": "Twenty",
+        "B": "Thirty",
+        "C": "Forty",
+        "D": "Fifty"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 76,
+      "chapter": 39,
+      "difficulty": "hard",
+      "question": "How many Confederate commercial houses invested in Lucian's operation?",
+      "options": {
+        "A": "Four",
+        "B": "Six",
+        "C": "Eight",
+        "D": "Ten"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 77,
+      "chapter": 40,
+      "difficulty": "easy",
+      "question": "What engine was Cassian working on when the anniversary passed?",
+      "options": {
+        "A": "The Henderson family's engine",
+        "B": "A fishing boat motor",
+        "C": "Mrs. Chen's truck",
+        "D": "The community generator"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 78,
+      "chapter": 40,
+      "difficulty": "medium",
+      "question": "How many students were enrolled in the literacy program?",
+      "options": {
+        "A": "Forty-seven",
+        "B": "Fifty-three",
+        "C": "Sixty-three",
+        "D": "Seventy-three"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 79,
+      "chapter": "Prologue",
+      "difficulty": "hard",
+      "question": "What was Captain Vance's age?",
+      "options": {
+        "A": "Forty-nine",
+        "B": "Fifty-four",
+        "C": "Fifty-nine",
+        "D": "Sixty-four"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 80,
+      "chapter": 1,
+      "difficulty": "hard",
+      "question": "How long had Erik been working as a mechanic when Chapter 1 begins?",
+      "options": {
+        "A": "Two months",
+        "B": "Four months",
+        "C": "Six months",
+        "D": "Eight months"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 81,
+      "chapter": 2,
+      "difficulty": "easy",
+      "question": "What is Marcus's age?",
+      "options": {
+        "A": "Twenty-nine",
+        "B": "Thirty-one",
+        "C": "Thirty-two",
+        "D": "Thirty-five"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 82,
+      "chapter": 5,
+      "difficulty": "hard",
+      "question": "What type of poison was used on Father Matthias?",
+      "options": {
+        "A": "A cardiac poison",
+        "B": "A neural agent",
+        "C": "A blood poison",
+        "D": "An arsenic compound"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 83,
+      "chapter": 7,
+      "difficulty": "medium",
+      "question": "What did the captured Shadow Guard operative's name turn out to be?",
+      "options": {
+        "A": "Marcus",
+        "B": "Garrett",
+        "C": "Thomas",
+        "D": "Pavel"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 84,
+      "chapter": 7,
+      "difficulty": "hard",
+      "question": "How long had Garrett been in the Shadow Guard?",
+      "options": {
+        "A": "Five years",
+        "B": "Seven years",
+        "C": "Nine years",
+        "D": "Twelve years"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 85,
+      "chapter": 9,
+      "difficulty": "medium",
+      "question": "How many children enrolled in the literacy program after the expansion?",
+      "options": {
+        "A": "Forty children",
+        "B": "Fifty children",
+        "C": "Sixty children",
+        "D": "Seventy children"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 86,
+      "chapter": 12,
+      "difficulty": "easy",
+      "question": "How old is Lady Morgan?",
+      "options": {
+        "A": "Forty-nine",
+        "B": "Fifty-three",
+        "C": "Fifty-seven",
+        "D": "Sixty-one"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 87,
+      "chapter": 16,
+      "difficulty": "medium",
+      "question": "What was Maria Chen working on when she was kidnapped?",
+      "options": {
+        "A": "Reading homework",
+        "B": "A long division problem",
+        "C": "An essay",
+        "D": "A geometry proof"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 88,
+      "chapter": 19,
+      "difficulty": "medium",
+      "question": "How many years ago had Cassian's father shown him the ford?",
+      "options": {
+        "A": "Fifteen years",
+        "B": "Twenty years",
+        "C": "Twenty-five years",
+        "D": "Thirty years"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 89,
+      "chapter": 21,
+      "difficulty": "hard",
+      "question": "What was Commander Reeve's age approximately?",
+      "options": {
+        "A": "He was described as 'grey at the temples' but no specific age given",
+        "B": "Forty-five",
+        "C": "Fifty",
+        "D": "Fifty-five"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 90,
+      "chapter": 23,
+      "difficulty": "medium",
+      "question": "Which hand did Lucian break during the duel with Cassian?",
+      "options": {
+        "A": "His left hand",
+        "B": "His right hand",
+        "C": "Both hands",
+        "D": "Neither hand was broken"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 91,
+      "chapter": 27,
+      "difficulty": "easy",
+      "question": "How old is Erik?",
+      "options": {
+        "A": "Nineteen",
+        "B": "Twenty",
+        "C": "Twenty-two",
+        "D": "Twenty-five"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 92,
+      "chapter": 30,
+      "difficulty": "hard",
+      "question": "What item did Sera say Marcus would include in his marriage proposal speech?",
+      "options": {
+        "A": "Citations",
+        "B": "Footnotes",
+        "C": "Bibliography",
+        "D": "Appendices"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 93,
+      "chapter": 32,
+      "difficulty": "medium",
+      "question": "What temperature did it reach during the worst day of winter?",
+      "options": {
+        "A": "Five below",
+        "B": "Ten below",
+        "C": "Fifteen below",
+        "D": "Twenty below"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 94,
+      "chapter": 33,
+      "difficulty": "medium",
+      "question": "What is the page number Marcus cites when quoting from the original Code?",
+      "options": {
+        "A": "Page twelve",
+        "B": "Page fifteen",
+        "C": "Page seventeen",
+        "D": "Page twenty"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 95,
+      "chapter": 35,
+      "difficulty": "hard",
+      "question": "Who was the Chancellor that destroyed evidence of Lucian's birth?",
+      "options": {
+        "A": "Chancellor Marcus",
+        "B": "Chancellor Morin",
+        "C": "Chancellor Blackwell",
+        "D": "Chancellor Harston"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 96,
+      "chapter": 36,
+      "difficulty": "medium",
+      "question": "How old was Father Matthias when he came to Greyport?",
+      "options": {
+        "A": "Thirty-five",
+        "B": "Thirty-seven",
+        "C": "Thirty-nine",
+        "D": "Forty-one"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 97,
+      "chapter": 36,
+      "difficulty": "hard",
+      "question": "How many people were in the congregation when Matthias first arrived in Greyport?",
+      "options": {
+        "A": "Eight",
+        "B": "Twelve",
+        "C": "Twenty",
+        "D": "Thirty"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 98,
+      "chapter": 40,
+      "difficulty": "easy",
+      "question": "Who is the oldest student in the literacy program?",
+      "options": {
+        "A": "Sixty-eight",
+        "B": "Seventy",
+        "C": "Seventy-four",
+        "D": "Seventy-eight"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 99,
+      "chapter": 40,
+      "difficulty": "medium",
+      "question": "What was the vote count for the cooperative fishing venture?",
+      "options": {
+        "A": "Forty-five to twenty-one",
+        "B": "Forty-seven to nineteen",
+        "C": "Fifty to eighteen",
+        "D": "Fifty-two to fifteen"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 100,
+      "chapter": "Epilogue",
+      "difficulty": "medium",
+      "question": "What does Marcus warn about in his final letter?",
+      "options": {
+        "A": "Military invasion",
+        "B": "Confederate commercial interests investing in a long-term destabilization fund",
+        "C": "Theo's reforms failing",
+        "D": "A new Shadow Guard network"
+      },
+      "correct_answer": "B"
+    }
+  ]
+}

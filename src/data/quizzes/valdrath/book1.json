@@ -1,0 +1,1307 @@
+{
+  "book_number": 1,
+  "book_title": "The Exile's Return",
+  "total_questions": 100,
+  "questions": [
+    {
+      "id": 1,
+      "chapter": "Prologue",
+      "difficulty": "easy",
+      "question": "How many farmers were executed in the prologue?",
+      "options": {
+        "A": "Five",
+        "B": "Seven",
+        "C": "Ten",
+        "D": "Twelve"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 2,
+      "chapter": "Prologue",
+      "difficulty": "medium",
+      "question": "What crime were the farmers accused of?",
+      "options": {
+        "A": "Theft",
+        "B": "Murder",
+        "C": "Rebellion against the Crown",
+        "D": "Treason"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 3,
+      "chapter": "Prologue",
+      "difficulty": "hard",
+      "question": "How old was Cassian when he executed the seven farmers?",
+      "options": {
+        "A": "Twenty-one",
+        "B": "Twenty-three",
+        "C": "Twenty-five",
+        "D": "Twenty-seven"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 4,
+      "chapter": "Prologue",
+      "difficulty": "medium",
+      "question": "Who was the noble that accused the farmers?",
+      "options": {
+        "A": "Lord Morin",
+        "B": "Lord Evander",
+        "C": "Lord Dennison",
+        "D": "Lord Vincent"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 5,
+      "chapter": 1,
+      "difficulty": "easy",
+      "question": "What is Cassian's assumed name in Greyport?",
+      "options": {
+        "A": "Thomas Crown",
+        "B": "Cass Thorne",
+        "C": "Carl Thompson",
+        "D": "Chris Tanner"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 6,
+      "chapter": 1,
+      "difficulty": "medium",
+      "question": "What is Cassian's profession in Greyport?",
+      "options": {
+        "A": "Blacksmith",
+        "B": "Teacher",
+        "C": "Mechanic",
+        "D": "Cook"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 7,
+      "chapter": 1,
+      "difficulty": "medium",
+      "question": "Who is Cassian's employer at the mechanic shop?",
+      "options": {
+        "A": "Marcus",
+        "B": "Merrick",
+        "C": "Martin",
+        "D": "Michael"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 8,
+      "chapter": 1,
+      "difficulty": "easy",
+      "question": "What church does Cassian attend in Greyport?",
+      "options": {
+        "A": "Church of the Sacred Forge",
+        "B": "Church of the Divine Smith",
+        "C": "Church of the Eternal Blade",
+        "D": "Church of the Seven"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 9,
+      "chapter": 2,
+      "difficulty": "easy",
+      "question": "What does Mrs. Chen give Cassian as a gift?",
+      "options": {
+        "A": "A silver cross",
+        "B": "A jade pendant",
+        "C": "A bronze ring",
+        "D": "A copper bracelet"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 10,
+      "chapter": 2,
+      "difficulty": "medium",
+      "question": "What does Father Matthias organize every Tuesday?",
+      "options": {
+        "A": "Bible study",
+        "B": "Community feeding",
+        "C": "Job training",
+        "D": "Medical clinic"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 11,
+      "chapter": 3,
+      "difficulty": "easy",
+      "question": "Which brother died, causing Cassian to return?",
+      "options": {
+        "A": "Vincent",
+        "B": "Lucian",
+        "C": "Aldric",
+        "D": "Marcus"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 12,
+      "chapter": 3,
+      "difficulty": "hard",
+      "question": "Who sent Cassian the message about his brother's death?",
+      "options": {
+        "A": "Vincent",
+        "B": "Theo",
+        "C": "Marcus",
+        "D": "The King"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 13,
+      "chapter": 4,
+      "difficulty": "medium",
+      "question": "How many brothers does Cassian have total?",
+      "options": {
+        "A": "Four",
+        "B": "Five",
+        "C": "Six",
+        "D": "Seven"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 14,
+      "chapter": 4,
+      "difficulty": "easy",
+      "question": "What is Vincent's military title?",
+      "options": {
+        "A": "Lord Commander",
+        "B": "Lord Marshal",
+        "C": "Lord General",
+        "D": "Lord Captain"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 15,
+      "chapter": 5,
+      "difficulty": "medium",
+      "question": "What is Marcus's scholarly specialty?",
+      "options": {
+        "A": "Military history",
+        "B": "The archives and history",
+        "C": "Religious texts",
+        "D": "Foreign languages"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 16,
+      "chapter": 5,
+      "difficulty": "hard",
+      "question": "What unusual fact does Marcus discover about Aldric's sword?",
+      "options": {
+        "A": "It was too short",
+        "B": "The composition changed between forging and the trial",
+        "C": "It was never properly tempered",
+        "D": "It was made of inferior steel"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 17,
+      "chapter": 6,
+      "difficulty": "easy",
+      "question": "What color is Lucian's hair?",
+      "options": {
+        "A": "Blonde",
+        "B": "Red",
+        "C": "Dark",
+        "D": "Gray"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 18,
+      "chapter": 6,
+      "difficulty": "medium",
+      "question": "What is Lucian's role in the kingdom?",
+      "options": {
+        "A": "Military commander",
+        "B": "Spymaster/Head of Shadow Guard",
+        "C": "Chancellor",
+        "D": "Foreign minister"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 19,
+      "chapter": 7,
+      "difficulty": "medium",
+      "question": "What was the nature of Aldric's death?",
+      "options": {
+        "A": "Poisoning",
+        "B": "Assassination",
+        "C": "His sword broke during a combat trial",
+        "D": "A riding accident"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 20,
+      "chapter": 7,
+      "difficulty": "hard",
+      "question": "Who was Aldric fighting in the combat trial when he died?",
+      "options": {
+        "A": "Vincent",
+        "B": "Lucian",
+        "C": "A noble challenger",
+        "D": "A foreign warrior"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 21,
+      "chapter": 8,
+      "difficulty": "easy",
+      "question": "How long was Cassian in exile?",
+      "options": {
+        "A": "Eight years",
+        "B": "Ten years",
+        "C": "Twelve years",
+        "D": "Fifteen years"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 22,
+      "chapter": 8,
+      "difficulty": "medium",
+      "question": "What does Vincent give Cassian during their reconciliation?",
+      "options": {
+        "A": "A ring",
+        "B": "A horse",
+        "C": "Intelligence reports",
+        "D": "Money"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 23,
+      "chapter": 9,
+      "difficulty": "medium",
+      "question": "What is the King's name?",
+      "options": {
+        "A": "Aldric",
+        "B": "Daveth",
+        "C": "Garrett",
+        "D": "Valdric"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 24,
+      "chapter": 9,
+      "difficulty": "hard",
+      "question": "Who sits at the King's right during the family dinner?",
+      "options": {
+        "A": "Cassian",
+        "B": "Vincent",
+        "C": "Edric",
+        "D": "Lucian"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 25,
+      "chapter": 10,
+      "difficulty": "medium",
+      "question": "What does Edric openly admit he wants?",
+      "options": {
+        "A": "To be Lord Marshal",
+        "B": "The throne",
+        "C": "To leave the kingdom",
+        "D": "To become chancellor"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 26,
+      "chapter": 10,
+      "difficulty": "hard",
+      "question": "What time does Edric's secret meeting with Cassian take place?",
+      "options": {
+        "A": "Dawn",
+        "B": "Noon",
+        "C": "Midnight",
+        "D": "Sunset"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 27,
+      "chapter": 11,
+      "difficulty": "easy",
+      "question": "What is the name of the tavern owner who died suspiciously?",
+      "options": {
+        "A": "Gerald",
+        "B": "Gregor",
+        "C": "Gregory",
+        "D": "Garrett"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 28,
+      "chapter": 11,
+      "difficulty": "medium",
+      "question": "How many assassins attack Cassian in the cellar?",
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "Four",
+        "D": "Five"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 29,
+      "chapter": 11,
+      "difficulty": "hard",
+      "question": "What tattoo do the cellar assassins have?",
+      "options": {
+        "A": "A dragon",
+        "B": "A snake coiled around a dagger",
+        "C": "A crown",
+        "D": "A sword"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 30,
+      "chapter": 12,
+      "difficulty": "medium",
+      "question": "Who saves Cassian during the alley attack?",
+      "options": {
+        "A": "Lucian",
+        "B": "Marcus",
+        "C": "Vincent",
+        "D": "Edric"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 31,
+      "chapter": 12,
+      "difficulty": "hard",
+      "question": "What type of wound does Cassian receive in the alley?",
+      "options": {
+        "A": "An arrow wound",
+        "B": "A knife between his ribs",
+        "C": "A sword slash",
+        "D": "A broken leg"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 32,
+      "chapter": 13,
+      "difficulty": "easy",
+      "question": "Who is the royal blade-smith?",
+      "options": {
+        "A": "Ferrin",
+        "B": "Garrett Thorne",
+        "C": "Garret Ironhand",
+        "D": "Gregory Blacksmith"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 33,
+      "chapter": 13,
+      "difficulty": "medium",
+      "question": "How old is Garret Ironhand?",
+      "options": {
+        "A": "Seventy-five",
+        "B": "Eighty-three",
+        "C": "Ninety",
+        "D": "Sixty-eight"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 34,
+      "chapter": 13,
+      "difficulty": "hard",
+      "question": "What physical disabilities does Garret have?",
+      "options": {
+        "A": "Blind in both eyes",
+        "B": "Deaf in one ear and missing three fingers",
+        "C": "Blind in one eye and missing two fingers",
+        "D": "Lame in one leg"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 35,
+      "chapter": 14,
+      "difficulty": "medium",
+      "question": "Who was Garret's apprentice that went missing?",
+      "options": {
+        "A": "Ferrin",
+        "B": "Finn",
+        "C": "Felix",
+        "D": "Francis"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 36,
+      "chapter": 14,
+      "difficulty": "hard",
+      "question": "What noble house funded Ferrin according to Garret?",
+      "options": {
+        "A": "Lord Morin's house",
+        "B": "Lord Vincent's house",
+        "C": "Lord Evander's house",
+        "D": "Lord Aldric's house"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 37,
+      "chapter": 15,
+      "difficulty": "easy",
+      "question": "Who is the palace quartermaster who dies?",
+      "options": {
+        "A": "Sir Dennis",
+        "B": "Sir Dennison",
+        "C": "Sir Devon",
+        "D": "Sir Derek"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 38,
+      "chapter": 15,
+      "difficulty": "medium",
+      "question": "How is the quartermaster's death made to look?",
+      "options": {
+        "A": "Poisoning",
+        "B": "Heart attack",
+        "C": "A fall down stairs",
+        "D": "Robbery"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 39,
+      "chapter": 16,
+      "difficulty": "medium",
+      "question": "What evidence does Cassian find in Dennison's office?",
+      "options": {
+        "A": "A bloody weapon",
+        "B": "A receipt from Lord Evander's house",
+        "C": "A confession letter",
+        "D": "A map"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 40,
+      "chapter": 17,
+      "difficulty": "easy",
+      "question": "How old is Theo?",
+      "options": {
+        "A": "Fifteen",
+        "B": "Sixteen",
+        "C": "Seventeen",
+        "D": "Eighteen"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 41,
+      "chapter": 17,
+      "difficulty": "medium",
+      "question": "What is the Rite of Scars?",
+      "options": {
+        "A": "A coronation ceremony",
+        "B": "A combat trial against seven opponents",
+        "C": "A religious ritual",
+        "D": "A marriage ceremony"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 42,
+      "chapter": 17,
+      "difficulty": "hard",
+      "question": "What significant injury does Theo suffer during his Rite?",
+      "options": {
+        "A": "A broken arm",
+        "B": "A sword wound",
+        "C": "Broken ribs",
+        "D": "A concussion"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 43,
+      "chapter": 17,
+      "difficulty": "medium",
+      "question": "Who catches Theo when he collapses after the Rite?",
+      "options": {
+        "A": "Vincent",
+        "B": "Marcus",
+        "C": "Cassian",
+        "D": "The King"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 44,
+      "chapter": 18,
+      "difficulty": "hard",
+      "question": "What does Marcus reveal about Lucian regarding Theo's trial?",
+      "options": {
+        "A": "Lucian helped train him",
+        "B": "Lucian bet against him",
+        "C": "Lucian refused to attend",
+        "D": "Lucian tried to stop it"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 45,
+      "chapter": 19,
+      "difficulty": "medium",
+      "question": "Where is Lord Evander's estate located?",
+      "options": {
+        "A": "In the countryside",
+        "B": "In the capital's most exclusive district",
+        "C": "Near the palace",
+        "D": "In the eastern provinces"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 46,
+      "chapter": 19,
+      "difficulty": "hard",
+      "question": "What does Evander claim when confronting Cassian?",
+      "options": {
+        "A": "He killed Aldric",
+        "B": "He's innocent and being framed",
+        "C": "He acted on the King's orders",
+        "D": "He's leaving the kingdom"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 47,
+      "chapter": 20,
+      "difficulty": "easy",
+      "question": "Who is Captain Sera?",
+      "options": {
+        "A": "A palace guard",
+        "B": "A Shadow Guard operative",
+        "C": "A foreign spy",
+        "D": "A merchant"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 48,
+      "chapter": 20,
+      "difficulty": "medium",
+      "question": "What was Sera's relationship to Aldric?",
+      "options": {
+        "A": "His bodyguard",
+        "B": "His sister",
+        "C": "His secret lover",
+        "D": "His advisor"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 49,
+      "chapter": 20,
+      "difficulty": "hard",
+      "question": "How long were Sera and Aldric together secretly?",
+      "options": {
+        "A": "One year",
+        "B": "Two years",
+        "C": "Three years",
+        "D": "Five years"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 50,
+      "chapter": 21,
+      "difficulty": "medium",
+      "question": "What does Sera's investigation reveal about the funding source?",
+      "options": {
+        "A": "Foreign agents",
+        "B": "The Royal Treasury",
+        "C": "Private merchants",
+        "D": "The military"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 51,
+      "chapter": 21,
+      "difficulty": "hard",
+      "question": "What type of encryption was used for Ferrin's orders?",
+      "options": {
+        "A": "Royal encryption",
+        "B": "Shadow Guard encryption",
+        "C": "Foreign cipher",
+        "D": "Ancient code"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 52,
+      "chapter": 22,
+      "difficulty": "medium",
+      "question": "What does Edric admit to Cassian?",
+      "options": {
+        "A": "He killed Aldric",
+        "B": "He knew about the conspiracy and did nothing",
+        "C": "He's planning a coup",
+        "D": "He's leaving the kingdom"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 53,
+      "chapter": 22,
+      "difficulty": "hard",
+      "question": "Who does Edric suggest is really behind the conspiracy?",
+      "options": {
+        "A": "The King",
+        "B": "Lucian",
+        "C": "A faction within the Shadow Guard",
+        "D": "Foreign powers"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 54,
+      "chapter": 23,
+      "difficulty": "easy",
+      "question": "What is the King's condition when Cassian confronts him?",
+      "options": {
+        "A": "Healthy and strong",
+        "B": "Dying",
+        "C": "Wounded in battle",
+        "D": "Imprisoned"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 55,
+      "chapter": 23,
+      "difficulty": "medium",
+      "question": "What shocking revelation does the King make?",
+      "options": {
+        "A": "He ordered Aldric's death",
+        "B": "He knew about the conspiracy and allowed it",
+        "C": "He's not Cassian's real father",
+        "D": "He's abdicating"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 56,
+      "chapter": 23,
+      "difficulty": "hard",
+      "question": "What does the King do to Cassian at the end of their confrontation?",
+      "options": {
+        "A": "Names him heir",
+        "B": "Exiles him permanently",
+        "C": "Arrests him",
+        "D": "Apologizes"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 57,
+      "chapter": 23,
+      "difficulty": "medium",
+      "question": "What does Lucian give Cassian after the King's confrontation?",
+      "options": {
+        "A": "A weapon",
+        "B": "An intelligence folder on Ferrin's location",
+        "C": "Money",
+        "D": "A warning"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 58,
+      "chapter": 23,
+      "difficulty": "easy",
+      "question": "Where is Ferrin hiding?",
+      "options": {
+        "A": "In the capital",
+        "B": "In a village called Northwatch",
+        "C": "In a foreign country",
+        "D": "In the mountains"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 59,
+      "chapter": 23,
+      "difficulty": "hard",
+      "question": "What name is Ferrin using in hiding?",
+      "options": {
+        "A": "Anders",
+        "B": "Andrew",
+        "C": "Albert",
+        "D": "Arthur"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 60,
+      "chapter": 23,
+      "difficulty": "medium",
+      "question": "Who does Ferrin name as the conspiracy's mastermind before dying?",
+      "options": {
+        "A": "Lord Evander",
+        "B": "The King",
+        "C": "Lord Morin, the Chancellor",
+        "D": "Prince Lucian"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 61,
+      "chapter": 24,
+      "difficulty": "medium",
+      "question": "What injury does Sera suffer in Northwatch?",
+      "options": {
+        "A": "A stab to the shoulder",
+        "B": "A blade across the stomach",
+        "C": "A broken leg",
+        "D": "Arrow wound"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 62,
+      "chapter": 24,
+      "difficulty": "easy",
+      "question": "What does Vincent give Cassian as a gift?",
+      "options": {
+        "A": "Armor",
+        "B": "A horse",
+        "C": "A sword",
+        "D": "A book"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 63,
+      "chapter": 24,
+      "difficulty": "hard",
+      "question": "Who forged the sword Vincent gives Cassian?",
+      "options": {
+        "A": "Ferrin",
+        "B": "A foreign smith",
+        "C": "Garret Ironhand",
+        "D": "The palace armorer"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 64,
+      "chapter": 25,
+      "difficulty": "medium",
+      "question": "What happened to the church in Greyport during Cassian's absence?",
+      "options": {
+        "A": "It was vandalized",
+        "B": "It was set on fire",
+        "C": "It was demolished",
+        "D": "Nothing"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 65,
+      "chapter": 25,
+      "difficulty": "easy",
+      "question": "What injury did Father Matthias suffer in the fire?",
+      "options": {
+        "A": "Lost an arm",
+        "B": "Burns and a damaged hip",
+        "C": "Went blind",
+        "D": "No injury"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 66,
+      "chapter": 26,
+      "difficulty": "medium",
+      "question": "What does Edric do when Lucian arrests Evander?",
+      "options": {
+        "A": "Protests",
+        "B": "Helps arrest him",
+        "C": "Warns Evander",
+        "D": "Goes along with it reluctantly"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "id": 67,
+      "chapter": 26,
+      "difficulty": "hard",
+      "question": "What choice does Lucian give Evander?",
+      "options": {
+        "A": "Trial or death",
+        "B": "Exile or execution",
+        "C": "Prison or service",
+        "D": "Confession or torture"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 68,
+      "chapter": 27,
+      "difficulty": "easy",
+      "question": "Where do assassins attack Cassian in Greyport?",
+      "options": {
+        "A": "At the church",
+        "B": "At the shop",
+        "C": "In his apartment",
+        "D": "On the street"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 69,
+      "chapter": 27,
+      "difficulty": "medium",
+      "question": "How many assassins attack Cassian in his apartment?",
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "Four",
+        "D": "Five"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 70,
+      "chapter": 27,
+      "difficulty": "hard",
+      "question": "What news does Vincent deliver after the apartment attack?",
+      "options": {
+        "A": "Lucian has seized the throne",
+        "B": "The King is dying/has died",
+        "C": "The kingdom is at war",
+        "D": "Edric has fled"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 71,
+      "chapter": 28,
+      "difficulty": "medium",
+      "question": "What does Lucian offer Cassian as a deal?",
+      "options": {
+        "A": "A position as advisor",
+        "B": "Support him publicly in exchange for being left alone",
+        "C": "Joint rule",
+        "D": "Military command"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 72,
+      "chapter": 28,
+      "difficulty": "hard",
+      "question": "What counter-offer does Cassian make to Lucian?",
+      "options": {
+        "A": "Cassian becomes king",
+        "B": "Theo becomes king with a council of brothers",
+        "C": "Vincent becomes king",
+        "D": "Shared rule between all brothers"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 73,
+      "chapter": 29,
+      "difficulty": "medium",
+      "question": "Where do Cassian and Lucian meet to negotiate?",
+      "options": {
+        "A": "The palace",
+        "B": "An abandoned monastery",
+        "C": "A tavern",
+        "D": "The High Forge"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 74,
+      "chapter": 29,
+      "difficulty": "hard",
+      "question": "What ultimatum does Lucian give Cassian?",
+      "options": {
+        "A": "Leave immediately or die",
+        "B": "Three days before he invokes Challenge Right",
+        "C": "One week to decide",
+        "D": "Accept exile or fight now"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 75,
+      "chapter": 30,
+      "difficulty": "easy",
+      "question": "What does the alliance plan to do?",
+      "options": {
+        "A": "Assassinate Lucian",
+        "B": "Expose the truth at the succession ceremony",
+        "C": "Flee the kingdom",
+        "D": "Start a civil war"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 76,
+      "chapter": 31,
+      "difficulty": "easy",
+      "question": "What happens to the High Forge cathedral?",
+      "options": {
+        "A": "It's renovated",
+        "B": "It's destroyed by fire",
+        "C": "It's abandoned",
+        "D": "Nothing"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 77,
+      "chapter": 31,
+      "difficulty": "medium",
+      "question": "What significant symbol is extinguished in the fire?",
+      "options": {
+        "A": "The royal banner",
+        "B": "The eternal flame",
+        "C": "The sacred sword",
+        "D": "The crown jewels"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 78,
+      "chapter": 31,
+      "difficulty": "hard",
+      "question": "What injury does Cassian suffer rescuing someone from the fire?",
+      "options": {
+        "A": "Broken arm",
+        "B": "Burns across his back",
+        "C": "Smoke inhalation",
+        "D": "A head injury"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 79,
+      "chapter": 31,
+      "difficulty": "medium",
+      "question": "What remains intact at the ruined cathedral?",
+      "options": {
+        "A": "The bell tower",
+        "B": "The stained glass",
+        "C": "The ancient anvil",
+        "D": "The altar"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 80,
+      "chapter": 32,
+      "difficulty": "easy",
+      "question": "Where is the succession ceremony held?",
+      "options": {
+        "A": "In a new building",
+        "B": "In the ruins of the High Forge",
+        "C": "At the palace",
+        "D": "In the town square"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 81,
+      "chapter": 32,
+      "difficulty": "medium",
+      "question": "What does Cassian do at the ceremony before the combat?",
+      "options": {
+        "A": "Claims the throne",
+        "B": "Accuses Lucian publicly and presents evidence",
+        "C": "Flees",
+        "D": "Challenges the King"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 82,
+      "chapter": 32,
+      "difficulty": "hard",
+      "question": "What happens during the final moment of combat?",
+      "options": {
+        "A": "Cassian kills Lucian",
+        "B": "Lucian surrenders",
+        "C": "Cassian spares Lucian, then Vincent stops Lucian's hidden knife",
+        "D": "They both collapse"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 83,
+      "chapter": 32,
+      "difficulty": "medium",
+      "question": "Who wins the combat trial?",
+      "options": {
+        "A": "Lucian",
+        "B": "Cassian",
+        "C": "Vincent intervenes",
+        "D": "It's a draw"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 84,
+      "chapter": 33,
+      "difficulty": "easy",
+      "question": "What does Cassian do with his victory?",
+      "options": {
+        "A": "Takes the throne",
+        "B": "Gives the throne to Theo",
+        "C": "Gives it to Vincent",
+        "D": "Declares himself regent"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 85,
+      "chapter": 33,
+      "difficulty": "medium",
+      "question": "What sentence does Cassian give Lucian?",
+      "options": {
+        "A": "Death",
+        "B": "Prison",
+        "C": "Exile",
+        "D": "House arrest"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 86,
+      "chapter": 33,
+      "difficulty": "hard",
+      "question": "How long does Lucian have to leave the kingdom?",
+      "options": {
+        "A": "Immediately",
+        "B": "One day",
+        "C": "Until sundown",
+        "D": "One week"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 87,
+      "chapter": 34,
+      "difficulty": "easy",
+      "question": "Who becomes the new king?",
+      "options": {
+        "A": "Cassian",
+        "B": "Vincent",
+        "C": "Edric",
+        "D": "Theo"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "id": 88,
+      "chapter": 34,
+      "difficulty": "medium",
+      "question": "What roles do the other brothers take in Theo's government?",
+      "options": {
+        "A": "All military positions",
+        "B": "Vincent-military, Edric-politics, Marcus-archives",
+        "C": "All advisory roles",
+        "D": "None, they all leave"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 89,
+      "chapter": 34,
+      "difficulty": "hard",
+      "question": "What reforms does Theo propose?",
+      "options": {
+        "A": "Only military reforms",
+        "B": "Changes to the Warrior's Code and Challenge Rights",
+        "C": "Economic changes only",
+        "D": "No reforms"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 90,
+      "chapter": 35,
+      "difficulty": "easy",
+      "question": "Where does Cassian return to at the end?",
+      "options": {
+        "A": "The capital",
+        "B": "Greyport",
+        "C": "A foreign country",
+        "D": "A monastery"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 91,
+      "chapter": 35,
+      "difficulty": "medium",
+      "question": "What's different about the rebuilt church?",
+      "options": {
+        "A": "It's larger",
+        "B": "It has new stained glass showing ordinary people, not just warriors",
+        "C": "It's in a different location",
+        "D": "Nothing"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 92,
+      "chapter": 35,
+      "difficulty": "medium",
+      "question": "Who created the new stained glass windows?",
+      "options": {
+        "A": "A master from the capital",
+        "B": "Hanna Voss, a local glass-maker",
+        "C": "Foreign artisans",
+        "D": "Father Matthias"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 93,
+      "chapter": 35,
+      "difficulty": "hard",
+      "question": "What does Sera decide to do at the end?",
+      "options": {
+        "A": "Return to the Shadow Guard",
+        "B": "Leave the kingdom",
+        "C": "Stay in Greyport to help with community programs",
+        "D": "Become a soldier"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 94,
+      "chapter": "Overall",
+      "difficulty": "easy",
+      "question": "What is the name of the dynasty?",
+      "options": {
+        "A": "Stormborn",
+        "B": "Ironhand",
+        "C": "Valdrath",
+        "D": "Eternal"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 95,
+      "chapter": "Overall",
+      "difficulty": "medium",
+      "question": "How many years of history does the Stormborn dynasty have?",
+      "options": {
+        "A": "One thousand",
+        "B": "Three thousand",
+        "C": "Five thousand",
+        "D": "Ten thousand"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 96,
+      "chapter": "Overall",
+      "difficulty": "easy",
+      "question": "What is the kingdom called?",
+      "options": {
+        "A": "Stormborn",
+        "B": "Greyport",
+        "C": "Valdrath",
+        "D": "Northwatch"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 97,
+      "chapter": "Overall",
+      "difficulty": "hard",
+      "question": "What was Cassian's mother's name?",
+      "options": {
+        "A": "Margaret",
+        "B": "Marianne",
+        "C": "Maria",
+        "D": "Martha"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 98,
+      "chapter": "Overall",
+      "difficulty": "medium",
+      "question": "How many total scars does Cassian earn by the end of the book?",
+      "options": {
+        "A": "Three",
+        "B": "Four",
+        "C": "Five",
+        "D": "Seven"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 99,
+      "chapter": "Overall",
+      "difficulty": "hard",
+      "question": "What is the Sacred Code based on?",
+      "options": {
+        "A": "Military tradition",
+        "B": "The Warrior's Code",
+        "C": "Foreign law",
+        "D": "Religious scripture"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 100,
+      "chapter": "Overall",
+      "difficulty": "medium",
+      "question": "What is Challenge Right?",
+      "options": {
+        "A": "A legal appeal",
+        "B": "Single combat to determine succession or resolve disputes",
+        "C": "A religious ceremony",
+        "D": "A voting system"
+      },
+      "correct_answer": "B"
+    }
+  ]
+}

@@ -1,0 +1,1307 @@
+{
+  "book_number": 5,
+  "book_title": "The Gathering Storm",
+  "total_questions": 100,
+  "questions": [
+    {
+      "id": 1,
+      "chapter": 0,
+      "difficulty": "easy",
+      "question": "Where is Lucian living in exile at the start of the book?",
+      "options": {
+        "A": "The Capital",
+        "B": "Greyport",
+        "C": "Karshen, the Free Ports",
+        "D": "The southern provinces"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 2,
+      "chapter": 0,
+      "difficulty": "medium",
+      "question": "How much does Lucian pay for his desk in exile?",
+      "options": {
+        "A": "Three coppers",
+        "B": "Six coppers",
+        "C": "Ten coppers",
+        "D": "Twelve coppers"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 3,
+      "chapter": 0,
+      "difficulty": "medium",
+      "question": "What is the name of the Confederate intelligence officer who makes contact with Lucian?",
+      "options": {
+        "A": "Theron",
+        "B": "Vincent",
+        "C": "Draven",
+        "D": "Marcus"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 4,
+      "chapter": 0,
+      "difficulty": "hard",
+      "question": "How many surveillance agents does Lucian identify watching him in Karshen?",
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "Four",
+        "D": "Five"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 5,
+      "chapter": 1,
+      "difficulty": "easy",
+      "question": "How old is Theo at the opening of the constitutional convention?",
+      "options": {
+        "A": "Seventeen",
+        "B": "Eighteen",
+        "C": "Nineteen",
+        "D": "Twenty"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 6,
+      "chapter": 1,
+      "difficulty": "medium",
+      "question": "Who is the young flag-maker from Millhaven invited to the convention?",
+      "options": {
+        "A": "Sara Marsh",
+        "B": "Sara Aldren",
+        "C": "Sara Voss",
+        "D": "Sara Thomas"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 7,
+      "chapter": 1,
+      "difficulty": "medium",
+      "question": "How many sons did Lord Harston lose to border conflicts?",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 8,
+      "chapter": 1,
+      "difficulty": "hard",
+      "question": "How many delegates fill the Great Hall at the convention?",
+      "options": {
+        "A": "Two hundred",
+        "B": "Two hundred fifty",
+        "C": "Three hundred",
+        "D": "Three hundred fifty"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 9,
+      "chapter": 2,
+      "difficulty": "easy",
+      "question": "What is Cassian growing in the church garden?",
+      "options": {
+        "A": "Potatoes",
+        "B": "Tomato seedlings",
+        "C": "Corn",
+        "D": "Wheat"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 10,
+      "chapter": 2,
+      "difficulty": "medium",
+      "question": "How many tomato seedlings survived from Cassian's original planting?",
+      "options": {
+        "A": "Thirty-two",
+        "B": "Thirty-eight",
+        "C": "Forty-two",
+        "D": "Fifty"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 11,
+      "chapter": 2,
+      "difficulty": "medium",
+      "question": "What has Matthias been poisoned with that is slowly killing him?",
+      "options": {
+        "A": "A fast-acting poison from the occupation",
+        "B": "A slow-acting Shadow Guard toxin",
+        "C": "A Confederate weapon",
+        "D": "An accidental contamination"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 12,
+      "chapter": 2,
+      "difficulty": "hard",
+      "question": "How old are both Cassian and Sera at this point in the story?",
+      "options": {
+        "A": "Thirty-five",
+        "B": "Thirty-seven",
+        "C": "Thirty-eight",
+        "D": "Forty"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 13,
+      "chapter": 3,
+      "difficulty": "easy",
+      "question": "Who presents the historical evidence of the Warrior Code's corruption?",
+      "options": {
+        "A": "Theo",
+        "B": "Cassian",
+        "C": "Marcus",
+        "D": "Vincent"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 14,
+      "chapter": 3,
+      "difficulty": "medium",
+      "question": "How many years did Marcus spend documenting the evidence of the Code's corruption?",
+      "options": {
+        "A": "Two years",
+        "B": "Three years",
+        "C": "Four years",
+        "D": "Five years"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 15,
+      "chapter": 3,
+      "difficulty": "hard",
+      "question": "In what year was Humility removed from the Warrior Code?",
+      "options": {
+        "A": "4782",
+        "B": "4819",
+        "C": "4856",
+        "D": "4912"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 16,
+      "chapter": 3,
+      "difficulty": "medium",
+      "question": "Which virtue was removed from the Code in year 4819?",
+      "options": {
+        "A": "Humility",
+        "B": "Mercy",
+        "C": "Sacrifice",
+        "D": "Strength"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 17,
+      "chapter": 4,
+      "difficulty": "easy",
+      "question": "What kind of work does Lucian do on the docks?",
+      "options": {
+        "A": "Repairing boats",
+        "B": "Hauling crates",
+        "C": "Selling fish",
+        "D": "Operating cranes"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 18,
+      "chapter": 4,
+      "difficulty": "medium",
+      "question": "What is the name of the tavern where Lucian listens to Confederate merchant captains?",
+      "options": {
+        "A": "The Sailor's Rest",
+        "B": "The Harbor Bell",
+        "C": "The Anchor and Chain",
+        "D": "The Free Ports Inn"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 19,
+      "chapter": 4,
+      "difficulty": "hard",
+      "question": "Which Confederate general is mentioned as receiving a new command?",
+      "options": {
+        "A": "General Marcus",
+        "B": "General Vincent",
+        "C": "General Aldric",
+        "D": "General Theron"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "id": 20,
+      "chapter": 5,
+      "difficulty": "easy",
+      "question": "How old is Sara Voss when she speaks at the convention?",
+      "options": {
+        "A": "Twelve",
+        "B": "Thirteen",
+        "C": "Fourteen",
+        "D": "Fifteen"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 21,
+      "chapter": 5,
+      "difficulty": "medium",
+      "question": "How many versions of her speech did Sara write before settling on the final one?",
+      "options": {
+        "A": "Ten",
+        "B": "Twelve",
+        "C": "Fifteen",
+        "D": "Seventeen"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "id": 22,
+      "chapter": 5,
+      "difficulty": "medium",
+      "question": "What was banned during the occupation that Sara mentions in her speech?",
+      "options": {
+        "A": "Only military texts",
+        "B": "Only historical books",
+        "C": "All books, including a novel about a talking dog",
+        "D": "Only religious texts"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 23,
+      "chapter": 5,
+      "difficulty": "hard",
+      "question": "How many students did Mrs. Aldren teach in her underground school?",
+      "options": {
+        "A": "Eight",
+        "B": "Ten",
+        "C": "Twelve",
+        "D": "Fifteen"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 24,
+      "chapter": 6,
+      "difficulty": "easy",
+      "question": "What is Vincent's formal title?",
+      "options": {
+        "A": "Lord General",
+        "B": "Lord Marshal",
+        "C": "Lord Commander",
+        "D": "Lord Protector"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 25,
+      "chapter": 6,
+      "difficulty": "medium",
+      "question": "What is Valdrath's total mobilizable force including reserves and militia?",
+      "options": {
+        "A": "Thirty-five thousand",
+        "B": "Forty thousand",
+        "C": "Forty-five thousand",
+        "D": "Fifty thousand"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 26,
+      "chapter": 6,
+      "difficulty": "hard",
+      "question": "At what percentage of pre-war strength is Valdrath's military currently operating?",
+      "options": {
+        "A": "Fifty percent",
+        "B": "Sixty percent",
+        "C": "Seventy percent",
+        "D": "Eighty percent"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 27,
+      "chapter": 7,
+      "difficulty": "medium",
+      "question": "How many noble houses are aligned with Harston's Compact?",
+      "options": {
+        "A": "Thirteen",
+        "B": "Fifteen",
+        "C": "Seventeen",
+        "D": "Nineteen"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 28,
+      "chapter": 7,
+      "difficulty": "medium",
+      "question": "At what ages did Harston's two sons die?",
+      "options": {
+        "A": "Twenty and twenty-two",
+        "B": "Twenty-one and twenty-three",
+        "C": "Twenty-two and twenty-four",
+        "D": "Nineteen and twenty-one"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 29,
+      "chapter": 8,
+      "difficulty": "easy",
+      "question": "What is Matthias's physical condition declining from?",
+      "options": {
+        "A": "Natural old age",
+        "B": "A battle wound",
+        "C": "Poison from the Shadow Guard",
+        "D": "A sudden illness"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 30,
+      "chapter": 8,
+      "difficulty": "hard",
+      "question": "How many years ago did Daveth (Cassian's father) first come to Matthias seeking absolution?",
+      "options": {
+        "A": "Thirty years",
+        "B": "Thirty-five years",
+        "C": "Forty years",
+        "D": "Forty-five years"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 31,
+      "chapter": 9,
+      "difficulty": "medium",
+      "question": "Where is Sera's intelligence office located?",
+      "options": {
+        "A": "In the palace",
+        "B": "In the convention hall",
+        "C": "In the back room of a harborside warehouse",
+        "D": "In a church vestry"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 32,
+      "chapter": 10,
+      "difficulty": "easy",
+      "question": "How many days of debate preceded the vote on acknowledging the Code's corruption?",
+      "options": {
+        "A": "One day",
+        "B": "Two days",
+        "C": "Three days",
+        "D": "Five days"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 33,
+      "chapter": 10,
+      "difficulty": "medium",
+      "question": "What percentage voted in favor of acknowledging the Code's historical corruption?",
+      "options": {
+        "A": "Fifty-six percent",
+        "B": "Sixty-three percent",
+        "C": "Sixty-eight percent",
+        "D": "Seventy percent"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 34,
+      "chapter": 10,
+      "difficulty": "hard",
+      "question": "How many delegates walked out after the vote?",
+      "options": {
+        "A": "Ninety-seven",
+        "B": "One hundred three",
+        "C": "One hundred thirteen",
+        "D": "One hundred twenty-five"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 35,
+      "chapter": 11,
+      "difficulty": "medium",
+      "question": "On what day of exile does Lucian's journal entry begin this chapter?",
+      "options": {
+        "A": "Day 182",
+        "B": "Day 203",
+        "C": "Day 218",
+        "D": "Day 227"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 36,
+      "chapter": 11,
+      "difficulty": "hard",
+      "question": "How many troops does Draven reveal are under General Theron's command?",
+      "options": {
+        "A": "Sixty thousand",
+        "B": "Seventy thousand",
+        "C": "Eighty thousand",
+        "D": "Ninety thousand"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 37,
+      "chapter": 12,
+      "difficulty": "easy",
+      "question": "How does Lucian send his warning letter to Cassian?",
+      "options": {
+        "A": "By courier",
+        "B": "By signal tower",
+        "C": "Hidden in a fishing company's supply shipment",
+        "D": "By diplomatic pouch"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 38,
+      "chapter": 12,
+      "difficulty": "medium",
+      "question": "What is Cassian's brief reply to Lucian's warning?",
+      "options": {
+        "A": "Come home immediately",
+        "B": "Send what you have. Then stay where you are.",
+        "C": "We need more information",
+        "D": "Thank you for your service"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 39,
+      "chapter": 13,
+      "difficulty": "easy",
+      "question": "For how long does the convention recess for summer?",
+      "options": {
+        "A": "Two months",
+        "B": "The entire summer for harvest",
+        "C": "One month",
+        "D": "Six weeks"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 40,
+      "chapter": 13,
+      "difficulty": "medium",
+      "question": "How many months has Theo known about the Confederate invasion threat before telling the convention?",
+      "options": {
+        "A": "One month",
+        "B": "Two months",
+        "C": "Three months",
+        "D": "Four months"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 41,
+      "chapter": 14,
+      "difficulty": "medium",
+      "question": "What is the title of the manifesto distributed by the Compact?",
+      "options": {
+        "A": "The Ancient Code Defended",
+        "B": "The True Code Restored",
+        "C": "The Warrior's Way",
+        "D": "In Defense of Tradition"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 42,
+      "chapter": 14,
+      "difficulty": "hard",
+      "question": "In what colors is Harston's manifesto bound?",
+      "options": {
+        "A": "Black and silver",
+        "B": "Crimson and black",
+        "C": "Blue and gold",
+        "D": "Grey and white"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 43,
+      "chapter": 15,
+      "difficulty": "easy",
+      "question": "What does Draven offer Lucian in exchange for his service?",
+      "options": {
+        "A": "A seat on the Confederate council",
+        "B": "A western province to govern",
+        "C": "Return to Valdrath",
+        "D": "A command in the navy"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 44,
+      "chapter": 15,
+      "difficulty": "medium",
+      "question": "How many light infantry is Lucian offered command of for the advance force?",
+      "options": {
+        "A": "One thousand",
+        "B": "Fifteen hundred",
+        "C": "Two thousand",
+        "D": "Three thousand"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 45,
+      "chapter": 16,
+      "difficulty": "easy",
+      "question": "What medical event happens to Matthias in the night?",
+      "options": {
+        "A": "A heart attack",
+        "B": "A seizure",
+        "C": "A stroke",
+        "D": "Severe hemorrhaging"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 46,
+      "chapter": 16,
+      "difficulty": "medium",
+      "question": "How long does the physician say Matthias has left to live?",
+      "options": {
+        "A": "Days",
+        "B": "Weeks, months at the outside",
+        "C": "Several months",
+        "D": "About a year"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 47,
+      "chapter": 17,
+      "difficulty": "medium",
+      "question": "How old is Lord Ashworth?",
+      "options": {
+        "A": "Sixty",
+        "B": "Sixty-five",
+        "C": "Seventy",
+        "D": "Seventy-five"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 48,
+      "chapter": 17,
+      "difficulty": "hard",
+      "question": "For how many generations has Ashworth's estate been in his family?",
+      "options": {
+        "A": "Eight generations",
+        "B": "Ten generations",
+        "C": "Eleven generations",
+        "D": "Thirteen generations"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 49,
+      "chapter": 18,
+      "difficulty": "easy",
+      "question": "What invasion route does Lucian identify for the Confederate army?",
+      "options": {
+        "A": "The northern passes",
+        "B": "The western coast",
+        "C": "The Ashford Marches",
+        "D": "Through the central valley"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 50,
+      "chapter": 18,
+      "difficulty": "hard",
+      "question": "How long does it take Sera to decrypt Lucian's intelligence package?",
+      "options": {
+        "A": "Two hours",
+        "B": "Four hours",
+        "C": "Six hours",
+        "D": "Eight hours"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 51,
+      "chapter": 19,
+      "difficulty": "medium",
+      "question": "What kind of boat does Lucian steal to escape Karshen?",
+      "options": {
+        "A": "A twelve-foot rowboat",
+        "B": "A sixteen-foot single-masted fishing vessel",
+        "C": "A twenty-foot merchant boat",
+        "D": "A naval patrol boat"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 52,
+      "chapter": 19,
+      "difficulty": "hard",
+      "question": "How many miles is the open water crossing from Karshen to Valdrath's western coast?",
+      "options": {
+        "A": "Forty miles",
+        "B": "Fifty miles",
+        "C": "Sixty miles",
+        "D": "Eighty miles"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 53,
+      "chapter": 20,
+      "difficulty": "easy",
+      "question": "What season is it when the convention is recalled?",
+      "options": {
+        "A": "Late summer",
+        "B": "Autumn",
+        "C": "Early winter",
+        "D": "Spring"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 54,
+      "chapter": 20,
+      "difficulty": "medium",
+      "question": "Who proposes the compromise to continue both reform and rearmament?",
+      "options": {
+        "A": "Theo",
+        "B": "Harston",
+        "C": "Ashworth",
+        "D": "Marcus"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 55,
+      "chapter": 20,
+      "difficulty": "hard",
+      "question": "What percentage voted for Ashworth's compromise motion?",
+      "options": {
+        "A": "Fifty-two percent",
+        "B": "Fifty-six percent",
+        "C": "Sixty percent",
+        "D": "Sixty-three percent"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 56,
+      "chapter": 21,
+      "difficulty": "medium",
+      "question": "For how many days has the rain been falling when Lucian travels the western road?",
+      "options": {
+        "A": "One day",
+        "B": "Two days",
+        "C": "Three days",
+        "D": "Five days"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 57,
+      "chapter": 21,
+      "difficulty": "medium",
+      "question": "What village does Lucian recognize as one he burned during his campaign?",
+      "options": {
+        "A": "Millhaven",
+        "B": "Greyport",
+        "C": "Thornfield",
+        "D": "Ashford"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 58,
+      "chapter": 21,
+      "difficulty": "hard",
+      "question": "What does the old man who recognizes Lucian give him?",
+      "options": {
+        "A": "Water",
+        "B": "A warning to leave",
+        "C": "Dark bread",
+        "D": "Directions"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 59,
+      "chapter": 22,
+      "difficulty": "easy",
+      "question": "How many days does the journey from Greyport to the Capital take?",
+      "options": {
+        "A": "Two days",
+        "B": "Three days",
+        "C": "Four days",
+        "D": "Five days"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 60,
+      "chapter": 22,
+      "difficulty": "medium",
+      "question": "Who accompanies Matthias on the journey besides Cassian?",
+      "options": {
+        "A": "Sera",
+        "B": "Brother Thomas",
+        "C": "Vincent",
+        "D": "The physician"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 61,
+      "chapter": 23,
+      "difficulty": "medium",
+      "question": "How does Lucian enter the Capital undetected?",
+      "options": {
+        "A": "Through the main gate in disguise",
+        "B": "Over the walls",
+        "C": "Through the tunnel system beneath the palace",
+        "D": "By bribing guards"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 62,
+      "chapter": 24,
+      "difficulty": "easy",
+      "question": "What critical information does Lucian reveal about the Confederate invasion?",
+      "options": {
+        "A": "A naval attack is planned",
+        "B": "The timeline has been moved up",
+        "C": "A secondary northern approach is being mapped",
+        "D": "Theron has been replaced"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 63,
+      "chapter": 25,
+      "difficulty": "medium",
+      "question": "What defensive position does Vincent establish against the Confederate invasion?",
+      "options": {
+        "A": "The Iron Bridge",
+        "B": "The Capital walls",
+        "C": "The Ashford Ridge",
+        "D": "The western mountain passes"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 64,
+      "chapter": 26,
+      "difficulty": "hard",
+      "question": "When does the Battle of Ashford Ridge begin?",
+      "options": {
+        "A": "Late autumn",
+        "B": "Early winter",
+        "C": "Mid-winter",
+        "D": "Spring"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 65,
+      "chapter": 27,
+      "difficulty": "medium",
+      "question": "Where is Lucian held after returning to the Capital?",
+      "options": {
+        "A": "In the palace cells",
+        "B": "In the military headquarters",
+        "C": "Under house arrest",
+        "D": "In the convention hall"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 66,
+      "chapter": 28,
+      "difficulty": "medium",
+      "question": "Which militia group does Cassian lead to the front?",
+      "options": {
+        "A": "The Capital militia",
+        "B": "The Millhaven militia",
+        "C": "The Greyport militia",
+        "D": "The Ashford militia"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 67,
+      "chapter": 29,
+      "difficulty": "medium",
+      "question": "What strategic bridge becomes a key battlefield?",
+      "options": {
+        "A": "The Stone Bridge",
+        "B": "The Western Bridge",
+        "C": "Iron Crossing",
+        "D": "The King's Bridge"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 68,
+      "chapter": 30,
+      "difficulty": "easy",
+      "question": "What does the convention pass during the invasion?",
+      "options": {
+        "A": "A surrender treaty",
+        "B": "Emergency war powers",
+        "C": "The Reformed Code",
+        "D": "A request for reinforcements"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 69,
+      "chapter": 31,
+      "difficulty": "easy",
+      "question": "Where does the major battle take place?",
+      "options": {
+        "A": "The Capital",
+        "B": "Greyport",
+        "C": "The Ashford Line",
+        "D": "Karshen"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 70,
+      "chapter": 32,
+      "difficulty": "medium",
+      "question": "What injury does Vincent sustain during the battle?",
+      "options": {
+        "A": "A leg wound",
+        "B": "A broken right arm and cracked ribs",
+        "C": "A head injury",
+        "D": "A chest wound"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 71,
+      "chapter": 33,
+      "difficulty": "medium",
+      "question": "What does Lucian reveal he lost in Karshen that the Confederacy now has?",
+      "options": {
+        "A": "His operational plans",
+        "B": "His honest journal",
+        "C": "His intelligence network contacts",
+        "D": "His personal letters"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 72,
+      "chapter": 34,
+      "difficulty": "easy",
+      "question": "What is Lucian's role at the military front?",
+      "options": {
+        "A": "Infantry commander",
+        "B": "Spy",
+        "C": "Strategic intelligence analyst",
+        "D": "Diplomatic envoy"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 73,
+      "chapter": 34,
+      "difficulty": "hard",
+      "question": "What target does Lucian identify to end the campaign?",
+      "options": {
+        "A": "Theron's headquarters",
+        "B": "The Confederate artillery positions",
+        "C": "The supply depot at Ashford Cross",
+        "D": "The Confederate border fortress"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 74,
+      "chapter": 35,
+      "difficulty": "medium",
+      "question": "What does Cassian order sent to the Confederate prisoner compound?",
+      "options": {
+        "A": "Additional food",
+        "B": "Medical supplies",
+        "C": "Additional blankets",
+        "D": "Wood for fires"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 75,
+      "chapter": 35,
+      "difficulty": "hard",
+      "question": "At what rate are the Confederate supplies depleting according to Sera's intelligence?",
+      "options": {
+        "A": "Normal rate",
+        "B": "One and a half times normal",
+        "C": "Double the normal rate",
+        "D": "Triple the normal rate"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 76,
+      "chapter": 36,
+      "difficulty": "medium",
+      "question": "How many soldiers are in the raiding force to Ashford Cross?",
+      "options": {
+        "A": "One hundred",
+        "B": "One hundred fifty",
+        "C": "Two hundred",
+        "D": "Three hundred"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 77,
+      "chapter": 36,
+      "difficulty": "hard",
+      "question": "Who placed the incendiary charges inside the ammunition stores?",
+      "options": {
+        "A": "Lucian's team during the raid",
+        "B": "Sera's embedded agents over the previous week",
+        "C": "Confederate defectors",
+        "D": "The raiding force's advance scouts"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 78,
+      "chapter": 36,
+      "difficulty": "medium",
+      "question": "How long does it take Lucian's team to light all the charges?",
+      "options": {
+        "A": "Two minutes",
+        "B": "Four minutes",
+        "C": "Six minutes",
+        "D": "Ten minutes"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 79,
+      "chapter": 37,
+      "difficulty": "medium",
+      "question": "How many casualties does the raiding force suffer?",
+      "options": {
+        "A": "Twelve",
+        "B": "Fifteen",
+        "C": "Eighteen",
+        "D": "Twenty-two"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 80,
+      "chapter": 37,
+      "difficulty": "hard",
+      "question": "How many Confederate soldiers are in the platoon that Cassian's squad fights through?",
+      "options": {
+        "A": "Twenty",
+        "B": "Thirty",
+        "C": "Forty",
+        "D": "Fifty"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 81,
+      "chapter": 38,
+      "difficulty": "medium",
+      "question": "How many days does Theron's final assault last?",
+      "options": {
+        "A": "One day",
+        "B": "Two days",
+        "C": "Three days",
+        "D": "Four days"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 82,
+      "chapter": 38,
+      "difficulty": "medium",
+      "question": "Who leads the counterattack when the center is breached?",
+      "options": {
+        "A": "Vincent",
+        "B": "Lucian",
+        "C": "Cassian",
+        "D": "Theo"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 83,
+      "chapter": 38,
+      "difficulty": "hard",
+      "question": "How many militia soldiers does Cassian pull from the eastern flank for the counterattack?",
+      "options": {
+        "A": "One thousand",
+        "B": "Fifteen hundred",
+        "C": "Two thousand",
+        "D": "Three thousand"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 84,
+      "chapter": 38,
+      "difficulty": "easy",
+      "question": "What happens to the Confederate army at the end of the battle?",
+      "options": {
+        "A": "They are annihilated",
+        "B": "They retreat in good order",
+        "C": "They surrender en masse",
+        "D": "They regroup and counterattack"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 85,
+      "chapter": 39,
+      "difficulty": "medium",
+      "question": "What is the name of the school teacher from Millhaven who dies in the battle?",
+      "options": {
+        "A": "David Marsh",
+        "B": "Robert Marsh",
+        "C": "Thomas Voss",
+        "D": "Daniel Aldren"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 86,
+      "chapter": 39,
+      "difficulty": "hard",
+      "question": "How many total casualties did Valdrath suffer in the campaign?",
+      "options": {
+        "A": "Five thousand",
+        "B": "Six thousand",
+        "C": "Eight thousand",
+        "D": "Ten thousand"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 87,
+      "chapter": 39,
+      "difficulty": "hard",
+      "question": "Approximately how many Confederate casualties were there?",
+      "options": {
+        "A": "Fifteen thousand",
+        "B": "Twenty thousand",
+        "C": "Twenty-five thousand",
+        "D": "Thirty thousand"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 88,
+      "chapter": 40,
+      "difficulty": "easy",
+      "question": "How many days after the victory does the convention reconvene?",
+      "options": {
+        "A": "One day",
+        "B": "Three days",
+        "C": "Five days",
+        "D": "One week"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 89,
+      "chapter": 40,
+      "difficulty": "medium",
+      "question": "How long does the final ratification work take?",
+      "options": {
+        "A": "Two days",
+        "B": "Three days",
+        "C": "Four days",
+        "D": "One week"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 90,
+      "chapter": 40,
+      "difficulty": "medium",
+      "question": "How does Lord Harston vote on the final Reformed Code ratification?",
+      "options": {
+        "A": "In favor",
+        "B": "Against",
+        "C": "Abstains",
+        "D": "He is absent"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 91,
+      "chapter": 40,
+      "difficulty": "hard",
+      "question": "What is the final vote count in favor of the Reformed Code?",
+      "options": {
+        "A": "Two hundred ten",
+        "B": "Two hundred twenty-four",
+        "C": "Two hundred thirty-seven",
+        "D": "Two hundred fifty"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 92,
+      "chapter": 40,
+      "difficulty": "hard",
+      "question": "How many delegates vote against the Reformed Code in the final vote?",
+      "options": {
+        "A": "Sixty-three",
+        "B": "Seventy-six",
+        "C": "Eighty-two",
+        "D": "Ninety"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 93,
+      "chapter": 40,
+      "difficulty": "easy",
+      "question": "How old is Theo when the Reformed Code passes?",
+      "options": {
+        "A": "Nineteen",
+        "B": "Twenty",
+        "C": "Twenty-one",
+        "D": "Twenty-two"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 94,
+      "chapter": 0,
+      "difficulty": "hard",
+      "question": "What street is the bakery on where Lucian buys bread in Karshen?",
+      "options": {
+        "A": "Market Street",
+        "B": "Kettle Street",
+        "C": "Harbor Street",
+        "D": "Dock Street"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 95,
+      "chapter": 8,
+      "difficulty": "hard",
+      "question": "How many times did Daveth return to Matthias seeking absolution after the first visit?",
+      "options": {
+        "A": "Once",
+        "B": "Twice",
+        "C": "Three more times",
+        "D": "Five more times"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 96,
+      "chapter": 21,
+      "difficulty": "hard",
+      "question": "What is the name of the abandoned village Lucian recognizes during his journey?",
+      "options": {
+        "A": "Harren's Ferry",
+        "B": "Thornfield",
+        "C": "Ashford Cross",
+        "D": "Millbrook"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 97,
+      "chapter": 34,
+      "difficulty": "hard",
+      "question": "How many miles is Ashford Cross behind Confederate forward positions?",
+      "options": {
+        "A": "Five miles",
+        "B": "Eight miles",
+        "C": "Ten miles",
+        "D": "Twelve miles"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 98,
+      "chapter": 36,
+      "difficulty": "hard",
+      "question": "How many incendiary charges do Lucian's team light in the depot?",
+      "options": {
+        "A": "Twelve",
+        "B": "Fifteen",
+        "C": "Seventeen",
+        "D": "Twenty"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 99,
+      "chapter": 39,
+      "difficulty": "medium",
+      "question": "What occupation did the soldier Simmons have before the war?",
+      "options": {
+        "A": "Fisherman",
+        "B": "Dock worker who operated crane number three",
+        "C": "Carpenter",
+        "D": "Blacksmith"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 100,
+      "chapter": 40,
+      "difficulty": "medium",
+      "question": "What phrase from the old prophecy does Theo whisper at the end?",
+      "options": {
+        "A": "The sword is forged",
+        "B": "Strength in service",
+        "C": "The forge burns on",
+        "D": "Honor in truth"
+      },
+      "correct_answer": "C"
+    }
+  ]
+}

@@ -1,0 +1,1307 @@
+{
+  "book_number": 6,
+  "book_title": "The Final Scar",
+  "total_questions": 100,
+  "questions": [
+    {
+      "id": 1,
+      "chapter": "Prologue",
+      "difficulty": "medium",
+      "question": "Where does Lucian find the sealed document about his parentage?",
+      "options": {
+        "A": "In his mother's personal effects",
+        "B": "In the Lord Chamberlain's office",
+        "C": "In Daveth's private archive behind the desk",
+        "D": "In the cathedral records"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 2,
+      "chapter": "Prologue",
+      "difficulty": "hard",
+      "question": "What was Queen Elara's letter to Lord Ashton filed between?",
+      "options": {
+        "A": "Two succession documents",
+        "B": "A trade agreement and a military assessment",
+        "C": "Her personal diary and medical records",
+        "D": "Financial records and correspondence"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 3,
+      "chapter": "Prologue",
+      "difficulty": "easy",
+      "question": "What was Queen Elara's cause of death?",
+      "options": {
+        "A": "Assassination",
+        "B": "Illness (as mentioned in the letter)",
+        "C": "Childbirth",
+        "D": "Accident"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 4,
+      "chapter": 1,
+      "difficulty": "easy",
+      "question": "What is the name of Cassian's horse?",
+      "options": {
+        "A": "Storm",
+        "B": "Forge",
+        "C": "Thunder",
+        "D": "Steel"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 5,
+      "chapter": 1,
+      "difficulty": "medium",
+      "question": "How many soldiers did Greyport lose in the campaign?",
+      "options": {
+        "A": "Four hundred out of four thousand",
+        "B": "Three hundred out of thirty-six hundred",
+        "C": "Five hundred out of five thousand",
+        "D": "Two hundred out of two thousand"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 6,
+      "chapter": 1,
+      "difficulty": "easy",
+      "question": "Who greets Cassian at the gates when he returns to Greyport?",
+      "options": {
+        "A": "Father Matthias",
+        "B": "Sera",
+        "C": "Mrs. Chen",
+        "D": "Brother Thomas"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 7,
+      "chapter": 1,
+      "difficulty": "medium",
+      "question": "What medical condition is afflicting Father Matthias?",
+      "options": {
+        "A": "Heart disease",
+        "B": "Progressive fibrosis of the lungs",
+        "C": "Cancer",
+        "D": "Kidney failure"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 8,
+      "chapter": 2,
+      "difficulty": "easy",
+      "question": "How old is King Theo at this point in the story?",
+      "options": {
+        "A": "Eighteen",
+        "B": "Nineteen",
+        "C": "Twenty",
+        "D": "Twenty-one"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 9,
+      "chapter": 2,
+      "difficulty": "medium",
+      "question": "What position does Vincent hold in the kingdom?",
+      "options": {
+        "A": "Lord Protector",
+        "B": "Lord Marshal",
+        "C": "Chief General",
+        "D": "War Minister"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 10,
+      "chapter": 2,
+      "difficulty": "hard",
+      "question": "What injury does Vincent have from Ashford Ridge?",
+      "options": {
+        "A": "A broken leg",
+        "B": "A broken arm",
+        "C": "A chest wound",
+        "D": "A head injury"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 11,
+      "chapter": 2,
+      "difficulty": "medium",
+      "question": "What conditions does Theo offer Lucian for his conditional freedom?",
+      "options": {
+        "A": "West wing quarters with weekly reports to Vincent",
+        "B": "East wing quarters with daily reports to Sera",
+        "C": "Tower room with monthly reports to Marcus",
+        "D": "Palace grounds with no reporting requirements"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 12,
+      "chapter": 3,
+      "difficulty": "easy",
+      "question": "How many tomato plants does Cassian plant annually for Matthias?",
+      "options": {
+        "A": "Forty",
+        "B": "Forty-one",
+        "C": "Forty-two",
+        "D": "Forty-three"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 13,
+      "chapter": 3,
+      "difficulty": "medium",
+      "question": "What news does Sera bring about Lucian's status?",
+      "options": {
+        "A": "He has escaped",
+        "B": "He has been given conditional freedom",
+        "C": "He has been executed",
+        "D": "He has been transferred to another prison"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 14,
+      "chapter": 3,
+      "difficulty": "hard",
+      "question": "What specific wine does Sera bring from the southern provinces?",
+      "options": {
+        "A": "A red wine from a military delegate",
+        "B": "A white wine from the council",
+        "C": "Wine from a delegate (described as good, possibly a bribe)",
+        "D": "Greyport ale"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 15,
+      "chapter": 4,
+      "difficulty": "medium",
+      "question": "In which wing of the palace is Lucian housed?",
+      "options": {
+        "A": "East wing",
+        "B": "West wing",
+        "C": "North wing",
+        "D": "South wing"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 16,
+      "chapter": 4,
+      "difficulty": "hard",
+      "question": "What is the name of the older guard who watches Lucian with suspicion?",
+      "options": {
+        "A": "Aldric",
+        "B": "Pell",
+        "C": "Solis",
+        "D": "Brand"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 17,
+      "chapter": 4,
+      "difficulty": "medium",
+      "question": "Where does Lucian encounter Marcus in the palace?",
+      "options": {
+        "A": "In the training yard",
+        "B": "In the library",
+        "C": "In the war room",
+        "D": "In the great hall"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 18,
+      "chapter": 5,
+      "difficulty": "easy",
+      "question": "At what time does Father Matthias's hemorrhage occur?",
+      "options": {
+        "A": "Midnight",
+        "B": "Three in the morning",
+        "C": "Five in the morning",
+        "D": "At dawn"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 19,
+      "chapter": 5,
+      "difficulty": "medium",
+      "question": "What does Dr. Harlow estimate as Matthias's remaining time to live?",
+      "options": {
+        "A": "Days",
+        "B": "Weeks, possibly a month",
+        "C": "Several months",
+        "D": "A year"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 20,
+      "chapter": 5,
+      "difficulty": "hard",
+      "question": "What does Matthias tell Cassian about healing?",
+      "options": {
+        "A": "That he healed Cassian completely",
+        "B": "That Cassian healed himself; Matthias only provided conditions",
+        "C": "That healing is impossible for some people",
+        "D": "That healing requires faith alone"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 21,
+      "chapter": 6,
+      "difficulty": "medium",
+      "question": "What does Matthias request be done with his wooden cross after his death?",
+      "options": {
+        "A": "Buried with him",
+        "B": "Given to Brother Thomas",
+        "C": "Burned with the forge-brazier flame",
+        "D": "Kept in the vestry"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 22,
+      "chapter": 6,
+      "difficulty": "hard",
+      "question": "What insight does Matthias share about the difference between love and administration?",
+      "options": {
+        "A": "That both are forms of caring",
+        "B": "That the opposite of love is not hate, but administration",
+        "C": "That administration is a necessary evil",
+        "D": "That love without administration fails"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 23,
+      "chapter": 7,
+      "difficulty": "medium",
+      "question": "What is the name of the conservative group mentioned in the council?",
+      "options": {
+        "A": "The Traditional Code Alliance",
+        "B": "The True Code Society",
+        "C": "The Warrior Code Preservation",
+        "D": "The Old Guard"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 24,
+      "chapter": 7,
+      "difficulty": "easy",
+      "question": "Who founded the True Code Society?",
+      "options": {
+        "A": "Lord Ashworth",
+        "B": "Lord Aldric Harston",
+        "C": "Vincent",
+        "D": "A Confederate sympathizer"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 25,
+      "chapter": 8,
+      "difficulty": "easy",
+      "question": "On what day of the week does Father Matthias die?",
+      "options": {
+        "A": "Sunday",
+        "B": "Monday",
+        "C": "Thursday",
+        "D": "Saturday"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 26,
+      "chapter": 8,
+      "difficulty": "medium",
+      "question": "How many years had Father Matthias been a priest?",
+      "options": {
+        "A": "Thirty-five",
+        "B": "Forty",
+        "C": "Forty-two",
+        "D": "Fifty"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 27,
+      "chapter": 8,
+      "difficulty": "hard",
+      "question": "What are Matthias's last attempted words to Cassian about Lucian?",
+      "options": {
+        "A": "Tell Lucian to repent",
+        "B": "Tell Lucian I forgive him",
+        "C": "Tell Lucian... (unfinished)",
+        "D": "Tell Lucian he was wrong"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 28,
+      "chapter": 9,
+      "difficulty": "medium",
+      "question": "Who carries the coffin at the front left during Father Matthias's funeral?",
+      "options": {
+        "A": "Brother Thomas",
+        "B": "Cassian",
+        "C": "Merrick",
+        "D": "Erik"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 29,
+      "chapter": 9,
+      "difficulty": "easy",
+      "question": "What does Cassian say was the one thing Matthias taught him?",
+      "options": {
+        "A": "To have faith",
+        "B": "To be strong",
+        "C": "That broken things can mend",
+        "D": "To forgive enemies"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 30,
+      "chapter": 9,
+      "difficulty": "hard",
+      "question": "Where in the churchyard is Matthias buried?",
+      "options": {
+        "A": "Near the front gates",
+        "B": "Beside the garden wall, near the tomatoes",
+        "C": "Under the oak tree",
+        "D": "By the church entrance"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 31,
+      "chapter": 10,
+      "difficulty": "medium",
+      "question": "What is the first thing that breaks Lucian?",
+      "options": {
+        "A": "Cassian's visit",
+        "B": "The death of Father Matthias",
+        "C": "Theo's mercy",
+        "D": "Finding the sealed document"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 32,
+      "chapter": 10,
+      "difficulty": "hard",
+      "question": "How does Lucian learn about Matthias's death?",
+      "options": {
+        "A": "From Theo",
+        "B": "From a formal announcement",
+        "C": "Casually from a guard",
+        "D": "From Cassian"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 33,
+      "chapter": 10,
+      "difficulty": "medium",
+      "question": "What does Cassian notice about Lucian's eyes during his visit?",
+      "options": {
+        "A": "They are full of anger",
+        "B": "They are flat and empty",
+        "C": "They are tearful",
+        "D": "They show remorse"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 34,
+      "chapter": 11,
+      "difficulty": "medium",
+      "question": "What district's water supply was poisoned by the Shadow Guard?",
+      "options": {
+        "A": "The Harbor District",
+        "B": "The Ironsmith District",
+        "C": "The Market District",
+        "D": "The University District"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 35,
+      "chapter": 11,
+      "difficulty": "easy",
+      "question": "What is the name of the citizen delegate from the Ironsmith district?",
+      "options": {
+        "A": "Sara Voss",
+        "B": "Thomas Greer",
+        "C": "Lord Ashworth",
+        "D": "Colonel Thrace"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 36,
+      "chapter": 11,
+      "difficulty": "hard",
+      "question": "What is Thomas Greer's profession?",
+      "options": {
+        "A": "Fisherman",
+        "B": "Blacksmith",
+        "C": "Bricklayer",
+        "D": "Carpenter"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 37,
+      "chapter": 12,
+      "difficulty": "medium",
+      "question": "What communication system does Lucian use from inside the palace?",
+      "options": {
+        "A": "Coded letters",
+        "B": "Dead drops in the palace library using book arrangements",
+        "C": "Secret meetings",
+        "D": "Signal flags"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 38,
+      "chapter": 12,
+      "difficulty": "hard",
+      "question": "What chemical compound does Sera use to tag books in the library?",
+      "options": {
+        "A": "Phosphorus",
+        "B": "Silver nitrate",
+        "C": "Arsenic selenide",
+        "D": "Mercury oxide"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 39,
+      "chapter": 13,
+      "difficulty": "medium",
+      "question": "Where does Marcus show Cassian Queen Elara's letter?",
+      "options": {
+        "A": "In the war room",
+        "B": "In Marcus's study",
+        "C": "In the library",
+        "D": "In the throne room"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 40,
+      "chapter": 13,
+      "difficulty": "hard",
+      "question": "What does Cassian deduce about when Lucian found the letter?",
+      "options": {
+        "A": "Before his exile",
+        "B": "During the coup",
+        "C": "After returning from Karshen",
+        "D": "When Theo became king"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 41,
+      "chapter": 14,
+      "difficulty": "easy",
+      "question": "What is the first target the Shadow Guard attacks after Lucian's escape?",
+      "options": {
+        "A": "A tax convoy",
+        "B": "Fort Westmark garrison",
+        "C": "A government office",
+        "D": "A bridge"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 42,
+      "chapter": 14,
+      "difficulty": "medium",
+      "question": "How many operatives does Lucian's Shadow Guard network contain at its peak?",
+      "options": {
+        "A": "Fifteen",
+        "B": "Twenty",
+        "C": "Twenty-five",
+        "D": "Thirty"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 43,
+      "chapter": 15,
+      "difficulty": "medium",
+      "question": "Who is the chemist Shadow Guard operative known as Viper?",
+      "options": {
+        "A": "A current military officer",
+        "B": "A former Shadow Guard chemist who disappeared",
+        "C": "A Confederate spy",
+        "D": "A palace servant"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 44,
+      "chapter": 15,
+      "difficulty": "hard",
+      "question": "Who is the palace servant who carries Lucian's messages?",
+      "options": {
+        "A": "A guard",
+        "B": "A librarian",
+        "C": "A kitchen worker",
+        "D": "A stable hand"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 45,
+      "chapter": 16,
+      "difficulty": "medium",
+      "question": "How does Lucian escape from the west wing?",
+      "options": {
+        "A": "Through the main door",
+        "B": "Through a tunnel",
+        "C": "Through a window with pre-cut bars and a distraction device",
+        "D": "With help from guards"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 46,
+      "chapter": 16,
+      "difficulty": "hard",
+      "question": "What does Lucian's final note to Cassian say?",
+      "options": {
+        "A": "I will destroy you all",
+        "B": "The seed survived longer than I expected",
+        "C": "Forgive me",
+        "D": "You were always wrong"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 47,
+      "chapter": 17,
+      "difficulty": "easy",
+      "question": "Where does Lucian establish his base after escaping?",
+      "options": {
+        "A": "In Karshen",
+        "B": "In a western fortress",
+        "C": "In the southern provinces",
+        "D": "In Greyport"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 48,
+      "chapter": 17,
+      "difficulty": "medium",
+      "question": "How many fighters does Lucian have at the western fortress?",
+      "options": {
+        "A": "Twenty",
+        "B": "Thirty-two",
+        "C": "Forty",
+        "D": "Fifty"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 49,
+      "chapter": 18,
+      "difficulty": "medium",
+      "question": "What false intelligence does Lucian plant to lure Theo?",
+      "options": {
+        "A": "That he's planning to assassinate the council",
+        "B": "That he's meeting with Confederate remnants",
+        "C": "That he's dying and wants to surrender",
+        "D": "That he has captured Cassian"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 50,
+      "chapter": 18,
+      "difficulty": "hard",
+      "question": "How many soldiers escort Theo on his journey to Iron Bridge?",
+      "options": {
+        "A": "Twelve",
+        "B": "Twenty",
+        "C": "Thirty",
+        "D": "Fifty"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 51,
+      "chapter": 19,
+      "difficulty": "easy",
+      "question": "Where is Theo ambushed?",
+      "options": {
+        "A": "At the fortress gates",
+        "B": "At Iron Bridge",
+        "C": "On the highway",
+        "D": "In the mountains"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 52,
+      "chapter": 19,
+      "difficulty": "medium",
+      "question": "What is the name of Theo's escort sergeant?",
+      "options": {
+        "A": "Holt",
+        "B": "Aldis",
+        "C": "Pell",
+        "D": "Brand"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 53,
+      "chapter": 19,
+      "difficulty": "hard",
+      "question": "What partial message does Signal Officer Marsh transmit before being stopped?",
+      "options": {
+        "A": "RETREAT. KING CAPTURED.",
+        "B": "AMBUSH. KING TAKEN. IRON BRIDGE.",
+        "C": "HELP. UNDER ATTACK.",
+        "D": "SURROUNDED. SEND REINFORCEMENTS."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 54,
+      "chapter": 20,
+      "difficulty": "medium",
+      "question": "What conditions does Lucian demand for Theo's release?",
+      "options": {
+        "A": "That Theo abdicate",
+        "B": "That Cassian come alone and unarmed",
+        "C": "That the kingdom surrender",
+        "D": "That he be granted full pardon"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 55,
+      "chapter": 21,
+      "difficulty": "medium",
+      "question": "What book does Lucian receive while imprisoned in the tower?",
+      "options": {
+        "A": "A military history",
+        "B": "The Reformed Code manual",
+        "C": "Marcus's 'The True Code'",
+        "D": "A book of poetry"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 56,
+      "chapter": 21,
+      "difficulty": "hard",
+      "question": "What does Lucian tell Theo about wanting from Cassian?",
+      "options": {
+        "A": "Forgiveness",
+        "B": "An honest ending - a fair fight",
+        "C": "Revenge",
+        "D": "Understanding"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 57,
+      "chapter": 22,
+      "difficulty": "medium",
+      "question": "In Lucian's journal, what does he call himself?",
+      "options": {
+        "A": "A villain",
+        "B": "A blade with hairline fractures",
+        "C": "A broken prince",
+        "D": "A shadow of a man"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 58,
+      "chapter": 22,
+      "difficulty": "hard",
+      "question": "Whose sword does Lucian carry into the final duel?",
+      "options": {
+        "A": "His own",
+        "B": "Daveth's",
+        "C": "Aldric's",
+        "D": "A Confederate officer's"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 59,
+      "chapter": 23,
+      "difficulty": "easy",
+      "question": "How does Cassian enter the fortress to rescue Theo?",
+      "options": {
+        "A": "Through the main gate",
+        "B": "Through a drainage tunnel",
+        "C": "Over the walls",
+        "D": "With a rescue force"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 60,
+      "chapter": 23,
+      "difficulty": "medium",
+      "question": "What does Cassian do to the two guards at the tower base?",
+      "options": {
+        "A": "Kills them",
+        "B": "Ties them up",
+        "C": "Knocks them unconscious",
+        "D": "Bribes them"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 61,
+      "chapter": 24,
+      "difficulty": "medium",
+      "question": "What does Sera demand of Cassian before he leaves for the fortress?",
+      "options": {
+        "A": "That he take guards with him",
+        "B": "That when he returns, they marry",
+        "C": "That he not go at all",
+        "D": "That he kill Lucian"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 62,
+      "chapter": 24,
+      "difficulty": "hard",
+      "question": "What does Sera give Cassian to help him infiltrate the fortress?",
+      "options": {
+        "A": "A weapon",
+        "B": "A coded message",
+        "C": "A map showing the drainage tunnel route",
+        "D": "Extra guards disguised as civilians"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 63,
+      "chapter": 25,
+      "difficulty": "medium",
+      "question": "How long is the drainage tunnel that Cassian must crawl through?",
+      "options": {
+        "A": "Twenty yards",
+        "B": "Thirty yards",
+        "C": "Forty yards",
+        "D": "Fifty yards"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 64,
+      "chapter": 25,
+      "difficulty": "hard",
+      "question": "What does Cassian tell Theo to do after freeing him?",
+      "options": {
+        "A": "Wait for him in the tower",
+        "B": "Go through the tunnel to safety while Cassian confronts Lucian",
+        "C": "Fight alongside him",
+        "D": "Signal for reinforcements"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 65,
+      "chapter": 26,
+      "difficulty": "easy",
+      "question": "Where does the final duel between Cassian and Lucian take place?",
+      "options": {
+        "A": "In the courtyard",
+        "B": "In the tower room",
+        "C": "In the great hall",
+        "D": "On the fortress walls"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 66,
+      "chapter": 26,
+      "difficulty": "medium",
+      "question": "What has happened to the great hall's ceiling?",
+      "options": {
+        "A": "It's intact but damaged",
+        "B": "Part of it has collapsed, showing the stars",
+        "C": "It's on fire",
+        "D": "It's been reinforced"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 67,
+      "chapter": 26,
+      "difficulty": "hard",
+      "question": "What does Lucian write in his final journal entry?",
+      "options": {
+        "A": "That he regrets everything",
+        "B": "That the seed survived longer than expected and asks for clarity, not sympathy",
+        "C": "That he hates Cassian",
+        "D": "That he was always right"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 68,
+      "chapter": 27,
+      "difficulty": "medium",
+      "question": "What does Cassian do when he first enters the great hall?",
+      "options": {
+        "A": "Immediately attacks",
+        "B": "Does not raise his sword and tries to talk",
+        "C": "Calls for Theo",
+        "D": "Searches for Lucian"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 69,
+      "chapter": 27,
+      "difficulty": "hard",
+      "question": "What does Cassian offer Lucian one final time before the duel?",
+      "options": {
+        "A": "Exile to Karshen",
+        "B": "Recognition as his brother and an extended hand",
+        "C": "A fair trial",
+        "D": "A quick death"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 70,
+      "chapter": 28,
+      "difficulty": "medium",
+      "question": "What is Lucian's primary advantage in the duel?",
+      "options": {
+        "A": "Strength",
+        "B": "Speed and creativity",
+        "C": "Reach",
+        "D": "Better weapons"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 71,
+      "chapter": 28,
+      "difficulty": "medium",
+      "question": "What is Cassian's fighting style during the duel?",
+      "options": {
+        "A": "Aggressive and fast",
+        "B": "Patient, adaptive endurance",
+        "C": "Defensive only",
+        "D": "Reckless"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 72,
+      "chapter": 28,
+      "difficulty": "hard",
+      "question": "Where does Lucian's blade strike Cassian to create the seventh scar?",
+      "options": {
+        "A": "Across his back",
+        "B": "On his arm",
+        "C": "Across his chest, directly over the heart",
+        "D": "On his leg"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 73,
+      "chapter": 28,
+      "difficulty": "medium",
+      "question": "Where does Cassian's blade strike Lucian?",
+      "options": {
+        "A": "Through the heart",
+        "B": "Below the ribs on the right side",
+        "C": "In the throat",
+        "D": "In the chest"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 74,
+      "chapter": 28,
+      "difficulty": "easy",
+      "question": "What does Lucian do as he's dying?",
+      "options": {
+        "A": "Curses Cassian",
+        "B": "Reaches for and holds Cassian's hand",
+        "C": "Tries to keep fighting",
+        "D": "Calls for help"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 75,
+      "chapter": 28,
+      "difficulty": "medium",
+      "question": "What does Lucian ask Cassian to plant in the garden?",
+      "options": {
+        "A": "Forty-two tomato plants",
+        "B": "Forty-three tomato plants",
+        "C": "A memorial tree",
+        "D": "Flowers"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 76,
+      "chapter": 28,
+      "difficulty": "hard",
+      "question": "What are Lucian's last words to Cassian?",
+      "options": {
+        "A": "I'm sorry",
+        "B": "You were always my brother",
+        "C": "Something about letting go",
+        "D": "Forgive me"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 77,
+      "chapter": 29,
+      "difficulty": "medium",
+      "question": "Who is Pell Drayn?",
+      "options": {
+        "A": "A Shadow Guard operative",
+        "B": "A guard at the fortress who was formerly a farmer",
+        "C": "One of Lucian's handlers",
+        "D": "A Capital guard"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 78,
+      "chapter": 29,
+      "difficulty": "hard",
+      "question": "What sound does Pell hear through the great hall door that affects him most?",
+      "options": {
+        "A": "The sound of swords clashing",
+        "B": "Lucian's death cry",
+        "C": "A man weeping",
+        "D": "Silence"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 79,
+      "chapter": 30,
+      "difficulty": "medium",
+      "question": "How does Cassian transport Lucian's body from the fortress?",
+      "options": {
+        "A": "On a horse",
+        "B": "Carried over his shoulder down the mountain",
+        "C": "In a cart pulled by guards",
+        "D": "He leaves it at the fortress"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 80,
+      "chapter": 30,
+      "difficulty": "hard",
+      "question": "What small gesture does a village woman make as the wagon passes?",
+      "options": {
+        "A": "She bows",
+        "B": "She places dried lavender flowers on the wagon",
+        "C": "She prays aloud",
+        "D": "She throws roses"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 81,
+      "chapter": 31,
+      "difficulty": "medium",
+      "question": "What does Theo tell the kingdom about Lucian in his address?",
+      "options": {
+        "A": "That Lucian was evil",
+        "B": "That Lucian was a product of a broken system",
+        "C": "That Lucian was innocent",
+        "D": "That Lucian was a hero"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 82,
+      "chapter": 31,
+      "difficulty": "hard",
+      "question": "How do the citizens respond to Theo's speech?",
+      "options": {
+        "A": "With applause",
+        "B": "With anger",
+        "C": "With silence, then the traditional Eternal Blade salute",
+        "D": "With cheers"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 83,
+      "chapter": 32,
+      "difficulty": "easy",
+      "question": "Where is Lucian buried?",
+      "options": {
+        "A": "In Greyport",
+        "B": "In the western mountains",
+        "C": "In the royal crypt",
+        "D": "He is cremated"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 84,
+      "chapter": 32,
+      "difficulty": "medium",
+      "question": "Who officiates Lucian's burial ceremony?",
+      "options": {
+        "A": "Theo",
+        "B": "Cassian",
+        "C": "Brother Thomas",
+        "D": "Marcus"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 85,
+      "chapter": 32,
+      "difficulty": "hard",
+      "question": "What does Cassian say to the candles he lights in the crypt?",
+      "options": {
+        "A": "Rest in peace",
+        "B": "Tell Matthias the tomatoes are growing",
+        "C": "Forgive me",
+        "D": "I did what I had to do"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 86,
+      "chapter": 33,
+      "difficulty": "medium",
+      "question": "What does Marcus document three days after the burial?",
+      "options": {
+        "A": "Lucian's death",
+        "B": "The seventh scar on Cassian's chest",
+        "C": "The funeral",
+        "D": "Theo's speech"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 87,
+      "chapter": 33,
+      "difficulty": "hard",
+      "question": "What does the prophecy say about the Scarred King?",
+      "options": {
+        "A": "A king bearing seven scars shall rule forever",
+        "B": "A prince twice-broken, bearing seven scars, shall forge the Code anew beneath the stars",
+        "C": "Seven scars for seven sins",
+        "D": "The scarred one shall bring peace"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 88,
+      "chapter": 34,
+      "difficulty": "easy",
+      "question": "Where does Cassian plan to marry Sera?",
+      "options": {
+        "A": "In the Capital",
+        "B": "In the palace",
+        "C": "At the Church of the Eternal Blade in Greyport",
+        "D": "In a private ceremony"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 89,
+      "chapter": 34,
+      "difficulty": "medium",
+      "question": "How many tomato plants does Cassian actually plant?",
+      "options": {
+        "A": "Forty-two",
+        "B": "Forty-three",
+        "C": "Forty-four",
+        "D": "Forty-one"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 90,
+      "chapter": 34,
+      "difficulty": "hard",
+      "question": "Where does Cassian plant the forty-third tomato plant (for Lucian)?",
+      "options": {
+        "A": "In the center of the garden",
+        "B": "At the end of the row, nearest the church wall",
+        "C": "By the gate",
+        "D": "In a separate plot"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 91,
+      "chapter": "Prologue",
+      "difficulty": "medium",
+      "question": "How long ago from the prologue's 'one year earlier' timeframe did Queen Elara die?",
+      "options": {
+        "A": "When Lucian was five",
+        "B": "When Lucian was six",
+        "C": "When Lucian was ten",
+        "D": "When Lucian was twelve"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 92,
+      "chapter": 1,
+      "difficulty": "easy",
+      "question": "What type of work did Cassian do during his exile in Greyport?",
+      "options": {
+        "A": "Farming",
+        "B": "Fishing",
+        "C": "Building and maintaining cranes at the docks",
+        "D": "Teaching"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 93,
+      "chapter": 3,
+      "difficulty": "medium",
+      "question": "How often does Sera visit Greyport from the Capital?",
+      "options": {
+        "A": "Weekly",
+        "B": "Every other week",
+        "C": "Monthly",
+        "D": "Quarterly"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 94,
+      "chapter": 8,
+      "difficulty": "easy",
+      "question": "What scent does Matthias associate with the garden?",
+      "options": {
+        "A": "Rosemary",
+        "B": "Basil",
+        "C": "Lavender",
+        "D": "Mint"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 95,
+      "chapter": 10,
+      "difficulty": "hard",
+      "question": "What does Lucian write in his operational journal about his psychological state?",
+      "options": {
+        "A": "That he is improving",
+        "B": "That his identity integrity is compromised",
+        "C": "That he is ready to surrender",
+        "D": "That he has found peace"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 96,
+      "chapter": 16,
+      "difficulty": "medium",
+      "question": "What tool did Lucian likely use to cut the window bars?",
+      "options": {
+        "A": "A hacksaw",
+        "B": "A wire saw or jeweler's blade",
+        "C": "A file",
+        "D": "Acid"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 97,
+      "chapter": 21,
+      "difficulty": "medium",
+      "question": "What does Theo tell Lucian about their relationship?",
+      "options": {
+        "A": "That Lucian is no longer his brother",
+        "B": "That blood doesn't matter; Lucian is his brother",
+        "C": "That he forgives everything",
+        "D": "That Lucian deserves to die"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 98,
+      "chapter": 28,
+      "difficulty": "hard",
+      "question": "What does Lucian say about Cassian being 'the best of us'?",
+      "options": {
+        "A": "That it was luck",
+        "B": "That Cassian was genuinely good, with goodness that just existed like a spring",
+        "C": "That it was training",
+        "D": "That it was favoritism"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 99,
+      "chapter": 31,
+      "difficulty": "medium",
+      "question": "According to Theo's speech, how many people died in Lucian's terror campaign?",
+      "options": {
+        "A": "Twenty-seven",
+        "B": "Thirty-five",
+        "C": "Forty-one",
+        "D": "Fifty-two"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 100,
+      "chapter": 33,
+      "difficulty": "medium",
+      "question": "What does Cassian tell Marcus about how to write Lucian's history?",
+      "options": {
+        "A": "To make him a villain",
+        "B": "To make him a hero",
+        "C": "To write it honestly - neither villain nor hero",
+        "D": "To omit him from the records"
+      },
+      "correct_answer": "C"
+    }
+  ]
+}

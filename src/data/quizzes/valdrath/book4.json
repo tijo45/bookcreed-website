@@ -1,0 +1,1307 @@
+{
+  "book_number": 4,
+  "book_title": "The Fractured Crown",
+  "total_questions": 100,
+  "questions": [
+    {
+      "id": 1,
+      "chapter": 1,
+      "difficulty": "easy",
+      "question": "What is the date specified in the intercepted Confederate treaty for the coup against Theo?",
+      "options": {
+        "A": "The 10th of Frostfall",
+        "B": "The 14th of Frostfall",
+        "C": "The 20th of Frostfall",
+        "D": "The 1st of Frostfall"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 2,
+      "chapter": 1,
+      "difficulty": "medium",
+      "question": "Why is the coup date particularly cruel according to Sera?",
+      "options": {
+        "A": "It's the anniversary of Daveth's coronation",
+        "B": "It's the day of a sacred festival",
+        "C": "It's Theo's mother's birthday",
+        "D": "It's the anniversary of Aldric's death"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 3,
+      "chapter": 1,
+      "difficulty": "easy",
+      "question": "How many Confederate troops are initially committed to the coup according to the treaty?",
+      "options": {
+        "A": "10,000 troops",
+        "B": "15,000 troops",
+        "C": "20,000 troops",
+        "D": "25,000 troops"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 4,
+      "chapter": 2,
+      "difficulty": "medium",
+      "question": "What is Colonel Aria's role in Vincent's command?",
+      "options": {
+        "A": "Supply officer",
+        "B": "Second-in-command",
+        "C": "Intelligence analyst",
+        "D": "Cavalry commander"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 5,
+      "chapter": 2,
+      "difficulty": "hard",
+      "question": "How many Confederate divisions are observed at the Ash River valley?",
+      "options": {
+        "A": "Two divisions (4th and 7th)",
+        "B": "Three divisions (4th, 7th, and 12th)",
+        "C": "Four divisions",
+        "D": "Five divisions"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 6,
+      "chapter": 2,
+      "difficulty": "easy",
+      "question": "What nervous habit does Vincent have when making decisions?",
+      "options": {
+        "A": "He taps his fingers",
+        "B": "He rotates his field glass",
+        "C": "He paces back and forth",
+        "D": "He cleans his sword"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 7,
+      "chapter": 3,
+      "difficulty": "medium",
+      "question": "Where does Lucian's exile bring him before returning to Valdrath?",
+      "options": {
+        "A": "Westport, Free Port",
+        "B": "Eastmarch, Free Port",
+        "C": "Karshen, Free Port",
+        "D": "Northhaven, Free Port"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 8,
+      "chapter": 3,
+      "difficulty": "easy",
+      "question": "How many people comprise Lucian's inner circle when he returns?",
+      "options": {
+        "A": "Five",
+        "B": "Seven",
+        "C": "Ten",
+        "D": "Twelve"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 9,
+      "chapter": 3,
+      "difficulty": "hard",
+      "question": "What is the name of Lucian's intelligence analyst?",
+      "options": {
+        "A": "Maren",
+        "B": "Maria",
+        "C": "Martha",
+        "D": "Margaret"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 10,
+      "chapter": 4,
+      "difficulty": "medium",
+      "question": "How many journals has Edric filled during his confinement?",
+      "options": {
+        "A": "Two volumes",
+        "B": "Three volumes",
+        "C": "Four volumes",
+        "D": "Five volumes"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 11,
+      "chapter": 4,
+      "difficulty": "easy",
+      "question": "What position did Edric hold before his confinement?",
+      "options": {
+        "A": "Minister of War",
+        "B": "Minister of Foreign Affairs",
+        "C": "Minister of Trade",
+        "D": "Lord Protector"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 12,
+      "chapter": 4,
+      "difficulty": "medium",
+      "question": "Who is the Confederate Ambassador that visits Edric?",
+      "options": {
+        "A": "Ambassador Theron",
+        "B": "Ambassador Talven",
+        "C": "Ambassador Harsk",
+        "D": "Ambassador Pell"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 13,
+      "chapter": 5,
+      "difficulty": "easy",
+      "question": "At what time does the coup begin at the palace?",
+      "options": {
+        "A": "Midnight",
+        "B": "Dawn",
+        "C": "The blackest hour of night",
+        "D": "Sunset"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 14,
+      "chapter": 5,
+      "difficulty": "hard",
+      "question": "What does Theo take with him when he flees the palace?",
+      "options": {
+        "A": "The crown and his sword",
+        "B": "His mother's journal and a lamp",
+        "C": "Gold and documents",
+        "D": "The royal seal"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 15,
+      "chapter": 5,
+      "difficulty": "medium",
+      "question": "How many people escape with Theo through the tunnels?",
+      "options": {
+        "A": "Eight",
+        "B": "Ten",
+        "C": "Twelve",
+        "D": "Fifteen"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 16,
+      "chapter": 6,
+      "difficulty": "easy",
+      "question": "What does Edric notice is wrong with the crown when he wears it?",
+      "options": {
+        "A": "It's too heavy",
+        "B": "It doesn't fit properly",
+        "C": "It's damaged",
+        "D": "It's the wrong color"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 17,
+      "chapter": 6,
+      "difficulty": "medium",
+      "question": "Who officiates Edric's hasty coronation ceremony?",
+      "options": {
+        "A": "The High Forge-Master",
+        "B": "A Confederate military chaplain",
+        "C": "Ambassador Talven",
+        "D": "General Theron"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 18,
+      "chapter": 6,
+      "difficulty": "hard",
+      "question": "How many provinces does the expanded territorial implementation schedule include (beyond the original three)?",
+      "options": {
+        "A": "Four provinces total",
+        "B": "Five provinces total",
+        "C": "Six provinces total",
+        "D": "Seven provinces total"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 19,
+      "chapter": 7,
+      "difficulty": "easy",
+      "question": "What is the name of the innkeeper in Millhaven who helps Theo?",
+      "options": {
+        "A": "Barbara",
+        "B": "Brenda",
+        "C": "Brenna",
+        "D": "Belinda"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 20,
+      "chapter": 7,
+      "difficulty": "medium",
+      "question": "What reward does Edric offer for information leading to Theo's capture?",
+      "options": {
+        "A": "Twenty-five thousand gold crowns",
+        "B": "Fifty thousand gold crowns",
+        "C": "One hundred thousand gold crowns",
+        "D": "Ten thousand gold crowns"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 21,
+      "chapter": 7,
+      "difficulty": "hard",
+      "question": "Why does Brenna help Theo despite the risk?",
+      "options": {
+        "A": "She was paid gold",
+        "B": "She's related to one of Theo's supporters",
+        "C": "Theo built a school in her town that taught her granddaughter to read",
+        "D": "She hates the Confederacy"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 22,
+      "chapter": 8,
+      "difficulty": "easy",
+      "question": "What cove does Lucian land at when returning to Valdrath?",
+      "options": {
+        "A": "Ironhaven cove",
+        "B": "Stormhaven cove",
+        "C": "Shadowhaven cove",
+        "D": "Darkhaven cove"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 23,
+      "chapter": 8,
+      "difficulty": "medium",
+      "question": "What is the name of the innkeeper veteran who first meets Lucian?",
+      "options": {
+        "A": "The innkeeper's name is not given",
+        "B": "Gresham",
+        "C": "Harken",
+        "D": "Hansen"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 24,
+      "chapter": 8,
+      "difficulty": "medium",
+      "question": "Which western lord does Lucian meet first?",
+      "options": {
+        "A": "Baron Stelford",
+        "B": "Lady Harrow",
+        "C": "Lord Greaves",
+        "D": "Lord Ashworth"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 25,
+      "chapter": 9,
+      "difficulty": "easy",
+      "question": "How many days after the coup does Theo arrive in Greyport?",
+      "options": {
+        "A": "Six days",
+        "B": "Eight days",
+        "C": "Ten days",
+        "D": "Twelve days"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 26,
+      "chapter": 9,
+      "difficulty": "hard",
+      "question": "What is the name of the harbor master who represents dock workers?",
+      "options": {
+        "A": "Thomas",
+        "B": "Torsten",
+        "C": "Thaddeus",
+        "D": "Timothy"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 27,
+      "chapter": 9,
+      "difficulty": "medium",
+      "question": "According to Father Matthias, what advantage do the loyalists have that the Confederacy doesn't?",
+      "options": {
+        "A": "Superior numbers",
+        "B": "Better weapons",
+        "C": "Legitimacy",
+        "D": "The mountain terrain"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 28,
+      "chapter": 10,
+      "difficulty": "easy",
+      "question": "How many days after the coup does Vincent receive Theo's summons?",
+      "options": {
+        "A": "Eight days",
+        "B": "Ten days",
+        "C": "Twelve days",
+        "D": "Fifteen days"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 29,
+      "chapter": 10,
+      "difficulty": "medium",
+      "question": "What title does the Confederate offer promise Vincent?",
+      "options": {
+        "A": "Lord Marshal",
+        "B": "Lord Protector",
+        "C": "Guardian of the Realm",
+        "D": "High Commander"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 30,
+      "chapter": 10,
+      "difficulty": "hard",
+      "question": "What two words does Theo's letter to Vincent end with?",
+      "options": {
+        "A": "'Come quickly'",
+        "B": "'I'm waiting'",
+        "C": "'Prove yourself'",
+        "D": "'Trust me'"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 31,
+      "chapter": 11,
+      "difficulty": "easy",
+      "question": "How many weeks after the coup is Edric's usurper court scene set?",
+      "options": {
+        "A": "One week",
+        "B": "Two weeks",
+        "C": "Three weeks",
+        "D": "Four weeks"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 32,
+      "chapter": 11,
+      "difficulty": "medium",
+      "question": "What is General Theron's plan for dealing with Lucian?",
+      "options": {
+        "A": "Attack him immediately in the west",
+        "B": "Break loyalist resistance at Greyport first, then pivot west",
+        "C": "Ignore him as he's not a threat",
+        "D": "Negotiate an alliance with him"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 33,
+      "chapter": 11,
+      "difficulty": "hard",
+      "question": "What is the name of the kitchen boy Edric trusts to carry his secret letters?",
+      "options": {
+        "A": "William",
+        "B": "Wilfred",
+        "C": "Willem",
+        "D": "Walter"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 34,
+      "chapter": 12,
+      "difficulty": "easy",
+      "question": "What does Cassian want to do regarding the Ashford Bridge?",
+      "options": {
+        "A": "Destroy it",
+        "B": "Hold it defensively",
+        "C": "Ignore it",
+        "D": "Advance south to meet the Confederates before they reach it"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 35,
+      "chapter": 12,
+      "difficulty": "medium",
+      "question": "Who sends unsigned intelligence to Theo about Confederate troop movements?",
+      "options": {
+        "A": "Vincent",
+        "B": "Marcus",
+        "C": "Edric",
+        "D": "Lucian"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 36,
+      "chapter": 12,
+      "difficulty": "easy",
+      "question": "What one-word response does Theo send to Edric?",
+      "options": {
+        "A": "'Stop'",
+        "B": "'Continue'",
+        "C": "'Thanks'",
+        "D": "'Proceed'"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 37,
+      "chapter": 13,
+      "difficulty": "medium",
+      "question": "How long does Lucian's convoy raid last?",
+      "options": {
+        "A": "Eight minutes",
+        "B": "Eleven minutes",
+        "C": "Fifteen minutes",
+        "D": "Twenty minutes"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 38,
+      "chapter": 13,
+      "difficulty": "hard",
+      "question": "What does the bread woman in Westmarch say about Lucian?",
+      "options": {
+        "A": "He's dangerous",
+        "B": "He's not like they say, he's a good man",
+        "C": "He's exactly what they say",
+        "D": "He's too ambitious"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 39,
+      "chapter": 14,
+      "difficulty": "easy",
+      "question": "What town does Vincent visit during his inspection tour?",
+      "options": {
+        "A": "Millford",
+        "B": "Ashford",
+        "C": "Hartwell",
+        "D": "Ironhaven"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 40,
+      "chapter": 14,
+      "difficulty": "medium",
+      "question": "What devastating question does a young girl ask Vincent?",
+      "options": {
+        "A": "'When will the war end?'",
+        "B": "'Are you going to save us?'",
+        "C": "'Where is my father?'",
+        "D": "'Why are you here?'"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 41,
+      "chapter": 14,
+      "difficulty": "hard",
+      "question": "What is the name of the innkeeper veteran Vincent encounters in Millford?",
+      "options": {
+        "A": "Greaves",
+        "B": "Gresham",
+        "C": "Garrett",
+        "D": "Graham"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 42,
+      "chapter": 15,
+      "difficulty": "medium",
+      "question": "What document does Marcus find about Edric's treaty?",
+      "options": {
+        "A": "A military plan",
+        "B": "The succession arrangement showing Confederate plans to replace Edric",
+        "C": "Evidence of Lucian's involvement",
+        "D": "Vincent's response"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 43,
+      "chapter": 15,
+      "difficulty": "hard",
+      "question": "Within how many months does the succession arrangement plan to replace Edric with a Confederate governor?",
+      "options": {
+        "A": "Twelve months",
+        "B": "Eighteen months",
+        "C": "Twenty-four months",
+        "D": "Thirty-six months"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 44,
+      "chapter": 16,
+      "difficulty": "easy",
+      "question": "How does Edric discover the succession arrangement?",
+      "options": {
+        "A": "Theo tells him",
+        "B": "He finds it disguised as a routine administrative document",
+        "C": "Ambassador Talven reveals it",
+        "D": "Marcus's broadsides inform him"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 45,
+      "chapter": 17,
+      "difficulty": "medium",
+      "question": "How many troops does Lucian have when he attacks the Thornfield garrison?",
+      "options": {
+        "A": "Five thousand",
+        "B": "Eight thousand",
+        "C": "Twenty fighters for the rear infiltration",
+        "D": "Ten thousand"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 46,
+      "chapter": 17,
+      "difficulty": "hard",
+      "question": "What does the young Confederate lieutenant ask Lucian after being released?",
+      "options": {
+        "A": "'Will you spare us again?'",
+        "B": "'You could have killed us. Why didn't you?'",
+        "C": "'Are we truly free?'",
+        "D": "'What will happen now?'"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 47,
+      "chapter": 18,
+      "difficulty": "easy",
+      "question": "Where does Theo give his speech abandoning his prepared remarks?",
+      "options": {
+        "A": "Greyport",
+        "B": "Ironhaven",
+        "C": "Coldwater",
+        "D": "Millhaven"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 48,
+      "chapter": 18,
+      "difficulty": "medium",
+      "question": "How many miners gathered to hear Theo speak at Ironhaven?",
+      "options": {
+        "A": "One thousand",
+        "B": "Two thousand",
+        "C": "Three thousand",
+        "D": "Five thousand"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 49,
+      "chapter": 19,
+      "difficulty": "easy",
+      "question": "What does Vincent ultimately do with the offers from Edric and Lucian?",
+      "options": {
+        "A": "Accept both",
+        "B": "Burn them",
+        "C": "Send them to Theo",
+        "D": "File them away"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 50,
+      "chapter": 19,
+      "difficulty": "hard",
+      "question": "What detail about Cassian's garden convinces Vincent to commit his army?",
+      "options": {
+        "A": "The garden survived the winter",
+        "B": "Cassian is planting more tomatoes",
+        "C": "The garden produced enough tomatoes to feed forty people",
+        "D": "The garden has winter vegetables"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 51,
+      "chapter": 20,
+      "difficulty": "easy",
+      "question": "How many weeks after the coup does the Battle of Ashford Bridge occur?",
+      "options": {
+        "A": "Eight weeks",
+        "B": "Ten weeks",
+        "C": "Twelve weeks",
+        "D": "Fourteen weeks"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 52,
+      "chapter": 20,
+      "difficulty": "medium",
+      "question": "What does Cassian do that shocks the loyalist and Confederate forces?",
+      "options": {
+        "A": "He challenges their commander to single combat",
+        "B": "He fights shirtless, displaying his scars",
+        "C": "He leads a cavalry charge",
+        "D": "He gives a speech before battle"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 53,
+      "chapter": 20,
+      "difficulty": "hard",
+      "question": "How many loyalist casualties are there at Ashford Bridge?",
+      "options": {
+        "A": "156 dead, 200 wounded",
+        "B": "206 dead, 312 wounded",
+        "C": "300 dead, 400 wounded",
+        "D": "150 dead, 250 wounded"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 54,
+      "chapter": 21,
+      "difficulty": "medium",
+      "question": "How many troops does Lucian move toward the Capital?",
+      "options": {
+        "A": "Five thousand",
+        "B": "Six thousand",
+        "C": "Eight thousand",
+        "D": "Ten thousand"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 55,
+      "chapter": 22,
+      "difficulty": "easy",
+      "question": "Who does Edric write his confessional letters to?",
+      "options": {
+        "A": "Cassian",
+        "B": "Theo",
+        "C": "Marcus",
+        "D": "Vincent"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 56,
+      "chapter": 23,
+      "difficulty": "medium",
+      "question": "How many soldiers does Vincent march west with?",
+      "options": {
+        "A": "Twenty thousand",
+        "B": "Thirty thousand",
+        "C": "Forty thousand",
+        "D": "Sixty thousand"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 57,
+      "chapter": 23,
+      "difficulty": "hard",
+      "question": "What message does Vincent add to his second letter to Theo?",
+      "options": {
+        "A": "'I trust you'",
+        "B": "'See you soon'",
+        "C": "'The garden better have produced more than forty tomatoes by the time I arrive'",
+        "D": "'We will win'"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 58,
+      "chapter": 24,
+      "difficulty": "medium",
+      "question": "What is Vincent's fourth condition in his terms to Theo?",
+      "options": {
+        "A": "Vincent gets supreme command",
+        "B": "Cassian serves as field commander under Vincent's authority",
+        "C": "Post-victory constitutional convention",
+        "D": "The eastern provinces get representation"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 59,
+      "chapter": 25,
+      "difficulty": "easy",
+      "question": "From which direction does Vincent enter the Capital?",
+      "options": {
+        "A": "North",
+        "B": "South",
+        "C": "East",
+        "D": "West"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 60,
+      "chapter": 25,
+      "difficulty": "medium",
+      "question": "Who opens the eastern gate for Vincent's forces?",
+      "options": {
+        "A": "Lucian's troops",
+        "B": "Confederate soldiers",
+        "C": "The civilian population",
+        "D": "Edric"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 61,
+      "chapter": 26,
+      "difficulty": "hard",
+      "question": "How many militia does Theo deploy to contain Theron at Millhaven?",
+      "options": {
+        "A": "Three thousand",
+        "B": "Five thousand",
+        "C": "Seven thousand",
+        "D": "Ten thousand"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 62,
+      "chapter": 27,
+      "difficulty": "easy",
+      "question": "What does Edric do that ends the palace siege?",
+      "options": {
+        "A": "He surrenders to Lucian",
+        "B": "He orders the Confederate garrison to open the gates",
+        "C": "He flees the palace",
+        "D": "He negotiates a truce"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 63,
+      "chapter": 28,
+      "difficulty": "medium",
+      "question": "Where does Lucian find Edric after the surrender?",
+      "options": {
+        "A": "In his chambers",
+        "B": "In the throne room, sitting on the Iron Throne",
+        "C": "In the courtyard",
+        "D": "In the archives"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 64,
+      "chapter": 28,
+      "difficulty": "hard",
+      "question": "What observation does Edric make about himself and Lucian?",
+      "options": {
+        "A": "They're both cowards",
+        "B": "They're the same - both betrayed family, one for a crown, one for spite",
+        "C": "They're both victims",
+        "D": "They're both stronger than their other brothers"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 65,
+      "chapter": 29,
+      "difficulty": "easy",
+      "question": "Where do Theo and Vincent first meet during the convergence?",
+      "options": {
+        "A": "At the Capital gates",
+        "B": "In Greyport",
+        "C": "At a stream crossing in a farmer's field",
+        "D": "At Ashford Bridge"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 66,
+      "chapter": 30,
+      "difficulty": "medium",
+      "question": "What year was the document Lucian finds in the vault written?",
+      "options": {
+        "A": "Year 4985",
+        "B": "Year 4988",
+        "C": "Year 4990",
+        "D": "Year 5000"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 67,
+      "chapter": 30,
+      "difficulty": "hard",
+      "question": "What does Daveth's confession reveal about the Seven Farmers incident?",
+      "options": {
+        "A": "Cassian acted on his own",
+        "B": "The farmers were truly guilty",
+        "C": "Daveth ordered Cassian to conduct the trial knowing the farmers would die",
+        "D": "It was an accident"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 68,
+      "chapter": 31,
+      "difficulty": "easy",
+      "question": "How many brothers are in the throne room for the confrontation?",
+      "options": {
+        "A": "Three",
+        "B": "Four",
+        "C": "Five",
+        "D": "Six"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 69,
+      "chapter": 31,
+      "difficulty": "medium",
+      "question": "What does Lucian give to Cassian instead of using it as leverage?",
+      "options": {
+        "A": "Confederate battle plans",
+        "B": "Daveth's confession about the Seven Farmers",
+        "C": "Evidence of Edric's treason",
+        "D": "Maps of the western territories"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 70,
+      "chapter": 31,
+      "difficulty": "hard",
+      "question": "What question does Lucian say he's trying to answer?",
+      "options": {
+        "A": "Whether he can win the war",
+        "B": "Whether he's the man who burned a cathedral or someone else",
+        "C": "Whether he deserves forgiveness",
+        "D": "Whether he should flee"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 71,
+      "chapter": 32,
+      "difficulty": "medium",
+      "question": "Where are Edric and Lucian detained together?",
+      "options": {
+        "A": "In the dungeon",
+        "B": "In a guest chamber in the south wing",
+        "C": "In the eastern tower",
+        "D": "In Edric's former confinement rooms"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 72,
+      "chapter": 32,
+      "difficulty": "easy",
+      "question": "What do both Edric and Lucian begin writing in detention?",
+      "options": {
+        "A": "Appeals for clemency",
+        "B": "Formal statements and confessions for their trials",
+        "C": "Letters to their family",
+        "D": "Political manifestos"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 73,
+      "chapter": 33,
+      "difficulty": "hard",
+      "question": "How many total Confederate prisoners are there after the surrender?",
+      "options": {
+        "A": "Eight thousand",
+        "B": "Nine thousand",
+        "C": "Eleven thousand",
+        "D": "Thirteen thousand"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 74,
+      "chapter": 33,
+      "difficulty": "medium",
+      "question": "What feature of Cassian's letter does Vincent specifically note?",
+      "options": {
+        "A": "The mention of Father Matthias",
+        "B": "The plans for the garden - planting winter vegetables",
+        "C": "The military strategy suggestions",
+        "D": "The description of the city's recovery"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 75,
+      "chapter": 34,
+      "difficulty": "easy",
+      "question": "What does Theo carry when he walks through the palace corridors after liberation?",
+      "options": {
+        "A": "His sword",
+        "B": "The morning's dispatches",
+        "C": "The fractured crown",
+        "D": "His mother's journal"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 76,
+      "chapter": 34,
+      "difficulty": "medium",
+      "question": "What is the condition of the crown when Theo finds it?",
+      "options": {
+        "A": "It's been stolen",
+        "B": "It's intact",
+        "C": "It has a visible fracture",
+        "D": "It's been melted down"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 77,
+      "chapter": 35,
+      "difficulty": "hard",
+      "question": "How does Lucian plead to all charges at his trial?",
+      "options": {
+        "A": "Not guilty",
+        "B": "Guilty to some charges",
+        "C": "Guilty to all charges",
+        "D": "No contest"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 78,
+      "chapter": 35,
+      "difficulty": "medium",
+      "question": "What sentence does Theo give Lucian?",
+      "options": {
+        "A": "Death",
+        "B": "Life imprisonment",
+        "C": "Fifteen years exile",
+        "D": "Ten years exile"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 79,
+      "chapter": 35,
+      "difficulty": "easy",
+      "question": "What does Lucian ask Cassian about before leaving the throne room?",
+      "options": {
+        "A": "Forgiveness",
+        "B": "The garden and tomatoes",
+        "C": "Vincent's army",
+        "D": "The battle at Ashford"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 80,
+      "chapter": 36,
+      "difficulty": "medium",
+      "question": "What is the name of the Confederate colonel who leads the final holdouts?",
+      "options": {
+        "A": "Colonel Theron",
+        "B": "Colonel Harsk",
+        "C": "Colonel Drayton",
+        "D": "Colonel Brent"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 81,
+      "chapter": 36,
+      "difficulty": "hard",
+      "question": "How many Confederate holdouts refuse repatriation initially?",
+      "options": {
+        "A": "Six hundred",
+        "B": "Eight hundred",
+        "C": "One thousand",
+        "D": "Twelve hundred"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 82,
+      "chapter": 37,
+      "difficulty": "easy",
+      "question": "What is the name of the royal metalworker who repairs the crown?",
+      "options": {
+        "A": "Garret Ironhand",
+        "B": "Garrett Silversmith",
+        "C": "George Goldsmith",
+        "D": "Gregory Steelhand"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "id": 83,
+      "chapter": 37,
+      "difficulty": "medium",
+      "question": "What Japanese tradition does Garret mention regarding broken objects?",
+      "options": {
+        "A": "Wabi-sabi",
+        "B": "Kintsugi",
+        "C": "Ikebana",
+        "D": "Mono no aware"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 84,
+      "chapter": 37,
+      "difficulty": "hard",
+      "question": "How many days does Garret need to repair the crown?",
+      "options": {
+        "A": "Two days",
+        "B": "Three days",
+        "C": "Five days",
+        "D": "One week"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 85,
+      "chapter": 37,
+      "difficulty": "medium",
+      "question": "What does Theo want done with the crown's fracture?",
+      "options": {
+        "A": "Hidden completely",
+        "B": "Left unfixed",
+        "C": "Filled with gold but kept visible",
+        "D": "Replaced with a new crown"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 86,
+      "chapter": 38,
+      "difficulty": "easy",
+      "question": "What is Vincent doing when the book's main narrative concludes?",
+      "options": {
+        "A": "Preparing for another battle",
+        "B": "Standing on the palace wall at dawn",
+        "C": "Meeting with Theo",
+        "D": "Writing reports"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 87,
+      "chapter": 38,
+      "difficulty": "medium",
+      "question": "How many tomatoes does Cassian plan to produce next year?",
+      "options": {
+        "A": "Forty",
+        "B": "Forty-two",
+        "C": "Fifty",
+        "D": "Twice as many (eighty)"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 88,
+      "chapter": "Multiple",
+      "difficulty": "easy",
+      "question": "What is the unofficial title that describes Vincent's role?",
+      "options": {
+        "A": "Lord Protector",
+        "B": "Lord Marshal",
+        "C": "High Commander",
+        "D": "War Master"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 89,
+      "chapter": "Multiple",
+      "difficulty": "medium",
+      "question": "How many total loyalist militia are assembled at Greyport?",
+      "options": {
+        "A": "Ten thousand",
+        "B": "Fifteen thousand",
+        "C": "Twenty thousand",
+        "D": "Twenty-five thousand"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 90,
+      "chapter": "Multiple",
+      "difficulty": "hard",
+      "question": "What are the three provinces originally ceded in Edric's treaty?",
+      "options": {
+        "A": "Ashford Marches, Iron Vale, Greenwater",
+        "B": "Ashford Marches, Iron Vale, Southern Reach",
+        "C": "Iron Vale, Southern Reach, Millhaven",
+        "D": "Ashford, Westmarch, Southern Reach"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 91,
+      "chapter": "Multiple",
+      "difficulty": "medium",
+      "question": "Which brother manages the propaganda campaign with printed broadsides?",
+      "options": {
+        "A": "Cassian",
+        "B": "Theo",
+        "C": "Marcus",
+        "D": "Vincent"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 92,
+      "chapter": "Multiple",
+      "difficulty": "easy",
+      "question": "What is the name of Cassian's love interest and the intelligence officer?",
+      "options": {
+        "A": "Sara",
+        "B": "Sera",
+        "C": "Cera",
+        "D": "Sarah"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 93,
+      "chapter": "Multiple",
+      "difficulty": "hard",
+      "question": "How many years was Cassian in exile before the events of this book?",
+      "options": {
+        "A": "Ten years",
+        "B": "Twelve years",
+        "C": "Fifteen years",
+        "D": "Twenty years"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 94,
+      "chapter": "Multiple",
+      "difficulty": "medium",
+      "question": "What is the symbolic number that appears repeatedly in Valdrath (princes, trials, virtues)?",
+      "options": {
+        "A": "Five",
+        "B": "Six",
+        "C": "Seven",
+        "D": "Eight"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 95,
+      "chapter": "Multiple",
+      "difficulty": "easy",
+      "question": "What is the name of the aged priest who mentored Cassian in Greyport?",
+      "options": {
+        "A": "Father Martin",
+        "B": "Father Matthias",
+        "C": "Father Michael",
+        "D": "Father Marcus"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 96,
+      "chapter": "Multiple",
+      "difficulty": "hard",
+      "question": "What is the sentence that Edric receives at his trial?",
+      "options": {
+        "A": "Death",
+        "B": "Life imprisonment",
+        "C": "Ten years exile",
+        "D": "Fifteen years exile"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 97,
+      "chapter": "Multiple",
+      "difficulty": "medium",
+      "question": "What bridge serves as the major defensive position for the loyalists?",
+      "options": {
+        "A": "Iron Bridge",
+        "B": "Ashford Bridge",
+        "C": "Greyport Bridge",
+        "D": "Capital Bridge"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 98,
+      "chapter": "Multiple",
+      "difficulty": "easy",
+      "question": "How old is Theo during the events of this book?",
+      "options": {
+        "A": "Sixteen",
+        "B": "Seventeen",
+        "C": "Eighteen",
+        "D": "Nineteen"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 99,
+      "chapter": "Multiple",
+      "difficulty": "medium",
+      "question": "Which western lord controls the shipping fleet?",
+      "options": {
+        "A": "Lord Greaves",
+        "B": "Lady Harrow",
+        "C": "Baron Stelford",
+        "D": "Lord Ashworth"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 100,
+      "chapter": "Multiple",
+      "difficulty": "hard",
+      "question": "What is the specific injury Cassian receives during the Battle of Ashford Bridge?",
+      "options": {
+        "A": "A sword cut to his chest",
+        "B": "A musket ball graze to his left arm",
+        "C": "An arrow wound to his shoulder",
+        "D": "A broken rib"
+      },
+      "correct_answer": "B"
+    }
+  ]
+}

@@ -1,0 +1,1307 @@
+{
+  "book_number": 7,
+  "book_title": "The Quiet Throne",
+  "total_questions": 100,
+  "questions": [
+    {
+      "id": 1,
+      "chapter": "Prologue",
+      "difficulty": "easy",
+      "question": "How many tomato plants does Cassian plant in the garden?",
+      "options": {
+        "A": "Thirty-five",
+        "B": "Forty-two",
+        "C": "Forty-three",
+        "D": "Fifty"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 2,
+      "chapter": "Prologue",
+      "difficulty": "medium",
+      "question": "What does the forty-third tomato plant represent?",
+      "options": {
+        "A": "One for each year since the war began",
+        "B": "One for Matthias, the priest",
+        "C": "One for each of Cassian's scars",
+        "D": "One for Lucian's memory"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 3,
+      "chapter": "Prologue",
+      "difficulty": "easy",
+      "question": "How old is Cassian at the start of the book?",
+      "options": {
+        "A": "Thirty-five",
+        "B": "Thirty-eight",
+        "C": "Forty",
+        "D": "Forty-two"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 4,
+      "chapter": 1,
+      "difficulty": "medium",
+      "question": "What position does Marcus hold at the start of the book?",
+      "options": {
+        "A": "Royal Advisor",
+        "B": "Lord Chancellor",
+        "C": "Prime Minister",
+        "D": "Chief Justice"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 5,
+      "chapter": 1,
+      "difficulty": "medium",
+      "question": "What percentage of votes does Theo currently have in support of the Reformed Code?",
+      "options": {
+        "A": "Fifty percent",
+        "B": "Sixty-two percent",
+        "C": "Seventy-five percent",
+        "D": "Eighty percent"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 6,
+      "chapter": 1,
+      "difficulty": "hard",
+      "question": "How long has Marcus been Lord Chancellor at the start of the book?",
+      "options": {
+        "A": "Three months",
+        "B": "Six weeks",
+        "C": "One year",
+        "D": "Two years"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 7,
+      "chapter": 2,
+      "difficulty": "easy",
+      "question": "Where does Cassian live in retirement?",
+      "options": {
+        "A": "The Capital",
+        "B": "Thornfield",
+        "C": "Greyport",
+        "D": "Millhaven"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 8,
+      "chapter": 2,
+      "difficulty": "medium",
+      "question": "What does Cassian maintain at the docks?",
+      "options": {
+        "A": "Fishing boats",
+        "B": "A warehouse",
+        "C": "A mechanical crane",
+        "D": "A shipyard"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 9,
+      "chapter": 2,
+      "difficulty": "medium",
+      "question": "What is Erik's notable injury from the war?",
+      "options": {
+        "A": "A missing arm",
+        "B": "A bad leg that limps",
+        "C": "Blindness in one eye",
+        "D": "A scarred face"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 10,
+      "chapter": 2,
+      "difficulty": "hard",
+      "question": "How old is Erik, the young dock worker?",
+      "options": {
+        "A": "Seventeen",
+        "B": "Nineteen",
+        "C": "Twenty-one",
+        "D": "Twenty-three"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 11,
+      "chapter": 3,
+      "difficulty": "medium",
+      "question": "What is the recurring nightmare about Lucian that haunts Cassian?",
+      "options": {
+        "A": "Lucian attacking him in the palace",
+        "B": "The fortress duel",
+        "C": "Running through palace corridors as boys",
+        "D": "Lucian's betrayal at the cathedral"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 12,
+      "chapter": 3,
+      "difficulty": "hard",
+      "question": "What does Lucian say to Cassian in the changed nightmare?",
+      "options": {
+        "A": "I forgive you",
+        "B": "You were always the strong one, Cass",
+        "C": "This is what I wanted",
+        "D": "Thank you, brother"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 13,
+      "chapter": 4,
+      "difficulty": "medium",
+      "question": "What is the name of the conservative group Harston leads?",
+      "options": {
+        "A": "The True Code Society",
+        "B": "The Restoration",
+        "C": "The Conservative Compact",
+        "D": "The Noble Alliance"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 14,
+      "chapter": 4,
+      "difficulty": "easy",
+      "question": "How old is Lord Aldric Harston?",
+      "options": {
+        "A": "Twenty-three",
+        "B": "Twenty-eight",
+        "C": "Thirty-five",
+        "D": "Forty-two"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 15,
+      "chapter": 5,
+      "difficulty": "medium",
+      "question": "Which foreign power is backing Harston's conspiracy?",
+      "options": {
+        "A": "The Northern Kingdoms",
+        "B": "The Eastern Empire",
+        "C": "The Confederate Federation",
+        "D": "The Southern Alliance"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 16,
+      "chapter": 5,
+      "difficulty": "hard",
+      "question": "How many lords are in Harston's inner circle?",
+      "options": {
+        "A": "Four",
+        "B": "Six",
+        "C": "Eight",
+        "D": "Ten"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 17,
+      "chapter": 6,
+      "difficulty": "easy",
+      "question": "What title does Vincent hold?",
+      "options": {
+        "A": "Lord Commander",
+        "B": "Lord Marshal",
+        "C": "Lord Protector",
+        "D": "General-in-Chief"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 18,
+      "chapter": 6,
+      "difficulty": "medium",
+      "question": "How old is Vincent Stormborn?",
+      "options": {
+        "A": "Forty-two",
+        "B": "Forty-five",
+        "C": "Forty-eight",
+        "D": "Fifty-one"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 19,
+      "chapter": 7,
+      "difficulty": "medium",
+      "question": "What section of the Reformed Code is Marcus revising when we first see him working?",
+      "options": {
+        "A": "The Declaration of Rights",
+        "B": "The Governance Charter",
+        "C": "The Military Code",
+        "D": "The Economic Provisions"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 20,
+      "chapter": 7,
+      "difficulty": "hard",
+      "question": "How many provisions does the Governance Charter contain according to Marcus?",
+      "options": {
+        "A": "Thirty-two",
+        "B": "Forty-seven",
+        "C": "Fifty-three",
+        "D": "Sixty-one"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 21,
+      "chapter": 8,
+      "difficulty": "easy",
+      "question": "Where is Lucian's empty grave located?",
+      "options": {
+        "A": "In the royal crypt",
+        "B": "At the western fortress",
+        "C": "Behind the Church of the Eternal Blade in Greyport",
+        "D": "In the Capital's cathedral"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 22,
+      "chapter": 8,
+      "difficulty": "medium",
+      "question": "What is unique about Lucian's gravestone in Greyport?",
+      "options": {
+        "A": "It has a military insignia",
+        "B": "It lists all his crimes",
+        "C": "It's made of marble",
+        "D": "It has no inscription"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "id": 23,
+      "chapter": 9,
+      "difficulty": "medium",
+      "question": "How many letters from Theo does Cassian have waiting on his table?",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 24,
+      "chapter": 9,
+      "difficulty": "hard",
+      "question": "What does Sera deduce about Cassian's overpaying for meals?",
+      "options": {
+        "A": "He's bad at math",
+        "B": "He feels guilty about being wealthy",
+        "C": "He converts gratitude into commercial transactions to avoid discomfort",
+        "D": "He's trying to support local businesses"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 25,
+      "chapter": 10,
+      "difficulty": "medium",
+      "question": "From where does Edric write his letter to Theo?",
+      "options": {
+        "A": "A prison cell",
+        "B": "Exile",
+        "C": "A monastery",
+        "D": "A neighboring kingdom"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 26,
+      "chapter": 10,
+      "difficulty": "hard",
+      "question": "How long has Edric been in exile when he writes to Theo?",
+      "options": {
+        "A": "Six months",
+        "B": "One year",
+        "C": "Two years",
+        "D": "Three years"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 27,
+      "chapter": 11,
+      "difficulty": "easy",
+      "question": "Who is Maren Wren?",
+      "options": {
+        "A": "A merchant",
+        "B": "A teacher",
+        "C": "A soldier",
+        "D": "A council delegate"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 28,
+      "chapter": 11,
+      "difficulty": "medium",
+      "question": "How old is Maren Wren?",
+      "options": {
+        "A": "Twenty-two",
+        "B": "Twenty-six",
+        "C": "Thirty",
+        "D": "Thirty-four"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 29,
+      "chapter": 11,
+      "difficulty": "medium",
+      "question": "How many students initially attend Maren's school?",
+      "options": {
+        "A": "Five",
+        "B": "Seven",
+        "C": "Ten",
+        "D": "Twelve"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 30,
+      "chapter": 12,
+      "difficulty": "medium",
+      "question": "What economic strategy is the Confederacy using against Valdrath?",
+      "options": {
+        "A": "Trade embargoes",
+        "B": "Military threats",
+        "C": "Below-market goods and favorable loans",
+        "D": "Currency manipulation"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 31,
+      "chapter": 12,
+      "difficulty": "hard",
+      "question": "How long does Vincent estimate before the Confederacy could mount another offensive?",
+      "options": {
+        "A": "Six months",
+        "B": "One year",
+        "C": "At least two years",
+        "D": "Five years"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 32,
+      "chapter": 13,
+      "difficulty": "easy",
+      "question": "How long was Edric's journey from exile to the Capital supposed to take?",
+      "options": {
+        "A": "Two days",
+        "B": "Three days",
+        "C": "Six days",
+        "D": "Ten days"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 33,
+      "chapter": 14,
+      "difficulty": "medium",
+      "question": "What book does someone leave in Edric's room to read?",
+      "options": {
+        "A": "A history of the Stormborn Dynasty",
+        "B": "Marcus's Analysis of the True Code",
+        "C": "The Reformed Code itself",
+        "D": "The Warrior Code"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 34,
+      "chapter": 14,
+      "difficulty": "hard",
+      "question": "How many suggested improvements does Edric annotate in his copy of the Reformed Code?",
+      "options": {
+        "A": "Twenty-three",
+        "B": "Thirty-five",
+        "C": "Forty-seven",
+        "D": "Sixty-two"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 35,
+      "chapter": 15,
+      "difficulty": "medium",
+      "question": "What does Edric compare himself and Lucian to?",
+      "options": {
+        "A": "Two sides of the same coin",
+        "B": "The same species, different phenotypes",
+        "C": "Brothers in ambition",
+        "D": "Mirrors of their father"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 36,
+      "chapter": 16,
+      "difficulty": "medium",
+      "question": "How many of the lords Edric named are confirmed by Sera's surveillance?",
+      "options": {
+        "A": "All seven",
+        "B": "Six of seven",
+        "C": "Five of seven",
+        "D": "Four of seven"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 37,
+      "chapter": 16,
+      "difficulty": "hard",
+      "question": "Which lord that Edric named had died three months earlier?",
+      "options": {
+        "A": "Lord Blackwood",
+        "B": "Lord Ferris",
+        "C": "Lord Calworth",
+        "D": "Lord Trent"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 38,
+      "chapter": 17,
+      "difficulty": "easy",
+      "question": "Who is Mira?",
+      "options": {
+        "A": "A palace servant",
+        "B": "A secondhand goods dealer and spy",
+        "C": "A council delegate",
+        "D": "A military officer"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 39,
+      "chapter": 17,
+      "difficulty": "medium",
+      "question": "How many new hires did Harston make at his estate in the past month?",
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "Five",
+        "D": "Seven"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 40,
+      "chapter": 18,
+      "difficulty": "medium",
+      "question": "What injury did Kell receive at the River Tarn?",
+      "options": {
+        "A": "A sword wound to the arm",
+        "B": "A lance wound to the thigh",
+        "C": "An arrow to the shoulder",
+        "D": "A head injury"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 41,
+      "chapter": 18,
+      "difficulty": "hard",
+      "question": "How long does Kell have to wait for his pension claim to be processed?",
+      "options": {
+        "A": "Thirty days",
+        "B": "Sixty days",
+        "C": "Ninety days",
+        "D": "Six months"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 42,
+      "chapter": 19,
+      "difficulty": "easy",
+      "question": "What is the crown made of?",
+      "options": {
+        "A": "Gold",
+        "B": "Silver",
+        "C": "Iron",
+        "D": "Bronze"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 43,
+      "chapter": 19,
+      "difficulty": "medium",
+      "question": "How old is Theo at the time of the Council?",
+      "options": {
+        "A": "Nineteen",
+        "B": "Twenty-one",
+        "C": "Twenty-three",
+        "D": "Twenty-five"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 44,
+      "chapter": 20,
+      "difficulty": "medium",
+      "question": "How many tomatoes does Matthias's plant (the 43rd) produce?",
+      "options": {
+        "A": "Five",
+        "B": "Six",
+        "C": "Eight",
+        "D": "Ten"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 45,
+      "chapter": 20,
+      "difficulty": "hard",
+      "question": "How many students does Maren eventually have in her school?",
+      "options": {
+        "A": "Seven",
+        "B": "Ten",
+        "C": "Twelve",
+        "D": "Fifteen"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 46,
+      "chapter": 21,
+      "difficulty": "medium",
+      "question": "When does the Great Council begin?",
+      "options": {
+        "A": "Early summer",
+        "B": "Late summer",
+        "C": "Early autumn",
+        "D": "Late autumn"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 47,
+      "chapter": 21,
+      "difficulty": "medium",
+      "question": "What percentage passes the Declaration of Rights?",
+      "options": {
+        "A": "Seventy-five percent",
+        "B": "Eighty percent",
+        "C": "Eighty-three percent",
+        "D": "Ninety percent"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 48,
+      "chapter": 22,
+      "difficulty": "medium",
+      "question": "Who is Farmer Havers?",
+      "options": {
+        "A": "A northern province delegate",
+        "B": "A southern province delegate",
+        "C": "A council observer",
+        "D": "A palace servant"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 49,
+      "chapter": 22,
+      "difficulty": "hard",
+      "question": "How old is Penn, the retired schoolteacher delegate?",
+      "options": {
+        "A": "Sixty-five",
+        "B": "Seventy",
+        "C": "Seventy-three",
+        "D": "Seventy-eight"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 50,
+      "chapter": 23,
+      "difficulty": "easy",
+      "question": "What is Elena Voss's political stance?",
+      "options": {
+        "A": "Conservative",
+        "B": "Moderate",
+        "C": "Progressive/radical reform",
+        "D": "Neutral"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 51,
+      "chapter": 23,
+      "difficulty": "medium",
+      "question": "How old is Elena Voss?",
+      "options": {
+        "A": "Twenty-five",
+        "B": "Thirty",
+        "C": "Thirty-five",
+        "D": "Forty"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 52,
+      "chapter": 23,
+      "difficulty": "medium",
+      "question": "What region does Elena Voss represent?",
+      "options": {
+        "A": "The coastal provinces",
+        "B": "The southern agricultural provinces",
+        "C": "The eastern mining provinces",
+        "D": "The northern trade provinces"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 53,
+      "chapter": 24,
+      "difficulty": "hard",
+      "question": "Who were the merchants in Harston's inner circle?",
+      "options": {
+        "A": "Whitfield and Blackwood",
+        "B": "Crane and Whitfield",
+        "C": "Trent and Crane",
+        "D": "Ferris and Seward"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 54,
+      "chapter": 25,
+      "difficulty": "medium",
+      "question": "What does Edric do with the pigeons outside his window?",
+      "options": {
+        "A": "Feeds them",
+        "B": "Names them after Council members",
+        "C": "Ignores them",
+        "D": "Writes about them in his journal"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 55,
+      "chapter": 26,
+      "difficulty": "medium",
+      "question": "Who is Ada Crane?",
+      "options": {
+        "A": "A council delegate",
+        "B": "A fabric shop owner",
+        "C": "A military officer's wife",
+        "D": "A palace servant"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 56,
+      "chapter": 26,
+      "difficulty": "hard",
+      "question": "What is Ada Crane's daughter's name?",
+      "options": {
+        "A": "Emma",
+        "B": "Sara",
+        "C": "Lena",
+        "D": "Marie"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 57,
+      "chapter": 27,
+      "difficulty": "hard",
+      "question": "How many short swords were found in the Confederate cargo?",
+      "options": {
+        "A": "Ten",
+        "B": "Fifteen",
+        "C": "Twenty",
+        "D": "Thirty"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 58,
+      "chapter": 28,
+      "difficulty": "medium",
+      "question": "What is the title of the first anti-reform pamphlet?",
+      "options": {
+        "A": "The True Cost of Reform",
+        "B": "The False Code",
+        "C": "Against the Reformed Code",
+        "D": "The Restoration Manifesto"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 59,
+      "chapter": 28,
+      "difficulty": "hard",
+      "question": "How many pages is Marcus's commentary explaining the Reformed Code?",
+      "options": {
+        "A": "Thirty pages",
+        "B": "Forty pages",
+        "C": "Sixty pages",
+        "D": "One hundred pages"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 60,
+      "chapter": 29,
+      "difficulty": "hard",
+      "question": "How many publications does the pamphlet war produce by the week before the vote?",
+      "options": {
+        "A": "Fifty",
+        "B": "One hundred",
+        "C": "Over two hundred",
+        "D": "Five hundred"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 61,
+      "chapter": 30,
+      "difficulty": "medium",
+      "question": "How long is Theo's opening speech to the Council?",
+      "options": {
+        "A": "Ten minutes",
+        "B": "Twenty minutes",
+        "C": "Thirty minutes",
+        "D": "One hour"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 62,
+      "chapter": 31,
+      "difficulty": "medium",
+      "question": "Which lord tells the story about Lord Cavendish's estate?",
+      "options": {
+        "A": "Lord Ashworth",
+        "B": "Lord Blackwood",
+        "C": "Farmer Havers",
+        "D": "Elena Voss"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 63,
+      "chapter": 31,
+      "difficulty": "hard",
+      "question": "What percentage does the land reform provision pass with?",
+      "options": {
+        "A": "Sixty-two percent",
+        "B": "Sixty-eight percent",
+        "C": "Seventy-one percent",
+        "D": "Seventy-five percent"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 64,
+      "chapter": 32,
+      "difficulty": "medium",
+      "question": "How long does the taxation debate last?",
+      "options": {
+        "A": "One day",
+        "B": "Two days",
+        "C": "Three days",
+        "D": "Five days"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 65,
+      "chapter": 32,
+      "difficulty": "hard",
+      "question": "What percentage does the graduated taxation framework pass with?",
+      "options": {
+        "A": "Sixty-eight percent",
+        "B": "Seventy-one percent",
+        "C": "Seventy-five percent",
+        "D": "Eighty percent"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 66,
+      "chapter": 33,
+      "difficulty": "medium",
+      "question": "By how many votes does the Military Code pass?",
+      "options": {
+        "A": "Three votes",
+        "B": "Nine votes",
+        "C": "Fifteen votes",
+        "D": "Twenty-one votes"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 67,
+      "chapter": 34,
+      "difficulty": "medium",
+      "question": "What is Private Willem Holt's age?",
+      "options": {
+        "A": "Nineteen",
+        "B": "Twenty-one",
+        "C": "Twenty-three",
+        "D": "Twenty-five"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 68,
+      "chapter": 34,
+      "difficulty": "hard",
+      "question": "What village is Willem from?",
+      "options": {
+        "A": "Thornfield",
+        "B": "Millfield",
+        "C": "Greyport",
+        "D": "Ashford"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 69,
+      "chapter": 35,
+      "difficulty": "easy",
+      "question": "How old is Brother Thomas?",
+      "options": {
+        "A": "Twenty-eight",
+        "B": "Thirty-two",
+        "C": "Thirty-five",
+        "D": "Forty"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 70,
+      "chapter": 36,
+      "difficulty": "hard",
+      "question": "What percentage does the Judicial Reform pass with?",
+      "options": {
+        "A": "Seventy percent",
+        "B": "Seventy-six percent",
+        "C": "Eighty percent",
+        "D": "Eighty-three percent"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 71,
+      "chapter": 37,
+      "difficulty": "medium",
+      "question": "On how many levels does the Restoration operate?",
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "Four",
+        "D": "Five"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 72,
+      "chapter": 38,
+      "difficulty": "medium",
+      "question": "Where is the explosive device hidden?",
+      "options": {
+        "A": "In the Great Hall cellar",
+        "B": "At a rooming house",
+        "C": "At a military surplus warehouse",
+        "D": "In the palace gardens"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 73,
+      "chapter": 39,
+      "difficulty": "medium",
+      "question": "How many candles does Cassian light in the chapel?",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Seven"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 74,
+      "chapter": 40,
+      "difficulty": "hard",
+      "question": "In Cassian's nightmare, who becomes the seventh farmer?",
+      "options": {
+        "A": "Matthias",
+        "B": "Lucian",
+        "C": "Sera",
+        "D": "Theo"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 75,
+      "chapter": 41,
+      "difficulty": "medium",
+      "question": "At which inn does Cassian stay on his journey to the Capital?",
+      "options": {
+        "A": "The King's Rest",
+        "B": "A crossroads inn",
+        "C": "The Golden Lion",
+        "D": "The Traveler's Haven"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 76,
+      "chapter": 42,
+      "difficulty": "medium",
+      "question": "What does Sera name her horse?",
+      "options": {
+        "A": "Marcus",
+        "B": "Scholar",
+        "C": "Wisdom",
+        "D": "Thunder"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 77,
+      "chapter": 42,
+      "difficulty": "hard",
+      "question": "How many days does the journey from Greyport to the Capital take at a comfortable pace?",
+      "options": {
+        "A": "Three days",
+        "B": "Four days",
+        "C": "Five days",
+        "D": "Six days"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 78,
+      "chapter": 43,
+      "difficulty": "medium",
+      "question": "How many names are carved on the plaque at Millhaven bridge?",
+      "options": {
+        "A": "Nineteen",
+        "B": "Twenty-three",
+        "C": "Twenty-seven",
+        "D": "Thirty-one"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 79,
+      "chapter": 43,
+      "difficulty": "hard",
+      "question": "How old was Lieutenant Webb when he died at the bridge?",
+      "options": {
+        "A": "Twenty",
+        "B": "Twenty-three",
+        "C": "Twenty-five",
+        "D": "Twenty-eight"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 80,
+      "chapter": 44,
+      "difficulty": "medium",
+      "question": "Who is Farmer Hessler?",
+      "options": {
+        "A": "A council delegate",
+        "B": "A woman who offers Cassian and Sera her barn",
+        "C": "A merchant",
+        "D": "A soldier's widow"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 81,
+      "chapter": 44,
+      "difficulty": "hard",
+      "question": "How old is Farmer Hessler?",
+      "options": {
+        "A": "Fifty-five",
+        "B": "Sixty",
+        "C": "Sixty-five",
+        "D": "Seventy"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 82,
+      "chapter": 45,
+      "difficulty": "medium",
+      "question": "What does Marcus say he has redesigned in the Capital?",
+      "options": {
+        "A": "The palace",
+        "B": "The market",
+        "C": "The military barracks",
+        "D": "The roads"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 83,
+      "chapter": 47,
+      "difficulty": "medium",
+      "question": "What does Theo order released to address the grain shortage?",
+      "options": {
+        "A": "Provincial reserves",
+        "B": "Noble stockpiles",
+        "C": "Royal grain reserves",
+        "D": "Military rations"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 84,
+      "chapter": 48,
+      "difficulty": "hard",
+      "question": "How many agents does Vincent have plainclothes in the Great Hall?",
+      "options": {
+        "A": "Ten",
+        "B": "Fifteen",
+        "C": "Twenty",
+        "D": "Twenty-five"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 85,
+      "chapter": 50,
+      "difficulty": "medium",
+      "question": "At what time does the explosion occur?",
+      "options": {
+        "A": "Nine o'clock",
+        "B": "Ten minutes past the second bell",
+        "C": "Noon",
+        "D": "Three in the afternoon"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 86,
+      "chapter": 51,
+      "difficulty": "hard",
+      "question": "How long does it take Vincent's people to remove the three operatives?",
+      "options": {
+        "A": "Thirty seconds",
+        "B": "Sixty seconds",
+        "C": "Ninety seconds",
+        "D": "Two minutes"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 87,
+      "chapter": 52,
+      "difficulty": "hard",
+      "question": "At what time does Marcus find the provincial council documents?",
+      "options": {
+        "A": "Midnight",
+        "B": "Three in the morning",
+        "C": "Five in the morning",
+        "D": "Dawn"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 88,
+      "chapter": 52,
+      "difficulty": "hard",
+      "question": "How many documents does Marcus find in the chest?",
+      "options": {
+        "A": "Twenty-seven",
+        "B": "Thirty-five",
+        "C": "Forty-three",
+        "D": "Fifty-one"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 89,
+      "chapter": 52,
+      "difficulty": "hard",
+      "question": "For how many years did the original provincial councils function?",
+      "options": {
+        "A": "Twenty years",
+        "B": "Twenty-eight years",
+        "C": "Thirty-five years",
+        "D": "Forty years"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 90,
+      "chapter": 54,
+      "difficulty": "medium",
+      "question": "How many coins does Cassian carry, one for each scar?",
+      "options": {
+        "A": "Five",
+        "B": "Six",
+        "C": "Seven",
+        "D": "Eight"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 91,
+      "chapter": 55,
+      "difficulty": "easy",
+      "question": "How many delegates are in the Great Hall for Cassian's speech?",
+      "options": {
+        "A": "Two hundred",
+        "B": "Three hundred",
+        "C": "Four hundred",
+        "D": "Five hundred"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 92,
+      "chapter": 55,
+      "difficulty": "medium",
+      "question": "How old was Cassian when ordered to execute the Seven Farmers?",
+      "options": {
+        "A": "Nineteen",
+        "B": "Twenty-one",
+        "C": "Twenty-three",
+        "D": "Twenty-five"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 93,
+      "chapter": 55,
+      "difficulty": "hard",
+      "question": "For how many years has Cassian carried the act of killing the Seven Farmers?",
+      "options": {
+        "A": "Eighteen years",
+        "B": "Twenty years",
+        "C": "Twenty-two years",
+        "D": "Twenty-five years"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 94,
+      "chapter": 55,
+      "difficulty": "medium",
+      "question": "How old was Cassian when he received his first training scar?",
+      "options": {
+        "A": "Ten",
+        "B": "Twelve",
+        "C": "Fourteen",
+        "D": "Sixteen"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 95,
+      "chapter": 55,
+      "difficulty": "medium",
+      "question": "How old was Cassian during the Crimson Shores War?",
+      "options": {
+        "A": "Seventeen",
+        "B": "Nineteen",
+        "C": "Twenty-one",
+        "D": "Twenty-three"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 96,
+      "chapter": 55,
+      "difficulty": "hard",
+      "question": "How many people did Cassian save from the cathedral fire?",
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "Four",
+        "D": "Five"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 97,
+      "chapter": 55,
+      "difficulty": "medium",
+      "question": "What is the seventh scar's location?",
+      "options": {
+        "A": "On his face",
+        "B": "Over his heart",
+        "C": "On his arm",
+        "D": "On his back"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 98,
+      "chapter": "Multiple",
+      "difficulty": "medium",
+      "question": "What is the name of the church where Matthias served?",
+      "options": {
+        "A": "The Church of the Warrior",
+        "B": "The Church of the Eternal Blade",
+        "C": "The Church of the Stormborn",
+        "D": "The Church of the Scarred King"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 99,
+      "chapter": "Multiple",
+      "difficulty": "easy",
+      "question": "Who is Cassian's wife?",
+      "options": {
+        "A": "Elena",
+        "B": "Maren",
+        "C": "Sera",
+        "D": "Ada"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 100,
+      "chapter": "Multiple",
+      "difficulty": "medium",
+      "question": "What is required for the Reformed Code to be ratified?",
+      "options": {
+        "A": "A simple majority",
+        "B": "Sixty percent of votes",
+        "C": "Two-thirds majority",
+        "D": "Unanimous approval"
+      },
+      "correct_answer": "C"
+    }
+  ]
+}

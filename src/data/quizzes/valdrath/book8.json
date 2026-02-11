@@ -1,0 +1,1307 @@
+{
+  "book_number": 8,
+  "book_title": "The Scarred Crown",
+  "total_questions": 100,
+  "questions": [
+    {
+      "id": 1,
+      "chapter": 0,
+      "difficulty": "easy",
+      "question": "What age is young Matthias (Cassian's son) at the beginning of the book?",
+      "options": {
+        "A": "One year old",
+        "B": "Two years and four months old",
+        "C": "Three years old",
+        "D": "Eighteen months old"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 2,
+      "chapter": 0,
+      "difficulty": "medium",
+      "question": "How many tomato plants does Cassian maintain in the church garden?",
+      "options": {
+        "A": "Thirty-five plants",
+        "B": "Fifty plants",
+        "C": "Forty-three plants",
+        "D": "Twenty-five plants"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 3,
+      "chapter": 0,
+      "difficulty": "easy",
+      "question": "What is young Matthias's first full sentence?",
+      "options": {
+        "A": "Da come home",
+        "B": "More tomato",
+        "C": "Big boat",
+        "D": "I love you"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 4,
+      "chapter": 0,
+      "difficulty": "hard",
+      "question": "How long has the peaceful period lasted at the start of the book?",
+      "options": {
+        "A": "Two years",
+        "B": "Five years",
+        "C": "Three years",
+        "D": "Seven years"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 5,
+      "chapter": 0,
+      "difficulty": "medium",
+      "question": "How old is Cassian at the start of Book 8?",
+      "options": {
+        "A": "Thirty-eight years old",
+        "B": "Forty-one years old",
+        "C": "Forty-five years old",
+        "D": "Thirty-five years old"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 6,
+      "chapter": 1,
+      "difficulty": "easy",
+      "question": "How old is King Theo at the time of the third anniversary celebration?",
+      "options": {
+        "A": "Twenty-one",
+        "B": "Twenty-three",
+        "C": "Twenty-five",
+        "D": "Nineteen"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 7,
+      "chapter": 1,
+      "difficulty": "medium",
+      "question": "What distinguishes Theo's crown from a new one?",
+      "options": {
+        "A": "It has a blue stone missing",
+        "B": "It has a visible crack that was repaired",
+        "C": "It's made of iron instead of gold",
+        "D": "It's smaller than the traditional size"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 8,
+      "chapter": 1,
+      "difficulty": "hard",
+      "question": "How many Confederate troops has General Theron consolidated under unified command?",
+      "options": {
+        "A": "80,000 troops",
+        "B": "150,000 troops",
+        "C": "100,000 troops",
+        "D": "120,000 troops"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "id": 9,
+      "chapter": 1,
+      "difficulty": "medium",
+      "question": "What is Valdrath's standing army strength before mobilization?",
+      "options": {
+        "A": "50,000 troops",
+        "B": "35,000 troops",
+        "C": "25,000 troops",
+        "D": "45,000 troops"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 10,
+      "chapter": 2,
+      "difficulty": "easy",
+      "question": "What is Cassian's primary job in Greyport?",
+      "options": {
+        "A": "Blacksmith",
+        "B": "Dock crane operator",
+        "C": "Fisherman",
+        "D": "Church caretaker"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 11,
+      "chapter": 2,
+      "difficulty": "medium",
+      "question": "Who is Erik in relation to Cassian?",
+      "options": {
+        "A": "His son",
+        "B": "His brother",
+        "C": "A journeyman dockworker Cassian trained",
+        "D": "A priest"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 12,
+      "chapter": 2,
+      "difficulty": "hard",
+      "question": "Which scar aches when Cassian reaches overhead?",
+      "options": {
+        "A": "The fourth scar",
+        "B": "The sixth scar",
+        "C": "The seventh scar",
+        "D": "The fifth scar"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 13,
+      "chapter": 3,
+      "difficulty": "easy",
+      "question": "What does young Matthias call Mrs. Chen?",
+      "options": {
+        "A": "Grandma",
+        "B": "Chen",
+        "C": "Mrs. Chen",
+        "D": "Nana"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 14,
+      "chapter": 3,
+      "difficulty": "medium",
+      "question": "How many months does Sera estimate before the Confederate invasion?",
+      "options": {
+        "A": "Six months",
+        "B": "One year",
+        "C": "Three months, possibly less",
+        "D": "Eighteen months"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 15,
+      "chapter": 4,
+      "difficulty": "medium",
+      "question": "How many volumes of secret history has Marcus written?",
+      "options": {
+        "A": "Ten volumes",
+        "B": "Fifteen volumes",
+        "C": "Twelve volumes",
+        "D": "Eight volumes"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 16,
+      "chapter": 4,
+      "difficulty": "hard",
+      "question": "Who wrote the banned military treatise 'Principles of Adaptive Command'?",
+      "options": {
+        "A": "General Aldren",
+        "B": "Colonel Mirren",
+        "C": "General Kaelen",
+        "D": "General Theron"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 17,
+      "chapter": 4,
+      "difficulty": "hard",
+      "question": "How long ago was Kaelen's treatise banned?",
+      "options": {
+        "A": "Five hundred years",
+        "B": "One hundred years",
+        "C": "Three hundred years",
+        "D": "Two hundred years"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 18,
+      "chapter": 5,
+      "difficulty": "medium",
+      "question": "How many company commanders does Vincent assemble for the adaptive command training?",
+      "options": {
+        "A": "Fifty officers",
+        "B": "Thirty officers",
+        "C": "Forty-three officers",
+        "D": "Twenty-five officers"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 19,
+      "chapter": 5,
+      "difficulty": "hard",
+      "question": "What is Captain Rowan's age?",
+      "options": {
+        "A": "Twenty-one",
+        "B": "Twenty-three",
+        "C": "Twenty-five",
+        "D": "Twenty-seven"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 20,
+      "chapter": 5,
+      "difficulty": "medium",
+      "question": "How long is Vincent's entire military career at this point?",
+      "options": {
+        "A": "Twenty-five years",
+        "B": "Thirty years",
+        "C": "Thirty-five years",
+        "D": "Forty years"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 21,
+      "chapter": 5,
+      "difficulty": "easy",
+      "question": "How old is Vincent at the start of the war?",
+      "options": {
+        "A": "Fifty",
+        "B": "Sixty",
+        "C": "Fifty-five",
+        "D": "Forty-eight"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 22,
+      "chapter": 5,
+      "difficulty": "hard",
+      "question": "How many Confederate bivouac fires does Rowan count from Fort Ashenmere?",
+      "options": {
+        "A": "Two hundred",
+        "B": "Three hundred",
+        "C": "Four hundred",
+        "D": "Six hundred"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 23,
+      "chapter": 6,
+      "difficulty": "medium",
+      "question": "How long has Edric been in exile?",
+      "options": {
+        "A": "Two years",
+        "B": "Three years",
+        "C": "Five years",
+        "D": "Four years"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 24,
+      "chapter": 6,
+      "difficulty": "medium",
+      "question": "Where did Edric live during his exile?",
+      "options": {
+        "A": "The Confederate capital",
+        "B": "The Free Ports city of Karshen",
+        "C": "Greyport",
+        "D": "A southern farming village"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 25,
+      "chapter": 6,
+      "difficulty": "hard",
+      "question": "What work did Edric do during his exile?",
+      "options": {
+        "A": "Blacksmith",
+        "B": "Merchant",
+        "C": "Translator",
+        "D": "Sailor"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 26,
+      "chapter": 7,
+      "difficulty": "medium",
+      "question": "What is the third condition in Theron's first terms for peace?",
+      "options": {
+        "A": "Territory cession",
+        "B": "Payment of reparations",
+        "C": "Disbanding the Reformed Code military academies",
+        "D": "Abdication of King Theo"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 27,
+      "chapter": 8,
+      "difficulty": "easy",
+      "question": "Where do Cassian and Marcus walk while talking?",
+      "options": {
+        "A": "The throne room",
+        "B": "The palace gardens",
+        "C": "The war room",
+        "D": "The training grounds"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 28,
+      "chapter": 9,
+      "difficulty": "medium",
+      "question": "How many days does Cassian have to fix the crane and stake the tomatoes before leaving?",
+      "options": {
+        "A": "He leaves immediately",
+        "B": "Three days",
+        "C": "One day (tomorrow)",
+        "D": "A week"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 29,
+      "chapter": 10,
+      "difficulty": "easy",
+      "question": "What does young Matthias say when Cassian shows him how the crane works?",
+      "options": {
+        "A": "Big",
+        "B": "More",
+        "C": "Da make it go",
+        "D": "I want up"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 30,
+      "chapter": 10,
+      "difficulty": "medium",
+      "question": "What activity do Cassian and Matthias do at the harbor wall?",
+      "options": {
+        "A": "Watch the boats",
+        "B": "Throw pebbles into the water",
+        "C": "Feed the gulls",
+        "D": "Clean fishing nets"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 31,
+      "chapter": 11,
+      "difficulty": "medium",
+      "question": "Who organizes the community meals in Greyport during the war?",
+      "options": {
+        "A": "Brother Thomas",
+        "B": "Sera",
+        "C": "Mrs. Chen",
+        "D": "Erik"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 32,
+      "chapter": 11,
+      "difficulty": "hard",
+      "question": "How many days is the muster point at Branford for reserve soldiers?",
+      "options": {
+        "A": "Five days",
+        "B": "Seven days",
+        "C": "Ten days",
+        "D": "Three days"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 33,
+      "chapter": 12,
+      "difficulty": "medium",
+      "question": "How many volunteers present themselves for military service within two weeks?",
+      "options": {
+        "A": "15,000",
+        "B": "20,000",
+        "C": "25,000",
+        "D": "30,000"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 34,
+      "chapter": 12,
+      "difficulty": "hard",
+      "question": "How many days of basic instruction do volunteers receive before integration?",
+      "options": {
+        "A": "Seven days",
+        "B": "Fourteen days",
+        "C": "Twenty-one days",
+        "D": "Thirty days"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 35,
+      "chapter": 13,
+      "difficulty": "medium",
+      "question": "How many independent sources does Sera use to confirm the Confederate invasion?",
+      "options": {
+        "A": "Four sources",
+        "B": "Eight sources",
+        "C": "Six sources",
+        "D": "Ten sources"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 36,
+      "chapter": 14,
+      "difficulty": "medium",
+      "question": "Who is Sara Voss in Millhaven?",
+      "options": {
+        "A": "A blacksmith",
+        "B": "The flag-maker who now teaches at a community school",
+        "C": "A magistrate",
+        "D": "A military officer"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 37,
+      "chapter": 14,
+      "difficulty": "hard",
+      "question": "How many casualties are in the first batch of death notifications?",
+      "options": {
+        "A": "Twenty-five",
+        "B": "Thirty-seven",
+        "C": "Fifty",
+        "D": "Forty-two"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 38,
+      "chapter": 15,
+      "difficulty": "medium",
+      "question": "What are the three Reformed Code values that mobilization is based on?",
+      "options": {
+        "A": "Strength, honor, discipline",
+        "B": "Voluntary service, individual sovereignty, ethical autonomy",
+        "C": "Obedience, loyalty, courage",
+        "D": "Justice, mercy, truth"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 39,
+      "chapter": 16,
+      "difficulty": "hard",
+      "question": "How long is the Confederate supply line from Ashenmere Pass to the main body?",
+      "options": {
+        "A": "Forty miles",
+        "B": "Eighty miles",
+        "C": "Sixty miles",
+        "D": "One hundred miles"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 40,
+      "chapter": 16,
+      "difficulty": "hard",
+      "question": "How many wagons per day does the supply road deliver at maximum capacity?",
+      "options": {
+        "A": "150 wagons",
+        "B": "200 wagons",
+        "C": "250 wagons",
+        "D": "300 wagons"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 41,
+      "chapter": 17,
+      "difficulty": "medium",
+      "question": "Who is the magistrate of Millford?",
+      "options": {
+        "A": "Marcus Brenn",
+        "B": "Elsa Brenn",
+        "C": "Sara Voss",
+        "D": "Thomas Brenn"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 42,
+      "chapter": 17,
+      "difficulty": "hard",
+      "question": "How many refugees did Magistrate Brenn ultimately process through Millford?",
+      "options": {
+        "A": "4,000",
+        "B": "5,347",
+        "C": "6,500",
+        "D": "3,200"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 43,
+      "chapter": 18,
+      "difficulty": "medium",
+      "question": "How many soldiers are in Rowan's garrison at Fort Ashenmere?",
+      "options": {
+        "A": "Sixty",
+        "B": "One hundred",
+        "C": "Eighty",
+        "D": "Fifty"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 44,
+      "chapter": 18,
+      "difficulty": "hard",
+      "question": "How long does Rowan's garrison hold Fort Ashenmere?",
+      "options": {
+        "A": "Two hours",
+        "B": "Four hours",
+        "C": "Six hours",
+        "D": "Eight hours"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 45,
+      "chapter": 18,
+      "difficulty": "medium",
+      "question": "How many fallback positions did Rowan prepare along the northern road?",
+      "options": {
+        "A": "Five positions",
+        "B": "Eight positions",
+        "C": "Ten positions",
+        "D": "Twelve positions"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 46,
+      "chapter": 18,
+      "difficulty": "hard",
+      "question": "How many of Rowan's soldiers died during the defense of Fort Ashenmere?",
+      "options": {
+        "A": "Ten",
+        "B": "Twelve",
+        "C": "Fifteen",
+        "D": "Twenty"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 47,
+      "chapter": 19,
+      "difficulty": "medium",
+      "question": "How many civilians are displaced from the southern provinces?",
+      "options": {
+        "A": "50,000",
+        "B": "80,000",
+        "C": "100,000",
+        "D": "60,000"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 48,
+      "chapter": 19,
+      "difficulty": "hard",
+      "question": "What is the vote count on Lord Harston's emergency powers proposal?",
+      "options": {
+        "A": "75-25 against",
+        "B": "81-19 against",
+        "C": "90-10 against",
+        "D": "70-30 against"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 49,
+      "chapter": 21,
+      "difficulty": "medium",
+      "question": "What type of arrowheads does Tomas Greer's forge produce?",
+      "options": {
+        "A": "Type I broadheads",
+        "B": "Type II narrowheads",
+        "C": "Type III broadheads",
+        "D": "Type IV bodkins"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 50,
+      "chapter": 21,
+      "difficulty": "hard",
+      "question": "How many arrowheads per hour can Greer produce?",
+      "options": {
+        "A": "Thirty",
+        "B": "Forty",
+        "C": "Fifty",
+        "D": "Twenty-five"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 51,
+      "chapter": 22,
+      "difficulty": "medium",
+      "question": "What is Private Jonas Crane's civilian occupation?",
+      "options": {
+        "A": "Blacksmith",
+        "B": "Farmer",
+        "C": "Carpenter",
+        "D": "Merchant"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 52,
+      "chapter": 23,
+      "difficulty": "medium",
+      "question": "What unusual cargo does Sera's intelligence report about Confederate supply columns?",
+      "options": {
+        "A": "Extra grain",
+        "B": "Siege equipment",
+        "C": "Prefabricated bridge sections",
+        "D": "Medical supplies"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 53,
+      "chapter": 24,
+      "difficulty": "medium",
+      "question": "Who presents the legal petition to the Confederate garrison in Millhaven?",
+      "options": {
+        "A": "Magistrate Brenn",
+        "B": "Sara Voss",
+        "C": "Marcus Stormborn",
+        "D": "Brother Thomas"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 54,
+      "chapter": 25,
+      "difficulty": "hard",
+      "question": "What is Private Ash's background before joining the military?",
+      "options": {
+        "A": "He was a farmer",
+        "B": "He was raised in an orphanage",
+        "C": "He was a blacksmith's apprentice",
+        "D": "He was a merchant's son"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 55,
+      "chapter": 26,
+      "difficulty": "easy",
+      "question": "How many Stormborn brothers sit around the council table?",
+      "options": {
+        "A": "Three",
+        "B": "Four",
+        "C": "Five",
+        "D": "Six"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 56,
+      "chapter": 27,
+      "difficulty": "hard",
+      "question": "How many soldiers does the cavalry force sent to the supply line consist of?",
+      "options": {
+        "A": "3,000",
+        "B": "5,000",
+        "C": "7,000",
+        "D": "10,000"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 57,
+      "chapter": 27,
+      "difficulty": "medium",
+      "question": "Who commands the cavalry force sent to raid the supply line?",
+      "options": {
+        "A": "Captain Rowan",
+        "B": "Colonel Marsh",
+        "C": "General Ashworth",
+        "D": "Vincent"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 58,
+      "chapter": 28,
+      "difficulty": "medium",
+      "question": "Who is the army's chief surgeon?",
+      "options": {
+        "A": "Doctor Tallis",
+        "B": "Doctor Marcus",
+        "C": "Doctor Mirren",
+        "D": "Doctor Hale"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 59,
+      "chapter": 28,
+      "difficulty": "hard",
+      "question": "What is the field hospital's capacity in the wards?",
+      "options": {
+        "A": "150 patients",
+        "B": "200 patients",
+        "C": "250 patients",
+        "D": "300 patients"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 60,
+      "chapter": 29,
+      "difficulty": "easy",
+      "question": "What does Cassian do on the night before battle?",
+      "options": {
+        "A": "Sleeps soundly",
+        "B": "Walks the camp visiting soldiers",
+        "C": "Prays in the chapel all night",
+        "D": "Studies maps"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 61,
+      "chapter": 30,
+      "difficulty": "medium",
+      "question": "What drawing does Private Tull include in his letter home?",
+      "options": {
+        "A": "A sword",
+        "B": "A fort",
+        "C": "A horse",
+        "D": "His mother's house"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 62,
+      "chapter": 30,
+      "difficulty": "hard",
+      "question": "How many letters were in the dispatch from Rowan's section of the line?",
+      "options": {
+        "A": "Two hundred",
+        "B": "Three hundred",
+        "C": "Four hundred",
+        "D": "Five hundred"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 63,
+      "chapter": 31,
+      "difficulty": "medium",
+      "question": "What is the width of the ford at Ashen Ford?",
+      "options": {
+        "A": "One hundred yards",
+        "B": "Two hundred yards",
+        "C": "Three hundred yards",
+        "D": "Four hundred yards"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 64,
+      "chapter": 31,
+      "difficulty": "hard",
+      "question": "How many soldiers does Valdrath field at Ashen Ford (not counting reserves)?",
+      "options": {
+        "A": "30,000",
+        "B": "35,000",
+        "C": "40,000",
+        "D": "45,000"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 65,
+      "chapter": 31,
+      "difficulty": "medium",
+      "question": "At what depth is the water at the ford?",
+      "options": {
+        "A": "Ankle-deep",
+        "B": "Knee-deep",
+        "C": "Waist-deep",
+        "D": "Chest-deep"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 66,
+      "chapter": 32,
+      "difficulty": "hard",
+      "question": "How wide is the defile that Rowan's company must defend?",
+      "options": {
+        "A": "Thirty yards",
+        "B": "Fifty yards",
+        "C": "Seventy yards",
+        "D": "One hundred yards"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 67,
+      "chapter": 32,
+      "difficulty": "medium",
+      "question": "How many soldiers survive from Rowan's company after the defile battle?",
+      "options": {
+        "A": "Twenty-one",
+        "B": "Thirty-one",
+        "C": "Forty-one",
+        "D": "Fifty-one"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 68,
+      "chapter": 32,
+      "difficulty": "hard",
+      "question": "How many soldiers died defending the defile?",
+      "options": {
+        "A": "Thirty-nine",
+        "B": "Forty-nine",
+        "C": "Fifty-nine",
+        "D": "Twenty-nine"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 69,
+      "chapter": 32,
+      "difficulty": "medium",
+      "question": "What is the strength of the Confederate flanking corps attacking the defile?",
+      "options": {
+        "A": "15,000",
+        "B": "20,000",
+        "C": "25,000",
+        "D": "30,000"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 70,
+      "chapter": 33,
+      "difficulty": "easy",
+      "question": "How does Sera know the battle has begun?",
+      "options": {
+        "A": "A messenger arrives",
+        "B": "The dispatches stop arriving",
+        "C": "She sees smoke in the distance",
+        "D": "Brother Thomas tells her"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 71,
+      "chapter": 34,
+      "difficulty": "medium",
+      "question": "At what time does the battle turn in Valdrath's favor?",
+      "options": {
+        "A": "Dawn",
+        "B": "Mid-morning",
+        "C": "Noon",
+        "D": "Afternoon"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 72,
+      "chapter": 34,
+      "difficulty": "hard",
+      "question": "How many fresh troops does Vincent commit as reserve?",
+      "options": {
+        "A": "5,000",
+        "B": "7,000",
+        "C": "10,000",
+        "D": "12,000"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 73,
+      "chapter": 34,
+      "difficulty": "hard",
+      "question": "What are Valdrath's total casualties at Ashen Ford?",
+      "options": {
+        "A": "2,000 dead, 4,000 wounded",
+        "B": "3,000 dead, 5,000 wounded",
+        "C": "4,000 dead, 6,000 wounded",
+        "D": "5,000 dead, 7,000 wounded"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 74,
+      "chapter": 34,
+      "difficulty": "hard",
+      "question": "What are Confederate casualties estimated at?",
+      "options": {
+        "A": "8,000 dead, 3,000 captured",
+        "B": "10,000 dead, 3,000 captured",
+        "C": "12,000 dead, 4,000 captured",
+        "D": "15,000 dead, 5,000 captured"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 75,
+      "chapter": 35,
+      "difficulty": "medium",
+      "question": "How many days after the battle does Marcus learn of the outcome?",
+      "options": {
+        "A": "One day",
+        "B": "Two days",
+        "C": "Three days",
+        "D": "Five days"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 76,
+      "chapter": 36,
+      "difficulty": "hard",
+      "question": "How many men does Rowan report killing personally during the battle?",
+      "options": {
+        "A": "Seven",
+        "B": "Nine",
+        "C": "Eleven",
+        "D": "Thirteen"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 77,
+      "chapter": 36,
+      "difficulty": "hard",
+      "question": "How many supply depots does Colonel Marsh's cavalry destroy?",
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "Four",
+        "D": "Six"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 78,
+      "chapter": 37,
+      "difficulty": "medium",
+      "question": "What happens to the Confederate army after the supply line is cut?",
+      "options": {
+        "A": "They immediately surrender",
+        "B": "They attack in desperation",
+        "C": "They gradually disintegrate over two weeks",
+        "D": "They retreat successfully"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 79,
+      "chapter": 37,
+      "difficulty": "hard",
+      "question": "How many wagonloads of food does the Confederate army consume per day?",
+      "options": {
+        "A": "100 wagonloads",
+        "B": "150 wagonloads",
+        "C": "200 wagonloads",
+        "D": "250 wagonloads"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 80,
+      "chapter": 37,
+      "difficulty": "medium",
+      "question": "What natural event worsens conditions in the Confederate camp?",
+      "options": {
+        "A": "Snow",
+        "B": "Rain",
+        "C": "Extreme heat",
+        "D": "Fog"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 81,
+      "chapter": 38,
+      "difficulty": "easy",
+      "question": "Who does Theron send to negotiate?",
+      "options": {
+        "A": "A military officer",
+        "B": "A senior jurist",
+        "C": "A diplomat",
+        "D": "A prince"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 82,
+      "chapter": 39,
+      "difficulty": "medium",
+      "question": "What is the final peace settlement based on?",
+      "options": {
+        "A": "Complete Confederate surrender",
+        "B": "Territory exchange",
+        "C": "Withdrawal to pre-war borders and prisoner exchange",
+        "D": "Confederate occupation of southern provinces"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 83,
+      "chapter": 40,
+      "difficulty": "medium",
+      "question": "Where does the final battlefield memorial ceremony take place?",
+      "options": {
+        "A": "At Ashen Ford",
+        "B": "At the Capital",
+        "C": "At the Field of Ashenmere",
+        "D": "At Greyport"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 84,
+      "chapter": 41,
+      "difficulty": "easy",
+      "question": "What happens to Captain Rowan after the war?",
+      "options": {
+        "A": "He becomes a general",
+        "B": "He retires to teach at the academy",
+        "C": "He returns to his family farm",
+        "D": "He remains a company commander"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 85,
+      "chapter": 42,
+      "difficulty": "easy",
+      "question": "Who is waiting for Cassian when he returns to Greyport?",
+      "options": {
+        "A": "Only Sera",
+        "B": "Sera and Matthias",
+        "C": "The entire town",
+        "D": "Brother Thomas"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 86,
+      "chapter": 42,
+      "difficulty": "medium",
+      "question": "What does Cassian do first when he returns home?",
+      "options": {
+        "A": "Sleep",
+        "B": "Visit the church",
+        "C": "Check the garden",
+        "D": "Hold his son"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "id": 87,
+      "chapter": 43,
+      "difficulty": "medium",
+      "question": "Where does the epilogue take place?",
+      "options": {
+        "A": "The palace",
+        "B": "The church garden",
+        "C": "The docks",
+        "D": "The battlefield"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 88,
+      "chapter": 43,
+      "difficulty": "easy",
+      "question": "What season is it in the epilogue?",
+      "options": {
+        "A": "Spring",
+        "B": "Summer",
+        "C": "Autumn",
+        "D": "Winter"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "id": 89,
+      "chapter": 0,
+      "difficulty": "hard",
+      "question": "Which tomato plant does Cassian give special attention to?",
+      "options": {
+        "A": "The first plant",
+        "B": "The twenty-fifth plant",
+        "C": "The forty-third plant",
+        "D": "The last plant"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 90,
+      "chapter": 0,
+      "difficulty": "medium",
+      "question": "Who is the forty-third tomato plant dedicated to?",
+      "options": {
+        "A": "Lucian",
+        "B": "Father Matthias",
+        "C": "Daveth",
+        "D": "Aldric"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 91,
+      "chapter": 1,
+      "difficulty": "medium",
+      "question": "What is Vincent's title?",
+      "options": {
+        "A": "Lord Protector",
+        "B": "Lord Marshal",
+        "C": "Lord Commander",
+        "D": "Lord General"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 92,
+      "chapter": 2,
+      "difficulty": "hard",
+      "question": "How long has it been since the fire at the church that earned Cassian his fourth scar?",
+      "options": {
+        "A": "Ten years",
+        "B": "Twelve years",
+        "C": "Fifteen years",
+        "D": "Twenty years"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 93,
+      "chapter": 5,
+      "difficulty": "medium",
+      "question": "What is the youngest age of the officers Vincent trains?",
+      "options": {
+        "A": "Twenty",
+        "B": "Twenty-two",
+        "C": "Twenty-five",
+        "D": "Eighteen"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 94,
+      "chapter": 12,
+      "difficulty": "hard",
+      "question": "What is Valdrath's wartime strength goal at full mobilization?",
+      "options": {
+        "A": "60,000",
+        "B": "70,000",
+        "C": "80,000",
+        "D": "90,000"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 95,
+      "chapter": 16,
+      "difficulty": "hard",
+      "question": "How many Confederate corps form the main invasion body?",
+      "options": {
+        "A": "Two corps",
+        "B": "Three corps",
+        "C": "Four corps",
+        "D": "Five corps"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 96,
+      "chapter": 21,
+      "difficulty": "medium",
+      "question": "What is the name of the blacksmith whose son volunteers?",
+      "options": {
+        "A": "Thomas Greer",
+        "B": "Tomas Greer",
+        "C": "Marcus Greer",
+        "D": "Vincent Greer"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 97,
+      "chapter": 27,
+      "difficulty": "medium",
+      "question": "Where is the decisive battle to be fought?",
+      "options": {
+        "A": "Millford",
+        "B": "Ashenmere",
+        "C": "Ashen Ford",
+        "D": "The Capital"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 98,
+      "chapter": 34,
+      "difficulty": "hard",
+      "question": "What time of day does Vincent commit his reserve at the Battle of Ashen Ford?",
+      "options": {
+        "A": "Dawn",
+        "B": "Mid-morning",
+        "C": "Noon",
+        "D": "Mid-afternoon"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "id": 99,
+      "chapter": 37,
+      "difficulty": "medium",
+      "question": "What disease spreads through the starving Confederate conscripts?",
+      "options": {
+        "A": "Cholera",
+        "B": "Dysentery",
+        "C": "Plague",
+        "D": "Typhus"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "id": 100,
+      "chapter": 43,
+      "difficulty": "easy",
+      "question": "What is the title of the final chapter?",
+      "options": {
+        "A": "The Scarred King's Peace",
+        "B": "The Scarred King's Garden",
+        "C": "The Garden in Winter",
+        "D": "Home"
+      },
+      "correct_answer": "B"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String        @id @default(cuid())
+  email         String        @unique
+  name          String
+  passwordHash  String
+  address       String?
+  giftCardPref  String?
+  isAdmin       Boolean       @default(false)
+  newsletter    Boolean       @default(false)
+  createdAt     DateTime      @default(now())
+  scores        QuizScore[]
+  cohortEntries CohortEntry[]
+}
+
+model Series {
+  id          String @id @default(cuid())
+  slug        String @unique
+  title       String
+  tagline     String
+  description String
+  books       Book[]
+}
+
+model Book {
+  id         String      @id @default(cuid())
+  seriesId   String
+  series     Series      @relation(fields: [seriesId], references: [id])
+  number     Int
+  title      String
+  slug       String      @unique
+  blurb      String
+  coverImage String
+  published  Boolean     @default(false)
+  kdpUrl     String?
+  accessCode String
+  quizData   String
+  scores     QuizScore[]
+
+  @@unique([seriesId, number])
+}
+
+model QuizScore {
+  id          String       @id @default(cuid())
+  userId      String
+  user        User         @relation(fields: [userId], references: [id])
+  bookId      String
+  book        Book         @relation(fields: [bookId], references: [id])
+  score       Int
+  total       Int
+  percentage  Float
+  completedAt DateTime     @default(now())
+  cohortEntry CohortEntry?
+
+  @@index([bookId, percentage])
+}
+
+model Cohort {
+  id        String        @id @default(cuid())
+  name      String
+  bookId    String?
+  startDate DateTime
+  endDate   DateTime
+  status    String        @default("active")
+  prizeDesc String
+  entries   CohortEntry[]
+}
+
+model CohortEntry {
+  id       String    @id @default(cuid())
+  cohortId String
+  cohort   Cohort    @relation(fields: [cohortId], references: [id])
+  userId   String
+  user     User      @relation(fields: [userId], references: [id])
+  scoreId  String    @unique
+  score    QuizScore @relation(fields: [scoreId], references: [id])
+  rank     Int?
+
+  @@unique([cohortId, userId])
+}
