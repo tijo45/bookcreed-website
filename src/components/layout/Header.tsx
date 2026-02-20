@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
   { href: "/series/kingdom-of-valdrath", label: "Series" },
+  { href: "/lore", label: "World Lore" },
   { href: "/quiz", label: "Quizzes" },
   { href: "/leaderboard", label: "Leaderboard" },
   { href: "/contest/rules", label: "Contest Rules" },
