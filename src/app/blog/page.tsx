@@ -1,10 +1,18 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import { blogPosts } from "./_data/posts";
 
 export const metadata: Metadata = {
   title: "Blog — Behind the World of Valdrath",
   description:
     "Author updates, world-building insights, and behind-the-scenes looks at The Kingdom of Valdrath epic fantasy series by Eva Noir.",
+  keywords: [
+    "fantasy blog",
+    "Eva Noir blog",
+    "Kingdom of Valdrath",
+    "fantasy world building",
+    "epic fantasy recommendations",
+  ],
   openGraph: {
     title: "Blog — Behind the World of Valdrath",
     description:
@@ -25,35 +33,55 @@ export default function BlogPage() {
         </p>
       </div>
 
-      {/* Placeholder — no posts yet */}
-      <div className="glass-card p-12 text-center">
-        <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gold-500/10 text-gold-400 mx-auto mb-6">
-          <svg
-            className="h-8 w-8"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={1.5}
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5"
-            />
-          </svg>
-        </div>
-        <h2 className="font-[family-name:var(--font-heading)] text-xl font-semibold mb-3">
-          Coming Soon
+      <div className="space-y-8">
+        {blogPosts.map((post) => {
+          const formattedDate = new Date(
+            post.date + "T12:00:00",
+          ).toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          });
+
+          return (
+            <Link
+              key={post.slug}
+              href={`/blog/${post.slug}`}
+              className="glass-card p-8 block group hover:border-gold-500/30 transition-all duration-300"
+            >
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
+                <h2 className="font-[family-name:var(--font-heading)] text-xl md:text-2xl font-semibold text-stone-100 group-hover:text-gold-400 transition-colors leading-tight">
+                  {post.title}
+                </h2>
+                <div className="flex items-center gap-3 text-sm text-stone-500 shrink-0">
+                  <time dateTime={post.date}>{formattedDate}</time>
+                  <span>•</span>
+                  <span>{post.readingTime}</span>
+                </div>
+              </div>
+              <p className="text-stone-400 leading-relaxed">{post.excerpt}</p>
+              <span className="inline-block mt-4 text-gold-400 text-sm font-medium group-hover:translate-x-1 transition-transform">
+                Read more →
+              </span>
+            </Link>
+          );
+        })}
+      </div>
+
+      {/* Email signup CTA */}
+      <div className="mt-16 glass-card p-8 md:p-12 text-center">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold gold-gradient mb-4">
+          Never Miss a Post
         </h2>
-        <p className="text-stone-400 max-w-md mx-auto mb-8">
-          The first posts are being crafted. Subscribe to get notified when new
-          articles drop.
+        <p className="text-stone-400 max-w-lg mx-auto mb-6">
+          Get the free Valdrath Companion Guide and be the first to know when
+          new articles drop.
         </p>
         <Link
-          href="/"
+          href="/companion"
           className="btn-primary rounded-lg px-8 py-3 inline-block"
         >
-          Back to Home
+          Get the Free Companion Guide
         </Link>
       </div>
     </section>
