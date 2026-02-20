@@ -11,6 +11,125 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "test-your-knowledge-kingdom-of-valdrath",
+    title: "Test Your Knowledge of the Kingdom of Valdrath — Win Gift Cards!",
+    description:
+      "Take the Kingdom of Valdrath fantasy book quiz contest. 100 questions per book, skill-based scoring, and real gift card prizes for the top scorers on the leaderboard.",
+    keywords: [
+      "fantasy book quiz",
+      "kingdom of valdrath quiz",
+      "book quiz contest",
+      "fantasy quiz prizes",
+      "book trivia contest",
+    ],
+    excerpt:
+      "You've read the books. You've debated the characters. Now prove how well you really know Valdrath — and win gift cards doing it. 100 questions per book. Highest scores win.",
+    date: "2026-02-20",
+    author: "Eva Noir",
+    readingTime: "5 min read",
+  },
+  {
+    slug: "fantasy-books-great-prologues",
+    title: "Fantasy Books with Great Prologues That Hook You Instantly",
+    description:
+      "From Rothfuss\u2019s silence of three parts to Jordan\u2019s Dragonmount, these fantasy prologues grab you by the throat and don\u2019t let go.",
+    keywords: [
+      "best fantasy book prologues",
+      "fantasy books that hook you",
+      "best opening chapters fantasy",
+    ],
+    excerpt:
+      "A great prologue is a promise: this is the kind of story I am, and this is what I\u2019m willing to do. These fantasy books nail it from the very first page.",
+    date: "2026-02-25",
+    author: "Eva Noir",
+    readingTime: "7 min read",
+  },
+  {
+    slug: "epic-fantasy-vs-grimdark-difference",
+    title: "Epic Fantasy vs Grimdark: What\u2019s the Difference?",
+    description:
+      "Epic fantasy and grimdark get thrown around constantly, but what do they actually mean? Here\u2019s a clear breakdown of the spectrum \u2014 and why the best books live in between.",
+    keywords: [
+      "epic fantasy vs grimdark",
+      "fantasy subgenres explained",
+      "what is grimdark",
+    ],
+    excerpt:
+      "Tolkien or Abercrombie? Hope or cynicism? The truth is, the best modern fantasy refuses to choose. Here\u2019s what epic fantasy and grimdark actually mean \u2014 and where the genre is headed.",
+    date: "2026-02-24",
+    author: "Eva Noir",
+    readingTime: "8 min read",
+  },
+  {
+    slug: "best-fantasy-books-royal-families-succession",
+    title: "The Best Fantasy Books About Royal Families and Succession",
+    description:
+      "From the Lannisters to the Farseers, these fantasy books deliver the best royal family drama, succession crises, and throne wars in the genre.",
+    keywords: [
+      "royal family fantasy books",
+      "succession fantasy",
+      "throne war books",
+      "fantasy books about kings",
+    ],
+    excerpt:
+      "Sibling rivalries, dying kings, and thrones soaked in blood \u2014 when a royal family falls apart, a kingdom falls with it. These books deliver dynasty drama at its finest.",
+    date: "2026-02-23",
+    author: "Eva Noir",
+    readingTime: "9 min read",
+  },
+  {
+    slug: "morally-grey-protagonist-fantasy-series",
+    title: "Fantasy Series with Morally Grey Protagonists: 12 Picks",
+    description:
+      "Tired of chosen ones who never get their hands dirty? These 12 fantasy series feature morally grey protagonists who make you question everything.",
+    keywords: [
+      "morally grey protagonist fantasy",
+      "antihero fantasy books",
+      "complex fantasy characters",
+    ],
+    excerpt:
+      "The best fantasy protagonists aren\u2019t the ones who always do the right thing. They\u2019re the ones who make you argue with yourself about whether they did. Here are 12 series that deliver.",
+    date: "2026-02-22",
+    author: "Eva Noir",
+    readingTime: "10 min read",
+  },
+  {
+    slug: "fantasy-books-like-game-of-thrones",
+    title: "10 Fantasy Books Like Game of Thrones (But Better)",
+    description:
+      "Looking for books like Game of Thrones? These 10 political fantasy novels deliver morally grey characters, scheming courts, and worlds where nobody is safe.",
+    keywords: [
+      "books like game of thrones",
+      "fantasy books similar to got",
+      "political fantasy recommendations",
+      "books like asoiaf",
+      "fantasy books with political intrigue",
+    ],
+    excerpt:
+      "George R.R. Martin cracked something open in fantasy — a hunger for political intrigue, morally grey characters, and worlds where nobody is safe. These 10 books answer the call.",
+    date: "2026-02-20",
+    author: "Eva Noir",
+    readingTime: "10 min read",
+  },
+  {
+    slug: "exiled-prince-trope-fantasy",
+    title: "The Exiled Prince Trope in Fantasy: Why We Can\u2019t Get Enough",
+    description:
+      "From Aragorn to modern indie fantasy, the exiled prince trope endures because it strips characters to their essence. Here\u2019s why exile-and-return stories captivate us.",
+    keywords: [
+      "exiled prince fantasy",
+      "prince returns fantasy",
+      "exile trope in books",
+      "fantasy exile stories",
+      "exiled royalty trope",
+    ],
+    excerpt:
+      "A prince stripped of his title. A kingdom that cast him out. Years of wandering — and then the letter arrives. Why the exiled prince trope remains fantasy\u2019s most irresistible narrative engine.",
+    date: "2026-02-19",
+    author: "Eva Noir",
+    readingTime: "7 min read",
+  },
+  {
     slug: "best-epic-fantasy-series-2026",
     title: "Best Epic Fantasy Series to Start in 2026",
     description:
@@ -25,6 +144,24 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Looking for your next epic fantasy obsession? Here are 10 series — from beloved titans to fresh indie gems — that deserve a spot on your 2026 reading list.",
     date: "2026-02-18",
+    author: "Eva Noir",
+    readingTime: "8 min read",
+  },
+  {
+    slug: "dark-fantasy-renaissance-2026",
+    title: "Why Dark Fantasy Is Having a Renaissance in 2026",
+    description:
+      "Dark fantasy and grimdark are booming in 2026 — driven by indie authors, diverse settings, and readers hungry for moral complexity. Here\u2019s what\u2019s fueling the trend.",
+    keywords: [
+      "dark fantasy 2026",
+      "grimdark books 2026",
+      "dark fantasy trend",
+      "dark fantasy renaissance",
+      "best grimdark fantasy",
+    ],
+    excerpt:
+      "Morally grey protagonists. Worlds with permanent consequences. Magic with real costs. Dark fantasy is having a renaissance in 2026 — and the reasons go deeper than trend cycles.",
+    date: "2026-02-17",
     author: "Eva Noir",
     readingTime: "8 min read",
   },

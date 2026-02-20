@@ -179,6 +179,7 @@ export default function QuizPlayerPage() {
             <QuizResults
               breakdown={results.breakdown}
               bookTitle={bookTitle}
+              bookSlug={bookSlug}
               cohortEntered={results.cohortEntered}
               cohortName={results.cohortName}
             />

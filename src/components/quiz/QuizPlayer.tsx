@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect, useRef, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface ClientQuestion {
@@ -24,6 +24,16 @@ const DIFFICULTY_COLORS = {
   hard: "text-red-400",
 };
 
+function formatTime(seconds: number): string {
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  const s = seconds % 60;
+  if (h > 0) {
+    return `${h}:${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;
+  }
+  return `${m}:${s.toString().padStart(2, "0")}`;
+}
+
 export function QuizPlayer({
   questions,
   bookTitle,
@@ -35,10 +45,32 @@ export function QuizPlayer({
   const [flagged, setFlagged] = useState<Set<number>>(new Set());
   const [showConfirm, setShowConfirm] = useState(false);
   const [direction, setDirection] = useState(0);
+  const [showNavigator, setShowNavigator] = useState(false);
+  const [selectedPulse, setSelectedPulse] = useState<string | null>(null);
+  const [elapsedSeconds, setElapsedSeconds] = useState(0);
+  const startTimeRef = useRef(Date.now());
 
   const question = questions[currentIndex];
   const answeredCount = Object.keys(answers).length;
   const progress = (answeredCount / questions.length) * 100;
+  const optionKeys = useMemo(() => Object.keys(question.options), [question]);
+
+  // Difficulty distribution
+  const difficultyDist = useMemo(() => {
+    const dist = { easy: 0, medium: 0, hard: 0 };
+    for (const q of questions) {
+      dist[q.difficulty]++;
+    }
+    return dist;
+  }, [questions]);
+
+  // Timer
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setElapsedSeconds(Math.floor((Date.now() - startTimeRef.current) / 1000));
+    }, 1000);
+    return () => clearInterval(interval);
+  }, []);
 
   const goTo = useCallback(
     (index: number) => {
@@ -50,6 +82,8 @@ export function QuizPlayer({
 
   function selectAnswer(option: string) {
     setAnswers((prev) => ({ ...prev, [question.id]: option }));
+    setSelectedPulse(option);
+    setTimeout(() => setSelectedPulse(null), 300);
   }
 
   function toggleFlag() {
@@ -62,6 +96,26 @@ export function QuizPlayer({
       }
       return next;
     });
+  }
+
+  function goToNextFlagged() {
+    const flaggedIds = Array.from(flagged);
+    if (flaggedIds.length === 0) return;
+
+    // Find next flagged question after current index
+    for (let i = currentIndex + 1; i < questions.length; i++) {
+      if (flagged.has(questions[i].id)) {
+        goTo(i);
+        return;
+      }
+    }
+    // Wrap around
+    for (let i = 0; i <= currentIndex; i++) {
+      if (flagged.has(questions[i].id)) {
+        goTo(i);
+        return;
+      }
+    }
   }
 
   function handleNext() {
@@ -84,6 +138,51 @@ export function QuizPlayer({
     }
   }
 
+  // Keyboard shortcuts
+  useEffect(() => {
+    function handleKeyDown(e: KeyboardEvent) {
+      // Don't capture if user is typing in an input
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      if (showConfirm) return;
+
+      switch (e.key) {
+        case "1":
+        case "2":
+        case "3":
+        case "4": {
+          const idx = parseInt(e.key) - 1;
+          if (idx < optionKeys.length) {
+            selectAnswer(optionKeys[idx]);
+          }
+          break;
+        }
+        case "ArrowRight":
+          e.preventDefault();
+          handleNext();
+          break;
+        case "ArrowLeft":
+          e.preventDefault();
+          handlePrev();
+          break;
+        case "Enter":
+          if (currentIndex === questions.length - 1 && answeredCount > 0) {
+            handleSubmit();
+          } else {
+            handleNext();
+          }
+          break;
+        case "f":
+        case "F":
+          toggleFlag();
+          break;
+      }
+    }
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentIndex, optionKeys, showConfirm, answeredCount]);
+
   const variants = {
     enter: (dir: number) => ({
       x: dir > 0 ? 40 : -40,
@@ -99,10 +198,29 @@ export function QuizPlayer({
   return (
     <div className="mx-auto max-w-3xl">
       {/* Header */}
-      <div className="mb-6">
-        <h2 className="mb-1 font-[family-name:var(--font-heading)] text-xl font-bold text-stone-200">
-          {bookTitle}
-        </h2>
+      <div className="mb-4">
+        <div className="flex items-center justify-between mb-1">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-200">
+            {bookTitle}
+          </h2>
+          {/* Timer */}
+          <div className="flex items-center gap-2 rounded-lg border border-stone-700 bg-stone-900/50 px-3 py-1.5">
+            <svg className="h-4 w-4 text-stone-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span className="font-mono text-sm text-stone-300">{formatTime(elapsedSeconds)}</span>
+          </div>
+        </div>
+
+        {/* Difficulty distribution */}
+        <div className="mb-2 flex items-center gap-3 text-xs text-stone-500">
+          <span className="text-green-400/70">{difficultyDist.easy} Easy</span>
+          <span className="text-stone-600">·</span>
+          <span className="text-gold-400/70">{difficultyDist.medium} Medium</span>
+          <span className="text-stone-600">·</span>
+          <span className="text-red-400/70">{difficultyDist.hard} Hard</span>
+        </div>
+
         <div className="flex items-center justify-between text-sm text-stone-400">
           <span>
             Question {currentIndex + 1} of {questions.length}
@@ -121,6 +239,14 @@ export function QuizPlayer({
           animate={{ width: `${progress}%` }}
           transition={{ duration: 0.4, ease: "easeOut" }}
         />
+      </div>
+
+      {/* Keyboard shortcuts hint (desktop only) */}
+      <div className="mb-4 hidden sm:flex items-center gap-4 text-[10px] text-stone-600">
+        <span><kbd className="rounded border border-stone-700 bg-stone-800 px-1.5 py-0.5 font-mono">1-4</kbd> select</span>
+        <span><kbd className="rounded border border-stone-700 bg-stone-800 px-1.5 py-0.5 font-mono">←→</kbd> navigate</span>
+        <span><kbd className="rounded border border-stone-700 bg-stone-800 px-1.5 py-0.5 font-mono">Enter</kbd> next/submit</span>
+        <span><kbd className="rounded border border-stone-700 bg-stone-800 px-1.5 py-0.5 font-mono">F</kbd> flag</span>
       </div>
 
       {/* Question card */}
@@ -146,7 +272,7 @@ export function QuizPlayer({
               {question.difficulty}
             </span>
             {flagged.has(question.id) && (
-              <span className="text-xs text-gold-400">Flagged</span>
+              <span className="text-xs text-gold-400">⚑ Flagged</span>
             )}
           </div>
 
@@ -157,8 +283,9 @@ export function QuizPlayer({
 
           {/* Options */}
           <div className="space-y-3">
-            {Object.entries(question.options).map(([key, value]) => {
+            {Object.entries(question.options).map(([key, value], idx) => {
               const isSelected = answers[question.id] === key;
+              const isPulsing = selectedPulse === key;
               return (
                 <button
                   key={key}
@@ -167,10 +294,13 @@ export function QuizPlayer({
                     isSelected
                       ? "border-gold-500 bg-gold-500/10 text-stone-100"
                       : "border-stone-700 bg-stone-900/30 text-stone-300 hover:border-stone-600 hover:bg-stone-800/50"
-                  }`}
+                  } ${isPulsing ? "scale-[1.02]" : ""}`}
+                  style={{
+                    transition: "all 0.2s ease, transform 0.15s ease",
+                  }}
                 >
                   <span
-                    className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full border text-sm font-bold ${
+                    className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full border text-sm font-bold transition-all ${
                       isSelected
                         ? "border-gold-500 bg-gold-500 text-stone-950"
                         : "border-stone-600 text-stone-400"
@@ -178,7 +308,10 @@ export function QuizPlayer({
                   >
                     {key}
                   </span>
-                  <span className="pt-0.5">{value}</span>
+                  <span className="pt-0.5 flex-1">{value}</span>
+                  <span className="hidden sm:inline-block shrink-0 pt-0.5 text-xs text-stone-600 font-mono">
+                    {idx + 1}
+                  </span>
                 </button>
               );
             })}
@@ -205,8 +338,18 @@ export function QuizPlayer({
                 : "border-stone-700 text-stone-400 hover:bg-stone-800"
             }`}
           >
-            {flagged.has(question.id) ? "Unflag" : "Flag"}
+            {flagged.has(question.id) ? "⚑ Unflag" : "⚐ Flag"}
           </button>
+
+          {flagged.size > 0 && (
+            <button
+              onClick={goToNextFlagged}
+              className="rounded-lg border border-stone-700 px-3 py-2 text-sm text-gold-400 transition hover:bg-stone-800"
+              title="Jump to next flagged question"
+            >
+              Next Flagged ({flagged.size})
+            </button>
+          )}
 
           {currentIndex === questions.length - 1 ? (
             <button
@@ -227,32 +370,63 @@ export function QuizPlayer({
         </div>
       </div>
 
-      {/* Question grid navigator */}
+      {/* Question grid navigator — collapsible on mobile */}
       <div className="mt-6 glass-card p-4">
-        <p className="mb-2 text-xs font-medium uppercase tracking-wider text-stone-500">
-          Question Navigator
-        </p>
-        <div className="flex flex-wrap gap-1.5">
-          {questions.map((q, i) => {
-            const isAnswered = answers[q.id] !== undefined;
-            const isCurrent = i === currentIndex;
-            const isFlagged = flagged.has(q.id);
-            return (
-              <button
-                key={q.id}
-                onClick={() => goTo(i)}
-                className={`flex h-8 w-8 items-center justify-center rounded text-xs font-medium transition ${
-                  isCurrent
-                    ? "bg-gold-500 text-stone-950"
-                    : isAnswered
-                      ? "bg-stone-700 text-stone-200"
-                      : "bg-stone-800/50 text-stone-500 hover:bg-stone-800"
-                } ${isFlagged ? "ring-1 ring-gold-400" : ""}`}
-              >
-                {i + 1}
-              </button>
-            );
-          })}
+        <button
+          onClick={() => setShowNavigator(!showNavigator)}
+          className="flex w-full items-center justify-between sm:cursor-default"
+        >
+          <p className="text-xs font-medium uppercase tracking-wider text-stone-500">
+            Question Navigator
+          </p>
+          <svg
+            className={`h-4 w-4 text-stone-500 transition-transform sm:hidden ${showNavigator ? "rotate-180" : ""}`}
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={2}
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+          </svg>
+        </button>
+        <div className={`mt-2 ${showNavigator ? "block" : "hidden sm:block"}`}>
+          <div className="flex flex-wrap gap-1.5">
+            {questions.map((q, i) => {
+              const isAnswered = answers[q.id] !== undefined;
+              const isCurrent = i === currentIndex;
+              const isFlagged = flagged.has(q.id);
+              return (
+                <button
+                  key={q.id}
+                  onClick={() => goTo(i)}
+                  className={`flex h-8 w-8 items-center justify-center rounded text-xs font-medium transition ${
+                    isCurrent
+                      ? "bg-gold-500 text-stone-950"
+                      : isAnswered
+                        ? "bg-stone-700 text-stone-200"
+                        : "bg-stone-800/50 text-stone-500 hover:bg-stone-800"
+                  } ${isFlagged ? "ring-1 ring-gold-400" : ""}`}
+                >
+                  {i + 1}
+                </button>
+              );
+            })}
+          </div>
+          {/* Legend */}
+          <div className="mt-3 flex items-center gap-4 text-[10px] text-stone-600">
+            <span className="flex items-center gap-1">
+              <span className="h-3 w-3 rounded bg-gold-500"></span> Current
+            </span>
+            <span className="flex items-center gap-1">
+              <span className="h-3 w-3 rounded bg-stone-700"></span> Answered
+            </span>
+            <span className="flex items-center gap-1">
+              <span className="h-3 w-3 rounded bg-stone-800/50 ring-1 ring-gold-400"></span> Flagged
+            </span>
+            <span className="flex items-center gap-1">
+              <span className="h-3 w-3 rounded bg-stone-800/50"></span> Unanswered
+            </span>
+          </div>
         </div>
       </div>
 
@@ -278,6 +452,11 @@ export function QuizPlayer({
                 You have answered {answeredCount} of {questions.length}{" "}
                 questions. Unanswered questions will be marked incorrect.
               </p>
+              {flagged.size > 0 && (
+                <p className="mb-4 text-sm text-gold-400">
+                  You still have {flagged.size} flagged question{flagged.size > 1 ? "s" : ""} to review.
+                </p>
+              )}
               <div className="flex gap-3">
                 <button
                   onClick={() => setShowConfirm(false)}

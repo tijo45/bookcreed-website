@@ -2,15 +2,32 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { blogPosts, getPostBySlug } from "../_data/posts";
 import { BlogPostLayout } from "../_components/BlogPostLayout";
+import { ArticleJsonLd } from "@/components/seo/JsonLd";
 
 /* Post content imports */
+import MorallyGreyProtagonist from "../_content/morally-grey-protagonist-fantasy-series";
+import RoyalFamiliesSuccession from "../_content/best-fantasy-books-royal-families-succession";
+import EpicVsGrimdark from "../_content/epic-fantasy-vs-grimdark-difference";
+import GreatPrologues from "../_content/fantasy-books-great-prologues";
+import FantasyBooksLikeGOT from "../_content/fantasy-books-like-game-of-thrones";
+import ExiledPrinceTrope from "../_content/exiled-prince-trope-fantasy";
+import DarkFantasyRenaissance from "../_content/dark-fantasy-renaissance-2026";
 import BestEpicFantasy2026 from "../_content/best-epic-fantasy-series-2026";
 import DarkFantasyPolitical from "../_content/dark-fantasy-books-political-intrigue";
 import ArtOfWorldBuilding from "../_content/art-of-world-building-kingdom-of-valdrath";
 import SelfPublishingLessons from "../_content/self-publishing-epic-fantasy-lessons";
 import SuccessionCrisis from "../_content/why-fantasy-readers-need-succession-crisis";
+import TestYourKnowledgeValdrath from "../_content/test-your-knowledge-kingdom-of-valdrath";
 
 const contentMap: Record<string, React.ComponentType> = {
+  "test-your-knowledge-kingdom-of-valdrath": TestYourKnowledgeValdrath,
+  "morally-grey-protagonist-fantasy-series": MorallyGreyProtagonist,
+  "best-fantasy-books-royal-families-succession": RoyalFamiliesSuccession,
+  "epic-fantasy-vs-grimdark-difference": EpicVsGrimdark,
+  "fantasy-books-great-prologues": GreatPrologues,
+  "fantasy-books-like-game-of-thrones": FantasyBooksLikeGOT,
+  "exiled-prince-trope-fantasy": ExiledPrinceTrope,
+  "dark-fantasy-renaissance-2026": DarkFantasyRenaissance,
   "best-epic-fantasy-series-2026": BestEpicFantasy2026,
   "dark-fantasy-books-political-intrigue": DarkFantasyPolitical,
   "art-of-world-building-kingdom-of-valdrath": ArtOfWorldBuilding,
@@ -62,8 +79,17 @@ export default async function BlogPostPage({ params }: Props) {
   }
 
   return (
-    <BlogPostLayout post={post}>
-      <Content />
-    </BlogPostLayout>
+    <>
+      <ArticleJsonLd
+        headline={post.title}
+        description={post.description}
+        author={post.author}
+        datePublished={post.date}
+        url={`https://bookcreed.com/blog/${slug}`}
+      />
+      <BlogPostLayout post={post}>
+        <Content />
+      </BlogPostLayout>
+    </>
   );
 }

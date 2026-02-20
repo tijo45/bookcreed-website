@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import { BookCard } from "@/components/ui/BookCard";
 import { CompanionCTA } from "@/components/ui/CompanionCTA";
+import { QuizPromoBanner } from "@/components/ui/QuizPromoBanner";
 
 /* ------------------------------------------------------------------ */
 /* Placeholder book data - will be replaced with DB queries later      */
@@ -249,6 +250,11 @@ export default function HomePage() {
             </motion.div>
           ))}
         </div>
+      </RevealSection>
+
+      {/* ==================== QUIZ PROMO BANNER ==================== */}
+      <RevealSection className="mx-auto max-w-7xl px-6 py-12">
+        <QuizPromoBanner />
       </RevealSection>
 
       {/* ==================== COMPANION GUIDE CTA ==================== */}

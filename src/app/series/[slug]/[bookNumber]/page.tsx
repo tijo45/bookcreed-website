@@ -69,6 +69,25 @@ export default async function BookDetailPage({ params }: Props) {
         coverImage={book.coverImage}
         url={`https://bookcreed.com/series/${series.slug}/${book.number}`}
         kdpUrl={book.kdpUrl ?? undefined}
+        {...(book.number === 1
+          ? {
+              isbn: "9798246509012",
+              asin: "B0GKXNCCXD",
+              offers: [
+                { price: "2.99", bookFormat: "Kindle", url: book.kdpUrl ?? undefined },
+                { price: "14.99", bookFormat: "Paperback", url: book.kdpUrl ?? undefined },
+              ],
+            }
+          : book.number === 2
+            ? {
+                isbn: "9798246717608",
+                asin: "B0GL3YQFKS",
+                offers: [
+                  { price: "4.99", bookFormat: "Kindle", url: book.kdpUrl ?? undefined },
+                  { price: "14.99", bookFormat: "Paperback", url: book.kdpUrl ?? undefined },
+                ],
+              }
+            : {})}
       />
       <BookDetail
         book={book}
