@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import { BookDetail } from "./BookDetail";
+import { BookJsonLd } from "@/components/seo/JsonLd";
 
 interface Props {
   params: Promise<{ slug: string; bookNumber: string }>;
@@ -58,13 +59,25 @@ export default async function BookDetailPage({ params }: Props) {
   if (!book) notFound();
 
   return (
-    <BookDetail
-      book={book}
-      series={{
-        title: series.title,
-        slug: series.slug,
-        books: series.books,
-      }}
-    />
+    <>
+      <BookJsonLd
+        title={book.title}
+        author="Eva Noir"
+        description={book.blurb}
+        bookNumber={book.number}
+        seriesName={series.title}
+        coverImage={book.coverImage}
+        url={`https://bookcreed.com/series/${series.slug}/${book.number}`}
+        kdpUrl={book.kdpUrl ?? undefined}
+      />
+      <BookDetail
+        book={book}
+        series={{
+          title: series.title,
+          slug: series.slug,
+          books: series.books,
+        }}
+      />
+    </>
   );
 }
