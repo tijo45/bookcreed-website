@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import { BookCard } from "@/components/ui/BookCard";
+import { CompanionCTA } from "@/components/ui/CompanionCTA";
 
 /* ------------------------------------------------------------------ */
 /* Placeholder book data - will be replaced with DB queries later      */
@@ -249,6 +250,9 @@ export default function HomePage() {
           ))}
         </div>
       </RevealSection>
+
+      {/* ==================== COMPANION GUIDE CTA ==================== */}
+      <CompanionCTA variant="banner" />
 
       {/* ==================== CONTEST HIGHLIGHT ==================== */}
       <RevealSection className="mx-auto max-w-7xl px-6 py-24">

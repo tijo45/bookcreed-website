@@ -63,6 +63,14 @@ model QuizScore {
   @@index([bookId, percentage])
 }
 
+model Subscriber {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String
+  source    String   @default("companion") // where they signed up from
+  createdAt DateTime @default(now())
+}
+
 model Cohort {
   id        String        @id @default(cuid())
   name      String

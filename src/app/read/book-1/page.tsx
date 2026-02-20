@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { chapters } from "./chapterData";
+import { CompanionCTA } from "@/components/ui/CompanionCTA";
 
 export const metadata: Metadata = {
   title: "Read The Exile's Return Free — First 3 Chapters | Kingdom of Valdrath",
@@ -152,6 +153,9 @@ export default function ReadBook1() {
               </section>
             );
           })}
+
+          {/* Companion Guide CTA */}
+          <CompanionCTA variant="banner" />
 
           {/* End Teaser */}
           <div className="text-center py-16 border-t border-stone-800/60">
