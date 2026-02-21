@@ -18,6 +18,11 @@ import ArtOfWorldBuilding from "../_content/art-of-world-building-kingdom-of-val
 import SelfPublishingLessons from "../_content/self-publishing-epic-fantasy-lessons";
 import SuccessionCrisis from "../_content/why-fantasy-readers-need-succession-crisis";
 import TestYourKnowledgeValdrath from "../_content/test-your-knowledge-kingdom-of-valdrath";
+import SelfPublishedFantasyBooksWorthReading2026 from "../_content/self-published-fantasy-books-worth-reading-2026";
+import FantasySeriesComplexPoliticsBetrayal from "../_content/fantasy-series-with-complex-politics-and-betrayal";
+import DarkFantasyBooksLikeGameOfThrones2026 from "../_content/dark-fantasy-books-like-game-of-thrones-2026";
+import BooksLikeThroneOfGlassButDarker from "../_content/books-like-throne-of-glass-but-darker";
+import WorldbuildingTipsForFantasyWriters from "../_content/worldbuilding-tips-for-fantasy-writers";
 
 const contentMap: Record<string, React.ComponentType> = {
   "test-your-knowledge-kingdom-of-valdrath": TestYourKnowledgeValdrath,
@@ -33,6 +38,11 @@ const contentMap: Record<string, React.ComponentType> = {
   "art-of-world-building-kingdom-of-valdrath": ArtOfWorldBuilding,
   "self-publishing-epic-fantasy-lessons": SelfPublishingLessons,
   "why-fantasy-readers-need-succession-crisis": SuccessionCrisis,
+  "self-published-fantasy-books-worth-reading-2026": SelfPublishedFantasyBooksWorthReading2026,
+  "fantasy-series-with-complex-politics-and-betrayal": FantasySeriesComplexPoliticsBetrayal,
+  "dark-fantasy-books-like-game-of-thrones-2026": DarkFantasyBooksLikeGameOfThrones2026,
+  "books-like-throne-of-glass-but-darker": BooksLikeThroneOfGlassButDarker,
+  "worldbuilding-tips-for-fantasy-writers": WorldbuildingTipsForFantasyWriters,
 };
 
 interface Props {

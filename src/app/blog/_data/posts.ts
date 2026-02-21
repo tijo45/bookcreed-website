@@ -11,6 +11,96 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "worldbuilding-tips-for-fantasy-writers",
+    title: "Worldbuilding Tips for Fantasy Writers: Create Worlds That Feel Real",
+    description:
+      "Master worldbuilding for fantasy with tips from successful authors. Learn how to create cultures, magic systems, and political structures that enhance your story.",
+    keywords: [
+      "worldbuilding tips for fantasy writers",
+      "fantasy world building",
+      "how to build a fantasy world",
+      "fantasy writing advice",
+      "creating fantasy cultures",
+    ],
+    excerpt:
+      "Great worldbuilding isn't about mapping continents — it's about creating systems that feel lived-in. Here's how to build fantasy worlds that enhance your story.",
+    date: "2026-02-26",
+    author: "Eva Noir",
+    readingTime: "12 min read",
+  },
+  {
+    slug: "books-like-throne-of-glass-but-darker",
+    title: "Books Like Throne of Glass But Darker: 8 Complex Fantasy Series",
+    description:
+      "Love Throne of Glass but want more complexity? These 8 fantasy series offer the character depth and political intrigue you crave with darker, more mature themes.",
+    keywords: [
+      "books like throne of glass but darker",
+      "dark fantasy romance",
+      "complex fantasy heroines",
+      "mature fantasy series",
+      "fantasy books for adults",
+    ],
+    excerpt:
+      "You've outgrown YA fantasy but still love complex heroines and political intrigue. These series deliver Throne of Glass complexity with adult sophistication.",
+    date: "2026-02-25",
+    author: "Eva Noir",
+    readingTime: "11 min read",
+  },
+  {
+    slug: "dark-fantasy-books-like-game-of-thrones-2026",
+    title: "Dark Fantasy Books Like Game of Thrones: 8 Series That Deliver",
+    description:
+      "Finished Game of Thrones? These dark fantasy books deliver the political intrigue, moral complexity, and high stakes that made Martin's series unforgettable.",
+    keywords: [
+      "dark fantasy books like game of thrones",
+      "books similar to game of thrones",
+      "political fantasy recommendations",
+      "grimdark fantasy series",
+      "complex fantasy politics",
+    ],
+    excerpt:
+      "Martin cracked something open in fantasy — a hunger for moral complexity and political intrigue. These series prove that appetite was just the beginning.",
+    date: "2026-02-24",
+    author: "Eva Noir",
+    readingTime: "10 min read",
+  },
+  {
+    slug: "fantasy-series-with-complex-politics-and-betrayal",
+    title: "Fantasy Series with Complex Politics and Betrayal: 8 Must-Reads",
+    description:
+      "Love political intrigue and shocking betrayals? These fantasy series deliver sophisticated court politics, shifting alliances, and betrayals that matter.",
+    keywords: [
+      "fantasy series with complex politics and betrayal",
+      "political fantasy books",
+      "fantasy court intrigue",
+      "fantasy series betrayal",
+      "complex fantasy politics",
+    ],
+    excerpt:
+      "The best fantasy betrayals are carefully seeded, perfectly motivated, and absolutely devastating. These series understand that politics is always personal.",
+    date: "2026-02-23",
+    author: "Eva Noir",
+    readingTime: "10 min read",
+  },
+  {
+    slug: "self-published-fantasy-books-worth-reading-2026",
+    title: "Self Published Fantasy Books Worth Reading 2026: 9 Hidden Gems",
+    description:
+      "Discover the self published fantasy books worth reading 2026 has to offer. From political epics to innovative magic systems, indie fantasy is leading the genre.",
+    keywords: [
+      "self published fantasy books worth reading 2026",
+      "indie fantasy books 2026",
+      "best self published fantasy",
+      "independent fantasy authors",
+      "hidden gem fantasy books",
+    ],
+    excerpt:
+      "While traditional publishers play it safe, indie authors push boundaries. Here are the self published fantasy books worth reading in 2026.",
+    date: "2026-02-22",
+    author: "Eva Noir",
+    readingTime: "9 min read",
+  },
+  {
     slug: "test-your-knowledge-kingdom-of-valdrath",
     title: "Test Your Knowledge of the Kingdom of Valdrath — Win Gift Cards!",
     description:
