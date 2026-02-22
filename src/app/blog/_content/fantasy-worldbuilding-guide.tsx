@@ -27,9 +27,14 @@ export default function FantasyWorldbuildingGuide() {
         Take Valdrath&apos;s positioning between the Frostspine Mountains and the Whispering Sea. This geography creates natural borders that have protected the kingdom for centuries, but it also isolates them culturally and economically. The mountain passes freeze over in winter, cutting off trade routes and forcing the people to be self-sufficient during the harsh months. This geography has bred a culture of preparedness and stoicism that defines Valdrath&apos;s national character.
       </p>
       <p>
-        When Cassian Valdrath faces exile in <a href="https://www.amazon.com/dp/B0GKXNCCXD" target="_blank" rel="noopener noreferrer"><em>The Kingdom of Valdrath: Book One</em></a>, his survival skills aren&apos;t just convenient plot devices—they&apos;re the natural result of growing up in a kingdom where harsh winters teach everyone to be resourceful or die. The geography shapes the character, and the character reflects the world.
+        When Cassian Valdrath faces exile in{" "}
+        <a href="https://www.amazon.com/dp/B0GKXNCCXD" target="_blank" rel="noopener noreferrer">
+          <em>The Kingdom of Valdrath: Book One</em>
+        </a>, his survival skills aren&apos;t just convenient plot devices—they&apos;re the natural result of growing up in a kingdom where harsh winters teach everyone to be resourceful or die. The geography shapes the character, and the character reflects the world.
       </p>
-      <p>Consider how your kingdom&apos;s environment answers these questions:</p>
+      <p>
+        Consider how your kingdom&apos;s environment answers these questions:
+      </p>
       <ul>
         <li>What natural barriers protect or isolate your kingdom?</li>
         <li>How do seasonal changes affect daily life and politics?</li>
@@ -47,7 +52,9 @@ export default function FantasyWorldbuildingGuide() {
       <p>
         This system creates constant tension and opportunity. Minor nobles scheme for recognition while established houses worry about their children&apos;s competence. It&apos;s a system that rewards strength and cunning while creating the kind of political instability that makes for compelling storytelling.
       </p>
-      <p>Your political system should address:</p>
+      <p>
+        Your political system should address:
+      </p>
       <ul>
         <li>How is power inherited or transferred?</li>
         <li>What checks exist on absolute power?</li>
@@ -64,7 +71,10 @@ export default function FantasyWorldbuildingGuide() {
         Valdrath&apos;s culture revolves around the concept of &ldquo;winter-readiness&rdquo;—the idea that one must always be prepared for the worst. This manifests in everything from their spare, practical architecture to their preference for loyalty over cleverness in their leaders. Even their art tends toward geometric patterns that can be quickly reproduced rather than elaborate, time-consuming works.
       </p>
       <p>
-        This cultural value system creates natural conflict when characters like Prince Cassian, who values beauty and artistry, clash with a society that sees such interests as frivolous. In <a href="https://www.amazon.com/dp/B0GL3YQFKS" target="_blank" rel="noopener noreferrer"><em>The Kingdom of Valdrath: Book Two</em></a>, this tension between personal desires and cultural expectations drives much of the internal conflict as Cassian struggles to find his place as a leader.
+        This cultural value system creates natural conflict when characters like Prince Cassian, who values beauty and artistry, clash with a society that sees such interests as frivolous. In{" "}
+        <a href="https://www.amazon.com/dp/B0GL3YQFKS" target="_blank" rel="noopener noreferrer">
+          <em>The Kingdom of Valdrath: Book Two</em>
+        </a>, this tension between personal desires and cultural expectations drives much of the internal conflict as Cassian struggles to find his place as a leader.
       </p>
 
       <h3>Building Authentic Cultural Details</h3>
@@ -169,7 +179,9 @@ export default function FantasyWorldbuildingGuide() {
       <p>
         The best fantasy worlds are the ones that feel like they could exist just beyond the edge of our vision, waiting for us to step through and explore. With careful attention to consistency, depth, and the interconnected nature of all worldbuilding elements, you can create a kingdom that doesn&apos;t just contain your story—it lives and breathes and makes your readers wish they could visit.
       </p>
-      <p>Your fantasy world is waiting to be built. Now you have the tools to make it unforgettable.</p>
+      <p>
+        Your fantasy world is waiting to be built. Now you have the tools to make it unforgettable.
+      </p>
 
       <hr />
 

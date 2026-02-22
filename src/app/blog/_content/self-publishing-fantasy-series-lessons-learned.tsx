@@ -2,29 +2,62 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
   return (
     <>
       <p>
-        When I published <a href="https://www.amazon.com/dp/B0GKXNCCXD" target="_blank" rel="noopener noreferrer"><em>The Exile&apos;s Return</em></a> in 2024, I thought I understood what I was getting into. I&apos;d written the entire Kingdom of Valdrath series, had my covers designed, and believed the hardest part was behind me.
+        When I published{" "}
+        <a
+          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <em>The Exile&apos;s Return</em>
+        </a>{" "}
+        in 2024, I thought I understood what I was getting into. I&apos;d written
+        the entire Kingdom of Valdrath series, had my covers designed, and
+        believed the hardest part was behind me.
       </p>
       <p>I was spectacularly wrong.</p>
       <p>
-        Two years and two published books later (<a href="https://www.amazon.com/dp/B0GL3YQFKS" target="_blank" rel="noopener noreferrer"><em>The Shadow&apos;s Reach</em></a> launched in early 2025), I&apos;ve learned that successfully self-publishing a fantasy series requires skills no creative writing program teaches. Marketing strategy, reader psychology, platform building, series bible management, and the delicate art of balancing artistic vision with commercial viability—none of this appeared in my MFA coursework.
+        Two years and two published books later (
+        <a
+          href="https://www.amazon.com/dp/B0GL3YQFKS"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <em>The Shadow&apos;s Reach</em>
+        </a>{" "}
+        launched in early 2025), I&apos;ve learned that successfully self-publishing
+        a fantasy series requires skills no creative writing program teaches.
+        Marketing strategy, reader psychology, platform building, series bible
+        management, and the delicate art of balancing artistic vision with
+        commercial viability—none of this appeared in my MFA coursework.
       </p>
       <p>
-        But here&apos;s the thing: it&apos;s absolutely doable. In fact, 2026 might be the best time in history to launch an indie fantasy series, provided you approach it strategically.
+        But here&apos;s the thing: it&apos;s absolutely doable. In fact, 2026 might be
+        the best time in history to launch an indie fantasy series, provided you
+        approach it strategically.
       </p>
       <p>
-        Let me share what I&apos;ve learned—the victories, the face-plants, and the crucial insights that could save you months of costly mistakes.
+        Let me share what I&apos;ve learned—the victories, the face-plants, and the
+        crucial insights that could save you months of costly mistakes.
       </p>
 
       <h2>The Pre-Launch Foundation: What I Wish I&apos;d Known</h2>
 
       <h3>Planning Beyond Book One</h3>
       <p>
-        <strong>My mistake:</strong> I focused so intensely on perfecting <em>The Exile&apos;s Return</em> that I barely considered the series arc from a publishing perspective.
+        <strong>My mistake:</strong> I focused so intensely on perfecting{" "}
+        <em>The Exile&apos;s Return</em> that I barely considered the series arc
+        from a publishing perspective.
       </p>
       <p>
-        <strong>What I learned:</strong> Readers don&apos;t just buy books—they invest in storytelling experiences. When someone finishes your first book, they&apos;re making a decision about whether to trust you with 6-8 more books worth of their time.
+        <strong>What I learned:</strong> Readers don&apos;t just buy books—they
+        invest in storytelling experiences. When someone finishes your first
+        book, they&apos;re making a decision about whether to trust you with 6-8
+        more books worth of their time.
       </p>
-      <p>This means your series bible isn&apos;t just a creative tool—it&apos;s a business asset. I now maintain:</p>
+      <p>
+        This means your series bible isn&apos;t just a creative tool—it&apos;s a business
+        asset. I now maintain:
+      </p>
       <ul>
         <li><strong>Character arc spreadsheets</strong> tracking growth across all eight books</li>
         <li><strong>Plot thread documents</strong> ensuring setup and payoff across the entire series</li>
@@ -32,18 +65,27 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
         <li><strong>Thematic evolution maps</strong> showing how core themes develop throughout the series</li>
       </ul>
       <p>
-        <strong>Actionable advice:</strong> Before you publish book one, write detailed outlines for books 2-4 at minimum. Readers can sense when an author doesn&apos;t know where they&apos;re going, and they&apos;ll abandon the series accordingly.
+        <strong>Actionable advice:</strong> Before you publish book one, write
+        detailed outlines for books 2-4 at minimum. Readers can sense when an
+        author doesn&apos;t know where they&apos;re going, and they&apos;ll abandon the series
+        accordingly.
       </p>
 
       <h3>The Cover Problem That Nearly Killed My Launch</h3>
       <p>
-        Fantasy readers judge books by covers faster than any other genre. I learned this the hard way when my original cover for <em>The Exile&apos;s Return</em> generated impressive clicks but terrible conversion rates.
+        Fantasy readers judge books by covers faster than any other genre. I
+        learned this the hard way when my original cover for <em>The Exile&apos;s Return</em>{" "}
+        generated impressive clicks but terrible conversion rates.
       </p>
       <p>
-        <strong>The mistake:</strong> I chose a beautiful, literary-style cover that looked great in isolation but didn&apos;t clearly communicate &ldquo;political fantasy&rdquo; to browsing readers.
+        <strong>The mistake:</strong> I chose a beautiful, literary-style cover
+        that looked great in isolation but didn&apos;t clearly communicate &quot;political
+        fantasy&quot; to browsing readers.
       </p>
       <p>
-        <strong>The fix:</strong> I invested in a genre-appropriate redesign that immediately increased conversions by 340%. The lesson? Your cover is a marketing tool first, art second.
+        <strong>The fix:</strong> I invested in a genre-appropriate redesign that
+        immediately increased conversions by 340%. The lesson? Your cover is a
+        marketing tool first, art second.
       </p>
       <p><strong>Actionable advice:</strong></p>
       <ul>
@@ -57,7 +99,9 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
 
       <h3>Amazon&apos;s Algorithm Is Your Frenemy</h3>
       <p>
-        The KDP Select program offers powerful promotional tools, but exclusivity comes with serious trade-offs. After eighteen months of testing various approaches, here&apos;s what I&apos;ve learned:
+        The KDP Select program offers powerful promotional tools, but exclusivity
+        comes with serious trade-offs. After eighteen months of testing various
+        approaches, here&apos;s what I&apos;ve learned:
       </p>
       <p><strong>KDP Select Pros:</strong></p>
       <ul>
@@ -72,18 +116,22 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
         <li>International readers often can&apos;t access KU</li>
       </ul>
       <p>
-        <strong>My strategy:</strong> I enrolled books 1-2 in Select to build audience, but book 3 will launch wide (Amazon + other platforms) to diversify risk.
+        <strong>My strategy:</strong> I enrolled books 1-2 in Select to build
+        audience, but book 3 will launch wide (Amazon + other platforms) to
+        diversify risk.
       </p>
 
       <h3>Keywords and Categories: The Hidden Game</h3>
       <p>
-        This is where most fantasy authors fail spectacularly. Amazon&apos;s category system is Byzantine, and the keywords that drive discoverability aren&apos;t obvious.
+        This is where most fantasy authors fail spectacularly. Amazon&apos;s category
+        system is Byzantine, and the keywords that drive discoverability aren&apos;t
+        obvious.
       </p>
       <p><strong>What I learned:</strong></p>
       <ul>
-        <li>&ldquo;Epic fantasy&rdquo; is too competitive—niche down</li>
-        <li>&ldquo;Political fantasy,&rdquo; &ldquo;court intrigue fantasy,&rdquo; and &ldquo;royal conspiracy&rdquo; work better for my series</li>
-        <li>Seasonal keywords matter—&ldquo;new fantasy series 2026&rdquo; performed incredibly well in January</li>
+        <li>&quot;Epic fantasy&quot; is too competitive—niche down</li>
+        <li>&quot;Political fantasy,&quot; &quot;court intrigue fantasy,&quot; and &quot;royal conspiracy&quot; work better for my series</li>
+        <li>Seasonal keywords matter—&quot;new fantasy series 2026&quot; performed incredibly well in January</li>
         <li>Long-tail keywords outperform obvious ones</li>
       </ul>
       <p><strong>Tools that actually help:</strong></p>
@@ -97,7 +145,8 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
 
       <h3>The Social Media Reality Check</h3>
       <p>
-        Every author guide insists you need to be on every platform. This is terrible advice that will burn you out while accomplishing nothing.
+        Every author guide insists you need to be on every platform. This is
+        terrible advice that will burn you out while accomplishing nothing.
       </p>
       <p><strong>What actually works:</strong></p>
       <ul>
@@ -106,12 +155,17 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
         <li>Engagement quality matters infinitely more than follower count</li>
       </ul>
       <p>
-        <strong>My approach:</strong> I focused exclusively on building BookCreed.com and my newsletter list. I post occasionally on social media, but it&apos;s not my priority. This blog, detailed book reviews, and weekly newsletter content have generated more genuine readers than years of Twitter posting ever could.
+        <strong>My approach:</strong> I focused exclusively on building
+        BookCreed.com and my newsletter list. I post occasionally on social
+        media, but it&apos;s not my priority. This blog, detailed book reviews, and
+        weekly newsletter content have generated more genuine readers than years
+        of Twitter posting ever could.
       </p>
 
       <h3>Content Marketing for Fantasy Authors</h3>
       <p>
-        Readers want to connect with authors, but not in the way you think. They don&apos;t care about your coffee or your cat (usually). They want:
+        Readers want to connect with authors, but not in the way you think. They
+        don&apos;t care about your coffee or your cat (usually). They want:
       </p>
       <ul>
         <li><strong>Behind-the-scenes content</strong> about your writing process</li>
@@ -121,7 +175,7 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
       </ul>
       <p><strong>Content that converts readers:</strong></p>
       <ul>
-        <li>&ldquo;How I wrote the throne room scene in Chapter 12&rdquo; posts</li>
+        <li>&quot;How I wrote the throne room scene in Chapter 12&quot; posts</li>
         <li>Character interviews (seriously, readers love these)</li>
         <li>Maps, genealogies, and other series resources</li>
         <li>Honest book reviews in your genre (builds credibility)</li>
@@ -131,7 +185,8 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
 
       <h3>Pricing Strategy That Actually Makes Sense</h3>
       <p>
-        Fantasy readers have different price expectations than other genres, and series pricing is an art form.
+        Fantasy readers have different price expectations than other genres, and
+        series pricing is an art form.
       </p>
       <p><strong>My current strategy:</strong></p>
       <ul>
@@ -148,7 +203,8 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
 
       <h3>The Hidden Costs Nobody Mentions</h3>
       <p>
-        Self-publishing isn&apos;t just &ldquo;upload and pray.&rdquo; Here are costs that blindsided me:
+        Self-publishing isn&apos;t just &quot;upload and pray.&quot; Here are costs that
+        blindsided me:
       </p>
       <p><strong>Essential expenses per book:</strong></p>
       <ul>
@@ -166,14 +222,17 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
         <li>Convention appearances: $1,000-$5,000 per event</li>
       </ul>
       <p>
-        <strong>Reality check:</strong> Plan on investing $3,000-$7,000 per book to do it right. This isn&apos;t a low-cost venture—it&apos;s a small business.
+        <strong>Reality check:</strong> Plan on investing $3,000-$7,000 per book
+        to do it right. This isn&apos;t a low-cost venture—it&apos;s a small business.
       </p>
 
       <h2>Marketing Lessons from the Trenches</h2>
 
       <h3>Launch Strategy Evolution</h3>
       <p>
-        <strong>Book 1 launch:</strong> I did everything wrong. No advance reviews, minimal promotion, no email list. Sales were predictably terrible.
+        <strong>Book 1 launch:</strong> I did everything wrong. No advance
+        reviews, minimal promotion, no email list. Sales were predictably
+        terrible.
       </p>
       <p><strong>Book 2 launch:</strong> Coordinated six-month campaign including:</p>
       <ul>
@@ -184,7 +243,8 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
         <li>Amazon ad campaigns running simultaneously</li>
       </ul>
       <p>
-        <strong>Result:</strong> Book 2 launch generated 400% more first-week sales than book 1.
+        <strong>Result:</strong> Book 2 launch generated 400% more first-week
+        sales than book 1.
       </p>
 
       <h3>What Works in Fantasy Marketing</h3>
@@ -208,7 +268,8 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
 
       <h3>Protecting Your Artistic Vision While Building Commercial Success</h3>
       <p>
-        This is the hardest lesson: commercial success and artistic integrity aren&apos;t mutually exclusive, but they require constant negotiation.
+        This is the hardest lesson: commercial success and artistic integrity
+        aren&apos;t mutually exclusive, but they require constant negotiation.
       </p>
       <p><strong>Questions I ask myself regularly:</strong></p>
       <ul>
@@ -217,12 +278,16 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
         <li>How do I incorporate reader feedback without losing my voice?</li>
       </ul>
       <p>
-        <strong>My approach:</strong> I write the story I want to tell, then edit ruthlessly for pacing and clarity. Commercial considerations influence presentation and marketing, not core storytelling choices.
+        <strong>My approach:</strong> I write the story I want to tell, then edit
+        ruthlessly for pacing and clarity. Commercial considerations influence
+        presentation and marketing, not core storytelling choices.
       </p>
 
       <h3>Managing Reader Expectations Across Eight Books</h3>
       <p>
-        Series readers develop emotional investments that go beyond individual books. They&apos;re not just buying your next story—they&apos;re trusting you with characters they love.
+        Series readers develop emotional investments that go beyond individual
+        books. They&apos;re not just buying your next story—they&apos;re trusting you
+        with characters they love.
       </p>
       <p><strong>Strategies that work:</strong></p>
       <ul>
@@ -291,7 +356,9 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
 
       <h3>The Most Valuable Lesson</h3>
       <p>
-        Publishing a fantasy series is a marathon, not a sprint. Readers who discover your series in year three don&apos;t care that book one had a slow launch—they judge the complete experience.
+        Publishing a fantasy series is a marathon, not a sprint. Readers who
+        discover your series in year three don&apos;t care that book one had a slow
+        launch—they judge the complete experience.
       </p>
       <p>Focus on:</p>
       <ul>
@@ -305,7 +372,9 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
 
       <h3>Current Opportunities</h3>
       <p>
-        Fantasy is having a renaissance. Readers are hungry for diverse voices, complex political narratives, and series that treat them as intelligent adults. The audience exists—you just need to reach them effectively.
+        Fantasy is having a renaissance. Readers are hungry for diverse voices,
+        complex political narratives, and series that treat them as intelligent
+        adults. The audience exists—you just need to reach them effectively.
       </p>
       <p><strong>Trending reader preferences:</strong></p>
       <ul>
@@ -330,7 +399,10 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
       </ul>
 
       <h2>Your Next Steps: Making It Happen</h2>
-      <p>If you&apos;re planning to self-publish a fantasy series, start with these concrete actions:</p>
+      <p>
+        If you&apos;re planning to self-publish a fantasy series, start with these
+        concrete actions:
+      </p>
       <ol>
         <li><strong>Complete your series bible</strong> before publishing book one</li>
         <li><strong>Build your email list</strong> using content marketing</li>
@@ -339,29 +411,60 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
         <li><strong>Connect with other fantasy authors</strong> in your niche</li>
       </ol>
       <p>
-        Remember: every successful indie fantasy author started exactly where you are now. The difference between success and failure isn&apos;t talent or luck—it&apos;s persistence, professionalism, and strategic thinking.
+        Remember: every successful indie fantasy author started exactly where you
+        are now. The difference between success and failure isn&apos;t talent or
+        luck—it&apos;s persistence, professionalism, and strategic thinking.
       </p>
       <p>
-        The Kingdom of Valdrath journey has taught me that self-publishing fantasy isn&apos;t about getting rich quick or achieving overnight success. It&apos;s about building something lasting—connecting with readers who will follow your characters across multiple books and eagerly anticipate each new release.
+        The Kingdom of Valdrath journey has taught me that self-publishing
+        fantasy isn&apos;t about getting rich quick or achieving overnight success.
+        It&apos;s about building something lasting—connecting with readers who will
+        follow your characters across multiple books and eagerly anticipate each
+        new release.
       </p>
       <p>
-        That connection, when you achieve it, makes every challenge, every late-night editing session, and every marketing headache completely worthwhile.
+        That connection, when you achieve it, makes every challenge, every
+        late-night editing session, and every marketing headache completely
+        worthwhile.
       </p>
 
       <hr />
 
       <p>
-        <strong>Ready to start your own fantasy publishing journey?</strong> The path isn&apos;t easy, but it&apos;s absolutely achievable with the right approach and realistic expectations. If you want to see how political fantasy can work in today&apos;s market, check out how I&apos;ve structured the Kingdom of Valdrath series, starting with{" "}
-        <a href="https://www.amazon.com/dp/B0GKXNCCXD" target="_blank" rel="noopener noreferrer">
+        <strong>Ready to start your own fantasy publishing journey?</strong> The
+        path isn&apos;t easy, but it&apos;s absolutely achievable with the right approach
+        and realistic expectations. If you want to see how political fantasy can
+        work in today&apos;s market, check out how I&apos;ve structured the Kingdom of
+        Valdrath series, starting with{" "}
+        <a
+          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <em>The Exile&apos;s Return</em>
-        </a>.
+        </a>
+        .
       </p>
       <p>
         <strong>Want more indie publishing insights?</strong> Visit{" "}
-        <a href="https://bookcreed.com" target="_blank" rel="noopener noreferrer">BookCreed.com</a>{" "}
-        for detailed guides on fantasy marketing, author platform building, and the business side of creative writing.{" "}
-        <a href="https://bookcreed.com/newsletter" target="_blank" rel="noopener noreferrer">Join our newsletter</a>{" "}
-        for monthly updates on what&apos;s working in fantasy publishing and behind-the-scenes insights from successful indie authors.
+        <a
+          href="https://bookcreed.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          BookCreed.com
+        </a>{" "}
+        for detailed guides on fantasy marketing, author platform building, and
+        the business side of creative writing.{" "}
+        <a
+          href="https://bookcreed.com/newsletter"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Join our newsletter
+        </a>{" "}
+        for monthly updates on what&apos;s working in fantasy publishing and
+        behind-the-scenes insights from successful indie authors.
       </p>
     </>
   );
