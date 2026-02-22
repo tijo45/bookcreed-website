@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { CookieConsent } from "@/components/ui/CookieConsent";
+import { FreeDayBanner } from "@/components/ui/FreeDayBanner";
 import { SessionProvider } from "@/components/providers/SessionProvider";
 import { WebSiteJsonLd } from "@/components/seo/JsonLd";
 
@@ -91,6 +92,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen bg-stone-950 text-stone-200 font-[family-name:var(--font-body)] antialiased">
         <SessionProvider>
+          <FreeDayBanner />
           <Header />
           <main className="min-h-[calc(100vh-160px)]">{children}</main>
           <Footer />

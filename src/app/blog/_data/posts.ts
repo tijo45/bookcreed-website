@@ -11,6 +11,96 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "fantasy-books-perfect-for-book-clubs",
+    title: "Fantasy Books Perfect for Book Clubs: 10 Discussion-Worthy Picks",
+    description:
+      "Transform your book club with fantasy novels that generate passionate discussions. These 10 picks blend accessible worldbuilding with meaningful themes perfect for group analysis.",
+    keywords: [
+      "fantasy books perfect for book clubs",
+      "book club fantasy recommendations",
+      "fantasy novels for discussion",
+      "book club reads fantasy",
+      "fantasy books with themes",
+    ],
+    excerpt:
+      "Great fantasy novels explore universal themes through imaginative settings, creating perfect discussion material for book clubs. Here are 10 fantasy picks that will transform your meetings.",
+    date: "2026-02-28",
+    author: "Eva Noir",
+    readingTime: "12 min read",
+  },
+  {
+    slug: "underrated-fantasy-series-hidden-gems",
+    title: "Underrated Fantasy Series You Need to Read: 10 Hidden Gems",
+    description:
+      "Discover overlooked fantasy series that rival mainstream bestsellers. From indie masterpieces to miscategorized gems, these 10 underrated fantasy series deserve massive recognition.",
+    keywords: [
+      "underrated fantasy series you need to read",
+      "hidden gem fantasy books",
+      "overlooked fantasy series",
+      "indie fantasy recommendations",
+      "best unknown fantasy series",
+    ],
+    excerpt:
+      "While everyone debates Sanderson versus Martin, some of fantasy's most innovative work flies under the radar. These underrated gems offer everything mainstream fantasy delivers — and more.",
+    date: "2026-02-27",
+    author: "Eva Noir",
+    readingTime: "11 min read",
+  },
+  {
+    slug: "fantasy-books-complex-magic-systems",
+    title: "Fantasy Books with Complex Magic Systems That Reward Close Reading",
+    description:
+      "Discover fantasy novels with intricate magic systems that enhance storytelling. From systematic magic to reality-warping powers, these 10 series showcase magical complexity done right.",
+    keywords: [
+      "fantasy books with complex magic systems",
+      "systematic magic fantasy",
+      "intricate magic systems",
+      "fantasy magic worldbuilding",
+      "best fantasy magic systems",
+    ],
+    excerpt:
+      "The best magic systems are hidden architecture — frameworks that drive plot, define culture, and reward close attention. These 10 series prove complex doesn't have to mean confusing.",
+    date: "2026-02-26",
+    author: "Eva Noir",
+    readingTime: "13 min read",
+  },
+  {
+    slug: "best-dark-fantasy-book-series-2026",
+    title: "Best Dark Fantasy Book Series 2026: 10 Must-Read Recommendations",
+    description:
+      "Dark fantasy is booming in 2026 with sophisticated stories that use darkness to explore power, sacrifice, and survival. Discover the 10 series defining the genre's evolution.",
+    keywords: [
+      "best dark fantasy book series 2026",
+      "dark fantasy recommendations 2026",
+      "grimdark fantasy series",
+      "best dark fantasy novels",
+      "dark fantasy books to read",
+    ],
+    excerpt:
+      "Dark fantasy in 2026 doesn't just embrace darkness — it uses horror and moral complexity to explore genuine questions about power, identity, and what we owe each other.",
+    date: "2026-02-25",
+    author: "Eva Noir",
+    readingTime: "11 min read",
+  },
+  {
+    slug: "books-like-game-of-thrones-but-finished",
+    title: "Books Like Game of Thrones But Finished: 10 Complete Series",
+    description:
+      "Frustrated waiting for The Winds of Winter? These 10 complete fantasy series deliver all the political intrigue and moral complexity of Game of Thrones with actual endings.",
+    keywords: [
+      "books like game of thrones but finished",
+      "complete political fantasy series",
+      "finished fantasy series like got",
+      "political fantasy with endings",
+      "game of thrones alternatives complete",
+    ],
+    excerpt:
+      "After thirteen years waiting for The Winds of Winter, readers deserve political fantasy that actually reaches conclusions. These complete series deliver Thrones-level complexity with satisfying endings.",
+    date: "2026-02-24",
+    author: "Eva Noir",
+    readingTime: "14 min read",
+  },
+  {
     slug: "worldbuilding-tips-for-fantasy-writers",
     title: "Worldbuilding Tips for Fantasy Writers: Create Worlds That Feel Real",
     description:

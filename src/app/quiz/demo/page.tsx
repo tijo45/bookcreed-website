@@ -306,7 +306,7 @@ export default function QuizDemoPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
-                href="https://www.amazon.com/dp/B0DSNQ25RN"
+                href="https://www.amazon.com/dp/B0GKXNCCXD"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary inline-flex items-center justify-center gap-2 px-6 py-3"
@@ -346,7 +346,7 @@ export default function QuizDemoPage() {
 
   // PLAYING
   return (
-    <div className="px-4 py-8 sm:py-12">
+    <div className="px-4 py-8 pb-20 sm:py-12 sm:pb-20">
       <div className="mx-auto max-w-2xl">
         {/* Header */}
         <div className="mb-4">
@@ -484,6 +484,7 @@ export default function QuizDemoPage() {
               onClick={() => setState("results")}
               disabled={answeredCount < DEMO_QUESTIONS.length}
               className="btn-primary text-sm disabled:opacity-50"
+              title={answeredCount < DEMO_QUESTIONS.length ? "Answer all questions to see results" : "View your results"}
             >
               See Results
             </button>

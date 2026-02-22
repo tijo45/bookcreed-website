@@ -157,8 +157,8 @@ function RevealSection({ children, className = "" }: { children: React.ReactNode
 /* Homepage                                                            */
 /* ------------------------------------------------------------------ */
 export default function HomePage() {
-  // Cohort end: 30 days from now (placeholder)
-  const cohortEnd = useRef(new Date(Date.now() + 30 * 24 * 60 * 60 * 1000)).current;
+  // Cohort end: 1 year from now (placeholder)
+  const cohortEnd = useRef(new Date(Date.now() + 365 * 24 * 60 * 60 * 1000)).current;
   const countdown = useCountdown(cohortEnd);
 
   return (

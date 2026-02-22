@@ -85,7 +85,7 @@ export function QuizHub({
   isLoggedIn,
 }: QuizHubProps) {
   return (
-    <div className="px-4 py-8 sm:py-12">
+    <div className="px-4 py-8 pb-20 sm:py-12 sm:pb-20">
       <div className="mx-auto max-w-5xl">
         {/* Hero Section */}
         <motion.div
@@ -103,10 +103,13 @@ export function QuizHub({
             The Book Creed Quiz Challenge
           </h1>
           <p className="mx-auto mb-2 max-w-2xl text-lg text-stone-300">
+            How well do you know <span className="text-gold-400 font-semibold">The Kingdom of Valdrath</span>?
+          </p>
+          <p className="mx-auto mb-2 max-w-2xl text-base text-stone-400">
             Test your knowledge. Compete for the top score. Win real prizes.
           </p>
-          <p className="mx-auto max-w-xl text-sm text-stone-500">
-            This is a <span className="text-stone-400 font-medium">skill-based contest</span> — not a raffle or lottery. The reader with the highest score wins.
+          <p className="mx-auto max-w-xl text-sm text-stone-400">
+            This is a <span className="text-stone-300 font-medium">skill-based contest</span> — not a raffle or lottery. The reader with the highest score wins.
           </p>
         </motion.div>
 
@@ -132,7 +135,7 @@ export function QuizHub({
                   {activeCohort.prizeDesc}
                 </p>
                 <p className="mt-1 text-sm text-stone-400">
-                  Highest score wins · Skill determines the winner · <CountdownTimer endDate={activeCohort.endDate} />
+                  Highest score wins · Skill determines the winner · ⏱️ <span className="text-stone-300 font-medium"><CountdownTimer endDate={activeCohort.endDate} /></span>
                 </p>
               </div>
               <Link
@@ -155,7 +158,7 @@ export function QuizHub({
           <h2 className="mb-6 text-center font-[family-name:var(--font-heading)] text-xl font-bold text-stone-200">
             How It Works
           </h2>
-          <div className="grid gap-4 sm:grid-cols-4">
+          <div className="grid gap-4 pt-3 sm:grid-cols-4">
             {[
               {
                 step: "1",
@@ -203,7 +206,7 @@ export function QuizHub({
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4 + i * 0.1, duration: 0.4 }}
-                className="glass-card relative p-5 text-center"
+                className="glass-card relative overflow-visible p-5 text-center"
               >
                 <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full border border-gold-500/30 bg-gold-500/10 text-gold-400">
                   {item.icon}
@@ -214,7 +217,7 @@ export function QuizHub({
                 <h3 className="mb-1 font-[family-name:var(--font-heading)] text-sm font-bold text-stone-200">
                   {item.title}
                 </h3>
-                <p className="text-xs text-stone-400">{item.desc}</p>
+                <p className="text-xs text-stone-300">{item.desc}</p>
               </motion.div>
             ))}
           </div>
@@ -321,9 +324,14 @@ export function QuizHub({
                             {tier.label} &middot; {score.score}/{score.total}
                           </p>
                         ) : (
-                          <p className="mt-1 text-xs text-stone-500">
-                            Locked &middot; 100 questions
-                          </p>
+                          <div className="mt-1">
+                            <p className="text-xs text-stone-500">
+                              Locked &middot; 100 questions
+                            </p>
+                            <p className="mt-0.5 text-[10px] text-stone-600">
+                              🔑 Access code required
+                            </p>
+                          </div>
                         )}
                       </div>
                     </Link>
@@ -360,29 +368,7 @@ export function QuizHub({
           </motion.div>
         )}
 
-        {/* Social Proof / Testimonials Placeholder */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.8, duration: 0.5 }}
-          className="mb-10 glass-card p-6 text-center"
-        >
-          <p className="text-xs font-medium uppercase tracking-wider text-stone-500 mb-4">
-            What Readers Are Saying
-          </p>
-          <div className="grid gap-4 sm:grid-cols-3">
-            {[
-              { quote: "The quiz really tested how closely I was reading. I thought I knew everything — I was wrong!", name: "Reader" },
-              { quote: "Love that it's a skill contest. My score actually means something, and I can compete to win.", name: "Quiz Taker" },
-              { quote: "I retook the quiz after re-reading certain chapters. Went from 72% to 91%. So satisfying.", name: "Competitor" },
-            ].map((t, i) => (
-              <div key={i} className="rounded-lg bg-stone-900/50 p-4 text-left">
-                <p className="text-sm text-stone-300 italic">&ldquo;{t.quote}&rdquo;</p>
-                <p className="mt-2 text-xs text-stone-500">— {t.name}</p>
-              </div>
-            ))}
-          </div>
-        </motion.div>
+        {/* Testimonials — removed until we have real reader reviews */}
 
         {/* Login prompt */}
         {!isLoggedIn && (

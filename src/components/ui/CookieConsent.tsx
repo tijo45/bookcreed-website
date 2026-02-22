@@ -30,13 +30,13 @@ export function CookieConsent() {
         >
           <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 sm:flex-row">
             <p className="text-sm text-stone-400">
-              We use essential cookies for authentication and site functionality.
+              We use <span className="text-stone-300 font-medium">essential cookies only</span> for authentication and site functionality. No tracking or third-party cookies.
             </p>
             <button
               onClick={accept}
               className="btn-primary shrink-0 rounded-lg px-6 py-2 text-sm"
             >
-              Accept
+              OK, Got It
             </button>
           </div>
         </motion.div>

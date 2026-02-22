@@ -169,7 +169,7 @@ async function main() {
   // Create sample cohort
   const now = new Date();
   const endDate = new Date(now);
-  endDate.setMonth(endDate.getMonth() + 1);
+  endDate.setFullYear(endDate.getFullYear() + 1);
 
   const firstBook = await prisma.book.findFirst({
     where: { slug: "the-exiles-return" },
@@ -178,7 +178,7 @@ async function main() {
   if (firstBook) {
     const cohort = await prisma.cohort.create({
       data: {
-        name: "January 2026 - The Exile's Return",
+        name: "2026-2027 Annual Contest - The Exile's Return",
         bookId: firstBook.id,
         startDate: now,
         endDate: endDate,

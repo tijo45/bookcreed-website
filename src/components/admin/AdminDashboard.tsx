@@ -53,6 +53,29 @@ export function AdminDashboard({
   });
   const [creating, setCreating] = useState(false);
 
+  function setOneYearCohort() {
+    const now = new Date();
+    const oneYearFromNow = new Date(now);
+    oneYearFromNow.setFullYear(now.getFullYear() + 1);
+    
+    const formatDateForInput = (date: Date) => {
+      const year = date.getFullYear();
+      const month = String(date.getMonth() + 1).padStart(2, '0');
+      const day = String(date.getDate()).padStart(2, '0');
+      const hours = String(date.getHours()).padStart(2, '0');
+      const minutes = String(date.getMinutes()).padStart(2, '0');
+      return `${year}-${month}-${day}T${hours}:${minutes}`;
+    };
+
+    setForm({
+      ...form,
+      startDate: formatDateForInput(now),
+      endDate: formatDateForInput(oneYearFromNow),
+      name: form.name || `Cohort ${now.getFullYear()}-${now.getFullYear() + 1}`,
+      prizeDesc: form.prizeDesc || "$25 gift card of winner's choice"
+    });
+  }
+
   async function createCohort(e: React.FormEvent) {
     e.preventDefault();
     setCreating(true);
@@ -108,9 +131,18 @@ export function AdminDashboard({
           initial={{ opacity: 0, height: 0 }}
           animate={{ opacity: 1, height: "auto" }}
         >
-          <h2 className="text-xl font-[family-name:var(--font-heading)] text-stone-200 mb-4">
-            Create New Cohort
-          </h2>
+          <div className="flex justify-between items-center mb-4">
+            <h2 className="text-xl font-[family-name:var(--font-heading)] text-stone-200">
+              Create New Cohort
+            </h2>
+            <button
+              type="button"
+              onClick={setOneYearCohort}
+              className="text-sm px-3 py-1 bg-gold-600 hover:bg-gold-500 rounded text-stone-950 transition-colors"
+            >
+              Set 1-Year Duration
+            </button>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label className="block text-sm text-stone-400 mb-1">
