@@ -4,7 +4,6 @@ import { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { NewsletterSignup } from "@/components/ui/NewsletterSignup";
 import Link from "next/link";
-import type { Metadata } from "next";
 
 const benefits = [
   {
