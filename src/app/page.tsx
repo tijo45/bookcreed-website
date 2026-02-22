@@ -6,6 +6,7 @@ import { motion, useInView } from "framer-motion";
 import { BookCard } from "@/components/ui/BookCard";
 import { CompanionCTA } from "@/components/ui/CompanionCTA";
 import { QuizPromoBanner } from "@/components/ui/QuizPromoBanner";
+import { NewsletterSignup } from "@/components/ui/NewsletterSignup";
 
 /* ------------------------------------------------------------------ */
 /* Placeholder book data - will be replaced with DB queries later      */
@@ -259,6 +260,9 @@ export default function HomePage() {
 
       {/* ==================== COMPANION GUIDE CTA ==================== */}
       <CompanionCTA variant="banner" />
+
+      {/* ==================== NEWSLETTER SIGNUP ==================== */}
+      <NewsletterSignup variant="hero" />
 
       {/* ==================== CONTEST HIGHLIGHT ==================== */}
       <RevealSection className="mx-auto max-w-7xl px-6 py-24">

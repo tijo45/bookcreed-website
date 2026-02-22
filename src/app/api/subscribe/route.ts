@@ -54,11 +54,34 @@ export async function POST(request: NextRequest) {
       try {
         const { Resend } = await import("resend");
         const resend = new Resend(process.env.RESEND_API_KEY);
+        
+        // Different email content based on source
+        const isNewsletterSignup = source === "newsletter";
+        
         await resend.emails.send({
           from: "Book Creed <noreply@bookcreed.com>",
           to: normalizedEmail,
-          subject: "Your Valdrath Companion Guide is Here! 🏰",
-          html: `
+          subject: isNewsletterSignup 
+            ? "Welcome to Eva Noir's Kingdom! 👑" 
+            : "Your Valdrath Companion Guide is Here! 🏰",
+          html: isNewsletterSignup ? `
+            <div style="max-width:600px;margin:0 auto;font-family:Georgia,serif;color:#1c1917;padding:24px;">
+              <h1 style="font-family:'Cinzel',serif;color:#92400e;text-align:center;">Welcome to the Kingdom!</h1>
+              <p>Hi there,</p>
+              <p>Thank you for joining Eva Noir's newsletter! You're now part of an exclusive community of Valdrath enthusiasts.</p>
+              <p>As a subscriber, you'll receive:</p>
+              <ul>
+                <li>📚 First access to new book announcements</li>
+                <li>✍️ Behind-the-scenes writing insights</li>
+                <li>🎁 Exclusive content and bonus scenes</li>
+                <li>🗺️ Deep dives into Valdrath's history and lore</li>
+                <li>⚡ Early access to sample chapters</li>
+              </ul>
+              <p>In the meantime, have you started reading the series? <a href="https://bookcreed.com/read/book-1" style="color:#d97706;">Read the first 3 chapters of The Exile's Return for free</a>!</p>
+              <p>Also, don't forget to grab your <a href="https://bookcreed.com/companion" style="color:#d97706;">FREE Valdrath Companion Guide</a> — it's packed with character profiles, maps, and lore.</p>
+              <p style="margin-top:24px;">Welcome to the Kingdom,<br/>— Eva Noir &amp; The Book Creed Team</p>
+            </div>
+          ` : `
             <div style="max-width:600px;margin:0 auto;font-family:Georgia,serif;color:#1c1917;padding:24px;">
               <h1 style="font-family:'Cinzel',serif;color:#92400e;text-align:center;">The Valdrath Companion Guide</h1>
               <p>Hi ${trimmedName},</p>

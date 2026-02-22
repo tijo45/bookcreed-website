@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { BlogPost } from "../_data/posts";
+import { NewsletterSignup } from "@/components/ui/NewsletterSignup";
 
 interface Props {
   post: BlogPost;
@@ -49,6 +50,9 @@ export function BlogPostLayout({ post, children }: Props) {
       <div className="prose prose-invert prose-stone prose-lg max-w-none prose-headings:font-[family-name:var(--font-heading)] prose-headings:text-stone-100 prose-p:text-stone-300 prose-p:leading-relaxed prose-a:text-gold-400 prose-a:no-underline hover:prose-a:underline prose-strong:text-stone-200 prose-li:text-stone-300 prose-blockquote:border-gold-500/50 prose-blockquote:text-stone-400 prose-hr:border-stone-800">
         {children}
       </div>
+
+      {/* Newsletter Signup */}
+      <NewsletterSignup variant="inline" className="mt-16" />
 
       {/* CTA */}
       <div className="mt-16 glass-card p-8 md:p-12 text-center">
