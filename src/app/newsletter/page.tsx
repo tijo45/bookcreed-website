@@ -44,5 +44,6 @@ export const metadata: Metadata = {
 };
 
 export default function NewsletterPage() {
+  // Force rebuild - fixing 404 issue
   return <NewsletterPageClient />;
 }
