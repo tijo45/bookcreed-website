@@ -29,6 +29,8 @@ import PoliticalFantasyBooksLikeGameOfThrones from "../_content/political-fantas
 import SelfPublishingFantasySeriesLessonsLearned from "../_content/self-publishing-fantasy-series-lessons-learned";
 import FantasyWorldbuildingGuide from "../_content/fantasy-worldbuilding-guide";
 import EpicFantasySagas2026 from "../_content/epic-fantasy-sagas-2026";
+import EpicFantasySeriesLikeGameOfThrones from "../_content/epic-fantasy-series-like-game-of-thrones";
+import FreeFantasyBooksKindleFebruary2026 from "../_content/free-fantasy-books-kindle-february-2026";
 
 const contentMap: Record<string, React.ComponentType> = {
   "test-your-knowledge-kingdom-of-valdrath": TestYourKnowledgeValdrath,
@@ -55,6 +57,8 @@ const contentMap: Record<string, React.ComponentType> = {
   "self-publishing-fantasy-series-lessons-learned": SelfPublishingFantasySeriesLessonsLearned,
   "fantasy-worldbuilding-guide": FantasyWorldbuildingGuide,
   "epic-fantasy-sagas-2026": EpicFantasySagas2026,
+  "epic-fantasy-series-like-game-of-thrones": EpicFantasySeriesLikeGameOfThrones,
+  "free-fantasy-books-kindle-february-2026": FreeFantasyBooksKindleFebruary2026,
 };
 
 interface Props {

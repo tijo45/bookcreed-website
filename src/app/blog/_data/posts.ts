@@ -11,6 +11,42 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "epic-fantasy-series-like-game-of-thrones",
+    title: "5 Epic Fantasy Series to Read If You Love Game of Thrones",
+    description:
+      "Looking for books like Game of Thrones? These 5 epic fantasy series deliver political intrigue, morally grey characters, and worlds where no one is safe.",
+    keywords: [
+      "epic fantasy series like game of thrones",
+      "books like game of thrones",
+      "fantasy series political intrigue",
+      "best fantasy series 2026",
+      "game of thrones alternatives",
+    ],
+    excerpt:
+      "You finished A Song of Ice and Fire and now there's a void. These five epic fantasy series capture what makes Game of Thrones addictive — and each brings something Martin's series doesn't.",
+    date: "2026-02-22",
+    author: "Eva Noir",
+    readingTime: "10 min read",
+  },
+  {
+    slug: "free-fantasy-books-kindle-february-2026",
+    title: "Free Fantasy Books on Kindle This Week (Feb 25–Mar 1, 2026)",
+    description:
+      "Roundup of the best free and discounted fantasy books on Kindle for late February 2026, including epic fantasy, grimdark, and hidden indie gems.",
+    keywords: [
+      "free fantasy books kindle",
+      "free kindle books february 2026",
+      "free epic fantasy kindle",
+      "kindle deals fantasy",
+      "free books on kindle this week",
+    ],
+    excerpt:
+      "Late February 2026 is a goldmine for fantasy readers on a budget. We've rounded up the best free and temporarily free fantasy books on Kindle so you can load up without spending a dime.",
+    date: "2026-02-23",
+    author: "Eva Noir",
+    readingTime: "8 min read",
+  },
+  {
     slug: "epic-fantasy-sagas-2026",
     title: "Best Epic Fantasy Series 2026: 12 Must-Read Sagas That Will Transport You",
     description:
