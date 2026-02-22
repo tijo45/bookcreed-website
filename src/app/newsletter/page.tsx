@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "Join Eva Noir's newsletter for exclusive updates on The Kingdom of Valdrath series, behind-the-scenes writing insights, early access to new releases, and special content for fans.",
   keywords: [
     "Eva Noir newsletter",
-    "Kingdom of Valdrath updates",
+    "Kingdom of Valdrath updates", 
     "fantasy author newsletter",
     "book series updates",
     "exclusive fantasy content",
@@ -44,6 +44,5 @@ export const metadata: Metadata = {
 };
 
 export default function NewsletterPage() {
-  // Force rebuild - fixing 404 issue
   return <NewsletterPageClient />;
 }
