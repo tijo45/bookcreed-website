@@ -15,6 +15,7 @@ export function FreeDayBanner() {
   const [timeLeft, setTimeLeft] = useState<TimeLeft>({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   // Free day event dates: Feb 25 - Mar 1, 2026
+  const previewDate = new Date("2026-02-22T00:00:00-05:00"); // Show banner starting Feb 22
   const startDate = new Date("2026-02-25T00:00:00-05:00"); // Feb 25, 2026 midnight EST
   const endDate = new Date("2026-03-01T23:59:59-05:00"); // Mar 1, 2026 11:59 PM EST
 
@@ -23,8 +24,8 @@ export function FreeDayBanner() {
     const dismissed = localStorage.getItem("freeDayBanner2026Dismissed");
     const now = new Date();
     
-    // Show banner if not dismissed and we're in the promotional period
-    if (!dismissed && now >= startDate && now <= endDate) {
+    // Show banner from preview date through end of promotion
+    if (!dismissed && now >= previewDate && now <= endDate) {
       setIsVisible(true);
     }
   }, []);
@@ -67,9 +68,14 @@ export function FreeDayBanner() {
     return now >= startDate && now <= endDate;
   };
 
+  const isPreEvent = () => {
+    const now = new Date();
+    return now >= previewDate && now < startDate;
+  };
+
   const getTimeLeftText = () => {
-    if (!isEventActive()) {
-      return "Event starts in:";
+    if (isPreEvent()) {
+      return "Starts in:";
     }
     return "Ends in:";
   };
@@ -91,7 +97,7 @@ export function FreeDayBanner() {
               <span className="text-xl">🔥</span>
               <div>
                 <h3 className="font-bold text-gold-400 text-sm sm:text-base">
-                  FREE ON KINDLE — FEB 25-MAR 1!
+                  {isPreEvent() ? "COMING SOON — FREE ON KINDLE FEB 25–MAR 1!" : "FREE ON KINDLE — NOW THROUGH MAR 1!"}
                 </h3>
                 <p className="text-xs text-stone-300 sm:text-sm">
                   <span className="font-semibold">The Exile's Return</span> — Book 1 of Kingdom of Valdrath
