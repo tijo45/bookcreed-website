@@ -11,6 +11,24 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "epic-fantasy-sagas-2026",
+    title: "Best Epic Fantasy Series 2026: 12 Must-Read Sagas That Will Transport You",
+    description:
+      "Discover the best epic fantasy series of 2026, from Brandon Sanderson's latest to hidden gems like The Kingdom of Valdrath. Find your next fantasy obsession here.",
+    keywords: [
+      "best epic fantasy books 2026",
+      "new fantasy series 2026", 
+      "epic fantasy recommendations",
+      "fantasy series to read",
+      "best fantasy books 2026",
+    ],
+    excerpt:
+      "As we settle into 2026, the epic fantasy landscape has never been more vibrant. From established masters to brilliant newcomers, here are 12 epic fantasy series that absolutely deserve a spot on your bookshelf.",
+    date: "2026-02-22",
+    author: "Eva Noir",
+    readingTime: "15 min read",
+  },
+  {
     slug: "fantasy-worldbuilding-guide",
     title: "Fantasy Worldbuilding Guide: Creating Believable Kingdoms That Captivate Readers",
     description:

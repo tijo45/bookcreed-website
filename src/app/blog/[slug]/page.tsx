@@ -28,6 +28,7 @@ import HowToWriteMorallyGrayCharacters from "../_content/how-to-write-morally-gr
 import PoliticalFantasyBooksLikeGameOfThrones from "../_content/political-fantasy-books-like-game-of-thrones";
 import SelfPublishingFantasySeriesLessonsLearned from "../_content/self-publishing-fantasy-series-lessons-learned";
 import FantasyWorldbuildingGuide from "../_content/fantasy-worldbuilding-guide";
+import EpicFantasySagas2026 from "../_content/epic-fantasy-sagas-2026";
 
 const contentMap: Record<string, React.ComponentType> = {
   "test-your-knowledge-kingdom-of-valdrath": TestYourKnowledgeValdrath,
@@ -53,6 +54,7 @@ const contentMap: Record<string, React.ComponentType> = {
   "political-fantasy-books-like-game-of-thrones": PoliticalFantasyBooksLikeGameOfThrones,
   "self-publishing-fantasy-series-lessons-learned": SelfPublishingFantasySeriesLessonsLearned,
   "fantasy-worldbuilding-guide": FantasyWorldbuildingGuide,
+  "epic-fantasy-sagas-2026": EpicFantasySagas2026,
 };
 
 interface Props {
