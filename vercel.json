@@ -1,9 +1,3 @@
 {
-  "trailingSlash": false,
-  "rewrites": [
-    {
-      "source": "/newsletter",
-      "destination": "/newsletter"
-    }
-  ]
+  "trailingSlash": false
 }
