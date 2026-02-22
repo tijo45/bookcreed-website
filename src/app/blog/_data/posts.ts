@@ -11,6 +11,96 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "fantasy-worldbuilding-guide",
+    title: "Fantasy Worldbuilding Guide: Creating Believable Kingdoms That Captivate Readers",
+    description:
+      "Master fantasy worldbuilding with our comprehensive guide. Learn how to create believable kingdoms, political systems, and cultures that bring your fantasy world to life.",
+    keywords: [
+      "fantasy worldbuilding",
+      "how to build a fantasy world",
+      "worldbuilding guide",
+      "fantasy world creation",
+      "kingdom building fantasy",
+    ],
+    excerpt:
+      "Creating a fantasy world isn't just about drawing maps and naming places—it's about breathing life into an entire civilization. Learn the essential elements that make fantasy kingdoms feel real.",
+    date: "2026-02-22",
+    author: "Eva Noir",
+    readingTime: "15 min read",
+  },
+  {
+    slug: "self-publishing-fantasy-series-lessons-learned",
+    title: "Self-Publishing an 8-Book Fantasy Series: Lessons Learned from The Kingdom of Valdrath Journey",
+    description:
+      "Learn the hard-won lessons from self-publishing a multi-book fantasy series on KDP. From planning to marketing, here's what works (and what doesn't) in 2026.",
+    keywords: [
+      "self publishing fantasy series",
+      "KDP fantasy books",
+      "how to self publish fantasy",
+      "fantasy author tips",
+      "indie fantasy publishing",
+    ],
+    excerpt:
+      "Two years and two published books later, I've learned that successfully self-publishing a fantasy series requires skills no creative writing program teaches. Here are the crucial insights that could save you months of costly mistakes.",
+    date: "2026-02-22",
+    author: "Eva Noir",
+    readingTime: "18 min read",
+  },
+  {
+    slug: "political-fantasy-books-like-game-of-thrones",
+    title: "Political Fantasy Books Like Game of Thrones: 15 Series That Master Intrigue and Power",
+    description:
+      "Discover the best political fantasy novels like Game of Thrones. From court intrigue to royal conspiracies, these series deliver the political drama you crave.",
+    keywords: [
+      "books like game of thrones",
+      "political fantasy novels",
+      "fantasy political intrigue",
+      "court intrigue fantasy",
+      "political fantasy recommendations",
+    ],
+    excerpt:
+      "The craving for complex political fantasy hasn't diminished. These fifteen series capture what made Game of Thrones addictive while offering their own unique takes on political fantasy.",
+    date: "2026-02-22",
+    author: "Eva Noir",
+    readingTime: "16 min read",
+  },
+  {
+    slug: "how-to-write-morally-gray-characters",
+    title: "How to Write Morally Gray Characters: The Complete Guide to Creating Complex Protagonists",
+    description:
+      "Master the art of writing morally gray characters with proven techniques. Learn how to create complex protagonists readers love despite their flaws.",
+    keywords: [
+      "morally gray characters",
+      "writing complex characters",
+      "character development",
+      "how to write antiheroes",
+      "writing morally complex protagonists",
+    ],
+    excerpt:
+      "Today's readers crave characters who exist in the messy middle ground of human morality. Learn how to craft protagonists who make questionable choices for understandable reasons.",
+    date: "2026-02-22",
+    author: "Eva Noir",
+    readingTime: "14 min read",
+  },
+  {
+    slug: "best-epic-fantasy-books-2026",
+    title: "Best Epic Fantasy Books 2026: 12 Must-Read Sagas That Will Transport You",
+    description:
+      "Discover the best epic fantasy books of 2026, from Brandon Sanderson's latest to hidden gems like The Kingdom of Valdrath. Find your next fantasy obsession here.",
+    keywords: [
+      "best epic fantasy books 2026",
+      "new fantasy series 2026",
+      "epic fantasy recommendations",
+      "fantasy series to read",
+      "best fantasy books 2026",
+    ],
+    excerpt:
+      "As we settle into 2026, the epic fantasy landscape has never been more vibrant. Here are twelve epic fantasy series that absolutely deserve a spot on your bookshelf.",
+    date: "2026-02-22",
+    author: "Eva Noir",
+    readingTime: "12 min read",
+  },
+  {
     slug: "fantasy-books-perfect-for-book-clubs",
     title: "Fantasy Books Perfect for Book Clubs: 10 Discussion-Worthy Picks",
     description:

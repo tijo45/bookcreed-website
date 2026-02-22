@@ -23,6 +23,11 @@ import FantasySeriesComplexPoliticsBetrayal from "../_content/fantasy-series-wit
 import DarkFantasyBooksLikeGameOfThrones2026 from "../_content/dark-fantasy-books-like-game-of-thrones-2026";
 import BooksLikeThroneOfGlassButDarker from "../_content/books-like-throne-of-glass-but-darker";
 import WorldbuildingTipsForFantasyWriters from "../_content/worldbuilding-tips-for-fantasy-writers";
+import BestEpicFantasyBooks2026 from "../_content/best-epic-fantasy-books-2026";
+import HowToWriteMorallyGrayCharacters from "../_content/how-to-write-morally-gray-characters";
+import PoliticalFantasyBooksLikeGameOfThrones from "../_content/political-fantasy-books-like-game-of-thrones";
+import SelfPublishingFantasySeriesLessonsLearned from "../_content/self-publishing-fantasy-series-lessons-learned";
+import FantasyWorldbuildingGuide from "../_content/fantasy-worldbuilding-guide";
 
 const contentMap: Record<string, React.ComponentType> = {
   "test-your-knowledge-kingdom-of-valdrath": TestYourKnowledgeValdrath,
@@ -43,6 +48,11 @@ const contentMap: Record<string, React.ComponentType> = {
   "dark-fantasy-books-like-game-of-thrones-2026": DarkFantasyBooksLikeGameOfThrones2026,
   "books-like-throne-of-glass-but-darker": BooksLikeThroneOfGlassButDarker,
   "worldbuilding-tips-for-fantasy-writers": WorldbuildingTipsForFantasyWriters,
+  "best-epic-fantasy-books-2026": BestEpicFantasyBooks2026,
+  "how-to-write-morally-gray-characters": HowToWriteMorallyGrayCharacters,
+  "political-fantasy-books-like-game-of-thrones": PoliticalFantasyBooksLikeGameOfThrones,
+  "self-publishing-fantasy-series-lessons-learned": SelfPublishingFantasySeriesLessonsLearned,
+  "fantasy-worldbuilding-guide": FantasyWorldbuildingGuide,
 };
 
 interface Props {
