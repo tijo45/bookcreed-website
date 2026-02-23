@@ -11,6 +11,42 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-build-fantasy-world-that-feels-real",
+    title: "How to Build a Fantasy World That Feels Real",
+    description:
+      "Learn how to build a fantasy world that feels real with worldbuilding tips on culture, religion, economics, and history — with examples from The Kingdom of Valdrath.",
+    keywords: [
+      "fantasy worldbuilding",
+      "how to write fantasy",
+      "worldbuilding tips",
+      "how to build a fantasy world",
+      "fantasy world creation guide",
+    ],
+    excerpt:
+      "Great worldbuilding isn't about maps and magic systems — it's about building cultures, consequences, and internal conflicts that make a fantasy world feel like it existed before the story started.",
+    date: "2026-02-23",
+    author: "Eva Noir",
+    readingTime: "14 min read",
+  },
+  {
+    slug: "rise-of-dark-fantasy-morally-gray-heroes",
+    title: "The Rise of Dark Fantasy: Why Readers Want Morally Gray Heroes",
+    description:
+      "Explore the rise of dark fantasy and why readers crave morally gray characters. From First Law to Broken Empire to The Kingdom of Valdrath — grimdark fantasy is booming.",
+    keywords: [
+      "dark fantasy books",
+      "morally gray characters",
+      "grimdark fantasy",
+      "rise of dark fantasy",
+      "morally grey heroes fantasy",
+    ],
+    excerpt:
+      "Something shifted in fantasy. Readers abandoned the Chosen One for compromised antiheroes, and the genre hasn't looked back. Here's why dark fantasy dominates — and where it's headed next.",
+    date: "2026-02-23",
+    author: "Eva Noir",
+    readingTime: "12 min read",
+  },
+  {
     slug: "epic-fantasy-series-like-game-of-thrones",
     title: "5 Epic Fantasy Series to Read If You Love Game of Thrones",
     description:

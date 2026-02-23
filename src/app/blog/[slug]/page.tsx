@@ -31,6 +31,8 @@ import FantasyWorldbuildingGuide from "../_content/fantasy-worldbuilding-guide";
 import EpicFantasySagas2026 from "../_content/epic-fantasy-sagas-2026";
 import EpicFantasySeriesLikeGameOfThrones from "../_content/epic-fantasy-series-like-game-of-thrones";
 import FreeFantasyBooksKindleFebruary2026 from "../_content/free-fantasy-books-kindle-february-2026";
+import HowToBuildFantasyWorldThatFeelsReal from "../_content/how-to-build-fantasy-world-that-feels-real";
+import RiseOfDarkFantasyMorallyGrayHeroes from "../_content/rise-of-dark-fantasy-morally-gray-heroes";
 
 const contentMap: Record<string, React.ComponentType> = {
   "test-your-knowledge-kingdom-of-valdrath": TestYourKnowledgeValdrath,
@@ -59,6 +61,8 @@ const contentMap: Record<string, React.ComponentType> = {
   "epic-fantasy-sagas-2026": EpicFantasySagas2026,
   "epic-fantasy-series-like-game-of-thrones": EpicFantasySeriesLikeGameOfThrones,
   "free-fantasy-books-kindle-february-2026": FreeFantasyBooksKindleFebruary2026,
+  "how-to-build-fantasy-world-that-feels-real": HowToBuildFantasyWorldThatFeelsReal,
+  "rise-of-dark-fantasy-morally-gray-heroes": RiseOfDarkFantasyMorallyGrayHeroes,
 };
 
 interface Props {
