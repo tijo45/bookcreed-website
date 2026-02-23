@@ -11,6 +11,28 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "free-book-alert-exiles-return-kindle",
+    title:
+      "Free Book Alert: Download The Exile's Return FREE on Kindle (Feb 25 – Mar 1)",
+    description:
+      "Get The Exile's Return by Eva Noir completely free on Amazon Kindle from February 25 through March 1, 2026. Book 1 of the epic fantasy series The Kingdom of Valdrath — free for a limited time.",
+    keywords: [
+      "free fantasy book",
+      "free kindle book",
+      "free epic fantasy",
+      "free book alert",
+      "the exiles return free",
+      "kingdom of valdrath free",
+      "free fantasy books 2026",
+      "free kindle books this week",
+    ],
+    excerpt:
+      "For five days only, The Exile's Return is completely FREE on Amazon Kindle. No catch, no subscription required — just a full-length epic fantasy novel about an exiled prince, a murdered brother, and a conspiracy that reaches the heart of a kingdom.",
+    date: "2026-02-23",
+    author: "Eva Noir",
+    readingTime: "5 min read",
+  },
+  {
     slug: "how-to-build-fantasy-world-that-feels-real",
     title: "How to Build a Fantasy World That Feels Real",
     description:

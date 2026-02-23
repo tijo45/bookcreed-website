@@ -33,8 +33,10 @@ import EpicFantasySeriesLikeGameOfThrones from "../_content/epic-fantasy-series-
 import FreeFantasyBooksKindleFebruary2026 from "../_content/free-fantasy-books-kindle-february-2026";
 import HowToBuildFantasyWorldThatFeelsReal from "../_content/how-to-build-fantasy-world-that-feels-real";
 import RiseOfDarkFantasyMorallyGrayHeroes from "../_content/rise-of-dark-fantasy-morally-gray-heroes";
+import FreeBookAlertExilesReturnKindle from "../_content/free-book-alert-exiles-return-kindle";
 
 const contentMap: Record<string, React.ComponentType> = {
+  "free-book-alert-exiles-return-kindle": FreeBookAlertExilesReturnKindle,
   "test-your-knowledge-kingdom-of-valdrath": TestYourKnowledgeValdrath,
   "morally-grey-protagonist-fantasy-series": MorallyGreyProtagonist,
   "best-fantasy-books-royal-families-succession": RoyalFamiliesSuccession,
