@@ -1,2 +1,0 @@
-Deploy test - checking if GitHub auto-deploy to Vercel is working
-Created: 2026-02-23 15:18 EST
