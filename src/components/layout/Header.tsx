@@ -6,6 +6,7 @@ import { useSession, signOut } from "next-auth/react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
+  { href: "/books", label: "Books" },
   { href: "/series/kingdom-of-valdrath", label: "Series" },
   { href: "/lore", label: "World Lore" },
   { href: "/quiz", label: "Quizzes" },
