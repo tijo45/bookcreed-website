@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { blogPosts, getPostBySlug } from "../_data/posts";
 import { BlogPostLayout } from "../_components/BlogPostLayout";
-import { ArticleJsonLd } from "@/components/seo/JsonLd";
+import { ArticleJsonLd, BreadcrumbListJsonLd } from "@/components/seo/JsonLd";
 
 /* Post content imports */
 import MorallyGreyProtagonist from "../_content/morally-grey-protagonist-fantasy-series";
@@ -106,6 +106,13 @@ export default async function BlogPostPage({ params }: Props) {
 
   return (
     <>
+      <BreadcrumbListJsonLd
+        items={[
+          { name: "Home", url: "https://bookcreed.com" },
+          { name: "Blog", url: "https://bookcreed.com/blog" },
+          { name: post.title, url: `https://bookcreed.com/blog/${slug}` },
+        ]}
+      />
       <ArticleJsonLd
         headline={post.title}
         description={post.description}
