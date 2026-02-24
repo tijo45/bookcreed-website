@@ -34,6 +34,16 @@ import FreeFantasyBooksKindleFebruary2026 from "../_content/free-fantasy-books-k
 import HowToBuildFantasyWorldThatFeelsReal from "../_content/how-to-build-fantasy-world-that-feels-real";
 import RiseOfDarkFantasyMorallyGrayHeroes from "../_content/rise-of-dark-fantasy-morally-gray-heroes";
 import FreeBookAlertExilesReturnKindle from "../_content/free-book-alert-exiles-return-kindle";
+import BestDarkFantasyBookSeries2026 from "../_content/best-dark-fantasy-book-series-2026";
+import BooksLikeGameOfThronesButFinished from "../_content/books-like-game-of-thrones-but-finished";
+import FantasyBooksComplexMagicSystems from "../_content/fantasy-books-complex-magic-systems";
+import FantasyBooksPerfectForBookClubs from "../_content/fantasy-books-perfect-for-book-clubs";
+import UnderratedFantasySeriesHiddenGems from "../_content/underrated-fantasy-series-hidden-gems";
+import FantasyBooksWithMorallyGreyCharacters from "../_content/fantasy-books-with-morally-grey-characters";
+import EpicFantasySeriesCompleted2026 from "../_content/epic-fantasy-series-completed-2026";
+import FantasyBooksAboutRoyalSuccession from "../_content/fantasy-books-about-royal-succession";
+import BooksWithPoliticalIntrigueAndBetrayal from "../_content/books-with-political-intrigue-and-betrayal";
+import IndieFantasyAuthorsToWatch2026 from "../_content/indie-fantasy-authors-to-watch-2026";
 
 const contentMap: Record<string, React.ComponentType> = {
   "free-book-alert-exiles-return-kindle": FreeBookAlertExilesReturnKindle,
@@ -65,6 +75,16 @@ const contentMap: Record<string, React.ComponentType> = {
   "free-fantasy-books-kindle-february-2026": FreeFantasyBooksKindleFebruary2026,
   "how-to-build-fantasy-world-that-feels-real": HowToBuildFantasyWorldThatFeelsReal,
   "rise-of-dark-fantasy-morally-gray-heroes": RiseOfDarkFantasyMorallyGrayHeroes,
+  "best-dark-fantasy-book-series-2026": BestDarkFantasyBookSeries2026,
+  "books-like-game-of-thrones-but-finished": BooksLikeGameOfThronesButFinished,
+  "fantasy-books-complex-magic-systems": FantasyBooksComplexMagicSystems,
+  "fantasy-books-perfect-for-book-clubs": FantasyBooksPerfectForBookClubs,
+  "underrated-fantasy-series-hidden-gems": UnderratedFantasySeriesHiddenGems,
+  "fantasy-books-with-morally-grey-characters": FantasyBooksWithMorallyGreyCharacters,
+  "epic-fantasy-series-completed-2026": EpicFantasySeriesCompleted2026,
+  "fantasy-books-about-royal-succession": FantasyBooksAboutRoyalSuccession,
+  "books-with-political-intrigue-and-betrayal": BooksWithPoliticalIntrigueAndBetrayal,
+  "indie-fantasy-authors-to-watch-2026": IndieFantasyAuthorsToWatch2026,
 };
 
 interface Props {

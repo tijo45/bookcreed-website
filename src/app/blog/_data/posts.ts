@@ -11,6 +11,96 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "fantasy-books-with-morally-grey-characters",
+    title: "Fantasy Books with Morally Grey Characters: 8 Series That Blur the Line",
+    description:
+      "Discover the best fantasy books with morally grey characters — from antiheroes to compromised rulers. These 8 series prove the best protagonists live in shades of grey.",
+    keywords: [
+      "fantasy books with morally grey characters",
+      "morally grey fantasy",
+      "antihero fantasy books",
+      "complex fantasy protagonists",
+      "grey morality fantasy series",
+    ],
+    excerpt:
+      "Readers are done with flawless heroes who always choose right. These 8 fantasy series deliver morally grey characters who blur the line between hero and villain so thoroughly you're never sure which side you're rooting for.",
+    date: "2026-02-23",
+    author: "Eva Noir",
+    readingTime: "11 min read",
+  },
+  {
+    slug: "epic-fantasy-series-completed-2026",
+    title: "Epic Fantasy Series Completed in 2026: 10 Finished Sagas You Can Binge Now",
+    description:
+      "Tired of waiting for the next book? These epic fantasy series are completed or nearly complete as of 2026 — ready for a full binge read from start to finish.",
+    keywords: [
+      "epic fantasy series completed 2026",
+      "finished fantasy series",
+      "completed fantasy sagas",
+      "binge read fantasy series",
+      "fantasy series with endings",
+    ],
+    excerpt:
+      "No more waiting years between books. These epic fantasy series are complete or approaching completion in 2026 — every arc resolved, every thread tied off, ready for your binge read.",
+    date: "2026-02-23",
+    author: "Eva Noir",
+    readingTime: "13 min read",
+  },
+  {
+    slug: "fantasy-books-about-royal-succession",
+    title: "Fantasy Books About Royal Succession: 8 Series Where Thrones Are Won in Blood",
+    description:
+      "Love succession drama? These fantasy books about royal succession deliver dying kings, rival heirs, and courts full of people who'd rather burn the kingdom than share power.",
+    keywords: [
+      "fantasy books about royal succession",
+      "succession fantasy novels",
+      "royal succession drama books",
+      "throne war fantasy",
+      "fantasy books about kings and heirs",
+    ],
+    excerpt:
+      "A dying king. Rival heirs. A court full of people who'd rather burn the kingdom than let someone else wear the crown. These 8 fantasy series explore royal succession in all its messy, bloody glory.",
+    date: "2026-02-23",
+    author: "Eva Noir",
+    readingTime: "12 min read",
+  },
+  {
+    slug: "books-with-political-intrigue-and-betrayal",
+    title: "Books with Political Intrigue and Betrayal: 9 Must-Read Series",
+    description:
+      "Looking for books with political intrigue and betrayal? These 9 series deliver scheming courts, shifting alliances, and betrayals that redefine the genre.",
+    keywords: [
+      "books with political intrigue and betrayal",
+      "political intrigue fantasy books",
+      "betrayal in fantasy novels",
+      "scheming court fantasy",
+      "political fantasy recommendations",
+    ],
+    excerpt:
+      "The best betrayals in fiction aren't surprises — they're inevitabilities you didn't see coming. These 9 series build elaborate webs of alliance and ambition, then watch as trust unravels.",
+    date: "2026-02-23",
+    author: "Eva Noir",
+    readingTime: "12 min read",
+  },
+  {
+    slug: "indie-fantasy-authors-to-watch-2026",
+    title: "Indie Fantasy Authors to Watch in 2026: 7 Writers Redefining the Genre",
+    description:
+      "The best fantasy in 2026 isn't coming from Big Five publishers. These 7 indie fantasy authors are producing ambitious, diverse, boundary-pushing work you need to read.",
+    keywords: [
+      "indie fantasy authors to watch 2026",
+      "self published fantasy authors",
+      "best indie fantasy 2026",
+      "independent fantasy writers",
+      "indie fantasy recommendations",
+    ],
+    excerpt:
+      "The indie fantasy scene in 2026 is producing work that's more ambitious, more diverse, and more reader-responsive than anything the traditional publishing pipeline can deliver. Here are 7 authors leading the charge.",
+    date: "2026-02-23",
+    author: "Eva Noir",
+    readingTime: "12 min read",
+  },
+  {
     slug: "free-book-alert-exiles-return-kindle",
     title:
       "Free Book Alert: Download The Exile's Return FREE on Kindle (Feb 25 – Mar 1)",
