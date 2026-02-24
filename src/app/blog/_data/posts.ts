@@ -11,6 +11,96 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "fantasy-books-where-the-villain-wins",
+    title: "Fantasy Books Where the Villain Wins: 8 Series That Let Darkness Triumph",
+    description:
+      "Discover the best fantasy books where the villain wins — from puppet masters to corrupted heroes. These 8 series prove that the darkest endings make the best stories.",
+    keywords: [
+      "fantasy books where the villain wins",
+      "villain wins fantasy",
+      "dark ending fantasy books",
+      "fantasy villains who win",
+      "fantasy books villain protagonist",
+    ],
+    excerpt:
+      "We've been conditioned to expect the hero's triumph. But some of the best fantasy books flip that script entirely — the villain wins, the hero fails, and the story is better for it.",
+    date: "2026-02-23",
+    author: "Eva Noir",
+    readingTime: "10 min read",
+  },
+  {
+    slug: "best-fantasy-books-about-brothers",
+    title: "Best Fantasy Books About Brothers: 8 Series Built on Sibling Rivalry",
+    description:
+      "Looking for fantasy books about brothers? These 8 series deliver devastating sibling rivalries, from royal succession wars to bonds forged in fire.",
+    keywords: [
+      "best fantasy books about brothers",
+      "fantasy sibling rivalry",
+      "brothers in fantasy books",
+      "fantasy books about siblings",
+      "brother rivalry fantasy series",
+    ],
+    excerpt:
+      "Brothers are bound by blood, history, and a shared past that makes every betrayal cut deeper. These 8 fantasy series use the sibling bond as a narrative engine that powers entire sagas.",
+    date: "2026-02-23",
+    author: "Eva Noir",
+    readingTime: "11 min read",
+  },
+  {
+    slug: "dark-fantasy-books-with-no-magic",
+    title: "Dark Fantasy Books with No Magic: 8 Series Where Humans Are the Real Monsters",
+    description:
+      "Discover dark fantasy books with no magic or minimal magic — where political scheming, human cruelty, and raw power drive the story instead of spells and sorcery.",
+    keywords: [
+      "dark fantasy books with no magic",
+      "low magic fantasy books",
+      "fantasy books without magic",
+      "no magic dark fantasy",
+      "grounded fantasy recommendations",
+    ],
+    excerpt:
+      "Some of the darkest fantasy books operate with minimal or no magic at all — relying on political scheming, military strategy, and the raw mechanics of power. No fireballs. Just consequences.",
+    date: "2026-02-23",
+    author: "Eva Noir",
+    readingTime: "11 min read",
+  },
+  {
+    slug: "fantasy-books-set-in-medieval-kingdoms",
+    title: "Fantasy Books Set in Medieval Kingdoms: 10 Series with Castles, Courts, and Crown Wars",
+    description:
+      "Love medieval settings? These fantasy books set in medieval kingdoms deliver feudal politics, castle intrigue, and throne wars that feel historically authentic.",
+    keywords: [
+      "fantasy books set in medieval kingdoms",
+      "medieval fantasy books",
+      "castle fantasy series",
+      "feudal fantasy recommendations",
+      "medieval kingdom fantasy novels",
+    ],
+    excerpt:
+      "Castle walls, feudal politics, armored knights, and the constant tension between crown and church — these 10 fantasy series deliver the medieval kingdom setting at its finest.",
+    date: "2026-02-23",
+    author: "Eva Noir",
+    readingTime: "12 min read",
+  },
+  {
+    slug: "completed-fantasy-series-to-binge-read",
+    title: "Completed Fantasy Series to Binge Read: 10 Finished Sagas Ready Now",
+    description:
+      "No more waiting between books. These completed fantasy series are fully published and ready to binge — from 3-book trilogies to 16-book epics.",
+    keywords: [
+      "completed fantasy series to binge read",
+      "finished fantasy series",
+      "complete fantasy series list",
+      "binge read fantasy",
+      "fantasy series with all books published",
+    ],
+    excerpt:
+      "Every series here is complete — finished, wrapped up, ready for you to devour from first page to last without a single wait between volumes. Clear your schedule.",
+    date: "2026-02-23",
+    author: "Eva Noir",
+    readingTime: "12 min read",
+  },
+  {
     slug: "fantasy-books-with-morally-grey-characters",
     title: "Fantasy Books with Morally Grey Characters: 8 Series That Blur the Line",
     description:

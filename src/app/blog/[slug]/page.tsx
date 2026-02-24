@@ -44,6 +44,11 @@ import EpicFantasySeriesCompleted2026 from "../_content/epic-fantasy-series-comp
 import FantasyBooksAboutRoyalSuccession from "../_content/fantasy-books-about-royal-succession";
 import BooksWithPoliticalIntrigueAndBetrayal from "../_content/books-with-political-intrigue-and-betrayal";
 import IndieFantasyAuthorsToWatch2026 from "../_content/indie-fantasy-authors-to-watch-2026";
+import FantasyBooksWhereTheVillainWins from "../_content/fantasy-books-where-the-villain-wins";
+import BestFantasyBooksAboutBrothers from "../_content/best-fantasy-books-about-brothers";
+import DarkFantasyBooksWithNoMagic from "../_content/dark-fantasy-books-with-no-magic";
+import FantasyBooksSetInMedievalKingdoms from "../_content/fantasy-books-set-in-medieval-kingdoms";
+import CompletedFantasySeriesToBingeRead from "../_content/completed-fantasy-series-to-binge-read";
 
 const contentMap: Record<string, React.ComponentType> = {
   "free-book-alert-exiles-return-kindle": FreeBookAlertExilesReturnKindle,
@@ -85,6 +90,11 @@ const contentMap: Record<string, React.ComponentType> = {
   "fantasy-books-about-royal-succession": FantasyBooksAboutRoyalSuccession,
   "books-with-political-intrigue-and-betrayal": BooksWithPoliticalIntrigueAndBetrayal,
   "indie-fantasy-authors-to-watch-2026": IndieFantasyAuthorsToWatch2026,
+  "fantasy-books-where-the-villain-wins": FantasyBooksWhereTheVillainWins,
+  "best-fantasy-books-about-brothers": BestFantasyBooksAboutBrothers,
+  "dark-fantasy-books-with-no-magic": DarkFantasyBooksWithNoMagic,
+  "fantasy-books-set-in-medieval-kingdoms": FantasyBooksSetInMedievalKingdoms,
+  "completed-fantasy-series-to-binge-read": CompletedFantasySeriesToBingeRead,
 };
 
 interface Props {
