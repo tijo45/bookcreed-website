@@ -55,7 +55,9 @@ import CompletedFantasySeriesToBingeRead from "../_content/completed-fantasy-ser
 import CompleteReadingOrderKingdomValdrath from "../_content/complete-reading-order-kingdom-valdrath";
 import FiveReasonsPoliticalFantasyFansLoveWarriorPrince from "../_content/five-reasons-political-fantasy-fans-love-warrior-prince";
 import CassianValdrathExiledPrinceCharacterSpotlight from "../_content/cassian-valdrath-exiled-prince-character-spotlight";
+import FantasyWritingToolsDigitalProducts from "../_content/fantasy-writing-tools-digital-products";
 const contentMap: Record<string, React.ComponentType> = {
+  "fantasy-writing-tools-digital-products": FantasyWritingToolsDigitalProducts,
   "best-free-fantasy-books-right-now": BestFreeFantasyBooksRightNow,
   "free-fantasy-series-amazon-guide": FreeFantasySeriesAmazonGuide,
   "free-epic-fantasy-books-2026": FreeEpicFantasyBooks2026,

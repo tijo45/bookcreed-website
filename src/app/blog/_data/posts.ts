@@ -11,6 +11,29 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "fantasy-writing-tools-digital-products",
+    title: "Introducing Eva Noir's Fantasy Creator Digital Product Line",
+    description: "From building worlds to building tools: Why I created these resources and how they can transform your creative process. Digital tools for fantasy writers, game masters, and world builders.",
+    keywords: [
+      "fantasy writing tools",
+      "digital products for fantasy writers",
+      "fantasy creator tools",
+      "writing tools for fantasy authors",
+      "fantasy name generator",
+      "character creation tools",
+      "magic system design",
+      "dungeon master tools",
+      "fantasy worldbuilding tools",
+      "plot structure for fantasy",
+      "eva noir digital products",
+      "gumroad fantasy tools"
+    ],
+    excerpt: "After publishing 300+ fantasy books, I built the creative tools that didn't exist yet. Systems for naming, character creation, magic design, session prep, and plot structure — designed for both writers and game masters.",
+    date: "2026-02-26",
+    author: "Eva Noir",
+    readingTime: "8 min read",
+  },
+  {
     slug: "best-free-fantasy-books-right-now",
     title: "Best Free Fantasy Books to Read Right Now (Updated February 2026)",
     description: "Discover the best free fantasy books available right now. From urgent limited-time promotions to permanent treasures, here are the fantasy novels worth your valuable reading time in February 2026.",
@@ -65,7 +88,7 @@ export const blogPosts: BlogPost[] = [
     readingTime: "12 min read",
   },
   {
-  {
+
     slug: "fantasy-books-where-the-villain-wins",
     title: "Fantasy Books Where the Villain Wins: 8 Series That Let Darkness Triumph",
     description:
