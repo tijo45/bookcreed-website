@@ -11,6 +11,60 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "fantasy-books-multiple-pov-characters",
+    title: "Fantasy Books with Multiple POV Characters: 10 Series That Master the Art",
+    description: "Discover the best fantasy books with multiple POV characters — from political epics to world-spanning sagas. These 10 series prove that the best stories are bigger than any one hero.",
+    keywords: [
+      "fantasy books with multiple pov characters",
+      "multi pov fantasy books",
+      "multiple perspective fantasy novels",
+      "fantasy books with different viewpoints",
+      "best multi pov fantasy series",
+      "fantasy series multiple narrators",
+      "ensemble cast fantasy books"
+    ],
+    excerpt: "The best multi-POV fantasy novels don't just give you different perspectives — they give you different worlds colliding, characters whose goals contradict each other, and the devastating realization that someone you love is about to destroy someone else you love.",
+    date: "2026-02-27",
+    author: "Eva Noir",
+    readingTime: "13 min read",
+  },
+  {
+    slug: "fantasy-books-for-adults-who-loved-harry-potter",
+    title: "Fantasy Books for Adults Who Loved Harry Potter: 10 Picks to Graduate To",
+    description: "Grew up on Harry Potter? These 10 adult fantasy books deliver the same sense of wonder, immersive worldbuilding, and found family — with the moral complexity and political depth that mature readers crave.",
+    keywords: [
+      "fantasy books for adults who loved harry potter",
+      "books like harry potter for adults",
+      "adult fantasy books for potter fans",
+      "grown up harry potter books",
+      "fantasy books to read after harry potter",
+      "adult books like harry potter",
+      "mature fantasy like harry potter"
+    ],
+    excerpt: "You grew up on Harry Potter. Your reading tastes have matured. You want the same sense of wonder and immersive worldbuilding, but with adult complexity: moral ambiguity, political consequences, and choices that can't be solved with a well-timed spell.",
+    date: "2026-02-27",
+    author: "Eva Noir",
+    readingTime: "14 min read",
+  },
+  {
+    slug: "fantasy-books-with-revenge-plots",
+    title: "Fantasy Books with Revenge Plots: 10 Series Where Vengeance Drives the Story",
+    description: "Discover the best fantasy books with revenge plots — from betrayed mercenaries to exiled princes. These 10 series deliver vengeance that's psychologically complex and viscerally satisfying.",
+    keywords: [
+      "fantasy books with revenge plots",
+      "revenge fantasy books",
+      "fantasy revenge stories",
+      "best revenge fantasy novels",
+      "fantasy books about vengeance",
+      "revenge driven fantasy series",
+      "betrayal and revenge fantasy"
+    ],
+    excerpt: "The best revenge fantasies don't just deliver satisfying payback — they interrogate the cost. What does a person become when vengeance is their only reason to keep breathing? These 10 series answer that question brilliantly.",
+    date: "2026-02-27",
+    author: "Eva Noir",
+    readingTime: "14 min read",
+  },
+  {
     slug: "fantasy-writing-tools-digital-products",
     title: "Introducing Eva Noir's Fantasy Creator Digital Product Line",
     description: "From building worlds to building tools: Why I created these resources and how they can transform your creative process. Digital tools for fantasy writers, game masters, and world builders.",

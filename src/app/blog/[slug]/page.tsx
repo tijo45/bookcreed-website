@@ -56,7 +56,13 @@ import CompleteReadingOrderKingdomValdrath from "../_content/complete-reading-or
 import FiveReasonsPoliticalFantasyFansLoveWarriorPrince from "../_content/five-reasons-political-fantasy-fans-love-warrior-prince";
 import CassianValdrathExiledPrinceCharacterSpotlight from "../_content/cassian-valdrath-exiled-prince-character-spotlight";
 import FantasyWritingToolsDigitalProducts from "../_content/fantasy-writing-tools-digital-products";
+import FantasyBooksMultiplePOVCharacters from "../_content/fantasy-books-multiple-pov-characters";
+import FantasyBooksForAdultsWhoLovedHarryPotter from "../_content/fantasy-books-for-adults-who-loved-harry-potter";
+import FantasyBooksWithRevengePlots from "../_content/fantasy-books-with-revenge-plots";
 const contentMap: Record<string, React.ComponentType> = {
+  "fantasy-books-multiple-pov-characters": FantasyBooksMultiplePOVCharacters,
+  "fantasy-books-for-adults-who-loved-harry-potter": FantasyBooksForAdultsWhoLovedHarryPotter,
+  "fantasy-books-with-revenge-plots": FantasyBooksWithRevengePlots,
   "fantasy-writing-tools-digital-products": FantasyWritingToolsDigitalProducts,
   "best-free-fantasy-books-right-now": BestFreeFantasyBooksRightNow,
   "free-fantasy-series-amazon-guide": FreeFantasySeriesAmazonGuide,
