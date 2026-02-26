@@ -71,6 +71,24 @@ model Subscriber {
   createdAt DateTime @default(now())
 }
 
+model ReviewerRequest {
+  id            String   @id @default(cuid())
+  name          String
+  email         String
+  platforms     String   // comma-separated: "Amazon,Goodreads,BookTok"
+  profileLink   String
+  audienceSize  String?  // "Under 500", "500-1K", etc.
+  booksWanted   String   // "Book 1 only", "Books 1-3", "Complete series", etc.
+  format        String   // "ePub", "MOBI", "PDF", "Kindle delivery"
+  genres        String?  // comma-separated
+  referralSource String? // how they found us
+  notes         String?
+  status        String   @default("pending") // pending, approved, declined, sent
+  createdAt     DateTime @default(now())
+
+  @@index([email])
+  @@index([status])
+}
 model Cohort {
   id        String        @id @default(cuid())
   name      String
