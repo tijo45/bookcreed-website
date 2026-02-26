@@ -9,6 +9,7 @@ export interface BlogPost {
   readingTime: string;
 }
 
+export const blogPosts: BlogPost[] = [
   {
     slug: "best-free-fantasy-books-right-now",
     title: "Best Free Fantasy Books to Read Right Now (Updated February 2026)",
@@ -63,64 +64,8 @@ export interface BlogPost {
     author: "Eva Noir",
     readingTime: "12 min read",
   },
-export const blogPosts: BlogPost[] = [
   {
-    slug: "complete-reading-order-kingdom-valdrath",
-    title: "The Complete Reading Order for The Kingdom of Valdrath: Your Ultimate Guide to Eva Noir's Epic Fantasy Series",
-    description: "Discover the complete 8-book reading order for Eva Noir's The Kingdom of Valdrath series. From The Exile's Return to the stunning finale, here's your roadmap to the most compelling political fantasy saga since Game of Thrones.",
-    keywords: [
-      "Kingdom of Valdrath",
-      "Eva Noir",
-      "reading order",
-      "fantasy series",
-      "political fantasy",
-      "book guide",
-      "Cassian Valdrath",
-      "epic fantasy"
-    ],
-    excerpt: "Lost in the political machinations of Valdrath? Wondering where to start your journey through Eva Noir's masterful saga? This complete reading order guide will ensure you experience every twist, betrayal, and revelation exactly as the author intended.",
-    date: "2025-02-26",
-    author: "Eva Noir",
-    readingTime: "12 min read",
-  },
   {
-    slug: "five-reasons-political-fantasy-fans-love-warrior-prince",
-    title: "5 Reasons Political Fantasy Fans Will Love The Warrior Prince Saga (Especially If You're Still Missing Game of Thrones)",
-    description: "If you've been searching for a fantasy series with the political complexity of Game of Thrones and the moral depth of A Song of Ice and Fire, Eva Noir's The Kingdom of Valdrath delivers everything you're craving—plus elements even George R.R. Martin hasn't dared to explore.",
-    keywords: [
-      "political fantasy",
-      "Game of Thrones",
-      "ASOIAF",
-      "Eva Noir",
-      "Kingdom of Valdrath",
-      "fantasy recommendations",
-      "complex characters",
-      "moral ambiguity"
-    ],
-    excerpt: "Tired of waiting for The Winds of Winter? Frustrated with fantasy series that promise complex politics but deliver cardboard villains? Eva Noir's completed 8-book Kingdom of Valdrath saga might be exactly what your bookshelf has been missing.",
-    date: "2025-02-26",
-    author: "Eva Noir",
-    readingTime: "10 min read",
-  },
-  {
-    slug: "cassian-valdrath-exiled-prince-character-spotlight",
-    title: "Meet Cassian Valdrath: The Exiled Prince Who Killed 7 Innocent Farmers (And Why You'll Still Root For Him)",
-    description: "Most fantasy heroes are fundamentally good people who make mistakes. Cassian Valdrath, the protagonist of Eva Noir's Kingdom of Valdrath series, is something far more complex—and far more interesting. Here's why a prince who committed the unforgivable makes for the most compelling character in modern fantasy.",
-    keywords: [
-      "Cassian Valdrath",
-      "Eva Noir",
-      "character analysis",
-      "moral complexity",
-      "antihero",
-      "Kingdom of Valdrath",
-      "complex protagonists",
-      "redemption arc"
-    ],
-    excerpt: "What makes a hero? What makes a monster? And what happens when one person embodies both? Cassian Valdrath stands alone in fantasy literature—not because he's particularly noble, but because he's done something most fantasy protagonists never face: committed an unforgivable act.",
-    date: "2025-02-26",
-    author: "Eva Noir",
-    readingTime: "11 min read",
-  },  {
     slug: "fantasy-books-where-the-villain-wins",
     title: "Fantasy Books Where the Villain Wins: 8 Series That Let Darkness Triumph",
     description:
