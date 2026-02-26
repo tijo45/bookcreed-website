@@ -49,9 +49,13 @@ import BestFantasyBooksAboutBrothers from "../_content/best-fantasy-books-about-
 import DarkFantasyBooksWithNoMagic from "../_content/dark-fantasy-books-with-no-magic";
 import FantasyBooksSetInMedievalKingdoms from "../_content/fantasy-books-set-in-medieval-kingdoms";
 import CompletedFantasySeriesToBingeRead from "../_content/completed-fantasy-series-to-binge-read";
-
+import CompleteReadingOrderKingdomValdrath from "../_content/complete-reading-order-kingdom-valdrath";
+import FiveReasonsPoliticalFantasyFansLoveWarriorPrince from "../_content/five-reasons-political-fantasy-fans-love-warrior-prince";
+import CassianValdrathExiledPrinceCharacterSpotlight from "../_content/cassian-valdrath-exiled-prince-character-spotlight";
 const contentMap: Record<string, React.ComponentType> = {
-  "free-book-alert-exiles-return-kindle": FreeBookAlertExilesReturnKindle,
+  "complete-reading-order-kingdom-valdrath": CompleteReadingOrderKingdomValdrath,
+  "five-reasons-political-fantasy-fans-love-warrior-prince": FiveReasonsPoliticalFantasyFansLoveWarriorPrince,
+  "cassian-valdrath-exiled-prince-character-spotlight": CassianValdrathExiledPrinceCharacterSpotlight,  "free-book-alert-exiles-return-kindle": FreeBookAlertExilesReturnKindle,
   "test-your-knowledge-kingdom-of-valdrath": TestYourKnowledgeValdrath,
   "morally-grey-protagonist-fantasy-series": MorallyGreyProtagonist,
   "best-fantasy-books-royal-families-succession": RoyalFamiliesSuccession,
