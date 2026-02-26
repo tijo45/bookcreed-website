@@ -1,0 +1,3 @@
+  "best-free-fantasy-books-right-now": BestFreeFantasyBooksRightNow,
+  "free-fantasy-series-amazon-guide": FreeFantasySeriesAmazonGuide,
+  "free-epic-fantasy-books-2026": FreeEpicFantasyBooks2026,

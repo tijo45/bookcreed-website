@@ -5,9 +5,6 @@ import { BlogPostLayout } from "../_components/BlogPostLayout";
 import { ArticleJsonLd, BreadcrumbListJsonLd } from "@/components/seo/JsonLd";
 
 /* Post content imports */
-import BestFreeFantasyBooksRightNow from "../_content/best-free-fantasy-books-right-now";
-import FreeFantasySeriesAmazonGuide from "../_content/free-fantasy-series-amazon-guide";
-import FreeEpicFantasyBooks2026 from "../_content/free-epic-fantasy-books-2026";
 import MorallyGreyProtagonist from "../_content/morally-grey-protagonist-fantasy-series";
 import RoyalFamiliesSuccession from "../_content/best-fantasy-books-royal-families-succession";
 import EpicVsGrimdark from "../_content/epic-fantasy-vs-grimdark-difference";
@@ -56,9 +53,6 @@ import CompleteReadingOrderKingdomValdrath from "../_content/complete-reading-or
 import FiveReasonsPoliticalFantasyFansLoveWarriorPrince from "../_content/five-reasons-political-fantasy-fans-love-warrior-prince";
 import CassianValdrathExiledPrinceCharacterSpotlight from "../_content/cassian-valdrath-exiled-prince-character-spotlight";
 const contentMap: Record<string, React.ComponentType> = {
-  "best-free-fantasy-books-right-now": BestFreeFantasyBooksRightNow,
-  "free-fantasy-series-amazon-guide": FreeFantasySeriesAmazonGuide,
-  "free-epic-fantasy-books-2026": FreeEpicFantasyBooks2026,
   "complete-reading-order-kingdom-valdrath": CompleteReadingOrderKingdomValdrath,
   "five-reasons-political-fantasy-fans-love-warrior-prince": FiveReasonsPoliticalFantasyFansLoveWarriorPrince,
   "cassian-valdrath-exiled-prince-character-spotlight": CassianValdrathExiledPrinceCharacterSpotlight,  "free-book-alert-exiles-return-kindle": FreeBookAlertExilesReturnKindle,
