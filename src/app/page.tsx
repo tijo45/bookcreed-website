@@ -6,6 +6,7 @@ import { motion, useInView } from "framer-motion";
 import { BookCard } from "@/components/ui/BookCard";
 import { CompanionCTA } from "@/components/ui/CompanionCTA";
 import { QuizPromoBanner } from "@/components/ui/QuizPromoBanner";
+import { FreeDayBanner } from "@/components/ui/FreeDayBanner";
 import { NewsletterSignup } from "@/components/ui/NewsletterSignup";
 
 /* ------------------------------------------------------------------ */
@@ -253,6 +254,11 @@ export default function HomePage() {
         </div>
       </RevealSection>
 
+
+      {/* ==================== FREE DAY BANNER ==================== */}
+      <RevealSection className="mx-auto max-w-7xl px-6 py-8">
+        <FreeDayBanner />
+      </RevealSection>
       {/* ==================== QUIZ PROMO BANNER ==================== */}
       <RevealSection className="mx-auto max-w-7xl px-6 py-12">
         <QuizPromoBanner />
