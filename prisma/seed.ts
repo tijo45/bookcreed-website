@@ -176,17 +176,26 @@ async function main() {
   });
 
   if (firstBook) {
-    const cohort = await prisma.cohort.create({
-      data: {
-        name: "2026-2027 Annual Contest - The Exile's Return",
-        bookId: firstBook.id,
-        startDate: now,
-        endDate: endDate,
-        status: "active",
-        prizeDesc: "$25 Amazon Gift Card for the top scorer",
-      },
+    // Check if an active cohort already exists before creating
+    const existingCohort = await prisma.cohort.findFirst({
+      where: { status: "active" },
     });
-    console.log(`Created cohort: ${cohort.name}`);
+
+    if (existingCohort) {
+      console.log(`Cohort already exists: ${existingCohort.name} (skipping creation)`);
+    } else {
+      const cohort = await prisma.cohort.create({
+        data: {
+          name: "2026-2027 Annual Contest - The Exile's Return",
+          bookId: firstBook.id,
+          startDate: now,
+          endDate: endDate,
+          status: "active",
+          prizeDesc: "$25 Amazon Gift Card for the top scorer",
+        },
+      });
+      console.log(`Created cohort: ${cohort.name}`);
+    }
   }
 
   console.log("Seeding complete.");
