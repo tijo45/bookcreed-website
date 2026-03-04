@@ -6,7 +6,7 @@ import { Footer } from "@/components/layout/Footer";
 import { CookieConsent } from "@/components/ui/CookieConsent";
 import { FreeDayBanner } from "@/components/ui/FreeDayBanner";
 import { SessionProvider } from "@/components/providers/SessionProvider";
-import { WebSiteJsonLd } from "@/components/seo/JsonLd";
+import { WebSiteJsonLd, PersonJsonLd } from "@/components/seo/JsonLd";
 
 const cinzel = localFont({
   src: "../fonts/Cinzel-VariableFont_wght.ttf",
@@ -91,6 +91,7 @@ export default function RootLayout({
           url="https://bookcreed.com"
           description="Enter The Kingdom of Valdrath — an epic fantasy series by Eva Noir. Read the books, take quizzes, and compete for real prizes."
         />
+        <PersonJsonLd />
       </head>
       <body className="min-h-screen bg-stone-950 text-stone-200 font-[family-name:var(--font-body)] antialiased">
         <SessionProvider>

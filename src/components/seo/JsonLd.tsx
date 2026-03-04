@@ -31,6 +31,42 @@ export function BreadcrumbListJsonLd({ items }: BreadcrumbListJsonLdProps) {
   );
 }
 
+/* ------------------------------------------------------------------ */
+/* Person (Author) JSON-LD                                             */
+/* ------------------------------------------------------------------ */
+
+export function PersonJsonLd() {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Eva Noir",
+    url: "https://bookcreed.com",
+    description:
+      "Eva Noir crafts epic fantasy where political intrigue meets profound human truths. Author of the eight-book Kingdom of Valdrath series.",
+    sameAs: [
+      "https://www.amazon.com/stores/Eva-Noir/author/B0CJFMLR48",
+    ],
+    jobTitle: "Author",
+    knowsAbout: [
+      "Epic Fantasy",
+      "Political Intrigue",
+      "Dark Fantasy",
+      "Worldbuilding",
+    ],
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* WebSite + Organization JSON-LD                                      */
+/* ------------------------------------------------------------------ */
+
 interface WebSiteJsonLdProps {
   name: string;
   url: string;
@@ -88,6 +124,10 @@ export function WebSiteJsonLd({ name, url, description }: WebSiteJsonLdProps) {
   );
 }
 
+/* ------------------------------------------------------------------ */
+/* Article JSON-LD                                                     */
+/* ------------------------------------------------------------------ */
+
 interface ArticleJsonLdProps {
   headline: string;
   description: string;
@@ -113,6 +153,8 @@ export function ArticleJsonLd({
     author: {
       "@type": "Person",
       name: author,
+      url: "https://bookcreed.com",
+      sameAs: ["https://www.amazon.com/stores/Eva-Noir/author/B0CJFMLR48"],
     },
     datePublished,
     dateModified: datePublished,
@@ -141,6 +183,10 @@ export function ArticleJsonLd({
   );
 }
 
+/* ------------------------------------------------------------------ */
+/* Book JSON-LD                                                        */
+/* ------------------------------------------------------------------ */
+
 interface BookOffer {
   price: string;
   priceCurrency?: string;
@@ -160,6 +206,8 @@ interface BookJsonLdProps {
   asin?: string;
   datePublished?: string;
   publisher?: string;
+  numberOfPages?: number;
+  genre?: string[];
   kdpUrl?: string;
   offers?: BookOffer[];
 }
@@ -176,6 +224,8 @@ export function BookJsonLd({
   asin,
   datePublished,
   publisher = "Book Creed Publishing",
+  numberOfPages,
+  genre,
   kdpUrl,
   offers,
 }: BookJsonLdProps) {
@@ -190,10 +240,13 @@ export function BookJsonLd({
     author: {
       "@type": "Person",
       name: author,
+      url: "https://bookcreed.com",
+      sameAs: ["https://www.amazon.com/stores/Eva-Noir/author/B0CJFMLR48"],
     },
     description,
     image: imageUrl,
     url,
+    inLanguage: "en",
     bookFormat: "https://schema.org/EBook",
     isPartOf: {
       "@type": "BookSeries",
@@ -204,24 +257,42 @@ export function BookJsonLd({
       "@type": "Organization",
       name: publisher,
     },
+    genre: genre || ["Epic Fantasy", "Dark Fantasy", "Political Fantasy"],
   };
 
   if (isbn) data.isbn = isbn;
-  if (asin) data.identifier = { "@type": "PropertyValue", propertyID: "ASIN", value: asin };
+  if (asin)
+    data.identifier = {
+      "@type": "PropertyValue",
+      propertyID: "ASIN",
+      value: asin,
+    };
   if (datePublished) data.datePublished = datePublished;
+  if (numberOfPages) data.numberOfPages = numberOfPages;
 
   if (offers && offers.length > 0) {
-    data.offers = offers.map((o) => ({
-      "@type": "Offer",
-      price: o.price,
-      priceCurrency: o.priceCurrency || "USD",
-      availability: "https://schema.org/InStock",
-      url: o.url || kdpUrl,
-      itemCondition: "https://schema.org/NewCondition",
-      ...(o.bookFormat === "Kindle"
-        ? { bookFormat: "https://schema.org/EBook" }
-        : { bookFormat: "https://schema.org/Paperback" }),
-    }));
+    data.offers = offers.map((o) => {
+      let bookFormat: string;
+      switch (o.bookFormat) {
+        case "Kindle":
+          bookFormat = "https://schema.org/EBook";
+          break;
+        case "Hardcover":
+          bookFormat = "https://schema.org/Hardcover";
+          break;
+        default:
+          bookFormat = "https://schema.org/Paperback";
+      }
+      return {
+        "@type": "Offer",
+        price: o.price,
+        priceCurrency: o.priceCurrency || "USD",
+        availability: "https://schema.org/InStock",
+        url: o.url || kdpUrl,
+        itemCondition: "https://schema.org/NewCondition",
+        bookFormat,
+      };
+    });
   } else if (kdpUrl) {
     data.offers = {
       "@type": "Offer",

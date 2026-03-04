@@ -67,7 +67,22 @@ import EpicFantasySeriesFinished2026ReadingGuide from "../_content/epic-fantasy-
 import AiFantasyPublishing30Days from "../_content/ai-fantasy-publishing-30-days";
 import WhyMorallyComplexCharactersSell from "../_content/why-morally-complex-characters-sell";
 import SelfPublishing8BookFantasySeries from "../_content/self-publishing-8-book-fantasy-series";
+import WhyIWriteMorallyComplexVillains from "../_content/why-i-write-morally-complex-villains";
+import TheRealHistoryBehindTheKingdomOfValdrath from "../_content/the-real-history-behind-the-kingdom-of-valdrath";
+import FiveBooksThatInspiredTheWarriorPrinceSaga from "../_content/5-books-that-inspired-the-warrior-prince-saga";
+import WritingCombatScenesThatFeelReal from "../_content/writing-combat-scenes-that-feel-real";
+import FromExileToKingCassiansCharacterArc from "../_content/from-exile-to-king-cassians-character-arc";
+import WarriorPrinceSagaReadingOrder from "../_content/warrior-prince-saga-reading-order";
+import KingdomOfValdrathMapGuide from "../_content/kingdom-of-valdrath-map-guide";
+import CassianValdrathCharacterStudy from "../_content/cassian-valdrath-character-study";
+import BooksLikeWarriorPrinceSaga from "../_content/books-like-warrior-prince-saga";
+import WarriorPrinceSagaBookClubGuide from "../_content/warrior-prince-saga-book-club-guide";
 const contentMap: Record<string, React.ComponentType> = {
+  "warrior-prince-saga-reading-order": WarriorPrinceSagaReadingOrder,
+  "kingdom-of-valdrath-map-guide": KingdomOfValdrathMapGuide,
+  "cassian-valdrath-character-study": CassianValdrathCharacterStudy,
+  "books-like-warrior-prince-saga": BooksLikeWarriorPrinceSaga,
+  "warrior-prince-saga-book-club-guide": WarriorPrinceSagaBookClubGuide,
   "ai-fantasy-publishing-30-days": AiFantasyPublishing30Days,
   "why-morally-complex-characters-sell": WhyMorallyComplexCharactersSell,
   "self-publishing-8-book-fantasy-series": SelfPublishing8BookFantasySeries,
@@ -129,6 +144,11 @@ const contentMap: Record<string, React.ComponentType> = {
   "dark-fantasy-books-where-hero-is-flawed": DarkFantasyBooksWhereHeroIsFlawed,
   "political-fantasy-novels-like-house-of-cards": PoliticalFantasyNovelsLikeHouseOfCards,
   "epic-fantasy-series-finished-2026-reading-guide": EpicFantasySeriesFinished2026ReadingGuide,
+  "why-i-write-morally-complex-villains": WhyIWriteMorallyComplexVillains,
+  "the-real-history-behind-the-kingdom-of-valdrath": TheRealHistoryBehindTheKingdomOfValdrath,
+  "5-books-that-inspired-the-warrior-prince-saga": FiveBooksThatInspiredTheWarriorPrinceSaga,
+  "writing-combat-scenes-that-feel-real": WritingCombatScenesThatFeelReal,
+  "from-exile-to-king-cassians-character-arc": FromExileToKingCassiansCharacterArc,
 };
 
 interface Props {

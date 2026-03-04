@@ -19,11 +19,71 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     where: { seriesId: series.id, number: num },
   });
   if (!book) return {};
+
+  const coverUrl = book.coverImage.startsWith("http")
+    ? book.coverImage
+    : `https://bookcreed.com${book.coverImage}`;
+
   return {
     title: `${book.title} - ${series.title}`,
     description: book.blurb.slice(0, 160),
+    openGraph: {
+      title: `${book.title} — Book ${book.number} of ${series.title}`,
+      description: book.blurb.slice(0, 200),
+      type: "book",
+      siteName: "Book Creed",
+      images: [
+        {
+          url: coverUrl,
+          width: 800,
+          height: 1200,
+          alt: `${book.title} — Book ${book.number} of ${series.title}`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${book.title} — ${series.title} by Eva Noir`,
+      description: book.blurb.slice(0, 200),
+      images: [coverUrl],
+    },
   };
 }
+
+/** Book metadata for published books */
+const BOOK_META: Record<
+  number,
+  {
+    isbn: string;
+    asin: string;
+    numberOfPages: number;
+    datePublished: string;
+    offers: { price: string; bookFormat: string; url?: string }[];
+  }
+> = {
+  1: {
+    isbn: "9798246509012",
+    asin: "B0GKXNCCXD",
+    numberOfPages: 320,
+    datePublished: "2025-11-15",
+    offers: [
+      { price: "2.99", bookFormat: "Kindle", url: "https://www.amazon.com/dp/B0GKXNCCXD" },
+      { price: "14.99", bookFormat: "Paperback", url: "https://www.amazon.com/dp/B0GKXNCCXD" },
+      { price: "24.99", bookFormat: "Hardcover", url: "https://www.amazon.com/dp/B0GKXNCCXD" },
+    ],
+  },
+  2: {
+    isbn: "9798246717608",
+    asin: "B0GL3YQFKS",
+    numberOfPages: 340,
+    datePublished: "2026-01-10",
+    offers: [
+      { price: "4.99", bookFormat: "Kindle", url: "https://www.amazon.com/dp/B0GL3YQFKS" },
+      { price: "14.99", bookFormat: "Paperback", url: "https://www.amazon.com/dp/B0GL3YQFKS" },
+      { price: "24.99", bookFormat: "Hardcover", url: "https://www.amazon.com/dp/B0GL3YQFKS" },
+    ],
+  },
+};
 
 export default async function BookDetailPage({ params }: Props) {
   const { slug, bookNumber } = await params;
@@ -58,6 +118,8 @@ export default async function BookDetailPage({ params }: Props) {
 
   if (!book) notFound();
 
+  const meta = BOOK_META[book.number];
+
   return (
     <>
       <BookJsonLd
@@ -69,25 +131,16 @@ export default async function BookDetailPage({ params }: Props) {
         coverImage={book.coverImage}
         url={`https://bookcreed.com/series/${series.slug}/${book.number}`}
         kdpUrl={book.kdpUrl ?? undefined}
-        {...(book.number === 1
+        genre={["Epic Fantasy", "Dark Fantasy", "Political Fantasy"]}
+        {...(meta
           ? {
-              isbn: "9798246509012",
-              asin: "B0GKXNCCXD",
-              offers: [
-                { price: "2.99", bookFormat: "Kindle", url: book.kdpUrl ?? undefined },
-                { price: "14.99", bookFormat: "Paperback", url: book.kdpUrl ?? undefined },
-              ],
+              isbn: meta.isbn,
+              asin: meta.asin,
+              numberOfPages: meta.numberOfPages,
+              datePublished: meta.datePublished,
+              offers: meta.offers,
             }
-          : book.number === 2
-            ? {
-                isbn: "9798246717608",
-                asin: "B0GL3YQFKS",
-                offers: [
-                  { price: "4.99", bookFormat: "Kindle", url: book.kdpUrl ?? undefined },
-                  { price: "14.99", bookFormat: "Paperback", url: book.kdpUrl ?? undefined },
-                ],
-              }
-            : {})}
+          : {})}
       />
       <BookDetail
         book={book}
