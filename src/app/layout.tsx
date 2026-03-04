@@ -84,6 +84,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${cinzel.variable} ${inter.variable}`}>
       <head>
+        <meta name="google-site-verification" content="VERIFICATION_CODE" />
+        <link rel="alternate" type="application/rss+xml" title="Book Creed Blog" href="https://bookcreed.com/feed.xml" />
         <WebSiteJsonLd
           name="Book Creed"
           url="https://bookcreed.com"
