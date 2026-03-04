@@ -64,7 +64,13 @@ import FantasyBooksWithSiblingRivalry from "../_content/fantasy-books-with-sibli
 import DarkFantasyBooksWhereHeroIsFlawed from "../_content/dark-fantasy-books-where-hero-is-flawed";
 import PoliticalFantasyNovelsLikeHouseOfCards from "../_content/political-fantasy-novels-like-house-of-cards";
 import EpicFantasySeriesFinished2026ReadingGuide from "../_content/epic-fantasy-series-finished-2026-reading-guide";
+import AiFantasyPublishing30Days from "../_content/ai-fantasy-publishing-30-days";
+import WhyMorallyComplexCharactersSell from "../_content/why-morally-complex-characters-sell";
+import SelfPublishing8BookFantasySeries from "../_content/self-publishing-8-book-fantasy-series";
 const contentMap: Record<string, React.ComponentType> = {
+  "ai-fantasy-publishing-30-days": AiFantasyPublishing30Days,
+  "why-morally-complex-characters-sell": WhyMorallyComplexCharactersSell,
+  "self-publishing-8-book-fantasy-series": SelfPublishing8BookFantasySeries,
   "fantasy-books-multiple-pov-characters": FantasyBooksMultiplePOVCharacters,
   "fantasy-books-for-adults-who-loved-harry-potter": FantasyBooksForAdultsWhoLovedHarryPotter,
   "fantasy-books-with-revenge-plots": FantasyBooksWithRevengePlots,

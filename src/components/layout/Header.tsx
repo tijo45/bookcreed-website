@@ -9,6 +9,7 @@ const navLinks = [
   { href: "/books", label: "Books" },
   { href: "/series/kingdom-of-valdrath", label: "Series" },
   { href: "/lore", label: "World Lore" },
+  { href: "/blog", label: "Blog" },
   { href: "/quiz", label: "Quizzes" },
   { href: "/leaderboard", label: "Leaderboard" },
   { href: "/contest/rules", label: "Contest Rules" },

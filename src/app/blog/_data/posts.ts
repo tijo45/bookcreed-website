@@ -11,6 +11,63 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "ai-fantasy-publishing-30-days",
+    title: "How I Published 8 Fantasy Books in 30 Days Using AI as My Writing Partner",
+    description: "From empty Google Doc at 3 AM to complete epic fantasy series — how AI partnership enhanced rather than replaced creative authorship in the Valdrath Chronicles.",
+    keywords: [
+      "AI writing partner",
+      "AI assisted publishing",
+      "fantasy books AI",
+      "self publishing with AI",
+      "AI creative writing",
+      "Valdrath Chronicles",
+      "writing with AI tools",
+      "fantasy author AI"
+    ],
+    excerpt: "The cursor blinked mockingly at me from an empty Google Doc at 3:47 AM. I had just stared down the most ambitious writing project of my career: completing an entire 8-book epic fantasy series in a single month. What happened next changed everything.",
+    date: "2026-03-04",
+    author: "Eva Noir",
+    readingTime: "14 min read",
+  },
+  {
+    slug: "why-morally-complex-characters-sell",
+    title: "Why Morally Complex Characters Sell: Lessons from Epic Fantasy",
+    description: "The publishing truth nobody talks about — readers crave gray areas, not perfect heroes. How moral complexity drives engagement, reviews, and sales in fantasy fiction.",
+    keywords: [
+      "morally complex characters",
+      "morally grey characters fantasy",
+      "writing complex characters",
+      "antihero fantasy",
+      "character development fantasy",
+      "why readers love flawed characters",
+      "fantasy character writing tips",
+      "moral ambiguity fiction"
+    ],
+    excerpt: "Two years ago, my editor gave me feedback that changed everything: \"Your villain is more interesting than your hero.\" That feedback led to a complete character overhaul and taught me a crucial lesson about today\'s fantasy market.",
+    date: "2026-03-03",
+    author: "Eva Noir",
+    readingTime: "12 min read",
+  },
+  {
+    slug: "self-publishing-8-book-fantasy-series",
+    title: "Self-Publishing an 8-Book Epic Fantasy Series: Everything I Learned",
+    description: "The real numbers, costly mistakes, and strategies that generated $44,500 in Year One from self-publishing an 8-book epic fantasy series on Amazon KDP.",
+    keywords: [
+      "self publishing fantasy series",
+      "KDP epic fantasy",
+      "self publishing income",
+      "fantasy series self publish",
+      "Amazon KDP fantasy",
+      "self publishing revenue",
+      "indie fantasy author income",
+      "KDP Select fantasy"
+    ],
+    excerpt: "The day I uploaded the eighth book to Amazon KDP, I had $47 in my checking account. Six months later, I was generating $4,000+ per month. Here\'s everything I wish I\'d known — including the real numbers.",
+    date: "2026-03-02",
+    author: "Eva Noir",
+    readingTime: "18 min read",
+  },
+  {
     slug: "best-fantasy-series-morally-grey-characters",
     title: "Best Fantasy Series with Morally Grey Characters: 7 Series Where Grey Is the Only Color",
     description: "Discover the best fantasy series built entirely around morally grey characters — where moral ambiguity isn't decoration but the structural foundation of every political alliance, betrayal, and impossible choice.",
