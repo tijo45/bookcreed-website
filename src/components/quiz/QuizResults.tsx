@@ -3,6 +3,7 @@
 import { useEffect, useState, useCallback } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { NewsletterSignup } from "@/components/ui/NewsletterSignup";
 
 interface ScoreBreakdown {
   total: number;
@@ -455,6 +456,9 @@ export function QuizResults({
           View Leaderboard
         </Link>
       </motion.div>
+
+      {/* Newsletter Signup */}
+      <NewsletterSignup variant="post-quiz" />
     </div>
   );
 }

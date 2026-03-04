@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { SocialShareButtons } from "@/components/ui/SocialShareButtons";
 
 interface Book {
   id: string;
@@ -175,6 +176,15 @@ export function BookDetail({ book, series }: Props) {
               </svg>
               Take the Quiz
             </Link>
+          </div>
+
+          {/* Social Sharing */}
+          <div className="mb-8">
+            <SocialShareButtons
+              title={book.title}
+              url={`https://bookcreed.com/series/${series.slug}/${book.number}`}
+              description={`"${book.title}" — Book ${book.number} of ${series.title} by Eva Noir. ${book.published ? "Available now!" : "Coming soon!"}`}
+            />
           </div>
 
           {/* Prev / Next navigation */}
