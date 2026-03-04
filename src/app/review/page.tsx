@@ -2,23 +2,21 @@ import type { Metadata } from "next";
 import { ReviewPageClient } from "./ReviewPageClient";
 
 export const metadata: Metadata = {
-  title: "Get a FREE Copy of The Exile's Return — Read & Review",
+  title: "Review The Warrior Prince by Eva Noir",
   description:
-    "Love fantasy? Get a free copy of The Exile's Return by Eva Noir — Book 1 of The Kingdom of Valdrath. All we ask is an honest Amazon review after reading.",
+    "Finished The Warrior Prince? Leave a quick review on Amazon or Goodreads. Your words help the next reader find this story.",
   keywords: [
-    "free fantasy book",
-    "The Exile's Return free",
-    "Kingdom of Valdrath",
+    "review The Warrior Prince",
+    "Kingdom of Valdrath review",
     "Eva Noir",
-    "free Kindle book",
-    "fantasy book review",
-    "epic fantasy free copy",
-    "read and review",
+    "leave a book review",
+    "Amazon book review",
+    "epic fantasy review",
   ],
   openGraph: {
-    title: "Love Fantasy? Get a FREE Copy of The Exile's Return",
+    title: "Review The Warrior Prince by Eva Noir",
     description:
-      "Grab a free copy of Eva Noir's epic fantasy debut. Read it. Review it. Help a new series grow.",
+      "Finished the book? Your review helps the next reader find this story. It takes 2 minutes.",
     type: "website",
     url: "https://bookcreed.com/review",
     siteName: "Book Creed",
@@ -33,9 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Love Fantasy? Get a FREE Copy of The Exile's Return",
+    title: "Review The Warrior Prince by Eva Noir",
     description:
-      "Free epic fantasy book. Read it. Review it. Simple as that.",
+      "Your review helps the next reader find this story. It takes 2 minutes.",
     images: ["/covers/valdrath/book1.jpg"],
   },
   alternates: {
