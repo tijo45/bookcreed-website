@@ -11,6 +11,96 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "best-fantasy-series-morally-grey-characters",
+    title: "Best Fantasy Series with Morally Grey Characters: 7 Series Where Grey Is the Only Color",
+    description: "Discover the best fantasy series built entirely around morally grey characters — where moral ambiguity isn't decoration but the structural foundation of every political alliance, betrayal, and impossible choice.",
+    keywords: [
+      "best fantasy series with morally grey characters",
+      "morally grey fantasy series",
+      "best morally ambiguous fantasy",
+      "fantasy series grey characters",
+      "morally complex fantasy books",
+      "antihero fantasy series",
+      "morally grey protagonist series"
+    ],
+    excerpt: "The best morally grey fantasy series aren't just dark for shock value. They're series where grey morality is woven into the plot architecture itself — where the story literally cannot function without characters who live between right and wrong.",
+    date: "2026-03-04",
+    author: "Eva Noir",
+    readingTime: "12 min read",
+  },
+  {
+    slug: "fantasy-books-with-sibling-rivalry",
+    title: "Fantasy Books with Sibling Rivalry: 7 Series Where Blood Bonds Break",
+    description: "The best fantasy books with sibling rivalry — from warring princes to divine brothers. These series prove that no one can hurt you like someone who shared your childhood.",
+    keywords: [
+      "fantasy books with sibling rivalry",
+      "sibling rivalry fantasy novels",
+      "fantasy books brothers at war",
+      "fantasy sister rivalry books",
+      "fantasy series sibling conflict",
+      "brothers in fantasy books",
+      "fantasy books family rivalry"
+    ],
+    excerpt: "No one can hurt you like someone who shared your childhood. Fantasy amplifies sibling rivalry by adding thrones, magical inheritance, and kingdoms that fracture along bloodlines — producing some of the most emotionally devastating fiction in the genre.",
+    date: "2026-03-04",
+    author: "Eva Noir",
+    readingTime: "13 min read",
+  },
+  {
+    slug: "dark-fantasy-books-where-hero-is-flawed",
+    title: "Dark Fantasy Books Where the Hero Is Flawed: 7 Protagonists You Can't Look Away From",
+    description: "Discover dark fantasy books where the hero is genuinely, fundamentally flawed — not charmingly imperfect but broken in ways that shape the story and scar everyone around them.",
+    keywords: [
+      "dark fantasy books where the hero is flawed",
+      "flawed hero fantasy books",
+      "dark fantasy flawed protagonist",
+      "broken hero fantasy novels",
+      "fantasy books imperfect hero",
+      "dark fantasy antihero books",
+      "fantasy protagonist with flaws"
+    ],
+    excerpt: "The heroes we remember aren't the ones who always made the right choice. They're the ones who got it wrong — who carried guilt like armor, who stumbled through impossible situations with cracked moral compasses and bloody hands.",
+    date: "2026-03-04",
+    author: "Eva Noir",
+    readingTime: "13 min read",
+  },
+  {
+    slug: "political-fantasy-novels-like-house-of-cards",
+    title: "Political Fantasy Novels Like House of Cards: 7 Books for Power-Hungry Readers",
+    description: "If you loved House of Cards, these political fantasy novels deliver the same ruthless maneuvering with swords and crowns. Power, ambition, and betrayal in fantasy form.",
+    keywords: [
+      "political fantasy novels like house of cards",
+      "fantasy books like house of cards",
+      "political intrigue fantasy novels",
+      "political fantasy books",
+      "fantasy with scheming and politics",
+      "succession crisis fantasy books",
+      "political power fantasy novels"
+    ],
+    excerpt: "If you binged House of Cards and immediately wanted the same ruthless political maneuvering but with swords and magic systems, you're not alone. These political fantasy novels deliver power, ambition, and betrayal on a kingdom-wide scale.",
+    date: "2026-03-04",
+    author: "Eva Noir",
+    readingTime: "14 min read",
+  },
+  {
+    slug: "epic-fantasy-series-finished-2026-reading-guide",
+    title: "Epic Fantasy Series Finished in 2026: The Ultimate Binge-Reading Guide",
+    description: "Every epic fantasy series on this list is complete — no cliffhangers, no waiting. The best finished fantasy series to binge-read in 2026, from political epics to genre-bending originals.",
+    keywords: [
+      "epic fantasy series completed 2026",
+      "finished fantasy series 2026",
+      "completed fantasy series to binge",
+      "fantasy series finished 2026",
+      "binge read fantasy series 2026",
+      "complete epic fantasy series",
+      "fantasy series with endings 2026"
+    ],
+    excerpt: "We're deep into 2026 and the 'is it finished?' question has become the first thing every fantasy reader asks before committing. This isn't just another list — we focused on series that either wrapped up recently, flew under the radar, or deserve a second look.",
+    date: "2026-03-04",
+    author: "Eva Noir",
+    readingTime: "13 min read",
+  },
+  {
     slug: "fantasy-books-multiple-pov-characters",
     title: "Fantasy Books with Multiple POV Characters: 10 Series That Master the Art",
     description: "Discover the best fantasy books with multiple POV characters — from political epics to world-spanning sagas. These 10 series prove that the best stories are bigger than any one hero.",

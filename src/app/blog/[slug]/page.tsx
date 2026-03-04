@@ -59,6 +59,11 @@ import FantasyWritingToolsDigitalProducts from "../_content/fantasy-writing-tool
 import FantasyBooksMultiplePOVCharacters from "../_content/fantasy-books-multiple-pov-characters";
 import FantasyBooksForAdultsWhoLovedHarryPotter from "../_content/fantasy-books-for-adults-who-loved-harry-potter";
 import FantasyBooksWithRevengePlots from "../_content/fantasy-books-with-revenge-plots";
+import BestFantasySeriesMorallyGreyCharacters from "../_content/best-fantasy-series-morally-grey-characters";
+import FantasyBooksWithSiblingRivalry from "../_content/fantasy-books-with-sibling-rivalry";
+import DarkFantasyBooksWhereHeroIsFlawed from "../_content/dark-fantasy-books-where-hero-is-flawed";
+import PoliticalFantasyNovelsLikeHouseOfCards from "../_content/political-fantasy-novels-like-house-of-cards";
+import EpicFantasySeriesFinished2026ReadingGuide from "../_content/epic-fantasy-series-finished-2026-reading-guide";
 const contentMap: Record<string, React.ComponentType> = {
   "fantasy-books-multiple-pov-characters": FantasyBooksMultiplePOVCharacters,
   "fantasy-books-for-adults-who-loved-harry-potter": FantasyBooksForAdultsWhoLovedHarryPotter,
@@ -113,6 +118,11 @@ const contentMap: Record<string, React.ComponentType> = {
   "dark-fantasy-books-with-no-magic": DarkFantasyBooksWithNoMagic,
   "fantasy-books-set-in-medieval-kingdoms": FantasyBooksSetInMedievalKingdoms,
   "completed-fantasy-series-to-binge-read": CompletedFantasySeriesToBingeRead,
+  "best-fantasy-series-morally-grey-characters": BestFantasySeriesMorallyGreyCharacters,
+  "fantasy-books-with-sibling-rivalry": FantasyBooksWithSiblingRivalry,
+  "dark-fantasy-books-where-hero-is-flawed": DarkFantasyBooksWhereHeroIsFlawed,
+  "political-fantasy-novels-like-house-of-cards": PoliticalFantasyNovelsLikeHouseOfCards,
+  "epic-fantasy-series-finished-2026-reading-guide": EpicFantasySeriesFinished2026ReadingGuide,
 };
 
 interface Props {

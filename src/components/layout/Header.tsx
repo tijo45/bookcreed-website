@@ -12,6 +12,7 @@ const navLinks = [
   { href: "/quiz", label: "Quizzes" },
   { href: "/leaderboard", label: "Leaderboard" },
   { href: "/contest/rules", label: "Contest Rules" },
+  { href: "/review", label: "Read & Review" },
 ];
 
 export function Header() {
