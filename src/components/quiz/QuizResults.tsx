@@ -262,6 +262,38 @@ export function QuizResults({
         </motion.div>
       )}
 
+      {/* Amazon Review CTA */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 2.5, duration: 0.6 }}
+        className="mt-4 glass-card border-gold-500/10 p-6"
+      >
+        <p className="mb-1 font-[family-name:var(--font-heading)] text-lg font-bold text-stone-200">
+          Not many readers make it this far.
+        </p>
+        <p className="mb-4 text-sm leading-relaxed text-stone-400">
+          You didn&apos;t just read the book &mdash; you tested yourself against it.
+          That tells us this story connected with you on a deeper level.
+        </p>
+        <p className="mb-5 text-sm leading-relaxed text-stone-400">
+          If you have a moment, sharing your honest experience on Amazon
+          (including the quiz challenge!) helps other fantasy readers find their
+          way to Valdrath.
+        </p>
+        <a
+          href="https://www.amazon.com/review/create-review?asin=B0GKXNCCXD"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 rounded-lg border border-gold-500/50 bg-gold-500/10 px-5 py-2.5 text-sm font-medium text-gold-400 transition hover:bg-gold-500/20"
+        >
+          Share Your Experience on Amazon
+          <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+          </svg>
+        </a>
+      </motion.div>
+
       {/* Share Your Score */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
