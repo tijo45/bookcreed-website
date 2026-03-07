@@ -92,6 +92,10 @@ export default function RootLayout({
           description="Enter The Kingdom of Valdrath — an epic fantasy series by Eva Noir. Read the books, take quizzes, and compete for real prizes."
         />
         <PersonJsonLd />
+        {/* Ensure framer-motion animated content is visible for non-JS crawlers */}
+        <noscript>
+          <style dangerouslySetInnerHTML={{ __html: `[style*="opacity:0"],[style*="opacity: 0"]{opacity:1!important;transform:none!important}` }} />
+        </noscript>
       </head>
       <body className="min-h-screen bg-stone-950 text-stone-200 font-[family-name:var(--font-body)] antialiased">
         <SessionProvider>
