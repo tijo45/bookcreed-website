@@ -199,7 +199,7 @@ export function ReviewersPageClient() {
             In the meantime, you can start reading Book 1 free on Kindle Unlimited.
           </p>
           <Link
-            href="https://www.amazon.com/dp/B0GKXNCCXD"
+            href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary inline-block"
@@ -661,7 +661,7 @@ export function ReviewersPageClient() {
           </a>
           <div className="mt-8">
             <Link
-              href="https://www.amazon.com/dp/B0GKXNCCXD"
+              href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
               target="_blank"
               rel="noopener noreferrer"
               className="text-stone-400 hover:text-gold-400 text-sm transition-colors"

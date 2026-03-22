@@ -113,7 +113,7 @@ export async function POST(request: NextRequest) {
               <p>Thank you for requesting a free copy of <strong>The Exile's Return</strong>! We'll send your <strong>${format}</strong> copy within 24 hours.</p>
               <p>Once you've read it, we'd love an honest review on Amazon:</p>
               <p style="text-align:center;margin:24px 0;">
-                <a href="https://www.amazon.com/dp/B0GKXNCCXD" style="background:#92400e;color:#fff;padding:12px 24px;text-decoration:none;border-radius:6px;font-weight:bold;">Leave a Review on Amazon</a>
+                <a href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20" style="background:#92400e;color:#fff;padding:12px 24px;text-decoration:none;border-radius:6px;font-weight:bold;">Leave a Review on Amazon</a>
               </p>
               <p>No rush — read at your own pace. And remember: honest is all we ask. If you loved it, tell the world. If you didn't, that's okay too.</p>
               <p style="margin-top:24px;">Happy reading,<br/>— Eva Noir & The Book Creed Team</p>

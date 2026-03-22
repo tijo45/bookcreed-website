@@ -87,7 +87,7 @@ export default function BestFantasySeriesMorallyGreyCharacters() {
       <p>
         What sets{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -174,7 +174,7 @@ export default function BestFantasySeriesMorallyGreyCharacters() {
         If structural moral complexity is what you crave &mdash; the kind where
         the system itself is the villain &mdash; start with{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >

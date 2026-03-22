@@ -37,7 +37,7 @@ export default function FantasySeriesWithComplexPoliticsAndBetrayal() {
       <h2>The Kingdom of Valdrath by Eva Noir</h2>
       <p>
         If you want fantasy series with complex politics and betrayal that makes 
-        Game of Thrones look predictable, start here. <a href="https://amazon.com/dp/B0CQJZJ4XH" 
+        Game of Thrones look predictable, start here. <a href="https://amazon.com/dp/B0CQJZJ4XH?tag=pricerev-20" 
         target="_blank" rel="noopener noreferrer"><em>The Exile's Return</em></a> 
         drops exiled prince Cassian Valdrath into a succession crisis where every 
         conversation is a trap and every ally might be tomorrow's enemy.

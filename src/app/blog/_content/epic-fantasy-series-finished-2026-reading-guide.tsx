@@ -46,7 +46,7 @@ export default function EpicFantasySeriesFinished2026ReadingGuide() {
         alliances, betrayals, and shifting loyalties without losing
         the thread. Start with{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -174,7 +174,7 @@ export default function EpicFantasySeriesFinished2026ReadingGuide() {
         Game of Thrones &mdash; and an ending that actually exists &mdash;
         begin with{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >

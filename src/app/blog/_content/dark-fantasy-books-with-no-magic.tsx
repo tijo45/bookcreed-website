@@ -58,7 +58,7 @@ export default function DarkFantasyBooksWithNoMagic() {
         monsters are the ones who sit on thrones. The complete
         series is on{" "}
         <a
-          href="https://www.amazon.com/dp/B0DQLP3HPN"
+          href="https://www.amazon.com/dp/B0DQLP3HPN?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -170,7 +170,7 @@ export default function DarkFantasyBooksWithNoMagic() {
         does: examine human behavior under pressure, without the
         escape hatch of the fantastic. When Lucian seizes power in{" "}
         <a
-          href="https://www.amazon.com/dp/B0DQLP3HPN"
+          href="https://www.amazon.com/dp/B0DQLP3HPN?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >

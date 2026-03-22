@@ -76,7 +76,7 @@ export default function DarkFantasyBooksWhereHeroIsFlawed() {
       <p>
         What makes{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -163,7 +163,7 @@ export default function DarkFantasyBooksWhereHeroIsFlawed() {
         If you want a protagonist whose flaws are as compelling as his
         strengths, start with{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -137,7 +137,7 @@ export function FreeDayBanner() {
           {/* Right side: CTA and dismiss */}
           <div className="flex items-center gap-3">
             <Link
-              href="https://www.amazon.com/dp/B0GKXNCCXD?utm_source=bookcreed&utm_medium=banner&utm_campaign=free_promo_feb2026"
+              href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20&utm_source=bookcreed&utm_medium=banner&utm_campaign=free_promo_feb2026"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 px-4 py-2 text-xs sm:text-sm font-bold text-stone-950 transition-all hover:from-gold-400 hover:to-gold-500 hover:scale-105 hover:shadow-lg hover:shadow-gold-500/25"

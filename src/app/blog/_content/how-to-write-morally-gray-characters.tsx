@@ -60,7 +60,7 @@ export default function HowToWriteMorallyGrayCharacters() {
       <p>
         In{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -126,7 +126,7 @@ export default function HowToWriteMorallyGrayCharacters() {
       <p>
         When Cassian deceives a potential ally in{" "}
         <a
-          href="https://www.amazon.com/dp/B0GL3YQFKS"
+          href="https://www.amazon.com/dp/B0GL3YQFKS?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -383,7 +383,7 @@ export default function HowToWriteMorallyGrayCharacters() {
         more human. If you want to see moral grayness in action, check out how
         Cassian Valdrath navigates impossible choices in{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -391,7 +391,7 @@ export default function HowToWriteMorallyGrayCharacters() {
         </a>{" "}
         and{" "}
         <a
-          href="https://www.amazon.com/dp/B0GL3YQFKS"
+          href="https://www.amazon.com/dp/B0GL3YQFKS?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >

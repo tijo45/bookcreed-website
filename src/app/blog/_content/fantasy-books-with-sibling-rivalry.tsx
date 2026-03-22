@@ -45,7 +45,7 @@ export default function FantasyBooksWithSiblingRivalry() {
       <p>
         Start with{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -160,7 +160,7 @@ export default function FantasyBooksWithSiblingRivalry() {
         If you want a series where two brothers&apos; rivalry reshapes
         an entire kingdom, start with{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >

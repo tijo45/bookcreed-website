@@ -38,7 +38,7 @@ export default function DarkFantasyBooksLikeGameOfThrones2026() {
       <h2>The Kingdom of Valdrath by Eva Noir</h2>
       <p>
         If you're seeking dark fantasy books like Game of Thrones, start with 
-        <a href="https://amazon.com/dp/B0CQJZJ4XH" target="_blank" rel="noopener noreferrer">
+        <a href="https://amazon.com/dp/B0CQJZJ4XH?tag=pricerev-20" target="_blank" rel="noopener noreferrer">
         <em>The Exile's Return</em></a>. Eva Noir's eight-book series follows 
         Cassian Valdrath, an exiled prince thrust into a succession crisis 
         that makes the War of Five Kings look like a friendly disagreement.

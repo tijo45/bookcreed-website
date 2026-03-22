@@ -55,7 +55,7 @@ export default function PoliticalFantasyNovelsLikeHouseOfCards() {
       <p>
         What makes{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -173,7 +173,7 @@ export default function PoliticalFantasyNovelsLikeHouseOfCards() {
         If you want a succession crisis that feels like binge-worthy
         prestige television, start with{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >

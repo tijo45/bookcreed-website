@@ -60,7 +60,7 @@ export default function FantasyWorldbuildingGuide() {
       <p>
         When Cassian Valdrath faces exile in{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -128,7 +128,7 @@ export default function FantasyWorldbuildingGuide() {
         Prince Cassian, who values beauty and artistry, clash with a society
         that sees such interests as frivolous. In{" "}
         <a
-          href="https://www.amazon.com/dp/B0GL3YQFKS"
+          href="https://www.amazon.com/dp/B0GL3YQFKS?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -339,7 +339,7 @@ export default function FantasyWorldbuildingGuide() {
         story, from the harsh mountain passes that shape Valdrath&apos;s culture to
         the political systems that drive the conflict.{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >

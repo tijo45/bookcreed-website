@@ -58,7 +58,7 @@ export default function FreeEpicFantasyBooks2026() {
       </p>
       <p>
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gold-400 hover:underline font-semibold"
@@ -228,7 +228,7 @@ export default function FreeEpicFantasyBooks2026() {
           without waiting years for conclusions.
           <br />
           <a
-            href="https://www.amazon.com/dp/B0GKXNCCXD"
+            href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gold-400 hover:underline"

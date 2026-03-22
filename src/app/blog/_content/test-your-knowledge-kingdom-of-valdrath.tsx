@@ -32,7 +32,7 @@ export default function TestYourKnowledgeKingdomOfValdrath() {
       <p>
         Every quiz is tied to a specific book in the series. Start with{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -40,7 +40,7 @@ export default function TestYourKnowledgeKingdomOfValdrath() {
         </a>{" "}
         or{" "}
         <a
-          href="https://www.amazon.com/dp/B0GL3YQFKS"
+          href="https://www.amazon.com/dp/B0GL3YQFKS?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -172,7 +172,7 @@ export default function TestYourKnowledgeKingdomOfValdrath() {
         <li>
           <strong>Book 1: The Exile&apos;s Return</strong> —{" "}
           <a
-            href="https://www.amazon.com/dp/B0GKXNCCXD"
+            href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -184,7 +184,7 @@ export default function TestYourKnowledgeKingdomOfValdrath() {
         <li>
           <strong>Book 2: The Shadow&apos;s Reach</strong> —{" "}
           <a
-            href="https://www.amazon.com/dp/B0GL3YQFKS"
+            href="https://www.amazon.com/dp/B0GL3YQFKS?tag=pricerev-20"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -212,7 +212,7 @@ export default function TestYourKnowledgeKingdomOfValdrath() {
         <li>
           <strong>
             <a
-              href="https://www.amazon.com/dp/B0GKXNCCXD"
+              href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
               target="_blank"
               rel="noopener noreferrer"
             >

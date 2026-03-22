@@ -31,7 +31,7 @@ export default function WorldbuildingTipsForFantasyWriters() {
         routes, and how does dragon-threat insurance work?
       </p>
       <p>
-        <a href="https://amazon.com/dp/B0CQJZJ4XH" target="_blank" rel="noopener noreferrer">
+        <a href="https://amazon.com/dp/B0CQJZJ4XH?tag=pricerev-20" target="_blank" rel="noopener noreferrer">
         The Kingdom of Valdrath series</a> demonstrates this approach perfectly. 
         Eva Noir didn't just create a magic system based on ancient scars — she 
         worked out how this affects everything from religious practices to 

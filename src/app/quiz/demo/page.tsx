@@ -306,7 +306,7 @@ export default function QuizDemoPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
-                href="https://www.amazon.com/dp/B0GKXNCCXD"
+                href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary inline-flex items-center justify-center gap-2 px-6 py-3"

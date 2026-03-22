@@ -94,7 +94,7 @@ export default function FantasyBooksWithMorallyGreyCharacters() {
       <p>
         What makes{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -169,7 +169,7 @@ export default function FantasyBooksWithMorallyGreyCharacters() {
         <em>
           Ready to meet a protagonist who haunts you?{" "}
           <a
-            href="https://www.amazon.com/dp/B0GKXNCCXD"
+            href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -147,7 +147,7 @@ export default function KingdomOfValdrathMapGuide() {
       </p>
       <p>
         <strong>
-          <a href="https://www.amazon.com/dp/B0F1YP9VYM" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.amazon.com/dp/B0F1YP9VYM?tag=pricerev-20" target="_blank" rel="noopener noreferrer">
             Begin your journey through Valdrath — Download The Exile&apos;s Return free on Amazon Kindle →
           </a>
         </strong>

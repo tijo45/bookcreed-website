@@ -278,7 +278,7 @@ export default function SevenScarsPage() {
             Read every scar&apos;s story
           </p>
           <a
-            href="https://www.amazon.com/dp/B0DZSB8MBH"
+            href="https://www.amazon.com/dp/B0DZSB8MBH?tag=pricerev-20"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary mt-4 inline-block"

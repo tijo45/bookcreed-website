@@ -92,7 +92,7 @@ export default function EpicFantasySagas2026() {
       <p>
         <strong>Start with:</strong>{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -101,7 +101,7 @@ export default function EpicFantasySagas2026() {
         - The first book establishes Cassian as neither pure hero nor
         anti-hero, but something more complex. Then dive into{" "}
         <a
-          href="https://www.amazon.com/dp/B0GL3YQFKS"
+          href="https://www.amazon.com/dp/B0GL3YQFKS?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -242,7 +242,7 @@ export default function EpicFantasySagas2026() {
         <li>The Blade Itself (Abercrombie)</li>
         <li>
           <a
-            href="https://www.amazon.com/dp/B0GKXNCCXD"
+            href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -287,7 +287,7 @@ export default function EpicFantasySagas2026() {
         complex characters sounds like your cup of tea, start your journey with
         Cassian Valdrath in{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >

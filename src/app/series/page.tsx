@@ -240,7 +240,7 @@ export default function SeriesPage() {
                   </p>
                   {book.available && book.asin && (
                     <a
-                      href={`https://www.amazon.com/dp/${book.asin}`}
+                      href={`https://www.amazon.com/dp/${book.asin}?tag=pricerev-20`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-gold-500 transition-colors hover:text-gold-400"
@@ -313,7 +313,7 @@ export default function SeriesPage() {
 
             <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
               <a
-                href="https://www.amazon.com/dp/B0GKXNCCXD"
+                href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary inline-flex items-center gap-2"

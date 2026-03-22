@@ -656,7 +656,7 @@ export default function SamplePage() {
           </p>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
-              href="https://www.amazon.com/dp/B0GKXNCCXD"
+              href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-lg bg-gold-500 px-8 py-3 font-semibold text-stone-950 transition-colors hover:bg-gold-400"
@@ -667,7 +667,7 @@ export default function SamplePage() {
               Get the Kindle Edition
             </a>
             <a
-              href="https://www.amazon.com/dp/B0GKXNCCXD"
+              href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-lg border border-stone-700 px-8 py-3 font-semibold text-stone-300 transition-colors hover:border-gold-500/50 hover:text-gold-400"
@@ -690,7 +690,7 @@ export default function SamplePage() {
             </p>
           </div>
           <a
-            href="https://www.amazon.com/dp/B0GKXNCCXD"
+            href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-lg bg-gold-500 px-6 py-2 text-sm font-bold text-stone-950 transition-colors hover:bg-gold-400"

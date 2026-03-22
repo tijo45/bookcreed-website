@@ -4,7 +4,7 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
       <p>
         When I published{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -18,7 +18,7 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
       <p>
         Two years and two published books later (
         <a
-          href="https://www.amazon.com/dp/B0GL3YQFKS"
+          href="https://www.amazon.com/dp/B0GL3YQFKS?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -437,7 +437,7 @@ export default function SelfPublishingFantasySeriesLessonsLearned() {
         work in today&apos;s market, check out how I&apos;ve structured the Kingdom of
         Valdrath series, starting with{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >

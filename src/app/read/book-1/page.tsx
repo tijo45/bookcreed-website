@@ -72,7 +72,7 @@ export default function ReadBook1() {
             offers: {
               "@type": "Offer",
               availability: "https://schema.org/InStock",
-              url: "https://www.amazon.com/dp/B0GKXNCCXD",
+              url: "https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20",
             },
           }),
         }}
@@ -112,7 +112,7 @@ export default function ReadBook1() {
             ))}
             <span className="hidden md:inline-block w-px h-4 bg-stone-700 mx-1" />
             <a
-              href="https://www.amazon.com/dp/B0GKXNCCXD"
+              href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
               target="_blank"
               rel="noopener noreferrer"
               className="whitespace-nowrap text-sm font-semibold text-gold-400 hover:text-gold-300 transition-colors px-3 py-1"
@@ -177,7 +177,7 @@ export default function ReadBook1() {
               The Exile&rsquo;s Return — available now.
             </p>
             <a
-              href="https://www.amazon.com/dp/B0GKXNCCXD"
+              href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block btn-primary text-lg px-10 py-4 rounded-lg shadow-lg shadow-gold-900/20 hover:shadow-gold-800/30 transition-all hover:scale-105"
@@ -190,7 +190,7 @@ export default function ReadBook1() {
         {/* Sticky bottom CTA (mobile) */}
         <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-stone-950/95 backdrop-blur-md border-t border-stone-800/60 p-3">
           <a
-            href="https://www.amazon.com/dp/B0GKXNCCXD"
+            href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full text-center btn-primary py-3 rounded-lg font-semibold text-base"

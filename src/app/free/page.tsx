@@ -32,7 +32,7 @@ export default function FreePage() {
   const promoEndDate = new Date("2026-03-02T04:59:00Z"); // UTC equivalent of March 1, 2026 11:59 PM EST
   const countdown = useCountdown(promoEndDate);
 
-  const amazonLink = "https://www.amazon.com/dp/B0GKXNCCXD";
+  const amazonLink = "https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20";
 
   return (
     <div className="min-h-screen">

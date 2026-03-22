@@ -125,7 +125,7 @@ export default function EpicFantasySeriesCompleted2026() {
         on a consistent schedule — making it a rare indie series you can
         trust to finish.{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -193,7 +193,7 @@ export default function EpicFantasySeriesCompleted2026() {
         <em>
           Looking for a dark political fantasy you can binge?{" "}
           <a
-            href="https://www.amazon.com/dp/B0GKXNCCXD"
+            href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
             target="_blank"
             rel="noopener noreferrer"
           >

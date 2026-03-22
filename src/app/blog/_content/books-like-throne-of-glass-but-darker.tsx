@@ -42,7 +42,7 @@ export default function BooksLikeThroneOfGlassButDarker() {
       <p>
         While Valdrath's protagonist is male, the series offers everything Throne 
         of Glass readers love in a much more sophisticated package. 
-        <a href="https://amazon.com/dp/B0CQJZJ4XH" target="_blank" rel="noopener noreferrer">
+        <a href="https://amazon.com/dp/B0CQJZJ4XH?tag=pricerev-20" target="_blank" rel="noopener noreferrer">
         <em>The Exile's Return</em></a> introduces Cassian Valdrath, an exiled 
         prince whose return to his kingdom launches eight books of political 
         maneuvering that makes Erilea's court look like a tea party.

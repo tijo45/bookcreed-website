@@ -37,7 +37,7 @@ export default function SelfPublishedFantasyBooksWorthReading2026() {
       <h2>The Kingdom of Valdrath by Eva Noir</h2>
       <p>
         Start here if you want political fantasy that makes Game of Thrones look 
-        straightforward. <a href="https://amazon.com/dp/B0CQJZJ4XH" target="_blank" 
+        straightforward. <a href="https://amazon.com/dp/B0CQJZJ4XH?tag=pricerev-20" target="_blank" 
         rel="noopener noreferrer"><em>The Exile's Return</em></a> launches an 
         eight-book series following Cassian Valdrath, an exiled prince dragged 
         back to a kingdom where three brothers are tearing each other apart over 

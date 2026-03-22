@@ -54,7 +54,7 @@ export default function FantasyBooksWhereTheVillainWins() {
         already reshaped the kingdom in his image. The entire series
         is available now on{" "}
         <a
-          href="https://www.amazon.com/dp/B0DQLP3HPN"
+          href="https://www.amazon.com/dp/B0DQLP3HPN?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -171,7 +171,7 @@ export default function FantasyBooksWhereTheVillainWins() {
         Ready to watch Lucian&apos;s rise from wronged prince to the
         most compelling villain in indie fantasy? Start{" "}
         <a
-          href="https://www.amazon.com/dp/B0DQLP3HPN"
+          href="https://www.amazon.com/dp/B0DQLP3HPN?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >

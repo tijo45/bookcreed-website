@@ -21,7 +21,13 @@ export interface BookData {
   formats: BookFormat[];
 }
 
-const AUTHOR_PAGE = "https://www.amazon.com/stores/Eva-Noir/author/B0CJFMLR48";
+const AUTHOR_PAGE = "https://www.amazon.com/stores/Eva-Noir/author/B0CJFMLR48?tag=pricerev-20";
+const AFFILIATE_TAG = "pricerev-20";
+
+/** Build an Amazon product URL with affiliate tag */
+export function amazonUrl(asin: string): string {
+  return `https://www.amazon.com/dp/${asin}?tag=${AFFILIATE_TAG}`;
+}
 
 export const books: BookData[] = [
   {
@@ -35,9 +41,9 @@ export const books: BookData[] = [
     blurb:
       "Twelve years ago, Prince Cassian was forced to execute seven innocent farmers on his father's orders — and it shattered him. He fled the kingdom, buried his name, and swore he'd never return. But when his eldest brother is murdered and the throne fractures, Cassian is dragged back into a palace where every smile hides a blade — and the deadliest enemy wears his family's name.",
     formats: [
-      { format: "Kindle", price: "$2.99", url: "https://www.amazon.com/dp/B0GKXNCCXD" },
-      { format: "Paperback", price: "$14.99", url: "https://www.amazon.com/dp/B0GKXNCCXD" },
-      { format: "Hardcover", price: "$24.99", url: "https://www.amazon.com/dp/B0GKXNCCXD" },
+      { format: "Kindle", price: "$2.99", url: amazonUrl("B0GKXNCCXD") },
+      { format: "Paperback", price: "$14.99", url: amazonUrl("B0GKXNCCXD") },
+      { format: "Hardcover", price: "$24.99", url: amazonUrl("B0GKXNCCXD") },
     ],
   },
   {
@@ -51,9 +57,9 @@ export const books: BookData[] = [
     blurb:
       "Prince Cassian exposed his brother's treachery and survived the royal court — but defeating one traitor only revealed how deep the conspiracy runs. Sent to Greyport on the kingdom's edge, Cassian uncovers a threat that dwarfs a single assassination. The conspiracy that killed Crown Prince Aldric wasn't a family squabble. It was the opening move in something far larger.",
     formats: [
-      { format: "Kindle", price: "$4.99", url: "https://www.amazon.com/dp/B0GL3YQFKS" },
-      { format: "Paperback", price: "$14.99", url: "https://www.amazon.com/dp/B0GL3YQFKS" },
-      { format: "Hardcover", price: "$24.99", url: "https://www.amazon.com/dp/B0GL3YQFKS" },
+      { format: "Kindle", price: "$4.99", url: amazonUrl("B0GL3YQFKS") },
+      { format: "Paperback", price: "$14.99", url: amazonUrl("B0GL3YQFKS") },
+      { format: "Hardcover", price: "$24.99", url: amazonUrl("B0GL3YQFKS") },
     ],
   },
   {
@@ -121,6 +127,15 @@ export const books: BookData[] = [
 export const SERIES_NAME = "The Kingdom of Valdrath";
 export const AUTHOR_NAME = "Eva Noir";
 export const AMAZON_AUTHOR_URL = AUTHOR_PAGE;
+export const SERIES_TOTAL_BOOKS = 8;
+export const SERIES_COMPLETE = true;
+
+export const AUTHOR_SOCIALS = {
+  twitter: { url: "https://twitter.com/EvaNoirAuthor", handle: "@EvaNoirAuthor" },
+  instagram: { url: "https://instagram.com/evanoir_author", handle: "@evanoir_author" },
+  amazon: { url: AUTHOR_PAGE, label: "Amazon" },
+  goodreads: { url: "https://www.goodreads.com/author/show/Eva_Noir", label: "Goodreads" },
+};
 
 export const AUTHOR_BIO_SHORT =
   "Eva Noir crafts epic fantasy where political intrigue meets profound human truths. Author of the eight-book Kingdom of Valdrath, Eva explores power, betrayal, and redemption through complex worldbuilding and morally ambiguous characters.";

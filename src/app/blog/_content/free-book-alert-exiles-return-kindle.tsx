@@ -20,7 +20,7 @@ export default function FreeBookAlertExilesReturnKindle() {
               "https://schema.org/OnlineEventAttendanceMode",
             location: {
               "@type": "VirtualLocation",
-              url: "https://www.amazon.com/dp/B0GKXNCCXD",
+              url: "https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20",
             },
             organizer: {
               "@type": "Organization",
@@ -34,7 +34,7 @@ export default function FreeBookAlertExilesReturnKindle() {
               availability: "https://schema.org/InStock",
               validFrom: "2026-02-25",
               validThrough: "2026-03-01",
-              url: "https://www.amazon.com/dp/B0GKXNCCXD",
+              url: "https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20",
             },
           }),
         }}
@@ -65,7 +65,7 @@ export default function FreeBookAlertExilesReturnKindle() {
 
       <p className="text-center">
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 px-8 py-4 text-lg font-bold text-stone-950 transition-all hover:from-gold-400 hover:to-gold-500 hover:scale-105 hover:shadow-lg hover:shadow-gold-500/25 no-underline"
@@ -199,7 +199,7 @@ export default function FreeBookAlertExilesReturnKindle() {
         <li>
           <strong>
             <a
-              href="https://www.amazon.com/dp/B0GKXNCCXD"
+              href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gold-400 hover:underline"
@@ -225,7 +225,7 @@ export default function FreeBookAlertExilesReturnKindle() {
 
       <p className="text-center">
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 px-8 py-4 text-lg font-bold text-stone-950 transition-all hover:from-gold-400 hover:to-gold-500 hover:scale-105 hover:shadow-lg hover:shadow-gold-500/25 no-underline"

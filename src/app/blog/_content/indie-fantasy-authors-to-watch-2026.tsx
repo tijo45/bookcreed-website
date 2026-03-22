@@ -47,7 +47,7 @@ export default function IndieFantasyAuthorsToWatch2026() {
         spans thousands of pages, and consequences that echo from early
         chapters through late-series revelations.{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -201,7 +201,7 @@ export default function IndieFantasyAuthorsToWatch2026() {
         <em>
           Discover indie fantasy at its most ambitious.{" "}
           <a
-            href="https://www.amazon.com/dp/B0GKXNCCXD"
+            href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
             target="_blank"
             rel="noopener noreferrer"
           >

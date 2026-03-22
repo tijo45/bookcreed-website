@@ -89,7 +89,7 @@ export default function FantasyBooksAboutRoyalSuccession() {
       </p>
       <p>
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -171,7 +171,7 @@ export default function FantasyBooksAboutRoyalSuccession() {
         <em>
           A dying king. Two sons. One throne. Zero clean hands.{" "}
           <a
-            href="https://www.amazon.com/dp/B0GKXNCCXD"
+            href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
             target="_blank"
             rel="noopener noreferrer"
           >

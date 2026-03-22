@@ -92,7 +92,7 @@ export default function BooksWithPoliticalIntrigueAndBetrayal() {
         advisors who served the same king, allies whose loyalty has an
         expiration date. When betrayals come in{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -187,7 +187,7 @@ export default function BooksWithPoliticalIntrigueAndBetrayal() {
           Brothers divided. A kingdom in crisis. Betrayals that cut to the
           bone.{" "}
           <a
-            href="https://www.amazon.com/dp/B0GKXNCCXD"
+            href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
             target="_blank"
             rel="noopener noreferrer"
           >

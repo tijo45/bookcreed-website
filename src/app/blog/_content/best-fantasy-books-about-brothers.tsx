@@ -49,7 +49,7 @@ export default function BestFantasyBooksAboutBrothers() {
         and understand Lucian in the next. It&apos;s available as a
         complete series on{" "}
         <a
-          href="https://www.amazon.com/dp/B0DQLP3HPN"
+          href="https://www.amazon.com/dp/B0DQLP3HPN?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -165,7 +165,7 @@ export default function BestFantasyBooksAboutBrothers() {
       <p>
         Cassian and Lucian in{" "}
         <a
-          href="https://www.amazon.com/dp/B0DQLP3HPN"
+          href="https://www.amazon.com/dp/B0DQLP3HPN?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -184,7 +184,7 @@ export default function BestFantasyBooksAboutBrothers() {
         with Cassian and Lucian&apos;s story — all eight books of{" "}
         <em>The Kingdom of Valdrath</em> are available now on{" "}
         <a
-          href="https://www.amazon.com/dp/B0DQLP3HPN"
+          href="https://www.amazon.com/dp/B0DQLP3HPN?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -59,7 +59,7 @@ export default function FantasyBooksSetInMedievalKingdoms() {
         political decision reverberates through a feudal system that
         resists change. All eight books are available on{" "}
         <a
-          href="https://www.amazon.com/dp/B0DQLP3HPN"
+          href="https://www.amazon.com/dp/B0DQLP3HPN?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -192,7 +192,7 @@ export default function FantasyBooksSetInMedievalKingdoms() {
         The best medieval fantasy — from Martin&apos;s Westeros to
         Noir&apos;s{" "}
         <a
-          href="https://www.amazon.com/dp/B0DQLP3HPN"
+          href="https://www.amazon.com/dp/B0DQLP3HPN?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >

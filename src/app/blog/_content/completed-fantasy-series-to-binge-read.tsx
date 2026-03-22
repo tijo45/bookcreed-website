@@ -42,7 +42,7 @@ export default function CompletedFantasySeriesToBingeRead() {
         stopping, the more connections you catch. Start the complete
         series on{" "}
         <a
-          href="https://www.amazon.com/dp/B0DQLP3HPN"
+          href="https://www.amazon.com/dp/B0DQLP3HPN?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -187,7 +187,7 @@ export default function CompletedFantasySeriesToBingeRead() {
         storytelling — where an author seeds a plot thread in book two
         that doesn&apos;t pay off until book seven. Eva Noir&apos;s{" "}
         <a
-          href="https://www.amazon.com/dp/B0DQLP3HPN"
+          href="https://www.amazon.com/dp/B0DQLP3HPN?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -207,7 +207,7 @@ export default function CompletedFantasySeriesToBingeRead() {
         several thousand pages of complete, finished fantasy. Start
         with{" "}
         <a
-          href="https://www.amazon.com/dp/B0DQLP3HPN"
+          href="https://www.amazon.com/dp/B0DQLP3HPN?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >

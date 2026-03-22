@@ -138,7 +138,7 @@ export default function PoliticalFantasyBooksLikeGameOfThrones() {
       <p>
         <strong>Start here:</strong>{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -146,7 +146,7 @@ export default function PoliticalFantasyBooksLikeGameOfThrones() {
         </a>{" "}
         establishes the political landscape and Cassian&apos;s outsider status.{" "}
         <a
-          href="https://www.amazon.com/dp/B0GL3YQFKS"
+          href="https://www.amazon.com/dp/B0GL3YQFKS?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -410,7 +410,7 @@ export default function PoliticalFantasyBooksLikeGameOfThrones() {
         princes navigate court intrigue while pursuing justice, start your
         journey with{" "}
         <a
-          href="https://www.amazon.com/dp/B0GKXNCCXD"
+          href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -67,9 +67,9 @@ const BOOK_META: Record<
     numberOfPages: 320,
     datePublished: "2025-11-15",
     offers: [
-      { price: "2.99", bookFormat: "Kindle", url: "https://www.amazon.com/dp/B0GKXNCCXD" },
-      { price: "14.99", bookFormat: "Paperback", url: "https://www.amazon.com/dp/B0GKXNCCXD" },
-      { price: "24.99", bookFormat: "Hardcover", url: "https://www.amazon.com/dp/B0GKXNCCXD" },
+      { price: "2.99", bookFormat: "Kindle", url: "https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20" },
+      { price: "14.99", bookFormat: "Paperback", url: "https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20" },
+      { price: "24.99", bookFormat: "Hardcover", url: "https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20" },
     ],
   },
   2: {
@@ -78,9 +78,9 @@ const BOOK_META: Record<
     numberOfPages: 340,
     datePublished: "2026-01-10",
     offers: [
-      { price: "4.99", bookFormat: "Kindle", url: "https://www.amazon.com/dp/B0GL3YQFKS" },
-      { price: "14.99", bookFormat: "Paperback", url: "https://www.amazon.com/dp/B0GL3YQFKS" },
-      { price: "24.99", bookFormat: "Hardcover", url: "https://www.amazon.com/dp/B0GL3YQFKS" },
+      { price: "4.99", bookFormat: "Kindle", url: "https://www.amazon.com/dp/B0GL3YQFKS?tag=pricerev-20" },
+      { price: "14.99", bookFormat: "Paperback", url: "https://www.amazon.com/dp/B0GL3YQFKS?tag=pricerev-20" },
+      { price: "24.99", bookFormat: "Hardcover", url: "https://www.amazon.com/dp/B0GL3YQFKS?tag=pricerev-20" },
     ],
   },
 };

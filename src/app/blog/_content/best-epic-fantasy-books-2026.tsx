@@ -59,7 +59,7 @@ export default function BestEpicFantasyBooks2026() {
         <strong>What sets it apart:</strong> Political intrigue meets personal redemption in a world where magic comes with real costs. Readers compare it to early Game of Thrones meets Robin Hobb&apos;s character depth.
       </p>
       <p>
-        <strong>Start with:</strong> <a href="https://www.amazon.com/dp/B0GKXNCCXD" target="_blank" rel="noopener noreferrer">&ldquo;The Exile&apos;s Return&rdquo;</a> - The first book establishes Cassian as neither pure hero nor anti-hero, but something more complex. Then dive into <a href="https://www.amazon.com/dp/B0GL3YQFKS" target="_blank" rel="noopener noreferrer">&ldquo;The Shadow&apos;s Reach&rdquo;</a>, where the political maneuvering gets deliciously complicated.
+        <strong>Start with:</strong> <a href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20" target="_blank" rel="noopener noreferrer">&ldquo;The Exile&apos;s Return&rdquo;</a> - The first book establishes Cassian as neither pure hero nor anti-hero, but something more complex. Then dive into <a href="https://www.amazon.com/dp/B0GL3YQFKS?tag=pricerev-20" target="_blank" rel="noopener noreferrer">&ldquo;The Shadow&apos;s Reach&rdquo;</a>, where the political maneuvering gets deliciously complicated.
       </p>
 
       <h3>5. N.K. Jemisin&apos;s Great Cities Trilogy</h3>
@@ -152,7 +152,7 @@ export default function BestEpicFantasyBooks2026() {
         <li>The Way of Kings (Sanderson)</li>
         <li>Assassin&apos;s Apprentice (Hobb)</li>
         <li>The Blade Itself (Abercrombie)</li>
-        <li><a href="https://www.amazon.com/dp/B0GKXNCCXD" target="_blank" rel="noopener noreferrer">The Exile&apos;s Return</a> (if political fantasy with morally complex characters appeals to you)</li>
+        <li><a href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20" target="_blank" rel="noopener noreferrer">The Exile&apos;s Return</a> (if political fantasy with morally complex characters appeals to you)</li>
       </ul>
       <p>
         Remember: epic fantasy is a marathon, not a sprint. Choose series that speak to your current mood and interests. The best fantasy series are the ones you actually finish.
@@ -172,7 +172,7 @@ export default function BestEpicFantasyBooks2026() {
         <strong>Ready to dive into epic fantasy?</strong> Check out my recommendations at{" "}
         <a href="https://bookcreed.com" target="_blank" rel="noopener noreferrer">BookCreed.com</a>{" "}
         for detailed reviews and reading guides. And if political fantasy with complex characters sounds like your cup of tea, start your journey with Cassian Valdrath in{" "}
-        <a href="https://www.amazon.com/dp/B0GKXNCCXD" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.amazon.com/dp/B0GKXNCCXD?tag=pricerev-20" target="_blank" rel="noopener noreferrer">
           <em>The Exile&apos;s Return</em>
         </a>.
       </p>
