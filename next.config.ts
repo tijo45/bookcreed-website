@@ -4,6 +4,12 @@ const nextConfig: NextConfig = {
   images: {
     formats: ["image/webp"],
   },
+  async rewrites() {
+    return [
+      // SMITHBOUND series landing page (static HTML in public/smithbound)
+      { source: "/smithbound", destination: "/smithbound/index.html" },
+    ];
+  },
   async redirects() {
     return [
       {

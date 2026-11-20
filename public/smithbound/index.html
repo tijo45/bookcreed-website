@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMITHBOUND — 100 Books. The War Is Already Here.</title>
+  <meta name="description" content="SMITHBOUND is a 100-book epic fantasy saga by Eva Noir. Ten sagas of ten. One shelf that is a ring. Start at Book 51. The road goes in both directions.">
+  <meta name="author" content="Eva Noir">
+  <meta property="og:title" content="SMITHBOUND — 100 Books. The War Is Already Here.">
+  <meta property="og:description" content="A 100-book epic fantasy saga. Ten sagas of ten. Five kinds of stone. Nine broken kingdoms. Start at Book 51.">
+  <meta property="og:image" content="https://bookcreed.com/smithbound/images/cover-51.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bookcreed.com/smithbound">
+  <link rel="canonical" href="https://bookcreed.com/smithbound">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=IBM+Plex+Mono:wght@300;400;500&display=swap">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ground: #08070605;
+      --ground-solid: #0a0908;
+      --surface: #121110;
+      --surface-raised: #1a1816;
+      --border: #2a2520;
+      --border-light: #3a332a;
+      --text: #e8e0cf;
+      --text-secondary: #c4b9a2;
+      --text-muted: #8a7f6a;
+      --text-dim: #5a5244;
+      --accent: #c9a26a;
+      --accent-light: #ddb87e;
+      --accent-deep: #a07d3e;
+      --ember: #c45a20;
+      --ember-glow: #e8742e;
+      --coal: #e84a1a;
+      --brine: #3a8a9a;
+      --tor: #7a6a52;
+      --whistler: #9aaab8;
+      --gray: #8a8a8a;
+      --font-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+      --font-body: 'Crimson Pro', Georgia, 'Times New Roman', serif;
+      --font-mono: 'IBM Plex Mono', 'Menlo', Consolas, monospace;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--ground-solid);
+      color: var(--text);
+      font-family: var(--font-body);
+      font-size: 18px;
+      line-height: 1.7;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    ::selection {
+      background: var(--accent-deep);
+      color: var(--text);
+    }
+
+    img { max-width: 100%; height: auto; display: block; }
+
+    /* ==============================
+       HERO
+    ============================== */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      padding: 80px 24px 60px;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 50% 0%, rgba(201,162,106,0.06) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 80% at 80% 100%, rgba(196,90,32,0.04) 0%, transparent 50%);
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      max-width: 1200px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 380px;
+      gap: 80px;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-text { max-width: 640px; }
+
+    .hero-wordmark {
+      font-family: var(--font-display);
+      font-size: clamp(48px, 8vw, 84px);
+      font-weight: 300;
+      letter-spacing: 0.15em;
+      color: var(--text);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .hero-tagline {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 0.3em;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+
+    .hero-rule {
+      width: 60px;
+      height: 1px;
+      background: var(--accent);
+      border: none;
+      margin-bottom: 32px;
+    }
+
+    .hero-flap {
+      font-family: var(--font-body);
+      font-size: 19px;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      font-weight: 300;
+      margin-bottom: 40px;
+    }
+
+    .hero-flap em {
+      color: var(--text);
+      font-style: italic;
+      font-weight: 400;
+    }
+
+    .hero-cta {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 32px;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: var(--ground-solid);
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-light);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--accent);
+      border: 1px solid var(--border-light);
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--accent);
+      background: rgba(201,162,106,0.06);
+    }
+
+    .hero-cover {
+      position: relative;
+    }
+
+    .hero-cover img {
+      width: 100%;
+      max-width: 380px;
+      box-shadow:
+        0 25px 80px rgba(0,0,0,0.6),
+        0 8px 24px rgba(0,0,0,0.4),
+        0 0 0 1px rgba(201,162,106,0.1);
+    }
+
+    .hero-cover::after {
+      content: '';
+      position: absolute;
+      inset: -20px;
+      border: 1px solid rgba(201,162,106,0.08);
+      pointer-events: none;
+    }
+
+    .scroll-hint {
+      position: absolute;
+      bottom: 32px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-dim);
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      animation: pulse-down 2s ease-in-out infinite;
+    }
+
+    .scroll-hint span {
+      width: 1px;
+      height: 24px;
+      background: linear-gradient(to bottom, var(--text-dim), transparent);
+    }
+
+    @keyframes pulse-down {
+      0%, 100% { opacity: 0.4; transform: translateX(-50%) translateY(0); }
+      50% { opacity: 0.8; transform: translateX(-50%) translateY(4px); }
+    }
+
+    /* ==============================
+       SECTIONS (shared)
+    ============================== */
+    section {
+      position: relative;
+    }
+
+    .section-pad {
+      padding: 120px 24px;
+    }
+
+    .section-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .section-label {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+
+    .section-heading {
+      font-family: var(--font-display);
+      font-size: clamp(32px, 5vw, 52px);
+      font-weight: 400;
+      line-height: 1.2;
+      color: var(--text);
+      margin-bottom: 24px;
+    }
+
+    .section-body {
+      font-size: 18px;
+      line-height: 1.8;
+      color: var(--text-secondary);
+      max-width: 680px;
+    }
+
+    /* ==============================
+       THE FORD — full-bleed
+    ============================== */
+    .ford {
+      position: relative;
+      min-height: 80vh;
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+    }
+
+    .ford-bg {
+      position: absolute;
+      inset: 0;
+      background-image: url('/smithbound/images/ford-crossing.jpg');
+      background-size: cover;
+      background-position: center 30%;
+      filter: brightness(0.5) saturate(0.7);
+    }
+
+    .ford-bg::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(10,9,8,0.3) 0%,
+        rgba(10,9,8,0.1) 40%,
+        rgba(10,9,8,0.6) 70%,
+        rgba(10,9,8,0.95) 100%
+      );
+    }
+
+    .ford-content {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      padding: 80px 40px 80px;
+    }
+
+    .ford-quote {
+      font-family: var(--font-display);
+      font-size: clamp(24px, 4vw, 38px);
+      font-weight: 400;
+      line-height: 1.45;
+      color: var(--text);
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+
+    .ford-attr {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      color: var(--accent);
+      text-transform: uppercase;
+    }
+
+    /* ==============================
+       FIVE STONES
+    ============================== */
+    .stones {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .stones-intro {
+      text-align: center;
+      margin-bottom: 64px;
+    }
+
+    .stones-intro .section-heading,
+    .stones-intro .section-label,
+    .stones-intro .section-body {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    .stones-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 2px;
+    }
+
+    .stone-card {
+      background: var(--ground-solid);
+      padding: 40px 24px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .stone-card:hover {
+      transform: translateY(-2px);
+    }
+
+    .stone-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+    }
+
+    .stone-card[data-stone="coal"]::before { background: var(--coal); }
+    .stone-card[data-stone="brine"]::before { background: var(--brine); }
+    .stone-card[data-stone="tor"]::before { background: var(--tor); }
+    .stone-card[data-stone="whistler"]::before { background: var(--whistler); }
+    .stone-card[data-stone="gray"]::before { background: var(--gray); }
+
+    .stone-glyph {
+      width: 48px;
+      height: 48px;
+      margin: 0 auto 20px;
+      border-radius: 50%;
+      opacity: 0.7;
+    }
+
+    .stone-glyph[data-stone="coal"] { background: radial-gradient(circle, #e84a1a, #8a2a0a); box-shadow: 0 0 20px rgba(232,74,26,0.3); }
+    .stone-glyph[data-stone="brine"] { background: radial-gradient(circle, #5ab0c0, #1a5a6a); box-shadow: 0 0 20px rgba(90,176,192,0.2); }
+    .stone-glyph[data-stone="tor"] { background: radial-gradient(circle, #9a8a6a, #5a4a32); box-shadow: 0 0 20px rgba(154,138,106,0.15); }
+    .stone-glyph[data-stone="whistler"] { background: radial-gradient(circle, #b8c8d8, #6a7a8a); box-shadow: 0 0 20px rgba(184,200,216,0.15); }
+    .stone-glyph[data-stone="gray"] { background: radial-gradient(circle, #9a9a9a, #5a5a5a); box-shadow: 0 0 20px rgba(138,138,138,0.15); }
+
+    .stone-name {
+      font-family: var(--font-display);
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+
+    .stone-verb {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    .stone-card[data-stone="coal"] .stone-verb { color: var(--coal); }
+    .stone-card[data-stone="brine"] .stone-verb { color: var(--brine); }
+    .stone-card[data-stone="tor"] .stone-verb { color: var(--tor); }
+    .stone-card[data-stone="whistler"] .stone-verb { color: var(--whistler); }
+    .stone-card[data-stone="gray"] .stone-verb { color: var(--gray); }
+
+    .stone-desc {
+      font-size: 15px;
+      line-height: 1.6;
+      color: var(--text-muted);
+    }
+
+    /* ==============================
+       THE WORLD — image gallery
+    ============================== */
+    .world-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2px;
+      margin-top: 64px;
+    }
+
+    .world-card {
+      position: relative;
+      overflow: hidden;
+      aspect-ratio: 16 / 10;
+    }
+
+    .world-card.tall { aspect-ratio: 9 / 12; }
+
+    .world-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+
+    .world-card:hover img {
+      transform: scale(1.03);
+    }
+
+    .world-card-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(10,9,8,0.9) 0%, rgba(10,9,8,0.2) 50%, transparent 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 32px;
+    }
+
+    .world-card-title {
+      font-family: var(--font-display);
+      font-size: 26px;
+      font-weight: 500;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+
+    .world-card-sub {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+
+    .world-card-desc {
+      font-size: 15px;
+      line-height: 1.6;
+      color: var(--text-secondary);
+      max-width: 440px;
+    }
+
+    /* ==============================
+       THE SHELF — saga map
+    ============================== */
+    .shelf {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+    }
+
+    .shelf-text {
+      text-align: center;
+      margin-bottom: 64px;
+    }
+
+    .shelf-text .section-label,
+    .shelf-text .section-heading,
+    .shelf-text .section-body {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    .sagas {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 12px;
+    }
+
+    .saga-block {
+      background: var(--ground-solid);
+      border: 1px solid var(--border);
+      padding: 20px 16px;
+      text-align: center;
+      transition: border-color 0.3s ease;
+    }
+
+    .saga-block:hover {
+      border-color: var(--border-light);
+    }
+
+    .saga-block.active {
+      border-color: var(--accent);
+      background: rgba(201,162,106,0.04);
+    }
+
+    .saga-num {
+      font-family: var(--font-display);
+      font-size: 32px;
+      font-weight: 300;
+      color: var(--text-dim);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .saga-block.active .saga-num {
+      color: var(--accent);
+    }
+
+    .saga-title {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+
+    .saga-books {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-dim);
+    }
+
+    .saga-block.active .saga-books {
+      color: var(--accent-deep);
+    }
+
+    .saga-block.active .saga-title {
+      color: var(--accent);
+    }
+
+    .shelf-note {
+      text-align: center;
+      margin-top: 40px;
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-style: italic;
+      color: var(--text-muted);
+    }
+
+    /* ==============================
+       NEWSLETTER SIGNUP
+    ============================== */
+    .signup {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .signup::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 90% 50% at 50% 100%, rgba(201,162,106,0.08) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .signup-inner {
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .signup-inner .section-label,
+    .signup-inner .section-heading {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .signup-promise {
+      font-family: var(--font-display);
+      font-size: 22px;
+      font-style: italic;
+      color: var(--text-secondary);
+      margin-bottom: 48px;
+      max-width: 560px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.5;
+    }
+
+    .signup-form {
+      display: flex;
+      gap: 0;
+      max-width: 520px;
+      margin: 0 auto 32px;
+    }
+
+    .signup-input {
+      flex: 1;
+      padding: 16px 20px;
+      font-family: var(--font-body);
+      font-size: 16px;
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--border-light);
+      border-right: none;
+      outline: none;
+      transition: border-color 0.3s ease;
+    }
+
+    .signup-input::placeholder {
+      color: var(--text-dim);
+    }
+
+    .signup-input:focus {
+      border-color: var(--accent);
+    }
+
+    .signup-btn {
+      padding: 16px 28px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      background: var(--accent);
+      color: var(--ground-solid);
+      border: 1px solid var(--accent);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.3s ease;
+    }
+
+    .signup-btn:hover {
+      background: var(--accent-light);
+      border-color: var(--accent-light);
+    }
+
+    .signup-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .signup-perks {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+
+    .signup-perk {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+    }
+
+    .signup-perk::before {
+      content: '\2022';
+      color: var(--accent-deep);
+      margin-right: 8px;
+    }
+
+    .signup-success {
+      display: none;
+      text-align: center;
+    }
+
+    .signup-success.show {
+      display: block;
+    }
+
+    .signup-success h3 {
+      font-family: var(--font-display);
+      font-size: 28px;
+      font-weight: 400;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+
+    .signup-success p {
+      color: var(--text-secondary);
+      font-size: 17px;
+    }
+
+    .signup-error {
+      color: var(--ember);
+      font-size: 14px;
+      margin-top: 8px;
+      display: none;
+    }
+
+    /* ==============================
+       BUY — purchase section
+    ============================== */
+    .buy {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+    }
+
+    .buy-inner {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .buy-cover img {
+      width: 100%;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+    }
+
+    .buy-text h2 {
+      font-family: var(--font-display);
+      font-size: 36px;
+      font-weight: 400;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    .buy-text .buy-subtitle {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+
+    .buy-text p {
+      color: var(--text-secondary);
+      margin-bottom: 24px;
+      max-width: 520px;
+      font-size: 17px;
+      line-height: 1.7;
+    }
+
+    .buy-formats {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .buy-format {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      padding: 6px 14px;
+      border: 1px solid var(--border);
+    }
+
+    /* ==============================
+       QUOTE BREAK
+    ============================== */
+    .quote-break {
+      padding: 100px 24px;
+      text-align: center;
+      position: relative;
+    }
+
+    .quote-break::before,
+    .quote-break::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 40px;
+      height: 1px;
+      background: var(--border-light);
+    }
+
+    .quote-break::before { top: 40px; }
+    .quote-break::after { bottom: 40px; }
+
+    .quote-text {
+      font-family: var(--font-display);
+      font-size: clamp(22px, 3.5vw, 34px);
+      font-weight: 400;
+      font-style: italic;
+      color: var(--text-secondary);
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.5;
+    }
+
+    /* ==============================
+       FOOTER
+    ============================== */
+    footer {
+      padding: 48px 24px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+    }
+
+    .footer-wordmark {
+      font-family: var(--font-display);
+      font-size: 18px;
+      letter-spacing: 0.2em;
+      color: var(--text-dim);
+      margin-bottom: 8px;
+    }
+
+    .footer-copy {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-dim);
+      letter-spacing: 0.1em;
+    }
+
+    /* ==============================
+       RESPONSIVE
+    ============================== */
+    @media (max-width: 900px) {
+      .hero-inner {
+        grid-template-columns: 1fr;
+        gap: 48px;
+        text-align: center;
+      }
+
+      .hero-text { max-width: 100%; }
+
+      .hero-cover { order: -1; }
+
+      .hero-cover img {
+        max-width: 260px;
+        margin: 0 auto;
+      }
+
+      .hero-cta { justify-content: center; }
+
+      .hero-rule { margin: 0 auto 32px; }
+
+      .stones-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .world-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .world-card { aspect-ratio: 16 / 9; }
+      .world-card.tall { aspect-ratio: 16 / 9; }
+
+      .sagas {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 6px;
+      }
+
+      .saga-block { padding: 12px 8px; }
+      .saga-num { font-size: 22px; }
+      .saga-title { font-size: 8px; }
+      .saga-books { font-size: 8px; }
+
+      .buy-inner {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .buy-cover img {
+        max-width: 200px;
+        margin: 0 auto;
+      }
+
+      .buy-formats { justify-content: center; }
+
+      .ford-content { padding: 60px 24px; }
+    }
+
+    @media (max-width: 600px) {
+      .section-pad { padding: 80px 20px; }
+
+      .stones-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .stone-card:last-child {
+        grid-column: 1 / -1;
+      }
+
+      .sagas {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .sagas .saga-block:last-child {
+        grid-column: 1 / -1;
+      }
+
+      .signup-form {
+        flex-direction: column;
+      }
+
+      .signup-input {
+        border-right: 1px solid var(--border-light);
+        border-bottom: none;
+      }
+
+      .signup-perks {
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
+
+    /* ==============================
+       ANIMATIONS
+    ============================== */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .fade-in { opacity: 1; transform: none; transition: none; }
+      .scroll-hint { animation: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ======================== HERO ======================== -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1 class="hero-wordmark">SMITHBOUND</h1>
+        <p class="hero-tagline">One Hundred Books &middot; The War Is Already Here</p>
+        <hr class="hero-rule">
+        <p class="hero-flap">
+          There are five kinds of stone in the world, and soldiers have five words for them:
+          <em>coal, brine, tor, whistler, gray.</em>
+          Every power in this world is paid for in flesh, on the page, at full price.
+        </p>
+        <p class="hero-flap">
+          In the west, nine kingdoms squat in the wreck of one dead crown, telling nine different lies about how it died.
+          In the east, a slave's son has counted ninety-nine white beads onto a cord and declared that the long road ends at his feet.
+        </p>
+        <div class="hero-cta">
+          <a href="#signup" class="btn btn-primary">Join the Shelf</a>
+          <a href="#buy" class="btn btn-secondary">Read Book 51</a>
+        </div>
+      </div>
+      <div class="hero-cover">
+        <img src="/smithbound/images/cover-51.jpg" alt="SMITHBOUND Book 51: The Stalemate — cover art" width="700" height="1120">
+      </div>
+    </div>
+    <div class="scroll-hint" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ======================== THE FORD ======================== -->
+  <section class="ford">
+    <div class="ford-bg" role="img" aria-label="A supply column of horse-drawn carts crossing a muddy river ford"></div>
+    <div class="ford-content fade-in">
+      <p class="ford-quote">
+        A supply column crosses a river for the third time. The first two didn't make it past the ridge.
+        The mule breaks its leg on the ford-stones. A man dies on the cart because the crossing takes an hour too long.
+      </p>
+      <p class="ford-attr">The Stalemate &mdash; Book 51 &middot; Chapter 1</p>
+    </div>
+  </section>
+
+  <!-- ======================== FIVE STONES ======================== -->
+  <section class="stones section-pad">
+    <div class="section-inner">
+      <div class="stones-intro fade-in">
+        <p class="section-label">The Five Firsts</p>
+        <h2 class="section-heading">Five kinds of stone. Five prices.</h2>
+        <p class="section-body">
+          A woken stone will burn a man, drown him, grind him, hollow him, or make him calm as a tomb.
+          It wakes for no one who goes looking.
+        </p>
+      </div>
+      <div class="stones-grid">
+        <div class="stone-card fade-in" data-stone="coal">
+          <div class="stone-glyph" data-stone="coal"></div>
+          <p class="stone-name">Coal</p>
+          <p class="stone-verb">Burns</p>
+          <p class="stone-desc">The forge-mark. Lifts iron from the fire barehanded. The price is the cough that never leaves.</p>
+        </div>
+        <div class="stone-card fade-in" data-stone="brine">
+          <div class="stone-glyph" data-stone="brine"></div>
+          <p class="stone-name">Brine</p>
+          <p class="stone-verb">Drowns</p>
+          <p class="stone-desc">The sea-mark. Sinks like a sounding-lead. The price is the cold that arrives early and stays.</p>
+        </div>
+        <div class="stone-card fade-in" data-stone="tor">
+          <div class="stone-glyph" data-stone="tor"></div>
+          <p class="stone-name">Tor</p>
+          <p class="stone-verb">Grinds</p>
+          <p class="stone-desc">The earth-mark. Carries double a man's load. The price is joints that grind by forty.</p>
+        </div>
+        <div class="stone-card fade-in" data-stone="whistler">
+          <div class="stone-glyph" data-stone="whistler"></div>
+          <p class="stone-name">Whistler</p>
+          <p class="stone-verb">Hollows</p>
+          <p class="stone-desc">The wind-mark. Half a man's weight, the fastest thing that is not weather. The price is bones that break where a man would bruise.</p>
+        </div>
+        <div class="stone-card fade-in" data-stone="gray">
+          <div class="stone-glyph" data-stone="gray"></div>
+          <p class="stone-name">Gray</p>
+          <p class="stone-verb">Quiets</p>
+          <p class="stone-desc">The death-mark. Calm as a tomb. Reads the last miles on a body. The price is the hush that spreads in the blood.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== QUOTE BREAK ======================== -->
+  <div class="quote-break fade-in">
+    <p class="quote-text">"You count his soldiers. I count his graves. Count again."</p>
+  </div>
+
+  <!-- ======================== THE WORLD ======================== -->
+  <section class="section-pad">
+    <div class="section-inner">
+      <div class="fade-in">
+        <p class="section-label">Two Continents &middot; Nine Kingdoms</p>
+        <h2 class="section-heading">A world paid for in flesh</h2>
+        <p class="section-body">
+          Aurenne in the west: nine kingdoms in the wreck of one dead crown. Vosthara in the east: a thousand-mile road built by a man who would not wait for the sea. Between them, the Girdle Sea, and a war that has ground both continents into the same mud.
+        </p>
+      </div>
+      <div class="world-grid">
+        <div class="world-card fade-in">
+          <img src="/smithbound/images/iska-council.jpg" alt="A woman lays knotted cords across a war council table" loading="lazy">
+          <div class="world-card-overlay">
+            <p class="world-card-sub">The War Council</p>
+            <p class="world-card-title">Iska Morrow</p>
+            <p class="world-card-desc">She lays knotted cords on the table and proposes something no one understands. She does not raise her voice.</p>
+          </div>
+        </div>
+        <div class="world-card tall fade-in">
+          <img src="/smithbound/images/cazan-portrait.jpg" alt="Portrait of a stern man with white bead cord and grey robes" loading="lazy">
+          <div class="world-card-overlay">
+            <p class="world-card-sub">The Eastern Road</p>
+            <p class="world-card-title">Ninety-Nine Beads</p>
+            <p class="world-card-desc">A slave's son has counted ninety-nine white beads onto a cord. He wants a hundredth.</p>
+          </div>
+        </div>
+        <div class="world-card fade-in">
+          <img src="/smithbound/images/cazan-wall.jpg" alt="A robed figure gazes up at towering stone giants in a torchlit hall" loading="lazy">
+          <div class="world-card-overlay">
+            <p class="world-card-sub">The Giant Road</p>
+            <p class="world-card-title">The Yoked</p>
+            <p class="world-card-desc">Giants are not a race. Giants are a road. The tor price arrives on schedule, drawn or not.</p>
+          </div>
+        </div>
+        <div class="world-card fade-in">
+          <img src="/smithbound/images/elion-anvil.jpg" alt="A farrier works at an iron anvil, a horse beside him" loading="lazy">
+          <div class="world-card-overlay">
+            <p class="world-card-sub">The Anvil</p>
+            <p class="world-card-title">When the Anvil Rings</p>
+            <p class="world-card-desc">There is an anvil in a fallow country where farriers have shoed horses for six hundred years. Aurenne has an idiom for never.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== QUOTE BREAK ======================== -->
+  <div class="quote-break fade-in">
+    <p class="quote-text">"Kneel to the making, not the man."</p>
+  </div>
+
+  <!-- ======================== THE SHELF ======================== -->
+  <section class="shelf section-pad">
+    <div class="section-inner">
+      <div class="shelf-text fade-in">
+        <p class="section-label">The Shelf</p>
+        <h2 class="section-heading">One hundred books. Ten sagas of ten.</h2>
+        <p class="section-body">
+          One shelf that is a ring holding a smaller ring inside it, the way a hand holds a stone.
+          Start at Book 51. The road goes in both directions.
+        </p>
+      </div>
+      <div class="sagas fade-in">
+        <div class="saga-block">
+          <p class="saga-num">I</p>
+          <p class="saga-title">The Ore</p>
+          <p class="saga-books">Books 1&ndash;10</p>
+        </div>
+        <div class="saga-block">
+          <p class="saga-num">II</p>
+          <p class="saga-title">The Fire</p>
+          <p class="saga-books">Books 11&ndash;20</p>
+        </div>
+        <div class="saga-block">
+          <p class="saga-num">III</p>
+          <p class="saga-title">The Water</p>
+          <p class="saga-books">Books 21&ndash;30</p>
+        </div>
+        <div class="saga-block">
+          <p class="saga-num">IV</p>
+          <p class="saga-title">The Earth</p>
+          <p class="saga-books">Books 31&ndash;40</p>
+        </div>
+        <div class="saga-block">
+          <p class="saga-num">V</p>
+          <p class="saga-title">The Air</p>
+          <p class="saga-books">Books 41&ndash;50</p>
+        </div>
+        <div class="saga-block active">
+          <p class="saga-num">VI</p>
+          <p class="saga-title">The Two Cords</p>
+          <p class="saga-books">Books 51&ndash;60</p>
+        </div>
+        <div class="saga-block">
+          <p class="saga-num">VII</p>
+          <p class="saga-title">The Road</p>
+          <p class="saga-books">Books 61&ndash;70</p>
+        </div>
+        <div class="saga-block">
+          <p class="saga-num">VIII</p>
+          <p class="saga-title">The Crown</p>
+          <p class="saga-books">Books 71&ndash;80</p>
+        </div>
+        <div class="saga-block">
+          <p class="saga-num">IX</p>
+          <p class="saga-title">The Forge</p>
+          <p class="saga-books">Books 81&ndash;90</p>
+        </div>
+        <div class="saga-block">
+          <p class="saga-num">X</p>
+          <p class="saga-title">The Ring</p>
+          <p class="saga-books">Books 91&ndash;100</p>
+        </div>
+      </div>
+      <p class="shelf-note fade-in">Aye &mdash; when the anvil rings.</p>
+    </div>
+  </section>
+
+  <!-- ======================== NEWSLETTER SIGNUP ======================== -->
+  <section class="signup section-pad" id="signup">
+    <div class="section-inner signup-inner">
+      <p class="section-label">The Shelf Is Being Built</p>
+      <h2 class="section-heading">Walk with us.</h2>
+      <p class="signup-promise">
+        One fragment of the world, every week. Release dates before anyone else. The chance to read the next book before it goes live.
+      </p>
+      <div id="signup-form-container">
+        <form class="signup-form" id="email-form">
+          <input type="email" class="signup-input" id="email-input" placeholder="Your email" required autocomplete="email" aria-label="Email address">
+          <button type="submit" class="signup-btn" id="signup-submit">Join</button>
+        </form>
+        <p class="signup-error" id="signup-error"></p>
+        <div class="signup-perks">
+          <span class="signup-perk">Weekly world fragments</span>
+          <span class="signup-perk">Early release dates</span>
+          <span class="signup-perk">ARC reader access</span>
+          <span class="signup-perk">No spam, ever</span>
+        </div>
+      </div>
+      <div class="signup-success" id="signup-success">
+        <h3>Welcome to the shelf.</h3>
+        <p>You'll hear from us soon. The first stone is already warm.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== BUY ======================== -->
+  <section class="buy section-pad" id="buy">
+    <div class="section-inner buy-inner">
+      <div class="buy-cover">
+        <img src="/smithbound/images/cover-51.jpg" alt="SMITHBOUND Book 51 cover" width="700" height="1120" loading="lazy">
+      </div>
+      <div class="buy-text">
+        <p class="section-label">Start Here</p>
+        <h2>The Stalemate</h2>
+        <p class="buy-subtitle">SMITHBOUND &middot; Book 51 of 100 &middot; Saga VI</p>
+        <p>
+          A supply column crosses a river for the third time. The first two didn't make it past the ridge.
+          The war is already here. The road goes in both directions.
+        </p>
+        <a href="https://www.amazon.com/dp/B0HH8FZS5N" class="btn btn-primary" target="_blank" rel="noopener">Buy on Amazon</a>
+        <div class="buy-formats" style="margin-top: 16px;">
+          <span class="buy-format">Kindle</span>
+          <span class="buy-format">Paperback</span>
+          <span class="buy-format">Hardcover</span>
+          <span class="buy-format">Kindle Unlimited</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer>
+    <p class="footer-wordmark">SMITHBOUND</p>
+    <p class="footer-copy">Eva Noir &middot; One hundred books &middot; The shelf is being forged</p>
+  </footer>
+
+  <script>
+    // Intersection Observer for fade-in
+    const observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.fade-in').forEach(function(el) {
+      observer.observe(el);
+    });
+
+    // Email signup form
+    var form = document.getElementById('email-form');
+    var input = document.getElementById('email-input');
+    var btn = document.getElementById('signup-submit');
+    var errorEl = document.getElementById('signup-error');
+    var successEl = document.getElementById('signup-success');
+    var formContainer = document.getElementById('signup-form-container');
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      var email = input.value.trim();
+      if (!email) return;
+
+      btn.disabled = true;
+      btn.textContent = '...';
+      errorEl.style.display = 'none';
+
+      var SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwfGJz0MKW9Fg-pyDuqn3c-8Fa7s-SjTs0U_ExuN11o_4opicT_DhC3gA6RnGWejiD8EQ/exec';
+
+      fetch(SCRIPT_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: email })
+      }).then(function() {
+        formContainer.style.display = 'none';
+        successEl.classList.add('show');
+      }).catch(function() {
+        formContainer.style.display = 'none';
+        successEl.classList.add('show');
+      });
+    });
+  </script>
+</body>
+</html>
